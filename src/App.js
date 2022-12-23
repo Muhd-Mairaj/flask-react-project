@@ -8,27 +8,28 @@ function App() {
 
   const [profileData, setProfileData] = useState(null)
 
-  async function getData() {
-    const response = await fetch("/profile", {
-        method: "GET",
-    })
-
-    console.log(response)
-    if (response.ok) {
-        setProfileData({
-            name: "yes",
-            about: "no"
-        })
-    }
-    // fetch("/profile").then(response => response.json()).then(data => {
-    //         console.log("data: " + data)
-    //         setProfileData({
-    //             profile_name: data.name,
-    //             about: data.about
-    //     })
+  function getData() {
+    // const response = await fetch("/profile", {
+    //     method: "GET",
     // })
-    // .catch(error => console.log(error))
-    // axios({
+
+    // console.log(response)
+    // if (response.ok) {
+    //     setProfileData({
+    //         name: "yes",
+    //         about: "no"
+    //     })
+    // }
+    fetch("/profile").then(response => response.json()).then(data => {
+            if (data) {
+                console.log("data: " + data)
+            setProfileData({
+                profile_name: data.name,
+                about: data.about
+        })
+    })
+    .catch(error => console.log(error))
+    axios({
     //     method: "GET",
     //     url: "/profile",
     // }).then(response => {
