@@ -22,14 +22,20 @@ function App() {
     // }
     fetch("/profile").then(response => response.json()).then(data => {
             if (data) {
-                console.log("data: " + data)
-            setProfileData({
+              console.log("data: " + data)
+              setProfileData({
                 profile_name: data.name,
                 about: data.about
-        })
-    })
-    .catch(error => console.log(error))
-    axios({
+              })
+            }
+            else {
+              setProfileData({
+                profile_name: "yes",
+                about: "no"
+              })
+            }
+    }).catch(error => console.log(error))
+    // axios({
     //     method: "GET",
     //     url: "/profile",
     // }).then(response => {
