@@ -1,7 +1,37 @@
+import React, { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+
+  const [profileData, setProfileData] = useState(null)
+
+  function getData() {
+    fetch("/profile").then(response => {
+        console.log("res: ", response.text())
+        return response.text()
+    }).then(data => {
+            console.log("data: " + data)
+            setProfileData({
+                profile_name: data.name,
+                about: data.about
+        })
+    }).catch(error => console.log(error))
+    // .catch((error) => {
+    //   if (error.response) {
+    //     console.log(error.response)
+    //     console.log(error.response.status)
+    //     console.log(error.response.headers)
+    //   }
+    //   else {
+    //     console.log("Something is happening here")
+    //   }
+    // })
+    console.log("getData called")
+}
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +47,15 @@ function App() {
         >
           Learn React
         </a>
+
+        <button onClick={getData}>Get Data</button>
+
+        {profileData && <div>
+              <p>Profile name: {profileData.profile_name}</p>
+              <p>About me: {profileData.about}</p>
+            </div>
+        }
+
       </header>
     </div>
   );
