@@ -74,4 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 #### references
 - [How To Create a React + Flask Project](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project)
 - [How to connect Flask to ReactJs](https://dev.to/nagatodev/how-to-connect-flask-to-reactjs-1k8i)
-- [How to Call a Flask API in React](https://www.youtube.com/watch?v=06pWsB_hoD4)
+- [How to Call a Flask API in React](https://www.youtube.com/watch?v=06pWsB_hoD4) and its [source code](https://github.com/benawad/react-movie-list)
