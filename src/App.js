@@ -13,13 +13,11 @@ function App() {
         method: "GET",
     })
 
-    console.log(response)
     if (response.ok) {
-        const res = response.json()
-        console.log("res: ", + res)
+        console.log("worked")
         setProfileData({
-            name: res.name,
-            about: res.about
+            name: "yes",
+            about: "no"
         })
     }
     // fetch("/profile").then(response => response.json()).then(data => {
