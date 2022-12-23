@@ -10,14 +10,13 @@ function App() {
 
   function getData() {
     fetch("/profile").then(response => {
-        console.log("res: ", response.text())
-        return response.text()
+        response.json()
     }).then(data => {
             console.log("data: " + data)
-            setProfileData({
-                profile_name: data.name,
-                about: data.about
-        })
+        //     setProfileData({
+        //         profile_name: data.name,
+        //         about: data.about
+        // })
     }).catch(error => console.log(error))
     // .catch((error) => {
     //   if (error.response) {
