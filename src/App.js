@@ -8,14 +8,23 @@ function App() {
 
   const [profileData, setProfileData] = useState(null)
 
-  function getData() {
-    fetch("/profile").then(response => response.json()).then(data => {
-            console.log("data: " + data)
-            setProfileData({
-                profile_name: data.name,
-                about: data.about
-        })
+  async function getData() {
+    const response = await fetch("profile", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        }
+        body: JSON.stringify()
     })
+
+    console.log(response)
+    // fetch("/profile").then(response => response.json()).then(data => {
+    //         console.log("data: " + data)
+    //         setProfileData({
+    //             profile_name: data.name,
+    //             about: data.about
+    //     })
+    // })
     // .catch(error => console.log(error))
     // axios({
     //     method: "GET",
