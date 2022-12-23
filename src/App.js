@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const [profileData, setProfileData] = useState(null)
+  const [profileData] = useState(null)
 
   function getData() {
     fetch("/profile").then(response => {
