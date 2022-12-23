@@ -21,6 +21,10 @@ function App() {
         url: "/profile",
     }).then(response => {
         console.log(response.data)
+        setProfileData({
+            name: "yes",
+            about: "no"
+        })
     })
     .catch(error => console.log(error))
     //   }
