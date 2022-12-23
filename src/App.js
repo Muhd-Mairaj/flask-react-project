@@ -9,7 +9,7 @@ function App() {
   const [profileData] = useState(null)
 
   async function getData() {
-    let response = await fetch("/profile")
+    let response = await fetch("/profile");
     console.log(response.json())
     // fetch("/profile").then(response => {
     //     response.json()
