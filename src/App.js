@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from './logo.svg';
-import axios from "axios";
+// import axios from "axios";
 import './App.css';
 
 
@@ -9,27 +9,26 @@ function App() {
   const [profileData, setProfileData] = useState(null)
 
   function getData() {
-    // fetch("/profile").then(response => response.json()).then(data => {
-    //         console.log("data: " + data)
-    //         setProfileData({
-    //             profile_name: data.name,
-    //             about: data.about
-    //     })
-    // }).catch(error => console.log(error))
-    axios({
-        method: "GET",
-        url: "/profile",
-    }).then(response => {
-        const res = response.data
-        console.log("res: ", res)
-        setProfileData({
-            name: "yes",
-            about: "no"
+    fetch("/profile").then(response => response.json()).then(data => {
+            console.log("data: " + data)
+            setProfileData({
+                profile_name: data.name,
+                about: data.about
         })
     })
-    .catch(error => console.log(error))
-    //   }
+    // .catch(error => console.log(error))
+    // axios({
+    //     method: "GET",
+    //     url: "/profile",
+    // }).then(response => {
+    //     const res = response.data
+    //     console.log("res: ", res)
+    //     setProfileData({
+    //         name: "yes",
+    //         about: "no"
+    //     })
     // })
+    // .catch(error => console.log(error))
     console.log("getData called")
 }
 
