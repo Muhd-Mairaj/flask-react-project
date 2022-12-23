@@ -62,7 +62,7 @@ function App() {
         <button onClick={getData}>Get Data</button>
 
         {profileData && <div>
-              <p>Profile name: {profileData.profile_name}</p>
+              <p>Profile name: {profileData.name}</p>
               <p>About me: {profileData.about}</p>
             </div>
         }
