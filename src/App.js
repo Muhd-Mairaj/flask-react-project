@@ -20,7 +20,9 @@ function App() {
     //         about: "no"
     //     })
     // }
-    fetch("/profile").then(response => response.json()).then(data => {
+    fetch("/profile").then(response => {
+      return response.json()
+    }).then(data => {
       console.log("data: " + data)
       setProfileData({
         profile_name: data.name,
