@@ -1,7 +1,26 @@
+import React, { useState, useEffect } from 'react'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  function getData() {
+    const [ profileData, setProfileData ] = useState(null)
+
+    fetch('/profile').then((response) => {
+      setProfileData({
+        name: response.data.name,
+        about: response.data.about,
+      })
+    }).catch((error) => {
+      if (error.response) {
+        console.log(error.response)
+        console.log(error.response.status)
+        console.log(error.response.headers)
+      }
+    })
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +36,14 @@ function App() {
         >
           Learn React
         </a>
+
+        <button onClick={getData}>Get Data</button>
+        {profileData && <div>
+            <p>name: { profileData.name }</p>
+            <p>about: { profileData.about }</p>
+          </div>
+        }
+        
       </header>
     </div>
   );
