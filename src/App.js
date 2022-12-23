@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './logo.svg';
+import axios from "axios";
 import './App.css';
-
 
 
 function App() {
@@ -9,21 +9,20 @@ function App() {
   const [profileData, setProfileData] = useState(null)
 
   function getData() {
-    fetch("/profile").then(response => response.json()).then(data => {
-            console.log("data: " + data)
-            setProfileData({
-                profile_name: data.name,
-                about: data.about
-        })
-    }).catch(error => console.log(error))
-    // .catch((error) => {
-    //   if (error.response) {
-    //     console.log(error.response)
-    //     console.log(error.response.status)
-    //     console.log(error.response.headers)
-    //   }
-    //   else {
-    //     console.log("Something is happening here")
+    // fetch("/profile").then(response => response.json()).then(data => {
+    //         console.log("data: " + data)
+    //         setProfileData({
+    //             profile_name: data.name,
+    //             about: data.about
+    //     })
+    // }).catch(error => console.log(error))
+    axios({
+        method: "GET",
+        url: "/profile",
+    }).then(response => {
+        console.log(response.data)
+    })
+    .catch(error => console.log(error))
     //   }
     // })
     console.log("getData called")
