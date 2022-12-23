@@ -8,16 +8,18 @@ function App() {
 
   const [profileData] = useState(null)
 
-  function getData() {
-    fetch("/profile").then(response => {
-        response.json()
-    }).then(data => {
-            console.log("data: " + data)
-        //     setProfileData({
-        //         profile_name: data.name,
-        //         about: data.about
-        // })
-    }).catch(error => console.log(error))
+  async function getData() {
+    let response = await fetch("/profile")
+    console.log(response.json())
+    // fetch("/profile").then(response => {
+    //     response.json()
+    // }).then(data => {
+    //         console.log("data: " + data)
+    //     //     setProfileData({
+    //     //         profile_name: data.name,
+    //     //         about: data.about
+    //     // })
+    // }).catch(error => console.log(error))
     // .catch((error) => {
     //   if (error.response) {
     //     console.log(error.response)
