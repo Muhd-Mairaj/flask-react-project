@@ -13,8 +13,8 @@ function App() {
         method: "GET",
     })
 
+    console.log(response)
     if (response.ok) {
-        console.log("worked")
         setProfileData({
             name: "yes",
             about: "no"

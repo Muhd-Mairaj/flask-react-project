@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/profile")
 def profile():
-    return {
+    return jsonify({
         "name": "testing",
         "about": "test"
-    }
+    })
