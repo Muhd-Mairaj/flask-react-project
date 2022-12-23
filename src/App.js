@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   
+  const [ profileData, setProfileData ] = useState(null)
   function getData() {
-    const [ profileData, setProfileData ] = useState(null)
 
     fetch('/profile').then((response) => {
       setProfileData({

@@ -11,8 +11,8 @@ def index():
 @app.route("/profile")
 def profile():
     response_body = {
-        "name": "Nagato",
-        "about": "Hello! I'm a full stack developer that loves python and javascript"
+        "name": "test",
+        "about": "Hello!"
     }
 
     return response_body
