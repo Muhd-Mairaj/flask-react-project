@@ -20,7 +20,8 @@ function App() {
         method: "GET",
         url: "/profile",
     }).then(response => {
-        console.log(response.data)
+        const res = response.data
+        console.log("res: ", res)
         setProfileData({
             name: "yes",
             about: "no"
