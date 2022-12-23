@@ -11,10 +11,6 @@ function App() {
   async function getData() {
     const response = await fetch("/profile", {
         method: "GET",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify()
     })
 
     console.log(response)
