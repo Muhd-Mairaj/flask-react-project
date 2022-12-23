@@ -13,11 +13,17 @@ function App() {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
-        }
+        },
         body: JSON.stringify()
     })
 
     console.log(response)
+    if (response.ok) {
+        setProfileData({
+            name: "yes",
+            about: "no"
+        })
+    }
     // fetch("/profile").then(response => response.json()).then(data => {
     //         console.log("data: " + data)
     //         setProfileData({
