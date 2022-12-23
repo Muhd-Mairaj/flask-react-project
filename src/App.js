@@ -21,19 +21,19 @@ function App() {
     //     })
     // }
     fetch("/profile").then(response => response.json()).then(data => {
-            if (data) {
-              console.log("data: " + data)
-              setProfileData({
-                profile_name: data.name,
-                about: data.about
-              })
-            }
-            else {
-              setProfileData({
-                profile_name: "yes",
-                about: "no"
-              })
-            }
+      console.log("data: " + data)
+      setProfileData({
+        profile_name: data.name,
+        about: data.about
+      })
+            // if (data) {
+            // }
+            // else {
+            //   setProfileData({
+            //     profile_name: "yes",
+            //     about: "no"
+            //   })
+            // }
     }).catch(error => console.log(error))
     // axios({
     //     method: "GET",
