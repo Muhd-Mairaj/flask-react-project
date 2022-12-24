@@ -22,7 +22,7 @@ function Sidebar() {
         <Nav className="ms-auto">
           &nbsp;|&nbsp;
           <Nav.Item>
-            <Nav.Link as={NavLink} to className="App-link" end>Logout</Nav.Link>
+            <Nav.Link as={NavLink} to=/ className="App-link" end>Logout</Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
