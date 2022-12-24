@@ -19,4 +19,5 @@ code {
 
 .Sidebar .nav-item .active {
   background-color: #def;
+  color: #61dafb;
 }
