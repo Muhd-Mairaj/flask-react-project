@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Sidebar() {
   return (
-    <Navbar sticky="top" bg="className="flex-row Sidebar nav">
+    <Navbar sticky="top" bg="dark" className="flex-row Sidebar nav">
       <Nav.Item>
         <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
       </Nav.Item>
