@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react'
 import logo from './logo.svg';
 // import axios from "axios";
@@ -35,8 +34,6 @@ function App() {
   /** END METHOD 2 */
     console.log("getData called")
 }
-=======
->>>>>>> 07100e03d260f9d7bcc95c9b07a2a187affcd189
 
   return (
     <div className="App">
