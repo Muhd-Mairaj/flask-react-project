@@ -18,7 +18,6 @@ function Sidebar() {
           <Nav.Item>
             <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
           </Nav.Item>
-
         </Nav>
       </Navbar.Collapse>
 
