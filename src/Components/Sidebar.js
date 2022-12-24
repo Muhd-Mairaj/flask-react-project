@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 function Sidebar() {
   return (
     <Navbar sticky="top" expand="md" bg="dark" className="flex-row Sidebar nav">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-      
+      <Navbar.Brand href="#home">Tracker</Navbar.Brand>
+
       <Nav.Item>
         <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
       </Nav.Item>
