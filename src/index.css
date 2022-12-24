@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
 .Sidebar .nav-item .active {
   background-color: #def;
 }
