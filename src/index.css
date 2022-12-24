@@ -29,7 +29,7 @@ code {
 
 @media screen and (max-width: 768px) {
   .nav-item {
-    width: calc20vw;
+    width: calc(20px + 20vw);
     display: flex;
   }
 }
