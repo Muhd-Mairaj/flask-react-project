@@ -27,6 +27,6 @@ code {
   color: #61dafb;
 }
 
-@media (screen ) {
+@media screen and (max) {
   
 }
