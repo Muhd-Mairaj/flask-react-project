@@ -17,7 +17,7 @@ function App() {
           <Sidebar/>
         </header>
 
-        <Container>
+        <>
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/test" element={<Test/>}></Route>
