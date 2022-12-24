@@ -6,6 +6,8 @@ function Sidebar() {
   return (
     <Navbar sticky="top" expand="md" bg="dark" className="flex-row Sidebar nav">
       <Navbar.Brand href="#home">Tracker</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
 
       <Nav.Item>
         <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
