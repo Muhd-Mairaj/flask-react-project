@@ -7,6 +7,7 @@ function Sidebar() {
     <Navbar sticky="top" expand="md" bg="dark" className="flex-row Sidebar nav">
       <Navbar.Brand href="#home">Tracker</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
 
 
       <Nav.Item>
