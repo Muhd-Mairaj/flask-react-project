@@ -12,5 +12,6 @@
             "other": "on",
             "strings": "on"
             },
-        "editor.renderWhitespace": "selection",
+    "editor.renderWhitespace": "selection",
+    "files.trimTrailingWhitespace": false,
 }
