@@ -18,7 +18,7 @@ code {
 }
 
 .Sidebar {
-  width: 100
+  width: 100%;
 }
 
 .Sidebar .nav-item .active {
