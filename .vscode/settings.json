@@ -1,5 +1,5 @@
 {
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "git.autofetch": false,
     "gitdoc.autoPull": "onPush",
     "editor.autoClosingQuotes": "languageDefined",
