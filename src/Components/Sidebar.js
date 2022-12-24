@@ -24,11 +24,6 @@ function Sidebar() {
           <Nav.Item>
             <Nav.Link as={NavLink} href="#" className="App-link" end>Logout</Nav.Link>
           </Nav.Item>
-          
-          
-          <Nav.Item>
-            <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
-          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
 
