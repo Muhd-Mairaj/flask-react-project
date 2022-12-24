@@ -29,6 +29,6 @@ code {
 
 @media screen and (max-width < 768px) {
   .nav-item {
-    width: calc(100vw / 3);
+    width: calc(30vw / 3);
   }
 }
