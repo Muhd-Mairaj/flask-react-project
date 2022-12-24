@@ -9,17 +9,17 @@ function Sidebar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
+          <Nav.Item>
+            <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
+          </Nav.Item>
           
+          &nbsp;|&nbsp;
+          
+          <Nav.Item>
+            <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
+          </Nav.Item>
+
         </Nav>
-        <Nav.Item>
-          <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
-        </Nav.Item>
-        
-        &nbsp;|&nbsp;
-        
-        <Nav.Item>
-          <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
-        </Nav.Item>
       </Navbar.Collapse>
 
 
