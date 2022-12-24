@@ -6,6 +6,11 @@ import './App.css';
 
 function App() {
     
+    
+    
+    
+    
+    
   const [profileData, setProfileData] = useState(null)
 
   function getData() {
