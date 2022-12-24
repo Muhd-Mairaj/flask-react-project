@@ -12,15 +12,16 @@ function App() {
   return (
     <Container fluid className="App">
       <BrowserRouter>
+
         <header className="App-header">
           <Sidebar/>
         </header>
 
-
-        <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/test" element={<Test/>}></Route>
-        </Routes>
+        <>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/test" element={<Test/>}></Route>
+          </Routes>
 
       </BrowserRouter>
     </Container>
