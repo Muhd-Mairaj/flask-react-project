@@ -29,6 +29,6 @@ code {
 
 @media screen and (max-width < 768px) {
   .Sidebar .nav-item {
-    width: calc(100vw);
+    width: calc(100vw / 3);
   }
 }
