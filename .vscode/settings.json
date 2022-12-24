@@ -1,4 +1,16 @@
 {
     "gitdoc.enabled": true,
-    "git.autofetch": false
+    "git.autofetch": false,
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.folding": true,
+    "editor.foldingHighlight": true,
+    "editor.hover.enabled": true,
+    "editor.lightbulb.enabled": true,
+    "editor.parameterHints.enabled": false,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "other": "on",
+            "strings": "on"
+            },
+        "editor.renderWhitespace": "selection",
 }
