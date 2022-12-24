@@ -19,6 +19,17 @@ function Sidebar() {
             <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
           </Nav.Item>
         </Nav>
+        <Nav className="me-auto">
+          <Nav.Item>
+            <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
+          </Nav.Item>
+          
+          &nbsp;|&nbsp;
+          
+          <Nav.Item>
+            <Nav.Link as={NavLink} to="/test" className="App-link">Test</Nav.Link>
+          </Nav.Item>
+        </Nav>
       </Navbar.Collapse>
 
 
