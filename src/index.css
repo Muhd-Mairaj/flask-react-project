@@ -27,7 +27,7 @@ code {
   color: #61dafb;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .nav-item {
     width: calc(20px + 20vw);
     text-align: start;
