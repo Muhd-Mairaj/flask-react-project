@@ -17,6 +17,10 @@ code {
   color: #61dafb;
 }
 
+.Sidebar {
+  width: 100
+}
+
 .Sidebar .nav-item .active {
   background-color: #def;
   color: #61dafb;
