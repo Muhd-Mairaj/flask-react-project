@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import 
+import '../'
 
 function Home() {
   const [profileData, setProfileData] = useState(null)
