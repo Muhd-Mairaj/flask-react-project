@@ -21,7 +21,7 @@ function Sidebar() {
         </Nav>
         <Nav className="ms-auto">
           <Nav.Item>
-            <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
+            <Nav.Link as={NavLink} href="" className="App-link" end>Home</Nav.Link>
           </Nav.Item>
           
           &nbsp;|&nbsp;
