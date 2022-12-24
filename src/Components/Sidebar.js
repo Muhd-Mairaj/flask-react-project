@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 function Sidebar() {
   return (
     <Navbar sticky="top" expand="md" bg="dark" className="flex-row Sidebar nav">
-      <Navbar.Brand to="">Tracker</Navbar.Brand>
+      <Navbar.Brand to="/home">Tracker</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
