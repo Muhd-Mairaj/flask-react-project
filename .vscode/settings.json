@@ -15,34 +15,4 @@
             },
     "editor.renderWhitespace": "selection",
     "files.trimTrailingWhitespace": false,
-    "workbench.colorCustomizations": {
-		"[GitHub Dark Default]": {
-			"activityBar.background": "#000",
-			"editor.background": "#000",
-			"editor.lineHighlightBackground": "#0000",
-			"editor.lineHighlightBorder": "#0000",
-			"editorWhitespace.foreground": "#59A5FC",
-			"panel.background": "#000",
-			"sideBar.background": "#000",
-			"terminal.background": "#000",
-			"terminal.foreground": "#fff"
-		},
-		"[GitHub Light Default]": {
-			"activityBar.background": "#fff",
-			"editor.background": "#fff",
-			"editor.lineHighlightBackground": "#fff0",
-			"editor.lineHighlightBorder": "#fff0",
-			"editorWhitespace.foreground": "#1167D7",
-			"panel.background": "#fff",
-			"sideBar.background": "#fff",
-			"terminal.background": "#fff",
-			"terminal.foreground": "#000"
-		},
-		"editor.lineHighlightBorder": "#0000",
-		"editorError.foreground": "#0000",
-		"editorGutter.addedBackground": "#0000",
-		"editorGutter.deletedBackground": "#0000",
-		"editorGutter.modifiedBackground": "#0000",
-		"editorWarning.foreground": "#0000"
-	},
 }
