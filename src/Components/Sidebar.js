@@ -8,7 +8,7 @@ function Sidebar() {
       <Navbar.Brand href="#home">Tracker</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        
+        <Nav
         <Nav.Item>
           <Nav.Link as={NavLink} to="/" className="App-link" end>Home</Nav.Link>
         </Nav.Item>
