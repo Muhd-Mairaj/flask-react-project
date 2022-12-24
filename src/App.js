@@ -55,7 +55,6 @@ function App() {
         </a>
 
         <button onClick={getData}>Get Data</button>
-<<<<<<< HEAD
 
         {profileData && <div>
               <p>Profile name: {profileData.name}</p>
@@ -63,8 +62,6 @@ function App() {
             </div>
         }
 
-=======
->>>>>>> 07100e03d260f9d7bcc95c9b07a2a187affcd189
       </header>
     </div>
   );
