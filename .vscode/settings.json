@@ -1,5 +1,17 @@
 {
     "git.autofetch": false,
+	"git.decorations.enabled": true,
+	"git.terminalAuthentication": true,
+    "gitdoc.enabled": false,
+    "gitdoc.autoCommitDelay": 0,
+	"gitdoc.autoPull": "onPush",
+    "gitdoc.autoPush": "off",
+	"gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+	"gitdoc.commitValidationLevel": "error",
+	"github.codespaces.devcontainerChangedNotificationStyle": "notification",
+	"gitdoc.pullOnOpen": false,
+	"github.gitAuthentication": true,
+
     "editor.autoClosingQuotes": "languageDefined",
     "editor.folding": true,
     "editor.foldingHighlight": true,
