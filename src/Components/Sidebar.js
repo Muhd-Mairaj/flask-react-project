@@ -19,7 +19,6 @@ function Sidebar() {
           </Nav.Item>
         </Nav>
         <Nav className="ms-auto">
-          &nbsp;|&nbsp;
           <Nav.Item>
             <Nav.Link as={NavLink} to="/logout" className="App-link" end>Logout</Nav.Link>
           </Nav.Item>
