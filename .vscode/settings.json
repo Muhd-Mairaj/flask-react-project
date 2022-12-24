@@ -1,8 +1,7 @@
 {
     "gitdoc.enabled": false,
     "git.autofetch": false,
-    "git.auto"
-    "gitdoc.autoPull": "onPush",
+    "gitdoc.autoPull": "off",
     "editor.autoClosingQuotes": "languageDefined",
     "editor.folding": true,
     "editor.foldingHighlight": true,
