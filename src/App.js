@@ -17,11 +17,10 @@ function App() {
           <Sidebar/>
         </header>
 
-        <>
-          <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/test" element={<Test/>}></Route>
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/test" element={<Test/>}></Route>
+        </Routes>
 
       </BrowserRouter>
     </Container>
