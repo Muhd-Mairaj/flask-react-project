@@ -1,12 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-<<<<<<< HEAD
-=======
 # backend
 backend/venv
 backend/__pycache__
 
->>>>>>> 07100e03d260f9d7bcc95c9b07a2a187affcd189
 # dependencies
 /node_modules
 /.pnp
