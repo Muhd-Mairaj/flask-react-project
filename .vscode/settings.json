@@ -2,6 +2,8 @@
     "git.autofetch": false,
 	"git.decorations.enabled": true,
 	"git.terminalAuthentication": true,
+    "git.postCommitCommand": "none",
+	"git.enableStatusBarSync": false,
     "gitdoc.enabled": false,
     "gitdoc.autoCommitDelay": 0,
 	"gitdoc.autoPull": "onPush",
