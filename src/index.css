@@ -30,6 +30,5 @@ code {
 @media screen and (max-width: 768px) {
   .nav-item {
     width: calc(20px + 20vw);
-    display: flex;
   }
 }
