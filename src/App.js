@@ -10,9 +10,9 @@ import './App.css';
 
 function App() {
   return (
-      <header className="App-header">
-        <Sidebar/>
-      </header>
+    <header className="App-header">
+      <Sidebar/>
+    </header>
     <Container fluid className="App">
       <BrowserRouter>
 
