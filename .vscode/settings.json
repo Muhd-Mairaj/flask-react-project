@@ -1,6 +1,7 @@
 {
     "gitdoc.enabled": true,
     "git.autofetch": false,
+    "gitdoc.autoPull": "onPush",
     "editor.autoClosingQuotes": "languageDefined",
     "editor.folding": true,
     "editor.foldingHighlight": true,
@@ -14,4 +15,5 @@
             },
     "editor.renderWhitespace": "selection",
     "files.trimTrailingWhitespace": false,
+    
 }
