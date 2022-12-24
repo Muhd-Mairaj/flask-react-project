@@ -1,67 +1,33 @@
-import React, { useState } from 'react'
-import logo from './logo.svg';
-// import axios from "axios";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container'
+import Sidebar from './Components/Sidebar'
+import Home from './Components/Home'
+import Test from './Components/Test'
+// import logo from './logo.svg';
 import './App.css';
 
 
 function App() {
-    
-  const [profileData, setProfileData] = useState(null)
-
-  function getData() {
-  /* METHOD 1 - WORKS (make async function) */
-    // const response = await fetch("/profile", {
-    //     method: "GET",
-    // })
-
-    // console.log(response)
-    // if (response.ok) {
-    //     const res = await response.json()
-    //     setProfileData({
-    //         name: res.name,
-    //         about: res.about
-    //     })
-    // }
-  /** END METHOD 1 */
-
-  /* METHOD 2 - WORKS */
-  fetch("/profile").then(response => response.json()).then(data => {
-        setProfileData({
-            name: data.name,
-            about: data.about
-          })
-      }).catch(error => console.log(error))
-  /** END METHOD 2 */
-    console.log("getData called")
-}
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Container fluid className="App">
+      <BrowserRouter>
 
-        <button onClick={getData}>Get Data</button>
+        <header className="App-header">
+          <Sidebar/>
+        </header>
 
-        {profileData && <div>
-              <p>Profile name: {profileData.name}</p>
-              <p>About me: {profileData.about}</p>
-            </div>
-        }
+        <body>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/test" element={<Test/>}></Route>
+          </Routes>
+        </body>
 
-      </header>
-    </div>
+      </BrowserRouter>
+    </Container>
   );
 }
+
 
 export default App;
