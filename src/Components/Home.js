@@ -4,22 +4,6 @@ import '../index.css';
 function Home() {
   const [profileData, setProfileData] = useState(null)
 
-  /* METHOD 1 - WORKS */
-// async function getData() {
-  // const response = await fetch("/profile", {
-    //     method: "GET",
-    // })
-
-    // console.log(response)
-    // if (response.ok) {
-    //     const res = await response.json()
-    //     setProfileData({
-    //         name: res.name,
-    //         about: res.about
-    //     })
-    // }
-    /** END METHOD 1 */
-    
     /* METHOD 2 - WORKS */
 function getData() {
   fetch("/profile").then(response => response.json()).then(data => {
