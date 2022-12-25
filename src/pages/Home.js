@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 import Body from '../components/Body';
 import '../index.css';
 
