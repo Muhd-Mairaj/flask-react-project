@@ -26,7 +26,7 @@ function Header() {
     //   </Container>
     // </Navbar>
 
-    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
       <Container>
 
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
