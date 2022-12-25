@@ -31,7 +31,6 @@ function Home() {
         <Stack direction="horizontal" gap={3}>
           <Form onSubmit={handleSubmit}>
             <InputField name="itemName" placeholder="Enter name of item..."></InputField>
-            <InputField name="itemName" placeholder="Enter name of item..."></InputField>
           </Form>
         </Stack>
 
