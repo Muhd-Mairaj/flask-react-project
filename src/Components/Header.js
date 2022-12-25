@@ -41,7 +41,9 @@ function Header({ loggedIn }) {
             </>
             :
             <>
-              
+              <Nav>
+                  <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
+              </Nav>
             </>
           }
         </Navbar.Collapse>
