@@ -44,6 +44,10 @@ function Home() {
             </Form.Group>
           </Col>
           <Col xs={12} sm={3} className="py-1">
+            <Form.Group controlId="item">
+              <Form.Control placeholder="Item name" ref={itemField}/>
+              <Form.text className="text-danger">{formErrors.item}</Form.text>
+            </Form.Group>
             <Form.Control type="date" ref={expiryField}/>
           </Col>
           <Col xs={12} sm={2} className="py-3">
