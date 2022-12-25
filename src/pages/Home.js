@@ -24,7 +24,7 @@ function Home() {
             <th>Column</th>
           </thead>
           <tbody>
-            <td
+            <td>1</td>
           </tbody>
         </Table>}
     </Body>
