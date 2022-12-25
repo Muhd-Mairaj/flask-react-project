@@ -29,9 +29,9 @@ code {
   background-color: #eeeeee0f;
 }
 
-.navbar-nav .active {
+/* .navbar-nav .active {
   font-weight: bold;
-}
+} */
 
 
 @media screen and (max-width: 576px) {
