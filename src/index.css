@@ -29,7 +29,7 @@ code {
   background-color: #eeeeee0f;
 }
 
-.Header .nav-item .active {
+.Header .nav-link .active {
   /* font-weight: bold; */
 }
 
