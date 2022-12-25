@@ -31,7 +31,7 @@ function Home() {
         <Stack direction="horizontal" gap={3}>
           <Form onSubmit={handleSubmit}>
             <InputField name="itemName" placeholder="Item Name"></InputField>
-            <InputField name="expiry" placeholder="Expiry" type=""></InputField>
+            <InputField name="expiry" placeholder="Expiry" type="date"></InputField>
 
           </Form>
         </Stack>
