@@ -32,7 +32,7 @@ function Home() {
       <Container fluid className="Home">
 
         <Row>
-          <Col sm={12}>
+          <Col sm={12} lg=>
             <Form.Control className="" placeholder="Item name"/>
           </Col>
           <Col sm={12}>
