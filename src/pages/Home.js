@@ -61,7 +61,9 @@ function Home() {
           </Col>
           <Col xs={12} sm={3} className="py-1">
             <InputField 
-             name="expiry" type="date" fieldRef={expiryField} error={formErrors.expiry} />
+              name="expiry" 
+              type="date" 
+              fieldRef={expiryField} error={formErrors.expiry} />
             <Form.Group controlId="expiry">
               <Form.Control type="date" ref={expiryField}/>
               <Form.Text className="text-danger">{formErrors.expiry}</Form.Text>
