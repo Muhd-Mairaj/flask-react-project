@@ -16,5 +16,5 @@ def profile():
         "name": "testing",
         "about": "test"
         "query": query,
-        "items":
+        "items": items,
     })
