@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
+import Table from 'react-bootstrap/Table'
 import Body from '../components/Body';
 import '../index.css';
 
