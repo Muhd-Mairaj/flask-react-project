@@ -9,6 +9,7 @@ function Body({ loggedIn, children }) {
           <Container className="Content">
             {children}
           </Container>
+          
         }
       </Stack>
     </Container>
