@@ -12,7 +12,7 @@ function Home() {
       setProfileData({
         items: data.items
       })
-    })
+    }).catch(error)
   })
   
   return (
