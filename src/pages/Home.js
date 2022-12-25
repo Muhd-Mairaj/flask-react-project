@@ -31,6 +31,7 @@ function Home() {
             <tbody>
               <tr>
                 <td>{index}</td>
+                <td></td>
               </tr>
 
             </tbody>
