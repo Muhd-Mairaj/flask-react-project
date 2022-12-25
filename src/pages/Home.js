@@ -35,10 +35,10 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
-            <Form.Control placeholder="Item name" ref={item}/>
+            <Form.Control placeholder="Item name" ref={itemField}/>
           </Col>
           <Col xs={12} sm={3} className="py-1">
-            <Form.Control placeholder="Item name" type="date"/>
+            <Form.Control placeholder="Item name" type="date" r/>
           </Col>
           <Col xs={12} sm={2} className="py-3">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
