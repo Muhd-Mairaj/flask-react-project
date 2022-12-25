@@ -26,6 +26,9 @@ function Home() {
             </tr>
           </thead>
           <tbody>
+            <tr>
+              
+            </tr>
             <td>1</td>
             <td>Row</td>
             <td>2</td>
