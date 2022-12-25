@@ -19,6 +19,7 @@ function Home() {
   
   return (
     <Body loggedIn>
+      
       {profileData ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
