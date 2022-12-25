@@ -17,7 +17,7 @@ function Home() {
   }, []);
   
   return (
-    <Body loggedIn className="Home">
+    <Body loggedIn>
       {profileData && <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
