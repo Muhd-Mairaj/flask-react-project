@@ -18,7 +18,7 @@ function Header() {
             <NavLink to="/test" >Test</Nav.Link>
           </Nav>
           <Nav>
-            <NavLink href="#c">Logout</Nav.Link>
+            <NavLink to="">Logout</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
