@@ -21,9 +21,9 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
         </Routes>
-
       </Container>
-      </BrowserRouter>
+
+    </BrowserRouter>
   );
 }
 
