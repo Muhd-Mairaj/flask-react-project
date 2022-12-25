@@ -31,8 +31,8 @@ function Home() {
             <tbody>
               <tr>
                 <td>{index + 1}</td>
-                <td key={index}>{profileData.items[index].item}</td>
-                <td key={index}>{profileData.items[index].expiry}</td>
+                <td key={index + 1}>{profileData.items[index].item}</td>
+                <td key={index + 1}>{profileData.items[index].expiry}</td>
               </tr>
 
             </tbody>
