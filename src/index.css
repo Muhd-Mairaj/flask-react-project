@@ -25,7 +25,7 @@ code {
   border-bottom: 2px solid #fff;
 }
 
-.Header a {
+.Header .nav-item a {
   color: #61dafb;
 }
 
