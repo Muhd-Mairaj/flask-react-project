@@ -11,7 +11,7 @@ function InputField(
         placeholder={placeholder}
         ref={fieldRef}
       />
-      <Form.Text className="text-danger text-center text-nowrap mx-2">{error}</Form.Text>
+      <Form.Text className="text-danger text-center text-nowrap mx-1">{error}</Form.Text>
     </Form.Group>
   );
 }
