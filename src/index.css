@@ -25,10 +25,6 @@ code {
   border-bottom: 2px solid #fff;
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: #eeeeee0f;
-}
-
 .Header a:hover {
   background-color: #eeeeee0f;
 }
