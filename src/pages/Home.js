@@ -32,7 +32,7 @@ function Home() {
       <Container fluid className="Home">
 
         <Row>
-          <Col sm=
+          <Col sm={12}
         </Row>
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
           // <Form onSubmit={handleSubmit}>
