@@ -30,8 +30,6 @@ function Home() {
   return (
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
-        
-      </Form>
         <Row className="horizontalForm">
           <Col xs={12} sm={8}>
             <Form.Control className="" placeholder="Item name"/>
@@ -42,8 +40,8 @@ function Home() {
           <Col xs={12} sm={1}>
             <Button variant="dark" className="" type="submit">Add</Button>
           </Col>
-
         </Row>
+      </Form>
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
           // <Form onSubmit={handleSubmit}>
             <Form.Control className="" placeholder="Item name"/>
