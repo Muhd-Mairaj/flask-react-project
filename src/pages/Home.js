@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,7 +15,7 @@ import '../index.css';
 function Home() {
   const [items, setItems] = useState(null)
   const itemField = useRef();
-  
+
 
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
