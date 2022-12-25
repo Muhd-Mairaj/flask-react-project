@@ -15,5 +15,6 @@ def profile():
     return jsonify({
         "name": "testing",
         "about": "test"
-        "query": "q"
+        "query": query,
+        "items":
     })
