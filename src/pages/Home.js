@@ -11,8 +11,9 @@ function getData() {
   fetch("/profile").then(response => response.json()).then(data => {
         setProfileData({
             name: data.name,
-            about: data.about
+            about: data.about,
             query: data.query,
+            
           })
 
       }).catch(error => console.log(error))
