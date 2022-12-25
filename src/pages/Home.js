@@ -34,6 +34,9 @@ function Home() {
     if (!item) {
       formErrors.item = "Item field must not be empty"
     }
+    if (!item) {
+      formErrors.item = "Item field must not be empty"
+    }
   }
   
   return (
