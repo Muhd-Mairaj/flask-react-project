@@ -25,6 +25,7 @@ function Home() {
           </thead>
           <tbody>
             <td>1</td>
+            <td>Row</td>
           </tbody>
         </Table>}
     </Body>
