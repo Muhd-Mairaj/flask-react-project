@@ -6,12 +6,12 @@ import Body from '../components/Body';
 import '../index.css';
 
 function Home() {
-  const [items, setProfileData] = useState(null)
+  const [items, setItems] = useState(null)
 
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
-      setProfileData(data.items)
+      setItems(data.items)
     }).catch(error => console.log(error))
   }, []);
   
