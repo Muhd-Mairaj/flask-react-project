@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Stack from 'react-bootstrap/Stack'
 import Form from 'react-bootstrap/Form';
 import Table from 'react-bootstrap/Table';
-import Spinner from 'react-bootstrap/Spinner';
+import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 import Body from '../components/Body';
 
