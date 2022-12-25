@@ -56,7 +56,7 @@ function Home() {
           <Col xs={12} sm={7} className="py-1">
             <Form.Group controlId="item">
               <Form.Control placeholder="Item name" ref={itemField}/>
-              <Form.text className="text-danger">{formErrors.item}</Form.Text>
+              <Form.Text className="text-danger">{formErrors.item}</Form.Text>
             </Form.Group>
           </Col>
           <Col xs={12} sm={3} className="py-1">
