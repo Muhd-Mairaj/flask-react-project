@@ -22,8 +22,8 @@ function Home() {
           <thead>
             <tr>
               <th>#</th>
-              <th>item</th>
-              <th>expiry</th>
+              <th>tem</th>
+              <th>Expiry</th>
               ))}
             </tr>
           </thead>
