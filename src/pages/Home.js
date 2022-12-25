@@ -28,7 +28,7 @@ function Home() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    const itemName = itemField
+    const itemName = itemField.current.value
     
   }
   
