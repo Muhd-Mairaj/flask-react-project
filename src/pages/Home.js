@@ -59,7 +59,7 @@ function Home() {
               <Form.Text className="text-danger">{formErrors.item}</Form.Text>
             </Form.Group>
             <InputField 
-              name="expiry" 
+              name="item" 
               type="date" 
               fieldRef={expiryField} 
               error={formErrors.expiry} 
