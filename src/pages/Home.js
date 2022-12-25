@@ -22,6 +22,8 @@ function Home() {
           <thead>
             <tr>
               <th>#</th>
+              {Array.from({ length: 12 }).map((_, index) => (
+            <th key={index}>Table heading</th>
               <th>Column</th>
             </tr>
           </thead>
