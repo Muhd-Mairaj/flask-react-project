@@ -21,7 +21,7 @@ function Home() {
       <Container fluid className="Home">
 
         <Stack direction="horizontal" gap={3}>
-          <Form onSubmit={}
+          <Form onSubmit={handleSubmit}
         </Stack>
         {items ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
