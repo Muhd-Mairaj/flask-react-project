@@ -41,7 +41,7 @@ function Header({ loggedIn }) {
             </>
             :
             <>
-              <Nav>
+              <Nav className=m>
                   <Nav.Link as={NavLink} to="/login">login</Nav.Link>
                   <Nav.Link as={NavLink} to="/register">register</Nav.Link>
               </Nav>
