@@ -21,7 +21,7 @@ function Home() {
       {profileData && <Table responsive="sm">
           <thead>
             <th>#</th>
-            <th></th>
+            <th>Column</th>
           </thead>
         </Table>}
     </Body>
