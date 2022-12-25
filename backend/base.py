@@ -9,6 +9,6 @@ def profile():
     user_id = 1
     items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
 
-    for item in items:
+    for enumerateitem in items:
       item["key"] = 
     return jsonify({"items": items})
