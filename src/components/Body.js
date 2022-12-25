@@ -5,7 +5,8 @@ function Body({ loggedIn, children }) {
   return (
     <Container>
       <Stack direction="horizontal" className="Body">
-        {loggedIn ? <Container className="Content">
+        {loggedIn ? 
+          <Container className="Content">
             {children}
           </Container>
         }
