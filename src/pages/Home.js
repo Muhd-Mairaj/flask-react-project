@@ -29,8 +29,6 @@ function Home() {
   
   return (
     <Body loggedIn>
-      <Container fluid className="Home">
-
         <Row className="horizontalForm">
           <Col xs={12} sm={8}>
             <Form.Control className="" placeholder="Item name"/>
