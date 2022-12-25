@@ -32,9 +32,9 @@ function Home() {
           <tbody>
             {profileData.items.map((item, index) => (
               <tr>
-                <td key={0}>{index + 1}</td>
-                <td key={1}>{item.item}</td>
-                <td key={2}>{item.expiry}</td>
+                <td>{index + 1}</td>
+                <td>{item.item}</td>
+                <td>{item.expiry}</td>
               </tr>
             ))}
           </tbody>
