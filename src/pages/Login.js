@@ -1,6 +1,6 @@
 import Body from '../components/Body';
 
 
-function 
+function Login()
 
 export default Login
