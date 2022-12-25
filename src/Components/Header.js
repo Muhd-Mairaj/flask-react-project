@@ -40,7 +40,7 @@ function Header({ loggedIn }) {
               </Nav>
             </>
             :
-            
+            <>
           }
         </Navbar.Collapse>
       </Container>
