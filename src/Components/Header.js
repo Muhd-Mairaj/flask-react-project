@@ -12,7 +12,7 @@ function Header() {
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto A">
             <Nav.Item>
               <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
             </Nav.Item>
