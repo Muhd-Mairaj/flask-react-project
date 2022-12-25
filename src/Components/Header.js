@@ -7,7 +7,7 @@ import '../index.css'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
 
         <Navbar.Brand href="/">Tracker</Navbar.Brand>

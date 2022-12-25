@@ -29,12 +29,12 @@ code {
   background-color: #eeeeee0f;
 }
 
-a:hover {
+.Header a:hover {
   background-color: #eeeeee0f;
   color: #61dafb;
 }
 
-.nav-item .active {
+.Header .nav-item .active {
   /* background-color: #def; */
   font-weight: bold;
   color: #61dafb;
