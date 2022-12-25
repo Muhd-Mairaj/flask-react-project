@@ -4,7 +4,7 @@ import Body from '../components/Body';
 
 function Test() {
   return (
-    <Body>
+    <Body loggedIn>
       <div className="Test">
         <h2>hello there</h2>
       </div>
