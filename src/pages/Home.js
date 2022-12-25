@@ -30,7 +30,7 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {profileData.items.map((_, index) => (
+            {profileData.items.map((item, index) => (
               <tr className={(index === 0) ? "bg-danger" : ""}>
                 <td>{index + 1}</td>
                 <td key={index + 1}>{profileData.items[index].item}</td>
