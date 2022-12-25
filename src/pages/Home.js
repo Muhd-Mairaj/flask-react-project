@@ -41,7 +41,7 @@ function Home() {
     }
     
     setFormErrors(errors)
-    if 
+    if Object.
   }
   
   return (
