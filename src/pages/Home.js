@@ -14,7 +14,8 @@ import '../index.css';
 
 function Home() {
   const [items, setItems] = useState(null)
-  const {itemFieldexpiryField} = useRef();
+  const itemField = useRef();
+  const expiryField = useRef();
 
 
   useEffect(() => {
