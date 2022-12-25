@@ -11,6 +11,7 @@ function InputField(
         placeholder={placeholder}
         ref={fieldRef}
       />
+      <div
       <Form.Text className="text-danger text-center text-wrap">{error}</Form.Text>
     </Form.Group>
   );
