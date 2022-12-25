@@ -22,8 +22,8 @@ function App() {
           <Route path="/test" element={<Test/>}></Route>
         </Routes>
 
+      </Container>
       </BrowserRouter>
-    </Container>
   );
 }
 
