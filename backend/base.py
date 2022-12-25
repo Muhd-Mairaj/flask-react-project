@@ -6,7 +6,7 @@ db = SQL("sqlite:///database.db")
 
 @app.route("/profile")
 def profile():
-    query = db.execute("SELECT item, expiry FROM ")
+    query = db.execute("SELECT item, expiry FROM test")
     return jsonify({
         "name": "testing",
         "about": "test"
