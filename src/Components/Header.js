@@ -18,7 +18,7 @@ function Header() {
             <NavLink href="#b" >Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#c">Logout</Nav.Link>
+            <NavLink href="#c">Logout</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
