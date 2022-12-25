@@ -12,7 +12,7 @@ function App() {
   return (
     
     <Container fluid className="App">
-        <BrowserRouter>
+      <BrowserRouter>
         <header className="App-header">
           <Sidebar/>
         </header>
