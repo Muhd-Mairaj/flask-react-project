@@ -19,7 +19,9 @@ function Home() {
   return (
     <Body loggedIn>
       {profileData && <Table responsive="sm">
-          
+          <thead>
+            <td
+          </thead>
         </Table>}
     </Body>
   )
