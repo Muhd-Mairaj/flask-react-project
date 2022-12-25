@@ -2,7 +2,9 @@
 
 function Body({ sidebar, children }) {
   return (
-    <Container
+    <Container>
+      
+    </Container>
   )
 }
 
