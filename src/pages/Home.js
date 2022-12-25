@@ -27,7 +27,7 @@ function Home() {
               ))}
             </tr>
           </thead>
-          {Array.from({ length: profileData.item }).map((_, index) => (
+          {Array.from({ length: profileData.items.length }).map((_, index) => (
               <th key={index}>Column</th>
             ))}
           <tbody>
