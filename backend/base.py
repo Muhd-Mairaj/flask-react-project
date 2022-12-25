@@ -11,8 +11,9 @@ def profile():
     items = query[0]
     print(f"{query = }")
     print(f"{items = }")
-    
+
     return jsonify({
         "name": "testing",
         "about": "test"
+        "query":
     })
