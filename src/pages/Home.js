@@ -31,7 +31,7 @@ function Home() {
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
 
-    const
+    const errors = {}
 
     if (!item) {
       errors.item = "Item field must not be empty"
