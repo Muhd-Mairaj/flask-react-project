@@ -14,7 +14,7 @@ function Home() {
         items: data.items
       })
     }).catch((error) => console.log(error))
-  })
+  }, [])
   
   return (
     <Body loggedIn>
