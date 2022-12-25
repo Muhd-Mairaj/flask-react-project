@@ -29,7 +29,7 @@ code {
   background-color: #eeeeee0f;
 }
 
-.navbar-nav .nav-link.active {
+.navbar-nav .active {
   font-weight: bold;
 }
 
