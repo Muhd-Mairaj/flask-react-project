@@ -38,6 +38,9 @@ function Home() {
           <Col sm={12}>
             <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
           </Col>
+          <Col sm={12}>
+            <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
+          </Col>
           <Button variant="dark" className="" type="submit">Add</Button>
 
         </Row>
