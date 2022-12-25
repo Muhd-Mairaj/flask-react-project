@@ -7,7 +7,7 @@ function Sidebar() {
   return (
     <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
       <Navbar.Brand element={<Navigate to="/"/>}>
-            <Link to="/" className="App-link" end>Home</Nav.Link>
+            <Link to="/" className="App-link"  end>Home</Nav.Link>
 
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
