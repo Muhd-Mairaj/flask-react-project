@@ -30,7 +30,7 @@ function Home() {
 
         <Stack direction="horizontal" gap={3}>
           <Form onSubmit={handleSubmit}>
-            <InputField></InputField>
+            <InputField name="" ></InputField>
           </Form>
         </Stack>
 
