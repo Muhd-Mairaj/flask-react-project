@@ -17,7 +17,7 @@ function getData() {
     /** END METHOD 2 */
 
   return (
-    <div className="App">
+    <div className="Home">
       <button onClick={getData}>Get Data</button>
             {profileData && <div>
                   <p>Profile name: {profileData.name}</p>
