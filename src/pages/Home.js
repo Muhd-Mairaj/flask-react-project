@@ -18,7 +18,7 @@ function Home() {
   
 
   function handleSubmit(event) {
-    
+    event.preventDe
   }
   
   return (
