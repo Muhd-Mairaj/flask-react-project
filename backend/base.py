@@ -7,7 +7,7 @@ db = SQL("sqlite:///database.db")
 @app.route("/profile")
 def profile():
     user_id = 1
-     = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
+    items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
     print(f"{query = }")
     print(f"{items = }")
 
