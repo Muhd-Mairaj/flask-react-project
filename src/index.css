@@ -37,9 +37,9 @@ code {
   color: #61dafb;
 }
 
-  /* .App-link {
-    color: #61dafb;
-  } */
+/* .App-link {
+  color: #61dafb;
+} */
 @media screen and (max-width: 576px) {
   .nav-item {
     width: calc(20px + 20vw);
