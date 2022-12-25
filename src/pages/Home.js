@@ -30,7 +30,7 @@ function Home() {
 
         <Stack direction="horizontal" gap={3}>
           <Form onSubmit={handleSubmit}>
-            <Form.Control
+            <Form.Control className=
 
           </Form>
         </Stack>
