@@ -1,5 +1,5 @@
 
 
-function Body({ Side })
+function Body({ side })
 
 export default Body;
