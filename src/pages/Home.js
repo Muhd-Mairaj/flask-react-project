@@ -20,9 +20,9 @@ function Home() {
     <Body loggedIn>
       <Container fluid className="Home">
 
-      <Stack direction="horizontal">
-        
-      </Stack>
+        <Stack direction="horizontal">
+          
+        </Stack>
       {items ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
