@@ -33,7 +33,7 @@ function Home() {
           {/* <Form onSubmit={handleSubmit}> */}
             <Form.Control className="w-auto" placeholder="Item name"/>
             <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
-            <Button variant="dark" className="" type="submit">Add</Button>
+            <Button variant="dark" className="ms-auto w-auto" type="submit">Add</Button>
 
           {/* </Form> */}
         </Stack>
