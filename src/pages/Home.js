@@ -26,7 +26,7 @@ function Home() {
   
 
   function handleSubmit(event) {
-    console.log(event.body)
+    alert()
     
     event.preventDefault();
   }
