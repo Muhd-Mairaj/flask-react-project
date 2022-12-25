@@ -31,7 +31,7 @@ function Home() {
     <Body loggedIn>
       <Container fluid className="Home">
 
-        <Row>
+        <Row className="Form">
           <Col xs={12} sm={8}>
             <Form.Control className="" placeholder="Item name"/>
           </Col>
