@@ -10,9 +10,6 @@ function Body({ loggedIn, children }) {
         }
       </Stack>
     </Container>
-    <Container>
-      {children}
-    </Container>
   )
 }
 
