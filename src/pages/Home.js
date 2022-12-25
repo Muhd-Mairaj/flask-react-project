@@ -23,6 +23,7 @@ function Home() {
             <th>#</th>
             <th>Column</th>
           </thead>
+          
         </Table>}
     </Body>
   )
