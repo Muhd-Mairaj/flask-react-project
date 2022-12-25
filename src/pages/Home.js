@@ -13,8 +13,6 @@ function getData() {
         setProfileData({
             items: data.items,
         })
-
-
       }).catch(error => console.log(error))
     }
     /** END METHOD 2 */
