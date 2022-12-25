@@ -29,6 +29,7 @@ function Home() {
   
   return (
     <Body loggedIn>
+      
         <Row className="horizontalForm">
           <Col xs={12} sm={8}>
             <Form.Control className="" placeholder="Item name"/>
