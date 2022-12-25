@@ -7,7 +7,7 @@ import '../index.css';
 function Home() {
   const [profileData, setProfileData] = useState(null)
 
-  
+  useEffect()
   
   return (
     <Body loggedIn>
