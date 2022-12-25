@@ -23,6 +23,7 @@ function Home() {
             <tr>
               <th>#</th>
               <th>item</th>
+              <th>expiry</th>
               ))}
             </tr>
           </thead>
