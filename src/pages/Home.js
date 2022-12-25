@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container'
-import Body from '../con'
+import Body from '../components/Body';
 import '../index.css';
 
 function Home() {
