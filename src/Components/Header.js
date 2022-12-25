@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import { NavLink } from 'react-router-dom';
 import '../index.css'
 
-function Header() {
+function Header({}) {
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
