@@ -14,7 +14,7 @@ function App() {
     <Container fluid className="App">
 
       <BrowserRouter>
-        <Header/>
+        <Header loggedIn/>
 
 
         <Routes>
