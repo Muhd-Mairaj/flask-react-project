@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container'
 
-function Body({ loggedchildren }) {
+function Body({ loggedIn, children }) {
   return (
     <Container>
       <Stack direction="horizontal" className="Body">
