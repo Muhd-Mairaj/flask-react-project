@@ -19,7 +19,7 @@ function Header() {
           </Nav>
           <Nav>
             <Nav.Link as=[NavLink] to="/logout" href="#deets">More deets</Nav.Link>
-            <Nav.Link as=[NavLink] to="/" eventKey={2} href="#memes">
+            <Nav.Link as=[NavLink] to="/change" eventKey={2} href="#memes">
               Dank memes
             </Nav.Link>
           </Nav>
