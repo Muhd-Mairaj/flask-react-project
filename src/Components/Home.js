@@ -24,7 +24,7 @@ function getData() {
                   <p>About me: {profileData.about}</p>
                 </div>
             }
-    </div>
+    </Container>
   )
 }
 
