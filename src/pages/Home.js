@@ -29,7 +29,7 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, index) => (
-              <tr>
+              <tr key={}>
                 <td>{index + 1}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
