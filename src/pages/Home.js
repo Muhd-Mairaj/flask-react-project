@@ -6,7 +6,7 @@ import Table from 'react-bootstrap/Table';
 import Spinner from 'react-bootstrap/Spinner';
 import Body from '../components/Body';
 
-import InputField from '../components/'
+import InputField from '../components/InputField'
 import '../index.css';
 
 function Home() {
