@@ -8,7 +8,7 @@ db = SQL("sqlite:///database.db")
 def profile():
     user_id = 1
     query = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
-    items = 
+    items = query[0]
     return jsonify({
         "name": "testing",
         "about": "test"
