@@ -3,10 +3,12 @@ import Stack from 'react-bootstrap/Stack'
 
 function Body({ loggedIn, children }) {
   return (
+    <Container fluid>
         {loggedIn && <Container fluid className="Content">
             {children}
           </Container>
         }
+    </Container>
   )
 }
 
