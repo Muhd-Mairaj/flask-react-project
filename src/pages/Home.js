@@ -24,7 +24,6 @@ function Home() {
               <th>#</th>
               <th>Item</th>
               <th>Expiry</th>
-              ))}
             </tr>
           </thead>
           <tbody>
