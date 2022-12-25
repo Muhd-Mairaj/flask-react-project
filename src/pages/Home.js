@@ -12,7 +12,6 @@ function getData() {
         setProfileData({
             name: data.name,
             about: data.about,
-            query: data.query,
             items: data.items,
         })
         console.log(profileData.query)
