@@ -23,7 +23,9 @@ function Home() {
             <th>#</th>
             <th>Column</th>
           </thead>
-          <
+          <tbody>
+            <td
+          </tbody>
         </Table>}
     </Body>
   )
