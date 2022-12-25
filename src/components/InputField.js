@@ -1,6 +1,6 @@
 import Form from 'react-bootstrap/Form';
 
-export default function InputField(
+function InputField(
   { name, label, type, placeholder, error, fieldRef }
 ) {
   return (
@@ -15,3 +15,5 @@ export default function InputField(
     </Form.Group>
   );
 }
+
+export default InputField;
