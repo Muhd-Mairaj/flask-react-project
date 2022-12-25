@@ -74,7 +74,6 @@ function Home() {
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       }
-      </Container>
     </Body>
   )
 }
