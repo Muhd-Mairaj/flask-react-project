@@ -41,7 +41,7 @@ function Home() {
     }
     
     setFormErrors(errors)
-    if (Object.keys(formErrors))
+    if (Object.keys(formErrors).le)
   }
   
   return (
