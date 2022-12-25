@@ -42,7 +42,7 @@ function Home() {
     
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
-      return
+      return;
     }
 
     // send request to backend
