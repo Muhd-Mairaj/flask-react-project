@@ -21,8 +21,6 @@ function Header() {
               <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
             <Nav.Item>
             </Nav.Item>
-            <Nav.Item>
-            </Nav.Item>
           </Nav>
           <Nav className="ms-auto">
               <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
