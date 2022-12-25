@@ -42,7 +42,8 @@ function Header({ loggedIn }) {
             :
             <>
               <Nav>
-                  <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
+                  <Nav.Link as={NavLink} to="/loging" end>Logout</Nav.Link>
+                  <Nav.Link as={NavLink} to="/" end>Logout</Nav.Link>
               </Nav>
             </>
           }
