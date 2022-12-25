@@ -39,9 +39,8 @@ function Home() {
             <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
           </Col>
           <Col sm={12}>
-            <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
+            <Button variant="dark" className="" type="submit">Add</Button>
           </Col>
-          <Button variant="dark" className="" type="submit">Add</Button>
 
         </Row>
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
