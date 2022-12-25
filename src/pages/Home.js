@@ -13,7 +13,7 @@ function getData() {
             name: data.name,
             about: data.about,
             query: data.query,
-            
+            query: data.query,
           })
 
       }).catch(error => console.log(error))
