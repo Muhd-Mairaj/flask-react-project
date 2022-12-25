@@ -33,7 +33,7 @@ function Home() {
             <Form.Control className="me-auto" placeholder="Item name"/>
             <Form.Control placeholder="Item name" type="date"/>
 
-          </Form>
+          {/* </Form> */}
         </Stack>
 
         {items ? <Table striped bordered variant="dark" responsive="lg">
