@@ -35,7 +35,7 @@ function Home() {
       formErrors.item = "Item field must not be empty"
     }
     if (!expiry) {
-      formErrors.expiry = "Item field must not be empty"
+      formErrors.expiry = "expiry field must not be empty"
     }
   }
   
