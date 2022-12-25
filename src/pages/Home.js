@@ -46,7 +46,7 @@ function Home() {
     }
 
     // send request to backend
-    alert()
+    alert("Added item")
   }
   
   return (
