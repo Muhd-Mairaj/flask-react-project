@@ -18,7 +18,7 @@ function Home() {
   
   return (
     <Body loggedIn>
-      {profileData }
+      {profileData && }
     </Body>
   )
 }
