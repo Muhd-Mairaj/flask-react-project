@@ -10,8 +10,6 @@ function Home() {
 function getData() {
   fetch("/profile").then(response => response.json()).then(data => {
         setProfileData({
-            name: data.name,
-            about: data.about,
             items: data.items,
         })
         console.log(profileData.query)
