@@ -30,7 +30,8 @@ function Header({ loggedIn }) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           {loggedIn === true ?
-          
+            <>
+            </>
             <Nav className="me-auto">
                 <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
                 <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
