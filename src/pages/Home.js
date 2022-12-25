@@ -28,9 +28,9 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {items.map((item, index) => (
+            {items.map((item, _) => (
               <tr key={item.key}>
-                <td>{item.}</td>
+                <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
               </tr>
