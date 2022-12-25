@@ -27,7 +27,7 @@ function Header() {
       </Container>
     </Navbar>
 
-    {/* // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
+    // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
     //   <Container>
     //     <Navbar.Brand href="/">Tracker</Navbar.Brand>
     //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,7 +41,7 @@ function Header() {
     //       </Nav>
     //     </Navbar.Collapse>
     //   </Container>
-    // </Navbar> */}
+    // </Navbar>
   );
 }
 
