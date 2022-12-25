@@ -32,6 +32,7 @@ function Home() {
           {/* <Form onSubmit={handleSubmit}> */}
             <Form.Control className="me-auto" placeholder="Item name"/>
             <Form.Control placeholder="Item name" type="date"/>
+            <Button
 
           {/* </Form> */}
         </Stack>
