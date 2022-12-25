@@ -3,7 +3,7 @@ import Stack from 'react-bootstrap/Stack'
 
 function Body({ loggedIn, children }) {
   return (
-    <Container fluid>
+    // <Container fluid>
       <Stack direction="horizontal" className="Body">
         {loggedIn && <Container fluid className="Content">
             {children}
