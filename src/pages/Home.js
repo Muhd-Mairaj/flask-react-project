@@ -35,7 +35,8 @@ function Home() {
               </tr>
             ))}
           </tbody>
-        </Table>}
+        </Table>
+      }
     </Body>
   )
 }
