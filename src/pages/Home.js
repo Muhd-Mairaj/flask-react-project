@@ -20,7 +20,7 @@ function getData() {
   return (
     <Body loggedIn>
       <button onClick={getData}>Get Data</button>
-            {profileData && <div>
+            {profileData.items && <div>
                   <p>Profile name: {profileData.name}</p>
                   <p>About me: {profileData.about}</p>
                 </div>
