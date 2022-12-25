@@ -13,7 +13,7 @@ import '../index.css';
 
 function Home() {
   const [items, setItems] = useState(null)
-  const [form]
+  const [formErrors, setFormErrors] = use
   const itemField = useRef();
   const expiryField = useRef();
 
