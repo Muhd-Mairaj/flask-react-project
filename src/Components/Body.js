@@ -1,5 +1,7 @@
 
 
-function Body({ side })
+function Body({ sidebar, children }) {
+  
+}
 
 export default Body;
