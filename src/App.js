@@ -14,9 +14,7 @@ function App() {
     <Container fluid className="App">
 
       <BrowserRouter>
-        <header className="App-header">
-          <Header/>
-        </header>
+        <Header/>
 
         <Routes>
           <Route path="/" element={<Home/>}></Route>
