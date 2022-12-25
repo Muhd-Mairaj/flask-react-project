@@ -38,7 +38,7 @@ function Home() {
             <Form.Control placeholder="Item name" ref={itemField}/>
           </Col>
           <Col xs={12} sm={3} className="py-1">
-            <Form.Control type="date" ref=/>
+            <Form.Control type="date" ref={expiryRef}/>
           </Col>
           <Col xs={12} sm={2} className="py-3">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
