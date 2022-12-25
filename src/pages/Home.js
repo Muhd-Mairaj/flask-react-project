@@ -14,7 +14,7 @@ import '../index.css';
 
 function Home() {
   const [items, setItems] = useState(null)
-  const {itemField, expiryField} = useRef();
+  const {itemFieldexpiryField} = useRef();
 
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function Home() {
   
 
   function handleSubmit(event) {
-    alert(itemField.)
+    alert(itemField.current)
     
     event.preventDefault();
   }
