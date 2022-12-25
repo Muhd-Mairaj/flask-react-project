@@ -32,7 +32,6 @@ function Home() {
               <tr>
                 <td>{index}</td>
               </tr>
-              <th key={index}>Column</th>
 
             </tbody>
             ))}
