@@ -5,11 +5,11 @@ function Body({ loggedIn, children }) {
     <Container>
       <Stack direction="horizontal" className="Body">
         {loggedIn &&
+          <Container className="Content">
+            {children}
+          </Container>
 
         }
-        <Container className="Content">
-          {children}
-        </Container>
       </Stack>
     </Container>
     <Container>
