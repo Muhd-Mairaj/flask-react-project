@@ -21,7 +21,7 @@ function Home() {
       {profileData && <Table striped bordered variant="dark" responsive="sm">
           <thead>
             <tr>
-              <th>#</th>
+              <th size="sm">#</th>
               <th>Column</th>
             </tr>
           </thead>
