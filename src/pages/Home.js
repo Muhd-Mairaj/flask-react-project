@@ -16,7 +16,7 @@ function Home() {
   const [formErrors, setFormErrors] = useState()
   const itemField = useRef();
   const expiryField = useRef();
-  
+
 
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
@@ -24,7 +24,7 @@ function Home() {
       setItems(data.items)
     }).catch(error => console.log(error))
   }, []);
-  
+
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -39,7 +39,7 @@ function Home() {
     if (!expiry) {
       errors.expiry = "Expiry field must not be empty"
     }
-    
+
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return;
@@ -48,7 +48,7 @@ function Home() {
     // send request to backend
     alert("Added item")
   }
-  
+
   return (
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
@@ -58,18 +58,18 @@ function Home() {
               <Form.Control placeholder="Item name" ref={itemField}/>
               <Form.Text className="text-danger">{formErrors.item}</Form.Text>
             </Form.Group>
-            <InputField 
-              name="item" 
-              fieldRef={itemField} 
-              error={formErrors.expiry} 
+            <InputField
+              name="item"
+              fieldRef={itemField}
+              error={formErrors.item}
             />
           </Col>
           <Col xs={12} sm={3} className="py-1">
-            <InputField 
-              name="expiry" 
-              type="date" 
-              fieldRef={expiryField} 
-              error={formErrors.expiry} 
+            <InputField
+              name="expiry"
+              type="date"
+              fieldRef={expiryField}
+              error={formErrors.expiry}
             />
             {/* <Form.Group controlId="expiry">
               <Form.Control type="date" ref={expiryField}/>
