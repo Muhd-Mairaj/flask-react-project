@@ -7,7 +7,6 @@ function Body({ loggedIn, children }) {
         {loggedIn && <Container className="Content">
             {children}
           </Container>
-
         }
       </Stack>
     </Container>
