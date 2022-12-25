@@ -30,6 +30,8 @@ function Home() {
               <td>1</td>
               <td>Row</td>
             </tr>
+            <tr>
+            </tr>
             <td>2</td>
             <td>Row</td>
           </tbody>
