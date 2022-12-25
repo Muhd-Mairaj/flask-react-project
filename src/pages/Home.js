@@ -45,7 +45,7 @@ function Home() {
         </Spinner>
       }
     </Body>
-            </Container>
+    </Container>
   )
 }
 
