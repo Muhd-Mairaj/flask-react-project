@@ -32,10 +32,10 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={8} className="px=0">
-            <Form.Control className="px-0" placeholder="Item name"/>
+            <Form.Control className="" placeholder="Item name"/>
           </Col>
           <Col xs={12} sm={3}>
-            <Form.Control className="px-0 me-auto" placeholder="Item name" type="date"/>
+            <Form.Control className="me-auto" placeholder="Item name" type="date"/>
           </Col>
           <Col xs={12} sm={1}>
             <Button variant="dark" className="px-1" type="submit">Add</Button>
