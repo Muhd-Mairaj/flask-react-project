@@ -31,9 +31,9 @@ function Home() {
               <td>Row</td>
             </tr>
             <tr>
+              <td>2</td>
+              <td>Row</td>
             </tr>
-            <td>2</td>
-            <td>Row</td>
           </tbody>
         </Table>}
     </Body>
