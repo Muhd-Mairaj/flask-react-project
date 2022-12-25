@@ -25,15 +25,6 @@ code {
   border-bottom: 2px solid #fff;
 }
 
-.Sidebar {
-  width: 120px;
-  margin: 5px;
-  position: sticky;
-  top: 62px;
-  align-self: flex-start;
-  align-items: start;
-}
-
 .Sidebar .nav-item {
   width: 100%;
 }
