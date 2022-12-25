@@ -14,7 +14,8 @@ import '../index.css';
 
 function Home() {
   const [items, setItems] = useState(null)
-  const itemField =
+  const itemField = useRef();
+  
 
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
