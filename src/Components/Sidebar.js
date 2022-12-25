@@ -6,7 +6,9 @@ import '../index.css'
 function Sidebar() {
   return (
     <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
-      <Navbar.Brand element={<Navigate to="/"/>}>Tracker</Navbar.Brand>
+      <Navbar.Brand element={<Navigate to="/"/>}>
+        
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
