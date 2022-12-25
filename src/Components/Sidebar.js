@@ -1,14 +1,12 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Na } from 'react-router-dom';
 import '../index.css'
 
 function Sidebar() {
   return (
     <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
-      <Navbar.Brand>
-            <Link to="/" className="Navbar-Brand" end>Home</Link>
-      </Navbar.Brand>
+      <Navbar.Brand element={<Navigate to="/"/>}>Tracker</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
