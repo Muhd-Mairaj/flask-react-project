@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container'
-import Sidebar from './Components/Sidebar'
+import Header from './Components/Sidebar'
 import Home from './Components/Home'
 import Test from './Components/Test'
 // import logo from './logo.svg';
@@ -12,10 +12,10 @@ function App() {
   return (
     
     <Container fluid className="App">
-      
+
       <BrowserRouter>
         <header className="App-header">
-          <Sidebar/>
+          <Header/>
         </header>
 
         <Routes>
