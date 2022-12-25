@@ -10,7 +10,7 @@ function Body({ loggedIn, children }) {
           </Container>
         }
       </Stack>
-    // </Container>
+    </Container>
   )
 }
 
