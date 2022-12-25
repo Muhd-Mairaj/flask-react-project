@@ -5,7 +5,7 @@ function Body({ loggedIn, children }) {
   return (
     <Container fluid>
       <Stack direction="horizontal" className="Body">
-        {loggedIn && <Container className="Content">
+        {loggedIn && <Container fluid className="Content">
             {children}
           </Container>
         }
