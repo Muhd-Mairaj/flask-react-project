@@ -8,21 +8,21 @@ import '../index.css'
 function Header() {
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
-    //   <Container>
-    //     <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
-    //     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    //     <Navbar.Collapse id="responsive-navbar-nav">
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="#a" >Home</Nav.Link>
-    //         <Nav.Link href="#b" >Test</Nav.Link>
-    //       </Nav>
-    //       <Nav>
-    //         <Nav.Link href="#c">Logout</Nav.Link>
-    //       </Nav>
-    //     </Navbar.Collapse>
-    //   </Container>
-    // </Navbar>
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
+      <Container>
+        <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#a" >Home</Nav.Link>
+            <Nav.Link href="#b" >Test</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#c">Logout</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
     //   <Container>
