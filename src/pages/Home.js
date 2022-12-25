@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Containe from 'react-bootstrap/Col';
-
+import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack'
 import Form from 'react-bootstrap/Form';
 import Table from 'react-bootstrap/Table';
