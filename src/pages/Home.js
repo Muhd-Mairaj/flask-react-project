@@ -10,7 +10,7 @@ function Home() {
   useEffect(() => {
     fetch("/profile").then((response) => response.json()).then((data) => {
       setProfileData({
-        items: 
+        items: data.items
       })
     })
   })
