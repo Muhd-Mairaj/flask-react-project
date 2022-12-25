@@ -38,9 +38,9 @@ function Home() {
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
             <Form.Group controlId="itemField">
-              
+              <Form.Control placeholder="Item name" ref={itemField}/>
+
             </Form.Group>
-            <Form.Control placeholder="Item name" ref={itemField}/>
           </Col>
           <Col xs={12} sm={3} className="py-1">
             <Form.Control type="date" ref={expiryField}/>
