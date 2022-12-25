@@ -32,7 +32,7 @@ function Home() {
     const expiry = expiryField.current.value;
 
     if (!item) {
-      formErrors.item = "Item field"
+      formErrors.item = "Item field must not be empty"
     }
   }
   
