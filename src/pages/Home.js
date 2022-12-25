@@ -12,7 +12,7 @@ function getData() {
         setProfileData({
             name: data.name,
             about: data.about
-            query: data.
+            query: data.query,
           })
 
       }).catch(error => console.log(error))
