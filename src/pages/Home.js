@@ -15,8 +15,8 @@ function getData() {
             query: data.query,
             items: data.items,
         })
-        console.log(query)
-        console.log(items)
+        console.log(profileData.query)
+        console.log(profileData.items)
 
 
       }).catch(error => console.log(error))
