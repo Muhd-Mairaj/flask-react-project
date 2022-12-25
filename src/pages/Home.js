@@ -60,7 +60,6 @@ function Home() {
             </Form.Group>
             <InputField 
               name="item" 
-              type="date" 
               fieldRef={expiryField} 
               error={formErrors.expiry} 
             />
