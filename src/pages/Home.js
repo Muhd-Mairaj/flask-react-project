@@ -31,7 +31,7 @@ function Home() {
             <tbody>
               <tr>
                 <td>{index}</td>
-                <td key={index}>{profileData.items[index]}</td>
+                <td key={index}>{profileData.items[index].}</td>
               </tr>
 
             </tbody>
