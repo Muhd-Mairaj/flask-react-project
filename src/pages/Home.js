@@ -22,7 +22,7 @@ function Home() {
           <thead>
             <tr>
               <th>#</th>
-              <th>Column</th>
+              <th>item</th>
               ))}
             </tr>
           </thead>
