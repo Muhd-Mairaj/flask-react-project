@@ -39,7 +39,8 @@ function Home() {
     if (!expiry) {
       errors.expiry = "Expiry field must not be empty"
     }
-    setFormErrors(for)
+    
+    setFormErrors(errors)
   }
   
   return (
