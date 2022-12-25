@@ -37,7 +37,7 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
-            <Form.Group controlId=
+            <Form.Group controlId=item
             <Form.Control placeholder="Item name" ref={itemField}/>
           </Col>
           <Col xs={12} sm={3} className="py-1">
