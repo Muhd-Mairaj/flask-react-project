@@ -16,6 +16,9 @@ function Home() {
     }).catch(error => console.log(error))
   }, []);
   
+
+  
+  
   return (
     <Body loggedIn>
       <Container fluid className="Home">
