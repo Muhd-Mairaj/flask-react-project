@@ -30,7 +30,10 @@ code {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 576px)
+@media screen and (max-width: 576px) {
+  .horizontalForm
+}
+
 .nav-link {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
