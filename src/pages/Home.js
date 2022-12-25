@@ -22,7 +22,7 @@ function Home() {
           <thead>
             <tr>
               <th>#</th>
-              <th key={index}>Column</th>
+              <th>Column</th>
               ))}
             </tr>
           </thead>
