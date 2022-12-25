@@ -37,9 +37,7 @@ function Header() {
               <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Item>
               <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
 
