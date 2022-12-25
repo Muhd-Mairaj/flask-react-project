@@ -31,7 +31,7 @@ function Home() {
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
 
-    if 
+    if (!item)
   }
   
   return (
