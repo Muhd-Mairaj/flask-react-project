@@ -7,7 +7,7 @@ import '../index.css'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container>
         <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
