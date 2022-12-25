@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container'
 
-function Body({ sidebar, children }) {
+function Body({ children }) {
   return (
     <Container>
-      
+
     </Container>
   )
 }
