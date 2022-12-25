@@ -23,7 +23,7 @@ function Home() {
             <tr>
               <th>#</th>
               {Array.from({ length: 2 }).map((_, index) => (
-            <th key={index}>Column</th>
+              <th key={index}>Column</th>
             </tr>
           </thead>
           <tbody>
