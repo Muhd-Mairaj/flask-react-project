@@ -15,7 +15,8 @@ function getData() {
             query: data.query,
             items: data.items,
         })
-        console.log()
+        console.log(query)
+        console.log(items)
 
 
       }).catch(error => console.log(error))
