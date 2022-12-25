@@ -35,10 +35,10 @@ function Home() {
           <Col sm={12} md={8}>
             <Form.Control className="" placeholder="Item name"/>
           </Col>
-          <Col sm={12} lg={3}>
+          <Col sm={12} md={3}>
             <Form.Control className="me-auto" placeholder="Item name" type="date"/>
           </Col>
-          <Col sm={12} lg={1}>
+          <Col sm={12} md={1}>
             <Button variant="dark" className="" type="submit">Add</Button>
           </Col>
 
