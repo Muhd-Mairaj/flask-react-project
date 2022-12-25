@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
-import Home from './pages/Home';
 import Test from './components/Test';
+import Home from './pages/Home';
 // import logo from './logo.svg';
 // import './App.css';
 
