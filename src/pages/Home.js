@@ -35,7 +35,7 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
-            <Form.Control placeholder="Item name" ref=/>
+            <Form.Control placeholder="Item name" ref={}/>
           </Col>
           <Col xs={12} sm={3} className="py-1">
             <Form.Control placeholder="Item name" type="date"/>
