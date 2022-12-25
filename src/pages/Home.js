@@ -17,7 +17,7 @@ function Home() {
   }, []);
   
 
-  
+  function 
   
   return (
     <Body loggedIn>
