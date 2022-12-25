@@ -31,7 +31,7 @@ function Home() {
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
-          <Col xs={12} sm={8} className="px=0">
+          <Col xs={12} sm={7} className="px=0">
             <Form.Control className="" placeholder="Item name"/>
           </Col>
           <Col xs={12} sm={3} className="px-0">
