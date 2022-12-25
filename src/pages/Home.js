@@ -19,7 +19,8 @@ function Home() {
   
   return (
     <Body loggedIn>
-      <Container fluid className="Home"
+      <Container fluid className="Home">
+
       {profileData ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
@@ -44,6 +45,7 @@ function Home() {
         </Spinner>
       }
     </Body>
+            </Container>
   )
 }
 
