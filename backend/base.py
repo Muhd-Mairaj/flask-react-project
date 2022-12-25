@@ -9,7 +9,7 @@ def profile():
     user_id = 1
     query = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
     items = query[0]
-    print(f"{")
+    print(f"{que}")
     return jsonify({
         "name": "testing",
         "about": "test"
