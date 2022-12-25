@@ -27,6 +27,7 @@ code {
 
 .Header a:hover {
   background-color: #eeeeee0f;
+  color: #61dafb;
 }
 
 .App-link {
