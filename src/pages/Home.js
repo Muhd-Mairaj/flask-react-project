@@ -9,11 +9,10 @@ function Home() {
     /* METHOD 2 - WORKS */
 function getData() {
   fetch("/profile").then(response => response.json()).then(data => {
+        console.log(data.items)
         setProfileData({
             items: data.items,
         })
-        console.log(profileData.query)
-        console.log(profileData.items)
 
 
       }).catch(error => console.log(error))
