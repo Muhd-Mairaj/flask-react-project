@@ -18,7 +18,7 @@ function Header() {
             <Nav.Link href="#b" >Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#c" >Logout</Nav.Link>
+            <Nav.Link href="#c">Logout</Nav.Link>
             <Nav.Link href="#d" eventKey={2}>change</Nav.Link>
           </Nav>
         </Navbar.Collapse>
