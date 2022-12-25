@@ -17,7 +17,9 @@ function Home() {
   }, []);
   
 
-  function handleSubmit()
+  function handleSubmit(event) {
+    
+  }
   
   return (
     <Body loggedIn>
