@@ -32,7 +32,7 @@ function Home() {
       <Container fluid className="Home">
 
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
-          /* <Form onSubmit={handleSubmit}> *
+          /* <Form onSubmit={handleSubmit}>
             <Form.Control className="" placeholder="Item name"/>
             <Form.Control className="me-auto w-auto" placeholder="Item name" type="date"/>
             <Button variant="dark" className="" type="submit">Add</Button>
