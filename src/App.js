@@ -5,7 +5,7 @@ import Header from './Components/Header'
 import Home from './Components/Home'
 import Test from './Components/Test'
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 
 function App() {
