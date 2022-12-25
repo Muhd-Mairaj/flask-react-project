@@ -27,9 +27,8 @@ function Home() {
   
 
   function handleSubmit(event) {
-    alert(itemField.current)
-    
     event.preventDefault();
+    
   }
   
   return (
