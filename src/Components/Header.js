@@ -14,12 +14,12 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href= >Home</Nav.Link>
-            <Nav.Link href= >Test</Nav.Link>
+            <Nav.Link href="#" >Home</Nav.Link>
+            <Nav.Link href="#" >Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href= >Logout</Nav.Link>
-            <Nav.Link href=  eventKey={2}>change</Nav.Link>
+            <Nav.Link href="#" >Logout</Nav.Link>
+            <Nav.Link href="#"  eventKey={2}>change</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
