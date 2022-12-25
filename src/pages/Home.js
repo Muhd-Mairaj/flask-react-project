@@ -32,7 +32,7 @@ function Home() {
               <tr>
                 <td>{index}</td>
                 <td key={index}>{profileData.items[index].item}</td>
-                <td key={index}>{profileData.items[index].}</td>
+                <td key={index}>{profileData.items[index].expiry}</td>
               </tr>
 
             </tbody>
