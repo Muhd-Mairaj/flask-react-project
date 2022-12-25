@@ -45,10 +45,9 @@ function Home() {
           </Col>
           <Col xs={12} sm={3} className="py-1">
             <Form.Group controlId="expiry">
-              <Form.Control placeholder="Item name" ref={itemField}/>
+              <Form.Control type="date" ref={expiryField}/>
               <Form.text className="text-danger">{formErrors.item}</Form.text>
             </Form.Group>
-            <Form.Control type="date" ref={expiryField}/>
           </Col>
           <Col xs={12} sm={2} className="py-3">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
