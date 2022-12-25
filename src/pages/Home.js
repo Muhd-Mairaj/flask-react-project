@@ -32,7 +32,7 @@ function Home() {
     const expiry = expiryField.current.value;
 
     if (!item) {
-      formErrors.
+      formErrors.item = ""
     }
   }
   
