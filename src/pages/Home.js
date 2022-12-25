@@ -31,6 +31,7 @@ function Home() {
     <Body loggedIn>
       <Container fluid className="Home">
 
+        
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
           // <Form onSubmit={handleSubmit}>
             <Form.Control className="" placeholder="Item name"/>
