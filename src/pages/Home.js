@@ -6,8 +6,8 @@ import Form from 'react-bootstrap/Form';
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
-import Body from '../components/Body';
 
+import Body from '../components/Body';
 import InputField from '../components/InputField'
 import '../index.css';
 
