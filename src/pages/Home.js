@@ -34,7 +34,6 @@ function Home() {
                 <td key={index + 1}>{profileData.items[index].item}</td>
                 <td key={index + 1}>{profileData.items[index].expiry}</td>
               </tr>
-
             </tbody>
             ))}
         </Table>}
