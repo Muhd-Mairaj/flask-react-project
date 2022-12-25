@@ -20,7 +20,7 @@ function Home() {
     <Body loggedIn>
       {profileData && <Table responsive="sm">
           <thead>
-            <td
+            <th></th>
           </thead>
         </Table>}
     </Body>
