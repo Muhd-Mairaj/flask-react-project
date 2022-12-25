@@ -60,7 +60,7 @@ function Home() {
             </Form.Group>
             <InputField 
               name="item" 
-              fieldRef={expiryField} 
+              fieldRef={itemField} 
               error={formErrors.expiry} 
             />
           </Col>
