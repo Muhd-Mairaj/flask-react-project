@@ -60,6 +60,7 @@ function Home() {
             </Form.Group> */}
             <InputField
               name="item"
+              placeholder="Item name"
               fieldRef={itemField}
               error={formErrors.item}
             />
