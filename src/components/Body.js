@@ -1,15 +1,13 @@
 import Container from 'react-bootstrap/Container'
-import Stack from 'react-bootstrap/Stack'
+import Stack from 'react-bootstrap/Stac'
 
 function Body({ loggedIn, children }) {
   return (
     <Container>
       <Stack direction="horizontal" className="Body">
-        {loggedIn ? 
-          <Container className="Content">
+        {loggedIn && <Container className="Content">
             {children}
           </Container>
-          
         }
       </Stack>
     </Container>
