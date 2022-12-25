@@ -29,7 +29,9 @@ function Header({ loggedIn }) {
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          {loggedIn &&}
+          {
+            loggedIn &&
+          }
           <Nav className="me-auto">
               <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
               <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
