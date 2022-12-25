@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import { NavLink } from 'react-router-dom';
 import '../index.css'
 
-function Sidebar() {
+function Header() {
   return (
     <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
       <Container>
