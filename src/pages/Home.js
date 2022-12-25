@@ -35,6 +35,7 @@ function Home() {
           <Col sm={12}>
           <Form.Control className="" placeholder="Item name"/>
           </Col>
+          
         </Row>
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
           // <Form onSubmit={handleSubmit}>
