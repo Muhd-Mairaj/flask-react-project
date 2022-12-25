@@ -26,7 +26,7 @@ function Home() {
             <tr>
               <th>#</th>
               <th key={1}>Item</th>
-              <th>Expiry</th>
+              <th key={2}>Expiry</th>
             </tr>
           </thead>
           <tbody>
