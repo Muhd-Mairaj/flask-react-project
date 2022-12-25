@@ -14,8 +14,8 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <NavLink href="#a" >Home</Nav.Link>
-            <NavLink href="#b" >Test</Nav.Link>
+            <NavLink to=""href="#a" >Home</Nav.Link>
+            <NavLink to=""href="#b" >Test</Nav.Link>
           </Nav>
           <Nav>
             <NavLink href="#c">Logout</Nav.Link>
