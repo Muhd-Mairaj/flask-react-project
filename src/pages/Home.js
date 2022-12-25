@@ -27,8 +27,8 @@ function Home() {
           </thead>
           <tbody>
             <tr>
-            <td>1</td>
-            <td>Row</td>
+              <td>1</td>
+              <td>Row</td>
             </tr>
             <td>2</td>
             <td>Row</td>
