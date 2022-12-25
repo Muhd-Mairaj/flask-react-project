@@ -1,4 +1,4 @@
-import Container from 'react-b'
+import Container from 'react-bootstrap/Container'
 
 function Body({ sidebar, children }) {
   return (
