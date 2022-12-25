@@ -29,7 +29,6 @@ code {
   background-color: #eeeeee0f;
 }
 
-
 @media screen and (max-width: 576px) {
   .nav-item {
     width: calc(20px + 20vw);
