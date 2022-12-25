@@ -8,7 +8,7 @@ function Body({ loggedIn, children }) {
             {children}
           </Container>
         }
-        </>
+    </>
   )
 }
 
