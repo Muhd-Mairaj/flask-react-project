@@ -7,6 +7,8 @@ import '../index.css';
 function Home() {
   const [profileData, setProfileData] = useState(null)
 
+  
+  
   return (
     <Body loggedIn>
       
