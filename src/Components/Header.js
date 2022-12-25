@@ -7,7 +7,7 @@ import '../index.css'
 
 function Header() {
   return (
-    // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container>
         <Navbar.Brand href="#">React-Bootstrap</Navbar.Brand>
@@ -27,7 +27,7 @@ function Header() {
       </Container>
     </Navbar>
 
-    {/* <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container>
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,7 +41,7 @@ function Header() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar> */}
+    </Navbar>
   );
 }
 
