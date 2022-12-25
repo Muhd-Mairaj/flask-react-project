@@ -19,7 +19,7 @@ function Home() {
   
   return (
     <Body loggedIn>
-      
+      <Container fluid
       {profileData ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
