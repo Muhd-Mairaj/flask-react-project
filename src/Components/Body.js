@@ -1,4 +1,4 @@
-import Container from
+import Container from 'react-b'
 
 function Body({ sidebar, children }) {
   return (
