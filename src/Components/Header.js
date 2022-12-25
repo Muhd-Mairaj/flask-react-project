@@ -34,4 +34,4 @@ function Header() {
   );
 }
 
-export default Sidebar;
+export default Header;
