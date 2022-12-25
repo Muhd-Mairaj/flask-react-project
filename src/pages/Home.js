@@ -20,8 +20,11 @@ function Home() {
     <Body loggedIn>
       {profileData && <Table responsive="sm">
           <thead>
-            <th>#</th>
-            <th>Column</th>
+            <tr>
+              <th>#</th>
+              <th>Column</th>
+
+            </tr>
           </thead>
           <tbody>
             <td>1</td>
