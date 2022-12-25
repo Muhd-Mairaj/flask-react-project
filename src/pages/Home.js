@@ -32,7 +32,7 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={8}>
-            <Form.Control className="py-0" placeholder="Item name"/>
+            <Form.Control className="px-0" placeholder="Item name"/>
           </Col>
           <Col xs={12} sm={3}>
             <Form.Control className="me-auto" placeholder="Item name" type="date"/>
