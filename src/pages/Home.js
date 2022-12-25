@@ -31,7 +31,7 @@ function Home() {
 
         <Stack direction="horizontal" className="horizontalForm" gap={3}>
           {/* <Form onSubmit={handleSubmit}> */}
-            <Form.Control className="me-auto" placeholder="Item name"/>
+            <Form.Control className="me-auto w-auto" placeholder="Item name"/>
             <Form.Control placeholder="Item name" type="date"/>
             <Button variant="dark" className= type="submit">Add</Button>
 
