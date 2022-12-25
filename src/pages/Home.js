@@ -18,7 +18,7 @@ function Home() {
   
   return (
     <Body loggedIn>
-      {profileData && <Table responsive="sm">
+      {profileData && <Table striped responsive="sm">
           <thead>
             <tr>
               <th>#</th>
