@@ -45,7 +45,7 @@ function Home() {
       return
     }
 
-    // 
+    // send request to backend
   }
   
   return (
