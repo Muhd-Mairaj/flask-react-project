@@ -41,7 +41,7 @@ function Home() {
     }
     
     setFormErrors(errors)
-    if (Object.keys(errros).length > 0) {
+    if (Object.keys(errors).length > 0) {
       return
     }
 
