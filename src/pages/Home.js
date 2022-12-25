@@ -28,7 +28,7 @@ function Home() {
           </thead>
           <tbody>
             {Array.from({ length: profileData.items.length }).map((_, index) => (
-              <tr>
+              <tr className={index === 0 ? "bg-danger" : ""}>
                 <td>{index + 1}</td>
                 <td key={index + 1}>{profileData.items[index].item}</td>
                 <td key={index + 1}>{profileData.items[index].expiry}</td>
