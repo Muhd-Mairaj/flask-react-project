@@ -62,7 +62,7 @@ function Home() {
           <Col xs={12} sm={3} className="py-1">
             <Form.Group controlId="expiry">
               <Form.Control type="date" ref={expiryField}/>
-              <Form.text className="text-danger">{formErrors.expiry}</Form.text>
+              <Form.Text className="text-danger">{formErrors.expiry}</Form.text>
             </Form.Group>
           </Col>
           <Col xs={12} sm={2} className="py-3">
