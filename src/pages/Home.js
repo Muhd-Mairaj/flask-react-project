@@ -58,6 +58,12 @@ function Home() {
               <Form.Control placeholder="Item name" ref={itemField}/>
               <Form.Text className="text-danger">{formErrors.item}</Form.Text>
             </Form.Group>
+            <InputField 
+              name="expiry" 
+              type="date" 
+              fieldRef={expiryField} 
+              error={formErrors.expiry} 
+            />
           </Col>
           <Col xs={12} sm={3} className="py-1">
             <InputField 
