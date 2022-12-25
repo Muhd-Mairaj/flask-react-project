@@ -27,7 +27,7 @@ function Home() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    const itemName = itemField.current.value;
+    const item = itemField.current.value;
     const expiry = expiryField.current.value;
     alert(itemName, expiry)
   }
