@@ -34,7 +34,7 @@ function Home() {
               <tr className={(index === 0) ? "bg-danger" : ""}>
                 <td>{index + 1}</td>
                 <td key={index + 1}>{item.item}</td>
-                <td key={index + 2}>{profileData.items[index].expiry}</td>
+                <td key={index + 2}>{item.expiry}</td>
               </tr>
             ))}
           </tbody>
