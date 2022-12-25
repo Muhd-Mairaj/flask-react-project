@@ -16,6 +16,7 @@ function Home() {
   const [formErrors, setFormErrors] = useState("")
   const itemField = useRef();
   const expiryField = useRef();
+  console.log(f)
 
 
   useEffect(() => {
