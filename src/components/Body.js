@@ -8,7 +8,6 @@ function Body({ loggedIn, children }) {
             {children}
           </Container>
         }
-      </Stack>
     </Container>
   )
 }
