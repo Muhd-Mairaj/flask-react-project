@@ -16,7 +16,7 @@ function App() {
           <Sidebar/>
         </header>
 
-    <Container fluid className="App">
+      <Container fluid className="App">
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
