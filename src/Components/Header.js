@@ -18,8 +18,8 @@ function Header() {
             <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
-            <Nav.Link as={NavLink} to="/change" eventKey={2}>change</Nav.Link>
+            <Nav.Link as={} to="/logout">Logout</Nav.Link>
+            <Nav.Link as={} to="/change" eventKey={2}>change</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
