@@ -18,8 +18,8 @@ function Header() {
             <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link as={href="#deets">More deets</Nav.Link>
+            <Nav.Link as={eventKey={2} href="#memes">
               Dank memes
             </Nav.Link>
           </Nav>
