@@ -24,7 +24,7 @@ function Home() {
       {profileData ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
-              <th>#</th>
+              <th >#</th>
               <th key={1}>Item</th>
               <th key={2}>Expiry</th>
             </tr>
