@@ -1,4 +1,6 @@
 import Body from '../components/Body';
 
 
-export default 
+function 
+
+export default Login
