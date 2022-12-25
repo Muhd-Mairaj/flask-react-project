@@ -26,7 +26,8 @@ code {
 }
 
 .nav-link {
-  padding-left: 0.543mm;
+  padding-left: 0.5mm;
+  padding-right: 0.5mm;
 }
 
 .navbar-nav .nav-link:hover {
