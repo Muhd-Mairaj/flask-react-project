@@ -38,7 +38,7 @@ function Home() {
             <Button variant="dark" className="" type="submit">Add</Button>
 
           // </Form>
-        /*</Stack>*/
+        </Stack>*/
         }
 
         {items ? <Table striped bordered variant="dark" responsive="lg">
