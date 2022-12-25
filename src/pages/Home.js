@@ -28,7 +28,7 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {profileData.items.map((item, index) => (
+            {profileData.map((item, index) => (
               <tr>
                 <td>{index + 1}</td>
                 <td>{item.item}</td>
