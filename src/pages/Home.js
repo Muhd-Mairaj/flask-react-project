@@ -26,7 +26,7 @@ function Home() {
   
 
   function handleSubmit(event) {
-    alert(itemField.)
+    alert(itemField.current)
     
     event.preventDefault();
   }
