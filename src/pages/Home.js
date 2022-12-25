@@ -11,7 +11,7 @@ function Home() {
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
-      setProfileData(dat)
+      setProfileData(data.items)
     }).catch(error => console.log(error))
   }, []);
   
