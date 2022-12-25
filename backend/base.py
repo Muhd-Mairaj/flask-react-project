@@ -6,7 +6,7 @@ db = SQL("sqlite:///database.db")
 
 @app.route("/profile")
 def profile():
-    items = []
+    items = 
     return jsonify({
         "name": "testing",
         "about": "test"
