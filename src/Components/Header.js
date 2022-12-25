@@ -26,23 +26,23 @@ function Header() {
       </Container>
     </Navbar>
 
-    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
-      <Container>
+    // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark">
+    //   <Container>
 
-        <Navbar.Brand href="/">Tracker</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-              <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
-              <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
-          </Nav>
-          <Nav className="ms-auto">
-              <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+    //     <Navbar.Brand href="/">Tracker</Navbar.Brand>
+    //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    //     <Navbar.Collapse id="basic-navbar-nav">
+    //       <Nav className="me-auto">
+    //           <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
+    //           <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
+    //       </Nav>
+    //       <Nav className="ms-auto">
+    //           <Nav.Link as={NavLink} to="/logout" end>Logout</Nav.Link>
+    //       </Nav>
+    //     </Navbar.Collapse>
 
-      </Container>
-    </Navbar>
+    //   </Container>
+    // </Navbar>
   );
 }
 
