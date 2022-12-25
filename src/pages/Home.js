@@ -1,4 +1,4 @@
-import React, { useState, useE } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table'
 import Body from '../components/Body';
