@@ -29,7 +29,7 @@ function Home() {
     event.preventDefault();
     const itemName = itemField.current.value;
     const expiry = expiryField.current.value;
-    alert(item)
+    alert(itemName, expiry)
   }
   
   return (
