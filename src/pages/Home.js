@@ -8,7 +8,7 @@ function Home() {
   const [profileData, setProfileData] = useState(null)
 
   useEffect(() => {
-    fetch("/profile")
+    fetch("/profile").then()
   })
   
   return (
