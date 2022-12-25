@@ -6,7 +6,7 @@ import Body from '../components/Body';
 import '../index.css';
 
 function Home() {
-  const [profileData, setProfileData] = useState(null)
+  const [items, setProfileData] = useState(null)
 
   useEffect(() => {
     fetch("/profile").then(response => response.json()).then(data => {
@@ -19,7 +19,7 @@ function Home() {
     <Body loggedIn>
       <Container fluid className="Home">
 
-      {profileData ? <Table striped bordered variant="dark" responsive="lg">
+      {items ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
               <th>#</th>
@@ -28,7 +28,7 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {profileData.map((item, index) => (
+            {items.map((item, index) => (
               <tr>
                 <td>{index + 1}</td>
                 <td>{item.item}</td>
