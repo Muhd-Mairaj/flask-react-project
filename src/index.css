@@ -24,6 +24,7 @@ code {
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #fff;
 }
+
 .Header a {
   color: #61dafb;
 }
@@ -32,7 +33,6 @@ code {
   background-color: #eeeeee0f;
   color: #61dafb;
 }
-
 
 .Header .nav-item .active {
   /* background-color: #def; */
