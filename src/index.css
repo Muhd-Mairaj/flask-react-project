@@ -25,7 +25,9 @@ code {
   border-bottom: 2px solid #fff;
 }
 
-
+.nav-link:hover {
+  
+}
 
 .Header a:hover {
   background-color: #eeeeee0f;
