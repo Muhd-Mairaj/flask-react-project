@@ -17,7 +17,7 @@ function getData() {
     /** END METHOD 2 */
 
   return (
-    <div className="Home">
+    <div className="App">
       <button onClick={getData}>Get Data</button>
             {profileData && <div>
                   <p>Profile name: {profileData.name}</p>
@@ -30,18 +30,3 @@ function getData() {
 
 export default Home;
 
-/* METHOD 1 - WORKS */
-// async function getData() {
-  // const response = await fetch("/profile", {
-    //     method: "GET",
-    // })
-
-    // console.log(response)
-    // if (response.ok) {
-    //     const res = await response.json()
-    //     setProfileData({
-    //         name: res.name,
-    //         about: res.about
-    //     })
-    // }
-    /** END METHOD 1 */
