@@ -11,8 +11,8 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-    <Container fluid className="App">
 
+    <Container fluid className="App">
         <header className="App-header">
           <Sidebar/>
         </header>
