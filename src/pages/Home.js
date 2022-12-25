@@ -33,9 +33,12 @@ function Home() {
 
         <Row>
           <Col sm={12}>
-          <Form.Control className="" placeholder="Item name"/>
+            <Form.Control className="" placeholder="Item name"/>
           </Col>
-          
+          <Col sm={12}>
+            <Form.Control className="" placeholder="Item name"/>
+          </Col>
+
         </Row>
         {/* <Stack direction="horizontal" className="horizontalForm" gap={3}>
           // <Form onSubmit={handleSubmit}>
