@@ -34,7 +34,7 @@ function Home() {
           <Col xs={12} sm={8} className="px=0">
             <Form.Control className="" placeholder="Item name"/>
           </Col>
-          <Col xs={12} sm={3}>
+          <Col xs={12} sm={3} className="px-">
             <Form.Control className="me-auto" placeholder="Item name" type="date"/>
           </Col>
           <Col xs={12} sm={1}>
