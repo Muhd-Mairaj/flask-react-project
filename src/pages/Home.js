@@ -20,7 +20,7 @@ function Home() {
     <Body loggedIn>
       <Container fluid className="Home">
 
-        <Stack direction="horizontal">
+        <Stack direction="horizontal" gap={3}>
           
         </Stack>
         {items ? <Table striped bordered variant="dark" responsive="lg">
