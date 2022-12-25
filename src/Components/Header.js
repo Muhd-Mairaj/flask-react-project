@@ -18,8 +18,8 @@ function Header() {
             <Nav.Link>Test</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link/logout">Logout</Nav.Link>
-            <Nav.Link/change" eventKey={2}>change</Nav.Link>
+            <Nav.Link>Logout</Nav.Link>
+            <Nav.Link eventKey={2}>change</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
