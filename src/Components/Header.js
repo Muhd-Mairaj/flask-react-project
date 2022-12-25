@@ -6,7 +6,7 @@ import '../index.css'
 
 function Header() {
   return (
-    <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
+    <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Header nav">
       <Container>
 
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
