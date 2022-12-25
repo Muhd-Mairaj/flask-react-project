@@ -19,7 +19,7 @@ function getData() {
     /** END METHOD 2 */
 
   return (
-    <Container>
+    <Body>
       <button onClick={getData}>Get Data</button>
             {profileData && <div>
                   <p>Profile name: {profileData.name}</p>
