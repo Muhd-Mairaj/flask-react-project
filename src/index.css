@@ -25,10 +25,6 @@ code {
   border-bottom: 2px solid #fff;
 }
 
-.Header .nav-item a {
-  color: #61dafb;
-}
-
 .Header a:hover {
   background-color: #eeeeee0f;
   color: #61dafb;
