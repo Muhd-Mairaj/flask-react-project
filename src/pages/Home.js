@@ -27,8 +27,8 @@ function Home() {
               ))}
             </tr>
           </thead>
+          <tbody>
           {Array.from({ length: profileData.items.length }).map((_, index) => (
-            <tbody>
               <tr>
                 <td>{index + 1}</td>
                 <td key={index + 1}>{profileData.items[index].item}</td>
