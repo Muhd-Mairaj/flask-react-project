@@ -8,8 +8,7 @@ function Sidebar() {
   return (
     <Navbar sticky="top" expand="sm" bg="dark" className="flex-row Sidebar nav">
       <Container>
-        
-      </Container>
+
       <Navbar.Brand href="/">Tracker</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -28,6 +27,7 @@ function Sidebar() {
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
+      </Container>
 
 
     </Navbar>
