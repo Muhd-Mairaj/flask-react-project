@@ -37,7 +37,7 @@ function Header() {
       </Container>
     </Navbar>
 
-    <Navbar fixed="top" expand="sm" bg="dark" className="flex-row Header nav">
+    <Navbar fixed="top" expand="sm" bg="dark" variant="dark">
       <Container>
 
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
