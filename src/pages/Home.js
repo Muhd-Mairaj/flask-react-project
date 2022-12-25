@@ -14,8 +14,8 @@ function getData() {
             about: data.about,
             query: data.query,
             items: data.items,
-          })
-          
+        })
+
 
       }).catch(error => console.log(error))
     }
