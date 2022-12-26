@@ -87,7 +87,7 @@ function Login() {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="dark"  onClick="submit">
+          <Button variant="dark"  onClick={handle}>
             Login
           </Button>
         </Modal.Footer>
