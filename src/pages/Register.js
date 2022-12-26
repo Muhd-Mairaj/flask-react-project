@@ -28,13 +28,13 @@ function Register() {
 
     const errors = {};
     if (!username) {
-      errors.username = "Username field must be filled"
+      errors.username = "This field must be filled"
     }
     if (!password) {
-      errors.password = "Password field must be filled"
+      errors.password = "This field must be filled"
     }
     if (!confirm) {
-      errors.confirm = "Confirm  field must be filled"
+      errors.confirm = "This  field must be filled"
     }
 
     setFormErrors(errors)
