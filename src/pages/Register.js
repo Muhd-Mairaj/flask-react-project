@@ -37,7 +37,7 @@ function Register() {
       errors.confirm = "This field must be filled"
     }
     if (password !== confirm) {
-      
+      errors.confirm
     }
 
     setFormErrors(errors)
