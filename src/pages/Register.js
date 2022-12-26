@@ -48,7 +48,7 @@ function Register() {
   
   return (
     <Body loggedIn>
-      <h2>Register</h2>
+      {/* <h2>Register</h2> */}
       <Form onSubmit={handleSubmit}>
         <Col>
           <Row className="justify-content-center">
