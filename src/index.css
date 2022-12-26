@@ -35,7 +35,7 @@ hr {
 .Header {
   margin-bottom: 0.3rem;
   border-bottom: 2px solid #fff;
-  
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 .horizontalForm {
