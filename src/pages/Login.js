@@ -76,19 +76,7 @@ function Login() {
           </Button>
         </Modal.Footer>
       </Modal>
-      <Form onSubmit={handleSubmit}>
-          <InputField
-            name="username" label="Username" placeholder="Username"
-            error={formErrors.username} fieldRef={usernameField}
-            class_name="mx-auto w-auto"
-          />
-          <InputField
-            name="password" label="Password" type="password" placeholder="Password"
-            error={formErrors.password} fieldRef={passwordField} 
-            class_name="mx-auto w-auto"
-          />
-          <Button variant="primary" type="submit" className="mx-auto">Login</Button>
-      </Form>
+      
     </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
