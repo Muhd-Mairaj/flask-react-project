@@ -55,10 +55,10 @@ function Login() {
           </Row>
           <Row>
             <Col xs={12} sm={6}>
+              <InputField
+              name="password" label="Password" type="password" placeholder="Password"
+              error={formErrors.password} fieldRef={passwordField} />
             </Col>
-            <InputField
-            name="password" label="Password" type="password" placeholder="Password"
-            error={formErrors.password} fieldRef={passwordField} />
           </Row>
           <Row xs={10} sm={2}>
             <Button variant="primary" type="submit">Login</Button>
