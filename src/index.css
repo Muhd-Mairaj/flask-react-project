@@ -39,7 +39,9 @@ code {
   }
 }
 
-
+.Home {
+  padding-top:1
+}
 
 .navbar-brand {
   padding-left: 1rem;
