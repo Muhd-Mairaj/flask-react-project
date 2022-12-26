@@ -66,6 +66,15 @@ function Login() {
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
       <Form onSubmit={handleSubmit}>
           <InputField
             name="username" label="Username" placeholder="Username"
@@ -79,15 +88,6 @@ function Login() {
           />
           <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
       </Modal>
     </Body>
     //   <Form onSubmit={handleSubmit}>
