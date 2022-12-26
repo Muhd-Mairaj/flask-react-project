@@ -22,8 +22,8 @@ function Login() {
     if (!username) {
       errors.username = "Username field must be filled"
     }
-    if (!username) {
-      errors.username = "Username field must be filled"
+    if (!password) {
+      errors.password = "Username field must be filled"
     }
   }
   
