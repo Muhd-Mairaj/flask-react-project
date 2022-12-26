@@ -49,7 +49,7 @@ function Login() {
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
+          {/* <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control
@@ -65,7 +65,7 @@ function Login() {
               <Form.Label>Example textarea</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
-          </Form>
+          </Form> */}
           <Form onSubmit={handleSubmit}>
             <InputField
               name="username" label="Username" placeholder="Username"
