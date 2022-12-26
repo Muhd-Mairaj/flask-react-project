@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
-import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -38,48 +37,30 @@ function Login() {
       return
     }
 
-    handleClose()
     // Login
     alert("Logging in")
   }
   
-  const [show, setShow] = useState(true);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      <Modal 
-        show={show} 
-        onHide={handleClose}
-        size="md"
-        background="static">
-        <Modal.Header>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form onSubmit={handleSubmit}>
-            <InputField
-              name="username" label="Username" placeholder="Username"
-              error={formErrors.username} fieldRef={usernameField}
-              class_name="mx-auto w-auto"
-            />
-            <InputField
-              name="password" label="Password" type="password" placeholder="Password"
-              error={formErrors.password} fieldRef={passwordField} 
-              class_name="mx-auto w-auto"
-            />
-            <Button variant="primary" type="submit" className="mx-auto">Login</Button>
-          </Form>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="dark"  onClick={handleSubmit}>
-            Login
-          </Button>
-        </Modal.Footer>
-      </Modal>
-      
+      <Form onSubmit={handleSubmit}>
+        <div className="w-auto">
+          <InputField
+            name="username" label="Username" placeholder="Username"
+            error={formErrors.username} fieldRef={usernameField}
+          />
+        </div>
+        <div className="w-auto">
+
+        <InputField
+          name="password" label="Password" type="password" placeholder="Password"
+          error={formErrors.password} fieldRef={passwordField} 
+        />
+        </div>
+        <div className="w-auto"></div>
+        <Button variant="primary" type="submit">Login</Button>
+      </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
