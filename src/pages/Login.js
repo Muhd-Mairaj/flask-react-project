@@ -41,6 +41,10 @@ function Login() {
     alert("Logging in")
   }
   
+  const [show, setShow] = useState(true);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <Body loggedIn>
       <h1>Login</h1>
