@@ -23,6 +23,7 @@ hr {
 
 .btn {
   border-color: darkgrey;
+  height: 0;
 }
 
 .App {
