@@ -45,8 +45,6 @@ function Login() {
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
         <Col className="justify-content-center">
-          
-        </Col>
         <Row>
           <InputField
             name="username" label="Username" placeholder="Username"
@@ -60,6 +58,7 @@ function Login() {
         <Row sm={10}>
           <Button variant="primary" type="submit">Login</Button>
         </Row>
+        </Col>
       </Form>
     </Body>
   );
