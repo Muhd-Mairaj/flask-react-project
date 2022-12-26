@@ -37,6 +37,7 @@ function Login() {
       return
     }
 
+    h
     // Login
     alert("Logging in")
   }
