@@ -52,7 +52,7 @@ function Home() {
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
         <Row className="HorizontalForm">
-          <Col xs={12} sm={7} gap={0} className="">
+          <Col xs={12} sm={7} className="">
             <InputField
               name="item"
               placeholder="Item name"
