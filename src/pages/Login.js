@@ -74,7 +74,7 @@ function Login() {
               error={formErrors.password} fieldRef={passwordField} />
             </Col>
           </Row>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center py-3">
             <Col xs={10} sm={2}>
               <Button variant="dark" className="w-100" type="submit">Login</Button>
             </Col>
