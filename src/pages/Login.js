@@ -16,9 +16,6 @@ function Login() {
         </Form>
       </Body>
     );
-    <Body loggedIn>
-      
-    </Body>
 }
 
 export default Login
