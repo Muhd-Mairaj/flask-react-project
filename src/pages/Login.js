@@ -20,7 +20,7 @@ function Login() {
 
     const errors = {};
     if (!username) {
-      errors.username = "Username "
+      errors.username = "Username field must be filled"
     }
   }
   
