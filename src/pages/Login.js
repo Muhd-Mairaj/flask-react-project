@@ -62,8 +62,7 @@ function Login() {
           </Row>
           <Row >
             <Col xs={10} sm={2}>
-
-            <Button variant="primary" type="submit">Login</Button>
+              <Button variant="primary" type="submit">Login</Button>
             </Col>
           </Row>
         </Col>
