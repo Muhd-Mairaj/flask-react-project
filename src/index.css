@@ -36,7 +36,9 @@ hr {
   margin: 0.5rem 0rem;
 }
 
-@media screen and (max-width: 576p)
+@media screen and (max-width: 576px) {
+  
+}
 
 .HorizontalForm {
   /* margin-top: 1rem; */
