@@ -44,22 +44,19 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
+      
       <Form onSubmit={handleSubmit}>
-        <div className="w-auto">
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
+            class_name="mx-auto w-auto"
           />
-        </div>
-        <div className="w-auto">
-
-        <InputField
-          name="password" label="Password" type="password" placeholder="Password"
-          error={formErrors.password} fieldRef={passwordField} 
-        />
-        </div>
-        <div className="w-auto"></div>
-        <Button variant="primary" type="submit">Login</Button>
+          <InputField
+            name="password" label="Password" type="password" placeholder="Password"
+            error={formErrors.password} fieldRef={passwordField} 
+            class_name="mx-auto w-auto"
+          />
+          <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
