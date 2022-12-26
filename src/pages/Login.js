@@ -44,6 +44,7 @@ function Login() {
     <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
+        
         <Row>
           <InputField
             name="username" label="Username" placeholder="Username"
@@ -55,8 +56,7 @@ function Login() {
           error={formErrors.password} fieldRef={passwordField} />
         </Row>
         <Row sm={10}>
-
-        <Button variant="primary" type="submit">Login</Button>
+          <Button variant="primary" type="submit">Login</Button>
         </Row>
       </Form>
     </Body>
