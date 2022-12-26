@@ -76,7 +76,6 @@ function Login() {
           </Button>
         </Modal.Footer>
       </Modal>
-      <Form onSubmit={handleSubmit}>
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
@@ -87,6 +86,7 @@ function Login() {
             error={formErrors.password} fieldRef={passwordField} 
             class_name="mx-auto w-auto"
           />
+      <Form onSubmit={handleSubmit}>
           <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
     </Body>
