@@ -42,44 +42,45 @@ function Login() {
   }
   
   return (
-    // <Body loggedIn>
-    //   <h1>Login</h1>
-    //   <Form onSubmit={handleSubmit}>
-    //       <InputField
-    //         name="username" label="Username" placeholder="Username"
-    //         error={formErrors.username} fieldRef={usernameField}
-    //         class_name="mx-auto w-auto"
-    //       />
-    //       <InputField
-    //         name="password" label="Password" type="password" placeholder="Password"
-    //         error={formErrors.password} fieldRef={passwordField} 
-    //         class_name="mx-auto w-auto"
-    //       />
-    //       <Button variant="primary" type="submit" className="mx-auto">Login</Button>
-    //   </Form>
+    <Body loggedIn>
+      <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
-        {/* <Col> */}
-          <Row className="justify-content-center">
-            <Col xs={12} sm={6}>
-              <InputField
-                name="username" label="Username" placeholder="Username"
-                error={formErrors.username} fieldRef={usernameField} />
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <Col xs={12} sm={6}>
-              <InputField
-              name="password" label="Password" type="password" placeholder="Password"
-              error={formErrors.password} fieldRef={passwordField} />
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <Col xs={10} sm={2}>
-              <Button variant="primary" type="submit">Login</Button>
-            </Col>
-          </Row>
-        {/* </Col> */}
+          <InputField
+            name="username" label="Username" placeholder="Username"
+            error={formErrors.username} fieldRef={usernameField}
+            class_name="mx-auto w-auto"
+          />
+          <InputField
+            name="password" label="Password" type="password" placeholder="Password"
+            error={formErrors.password} fieldRef={passwordField} 
+            class_name="mx-auto w-auto"
+          />
+          <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
+    </Body>
+    //   <Form onSubmit={handleSubmit}>
+    //     <Col>
+    //       <Row className="justify-content-center">
+    //         <Col xs={12} sm={6}>
+    //           <InputField
+    //             name="username" label="Username" placeholder="Username"
+    //             error={formErrors.username} fieldRef={usernameField} />
+    //         </Col>
+    //       </Row>
+    //       <Row className="justify-content-center">
+    //         <Col xs={12} sm={6}>
+    //           <InputField
+    //           name="password" label="Password" type="password" placeholder="Password"
+    //           error={formErrors.password} fieldRef={passwordField} />
+    //         </Col>
+    //       </Row>
+    //       <Row className="justify-content-center">
+    //         <Col xs={10} sm={2}>
+    //           <Button variant="primary" type="submit">Login</Button>
+    //         </Col>
+    //       </Row>
+    //     </Col>
+    //   </Form>
     // </Body>
   );
 }
