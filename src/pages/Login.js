@@ -87,7 +87,7 @@ function Login() {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary"  type="submit"onClick={handleClose}>
+          <Button variant="secondary"  type="submit">
             Close
           </Button>
           <Button variant="primary" onClick={handleClose}>
