@@ -65,13 +65,13 @@ function Login() {
                 error={formErrors.username} fieldRef={usernameField} />
           {/* </Row> */}
             </Row>
-          {/* <Row className=""> */}
             <Row xs={12} sm={6}>
+          {/* <Row className=""> */}
               <InputField
               name="password" label="Password" type="password" placeholder="Password"
               error={formErrors.password} fieldRef={passwordField} />
-            </Row>
           {/* </Row> */}
+            </Row>
           {/* <Row className=""> */}
             <Row xs={10} sm={2}>
               <Button variant="primary" type="submit">Login</Button>
