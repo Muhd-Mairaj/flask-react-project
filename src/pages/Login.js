@@ -19,7 +19,9 @@ function Login() {
     const password = passwordField.current.value
 
     const errors = {};
-    if (!username)
+    if (!username) {
+      
+    }
   }
   
   return (
