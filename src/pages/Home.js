@@ -68,10 +68,6 @@ function Home() {
               fieldRef={expiryField}
               error={formErrors.expiry}
             />
-            {/* <Form.Group controlId="expiry">
-              <Form.Control type="date" ref={expiryField}/>
-              <Form.Text className="text-danger">{formErrors.expiry}</Form.Text>
-            </Form.Group> */}
           </Col>
           <Col xs={12} sm={2} className="py-3">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
