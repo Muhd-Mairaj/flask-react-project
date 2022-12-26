@@ -26,6 +26,7 @@ function Login() {
       errors.password = "Password field must be filled"
     }
 
+    setFormErrors(errors)
     
   }
   
