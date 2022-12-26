@@ -13,7 +13,8 @@ function Login() {
 
 
   function handleSubmit(event) {
-    event
+    event.preventDefault()
+    
   }
   
   return (
