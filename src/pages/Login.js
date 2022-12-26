@@ -45,19 +45,16 @@ function Login() {
     <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
-        <div className="mx-auto w-auto">
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
           />
         </div>
-        <div className="mx-auto w-auto">
           <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} 
           />
         </div>
-        <div className="mx-auto w-auto">
           <Button variant="primary" type="submit">Login</Button>
         </div>
       </Form>
