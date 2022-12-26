@@ -63,9 +63,6 @@ function Login() {
           <Row className="justify-content-center">
             <Col xs={10} sm={2}>
               <Button variant="primary" type="submit">Login</Button>
-            </Col>
-          </Row>
-        </Col>
       </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
