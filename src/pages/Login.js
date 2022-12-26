@@ -58,7 +58,6 @@ function Login() {
     //       <Button variant="primary" type="submit" className="mx-auto">Login</Button>
     //   </Form>
       <Form onSubmit={handleSubmit}>
-        <Col>
           <Row className="justify-content-center">
             <Col xs={12} sm={6}>
               <InputField
