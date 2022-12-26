@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 
 import Body from '../components/Body';
 
-
 function Login() {
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
