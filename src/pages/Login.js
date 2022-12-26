@@ -76,7 +76,7 @@ function Login() {
           </Row>
           <Row className="justify-content-center">
             <Col xs={10} sm={2}>
-              <Button variant="dark" className= type="submit">Login</Button>
+              <Button variant="dark" className="w-100" type="submit">Login</Button>
             </Col>
           </Row>
         </Col>
