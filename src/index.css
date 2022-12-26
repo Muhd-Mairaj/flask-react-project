@@ -48,7 +48,9 @@ hr {
   align-items: baseline;
 }
 
-.HorizontalForm Button
+.HorizontalForm Button {
+  max-width: 80;
+}
 
 .Home {
   margin-top: 2rem;
