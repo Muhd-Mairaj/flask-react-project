@@ -50,11 +50,10 @@ function Login() {
             error={formErrors.username} fieldRef={usernameField} />
         </Row>
         <Row sm={12}>
-          
-        </Row>
           <InputField
           name="password" label="Password" type="password" placeholder="Password"
           error={formErrors.password} fieldRef={passwordField} />
+        </Row>
         <Button variant="primary" type="submit">Login</Button>
       </Form>
     </Body>
