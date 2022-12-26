@@ -23,7 +23,7 @@ function Login() {
       errors.username = "Username field must be filled"
     }
     if (!password) {
-      errors.password = "Username field must be filled"
+      errors.password = "Password field must be filled"
     }
   }
   
