@@ -27,7 +27,7 @@ function Login() {
     }
 
     setFormErrors(errors)
-    if ()
+    if (Object.keys(errors).length > 0)
   }
   
   return (
