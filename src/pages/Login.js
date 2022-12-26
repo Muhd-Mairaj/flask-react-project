@@ -15,7 +15,7 @@ function Login() {
   function handleSubmit(event) {
     event.preventDefault()
 
-    const username = 
+    const username = user
   }
   
   return (
