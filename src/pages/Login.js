@@ -47,7 +47,9 @@ function Login() {
       <Form onSubmit={handleSubmit}>
         <Col className="justify-content-center">
           <Row >
-            <Col
+            <Col xs={12} sm={6}>
+              
+            </Col>
             <InputField
               name="username" label="Username" placeholder="Username"
               error={formErrors.username} fieldRef={usernameField} />
