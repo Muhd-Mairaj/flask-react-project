@@ -6,7 +6,6 @@ function Body({ loggedIn, children }) {
     <>
         {loggedIn && <>
             {children}
-          </>
         }
     </>
   )
