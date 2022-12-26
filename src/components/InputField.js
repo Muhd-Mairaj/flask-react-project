@@ -1,7 +1,7 @@
 import Form from 'react-bootstrap/Form';
 
 function InputField(
-  { name, label, type, placeholder, error, fieldRef }
+  { name, label, type, placeholder, error, fieldRef, classn }
 ) {
   return (
     <Form.Group controlId={name} className="InputField">
