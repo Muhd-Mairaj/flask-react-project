@@ -68,7 +68,7 @@ function Login() {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs={12} sm={6}>
+            <Col xs={12} sm={6} md={5}>
               <InputField
               name="password" label="Password" type="password" placeholder="Password"
               error={formErrors.password} fieldRef={passwordField} />
