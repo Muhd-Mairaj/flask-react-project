@@ -13,7 +13,7 @@ function InputField(
         className={class_name}
       />
       <div className="mx-1">
-        <Form.Text className="text-danger text-center text-wrap">{error}</Form.Text>
+        <Form.Text className="text-danger text-center">{error}</Form.Text>
       </div>
     </Form.Group>
   );
