@@ -58,8 +58,8 @@ function Login() {
     //       <Button variant="primary" type="submit" className="mx-auto">Login</Button>
     //   </Form>
       <Form onSubmit={handleSubmit}>
-          {/* <Row className=""> */}
             <Row xs={12} sm={6}>
+          {/* <Row className=""> */}
               <InputField
                 name="username" label="Username" placeholder="Username"
                 error={formErrors.username} fieldRef={usernameField} />
