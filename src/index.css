@@ -50,7 +50,7 @@ hr {
 .HorizontalForm {
   /* margin-top: 1rem; */
   margin-bottom: 0rem;
-  align-items: baseline;
+  align-items: inherit;
 }
 
 .col-12 {
