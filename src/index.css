@@ -21,7 +21,9 @@ hr {
   margin: 0rem
 }
 
-button
+Button {
+  border-color: darkgrey;
+}
 
 .App {
   padding: 0;
