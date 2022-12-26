@@ -72,11 +72,11 @@ function Login() {
               error={formErrors.password} fieldRef={passwordField} />
           {/* </Row> */}
             </Row>
-          {/* <Row className=""> */}
             <Row xs={10} sm={2}>
+          {/* <Row className=""> */}
               <Button variant="primary" type="submit">Login</Button>
-            </Row>
           {/* </Row> */}
+            </Row>
       </Form>
     // </Body>
   );
