@@ -39,7 +39,7 @@ function Header({ loggedIn }) {
                   <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
               </Nav>
             </>
-            :
+          :
             <>
               <Nav className="ms-auto">
                   <Nav.Link as={NavLink} to="/login">login</Nav.Link>
