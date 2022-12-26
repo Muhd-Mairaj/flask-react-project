@@ -43,7 +43,7 @@ function Login() {
   
   return (
     <Body loggedIn>
-      <h2>Login</h2>
+      {/* <h2>Login</h2> */}
       {/* <Form onSubmit={handleSubmit}>
           <InputField
             name="username" label="Username" placeholder="Username"
