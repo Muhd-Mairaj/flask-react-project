@@ -60,7 +60,8 @@ function Login() {
               error={formErrors.password} fieldRef={passwordField} />
             </Col>
           </Row>
-          <Row xs={10} sm={2}>
+          <Row >
+            <Col 
             <Button variant="primary" type="submit">Login</Button>
           </Row>
         </Col>
