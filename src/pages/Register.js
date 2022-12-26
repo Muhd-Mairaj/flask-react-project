@@ -96,4 +96,5 @@ function Register() {
     </Body>
   );
 }
+
 export default Register
