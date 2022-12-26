@@ -49,7 +49,7 @@ function Home() {
   }
 
   return (
-    <Body log>
+    <Body loggedIn>
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
