@@ -44,7 +44,7 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      {/* <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
@@ -57,7 +57,7 @@ function Login() {
           />
           <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
-    </Body> */}
+    </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
     //       <Row className="justify-content-center">
