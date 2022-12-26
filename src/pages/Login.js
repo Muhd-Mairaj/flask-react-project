@@ -7,6 +7,9 @@ function Login() {
   const usernameField = useRef()
   const passwordField = useRef()
 
+  useEffect(() => {
+    usernameField.current.focus();
+  }, []);
   
   return (
     <Body loggedIn>
