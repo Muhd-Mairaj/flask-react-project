@@ -33,12 +33,12 @@ function Register() {
     // if (!username) {
     //   errors.username = "This field must be filled"
     // }
-    if (!password) {
-      errors.password = "This field must be filled"
-    }
-    if (!confirm) {
-      errors.confirm = "This field must be filled"
-    }
+    // if (!password) {
+    //   errors.password = "This field must be filled"
+    // }
+    // if (!confirm) {
+    //   errors.confirm = "This field must be filled"
+    // }
     if (password !== confirm) {
       errors.confirm = "Passwords do not match"
     }
