@@ -58,7 +58,7 @@ function Login() {
     //       <Button variant="primary" type="submit" className="mx-auto">Login</Button>
     //   </Form>
       <Form onSubmit={handleSubmit}>
-            <Row xs={12} sm={6}>
+            <Row xs={12} sm={6} class_name>
               <Col className="">
               <InputField
                 name="username" label="Username" placeholder="Username"
