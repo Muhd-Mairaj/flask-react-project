@@ -16,6 +16,7 @@ function Login() {
     event.preventDefault()
 
     const username = usernameField.current.value
+    const username = usernameField.current.value
   }
   
   return (
