@@ -28,6 +28,8 @@ function Register() {
 
     const errors = {};
     errors.username = (!username) ? "This field must be filled" : ""
+    errors.username = (!username) ? "This field must be filled" : ""
+    errors.username = (!username) ? "This field must be filled" : ""
     // if (!username) {
     //   errors.username = "This field must be filled"
     // }
