@@ -77,7 +77,7 @@ function Home() {
 
       <hr></hr>
 
-      {items ? <Table striped bordered variant="dark" responsive="lg" className="py-3">
+      {items ? <Table striped bordered variant="dark" responsive="lg" className="my-3">
           <thead>
             <tr>
               <th>#</th>
