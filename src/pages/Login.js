@@ -66,6 +66,19 @@ function Login() {
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
           </Form>
+          <Form onSubmit={handleSubmit}>
+          <InputField
+            name="username" label="Username" placeholder="Username"
+            error={formErrors.username} fieldRef={usernameField}
+            class_name="mx-auto w-auto"
+          />
+          <InputField
+            name="password" label="Password" type="password" placeholder="Password"
+            error={formErrors.password} fieldRef={passwordField} 
+            class_name="mx-auto w-auto"
+          />
+          <Button variant="primary" type="submit" className="mx-auto">Login</Button>
+      </Form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
