@@ -44,7 +44,7 @@ function Login() {
     <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
-        
+        <Col className
         <Row>
           <InputField
             name="username" label="Username" placeholder="Username"
