@@ -58,9 +58,8 @@ function Login() {
           />
         </div>
         <div className="w-auto">
-          
+          <Button variant="primary" type="submit">Login</Button>
         </div>
-        <Button variant="primary" type="submit">Login</Button>
       </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
