@@ -50,7 +50,7 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      {/* <Modal 
+      <Modal 
         show={show} 
         onHide={handleClose}
         size="md"
@@ -97,7 +97,7 @@ function Login() {
         </Modal.Footer>
       </Modal>
       
-    </Body> */}
+    </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
     //       <Row className="justify-content-center">
