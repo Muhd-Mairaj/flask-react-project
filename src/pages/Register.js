@@ -31,18 +31,18 @@ function Register() {
     // errors.password = (!password) ? "This field must be filled" : ""
     // errors.confirm = (!confirm) ? "This field must be filled" : ""
     // errors.confirm = (password !== confirm) ? "Passwords must match" : ""
-    // if (!username) {
-    //   errors.username = "This field must be filled"
-    // }
-    // if (!password) {
-    //   errors.password = "This field must be filled"
-    // }
-    // if (!confirm) {
-    //   errors.confirm = "This field must be filled"
-    // }
-    // if (password !== confirm) {
-    //   errors.confirm = "Passwords do not match"
-    // }
+    if (!username) {
+      errors.username = "This field must be filled"
+    }
+    if (!password) {
+      errors.password = "This field must be filled"
+    }
+    if (!confirm) {
+      errors.confirm = "This field must be filled"
+    }
+    if (password !== confirm) {
+      errors.confirm = "Passwords do not match"
+    }
 
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
