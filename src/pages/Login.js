@@ -45,7 +45,7 @@ function Login() {
     <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
-        <div className="w-auto">
+        <div className="mx-auto w-auto">
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
