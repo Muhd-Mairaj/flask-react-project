@@ -12,7 +12,6 @@ function Login() {
   }, []);
 
   
-  
   return (
     <Body loggedIn>
       <h1>Login</h1>
