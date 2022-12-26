@@ -54,10 +54,6 @@ function Home() {
       <Form onSubmit={handleSubmit}>
         <Row className="horizontalForm">
           <Col xs={12} sm={7} className="py-1">
-            {/* <Form.Group controlId="item">
-              <Form.Control placeholder="Item name" ref={itemField}/>
-              <Form.Text className="text-danger">{formErrors.item}</Form.Text>
-            </Form.Group> */}
             <InputField
               name="item"
               placeholder="Item name"
