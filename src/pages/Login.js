@@ -4,7 +4,7 @@ import Body from '../components/Body';
 function Login() {
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
-  const usernameField = useRef()
+  const passwordField = useRef()
 
   
   return (
