@@ -46,12 +46,12 @@ function Login() {
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
         <Col className="justify-content-center">
-          <Row xs={12} >
+          <Row xs={12} s >
             <InputField
               name="username" label="Username" placeholder="Username"
               error={formErrors.username} fieldRef={usernameField} />
           </Row>
-          <Row xs={12}>
+          <Row xs={12} s>
             <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} />
