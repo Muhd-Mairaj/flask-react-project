@@ -55,7 +55,7 @@ function Login() {
             error={formErrors.password} fieldRef={passwordField} 
             class_name="mx-auto w-auto"
           />
-          <Button variant="primary" type="submit" className="mx-auto w-auto">Login</Button>
+          <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
