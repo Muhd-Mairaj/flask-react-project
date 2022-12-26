@@ -86,7 +86,7 @@ function Login() {
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={5} lg={4} xl={3}>
           <hr />
-          <p>Don&apos;t have an account? <NavLink to="/register">Register here</NavLink>!</p>
+          <p clas>Don&apos;t have an account? <NavLink to="/register">Register here</NavLink>!</p>
         </Col>
       </Row>
 
