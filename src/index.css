@@ -30,7 +30,7 @@ code {
 .horizontalForm {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  align-items: center;
+  align-items: baseline;
 }
 
 @media screen and (max-width: 576px) {
