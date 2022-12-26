@@ -14,8 +14,8 @@ import '../index.css';
 function Home() {
   const [items, setItems] = useState(null)
   const [formErrors, setFormErrors] = useState({})
-  const itemField = useRef();
-  const expiryField = useRef();
+  const itemField = useRef()
+  const expiryField = useRef()
 
 
   useEffect(() => {
