@@ -52,7 +52,7 @@ function Home() {
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
         <Row className="HorizontalForm">
-          <Col xs={12} sm={7} className="">
+          <Col xs={12} sm={7} className="py-1">
             <InputField
               name="item"
               placeholder="Item name"
@@ -60,7 +60,7 @@ function Home() {
               error={formErrors.item}
             />
           </Col>
-          <Col xs={12} sm={3} className="">
+          <Col xs={12} sm={3} className="py-1">
             <InputField
               name="expiry"
               type="date"
@@ -68,7 +68,7 @@ function Home() {
               error={formErrors.expiry}
             />
           </Col>
-          <Col xs={12} sm={2} className="">
+          <Col xs={12} sm={2} className="pt-1 pb-3">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
           </Col>
         </Row>
