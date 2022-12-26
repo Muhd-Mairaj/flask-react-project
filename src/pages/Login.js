@@ -52,13 +52,14 @@ function Login() {
           />
         </div>
         <div className="w-auto">
-
-        <InputField
-          name="password" label="Password" type="password" placeholder="Password"
-          error={formErrors.password} fieldRef={passwordField} 
-        />
+          <InputField
+            name="password" label="Password" type="password" placeholder="Password"
+            error={formErrors.password} fieldRef={passwordField} 
+          />
         </div>
-        <div className="w-auto"></div>
+        <div className="w-auto">
+          
+        </div>
         <Button variant="primary" type="submit">Login</Button>
       </Form>
     </Body>
