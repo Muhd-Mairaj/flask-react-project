@@ -78,9 +78,9 @@ function Login() {
             Login
           </Button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
       
-    </Body> */}
+    </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
     //       <Row className="justify-content-center">
