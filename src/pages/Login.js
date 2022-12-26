@@ -51,13 +51,13 @@ function Login() {
             error={formErrors.username} fieldRef={usernameField}
           />
         </div>
-        <div className="w-auto">
+        <div className="mx-auto w-auto">
           <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} 
           />
         </div>
-        <div className="w-auto">
+        <div className="mx-auto w-auto">
           <Button variant="primary" type="submit">Login</Button>
         </div>
       </Form>
