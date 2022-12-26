@@ -77,7 +77,7 @@ function Home() {
 
       <hr></hr>
 
-      {items ? <Table striped bordered variant="dark" responsive="lg">
+      {items ? <Table striped bordered variant="dark" responsive="lg" className="">
           <thead>
             <tr>
               <th>#</th>
