@@ -27,6 +27,7 @@ function Register() {
     const confirm = confirmField.current.value
 
     const errors = {};
+    
     if (!username) {
       errors.username = "This field must be filled"
     }
