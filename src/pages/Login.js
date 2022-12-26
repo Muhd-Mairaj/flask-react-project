@@ -48,11 +48,11 @@ function Login() {
         <Col className="justify-content-center">
           <Row >
             <Col xs={12} sm={6}>
-              
-            </Col>
+
             <InputField
               name="username" label="Username" placeholder="Username"
               error={formErrors.username} fieldRef={usernameField} />
+            </Col>
           </Row>
           <Row xs={12} sm={6}>
             <InputField
