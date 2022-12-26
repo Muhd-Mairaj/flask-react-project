@@ -24,6 +24,7 @@ function Register() {
 
     const username = usernameField.current.value
     const password = passwordField.current.value
+    const password = passwordField.current.value
 
     const errors = {};
     if (!username) {
