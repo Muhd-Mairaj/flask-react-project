@@ -53,7 +53,9 @@ function Login() {
                 error={formErrors.username} fieldRef={usernameField} />
             </Col>
           </Row>
-          <Row}>
+          <Row>
+            <Col xs={12} sm={6}>
+            </Col>
             <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} />
