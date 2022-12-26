@@ -49,14 +49,11 @@ function Login() {
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
           />
-        </div>
           <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} 
           />
-        </div>
           <Button variant="primary" type="submit">Login</Button>
-        </div>
       </Form>
     </Body>
     //   <Form onSubmit={handleSubmit}>
