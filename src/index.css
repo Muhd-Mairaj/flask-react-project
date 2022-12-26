@@ -43,15 +43,15 @@ hr {
   align-items: baseline;
 }
 
+.Home {
+  margin-top: 2rem;
+}
 @media screen and (max-width: 576px) {
   .Home {
     margin-top: 3rem;
   }
 }
 
-.Home {
-  margin-top: 2rem;
-}
 
 .navbar-brand {
   padding-left: 1rem;
