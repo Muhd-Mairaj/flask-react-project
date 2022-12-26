@@ -37,7 +37,7 @@ function Login() {
       return
     }
 
-    handleClose
+    handleClose()
     // Login
     alert("Logging in")
   }
