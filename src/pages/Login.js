@@ -19,7 +19,6 @@ function Login() {
     <Body loggedIn>
       
     </Body>
-  )
 }
 
 export default Login
