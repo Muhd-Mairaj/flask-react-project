@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
-import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 import Body from '../components/Body';
 import InputField from '../components/InputField';
