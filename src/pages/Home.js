@@ -51,7 +51,7 @@ function Home() {
   return (
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
-        <Row className="horizontalForm">
+        <Row className="HorizontalForm">
           <Col xs={12} sm={7} className="py-1">
             <InputField
               name="item"
