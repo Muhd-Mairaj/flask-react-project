@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 import Body from '../components/Body';
-import InputField from '../co'
+import InputField from '../components/InputField'
 
 
 function Login() {
