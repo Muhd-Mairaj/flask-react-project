@@ -39,7 +39,10 @@ code {
   }
 }
 
-.navbar
+.navbar-brand {
+  padding-left: 1rem;
+  padding-left: 1rem;
+}
 
 .nav-link {
   padding-left: 0.2rem;
