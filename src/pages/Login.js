@@ -53,7 +53,8 @@ function Login() {
       <Modal 
         show={show} 
         onHide={handleClose}
-        size="md">
+        size="md"
+        background="static">
         <Modal.Header>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
