@@ -17,6 +17,8 @@ function Login() {
 
     const username = usernameField.current.value
     const password = passwordField.current.value
+
+    if (!username)
   }
   
   return (
