@@ -48,7 +48,7 @@ function Login() {
           <InputField
             name="username" label="Username" placeholder="Username"
             error={formErrors.username} fieldRef={usernameField}
-            className="mx-auto"
+            className="mx-auto w-auto"
           />
           <InputField
             name="password" label="Password" type="password" placeholder="Password"
