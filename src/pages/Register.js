@@ -33,6 +33,9 @@ function Register() {
     if (!password) {
       errors.password = "Password field must be filled"
     }
+    if (!password) {
+      errors.password = "Password field must be filled"
+    }
 
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
