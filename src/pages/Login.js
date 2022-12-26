@@ -85,9 +85,6 @@ function Login() {
       
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={5} lg={4} xl={3}>
-          <InputField
-          name="password" label="Password" type="password" placeholder="Password"
-          error={formErrors.password} fieldRef={passwordField} />
       <hr />
 
       <p>Don&apos;t have an account? <Link to="/register">Register here</Link>!</p>
