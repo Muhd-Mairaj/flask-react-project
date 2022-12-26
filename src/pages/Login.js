@@ -78,7 +78,7 @@ function Login() {
               <Button variant="primary" type="submit">Login</Button>
             </Col>
           </Row>
-        </Col>
+        {/* </Col> */}
       </Form>
     // </Body>
   );
