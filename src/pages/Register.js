@@ -42,7 +42,7 @@ function Register() {
       return
     }
 
-    // Login
+    // Resiter
     alert("Registering")
   }
   
