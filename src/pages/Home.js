@@ -68,7 +68,7 @@ function Home() {
               error={formErrors.expiry}
             />
           </Col>
-          <Col xs={12} sm={2} className="py-2 mx-2">
+          <Col xs={12} sm={2} className="py-2 mx-auto">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
           </Col>
         </Row>
