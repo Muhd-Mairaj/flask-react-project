@@ -75,10 +75,6 @@ function Home() {
         </Row>
       </Form>
 
-          // </Form>
-        </Stack>*/
-        }
-
         {items ? <Table striped bordered variant="dark" responsive="lg">
           <thead>
             <tr>
