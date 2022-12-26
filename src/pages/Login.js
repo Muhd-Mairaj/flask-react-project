@@ -90,9 +90,6 @@ function Login() {
           <Button variant="secondary"  type="submit">
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
         </Modal.Footer>
       </Modal>
       
