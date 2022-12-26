@@ -51,7 +51,7 @@ function Home() {
   return (
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
-        <Row className="HorizontalForm justify-co">
+        <Row className="HorizontalForm justify-contents">
           <Col xs={12} sm={7} className="">
             <InputField
               name="item"
