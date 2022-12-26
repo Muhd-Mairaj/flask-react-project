@@ -2,7 +2,6 @@ import Body from '../components/Body';
 
 
 function Login() {
-  return (
     return (
       <Body>
         <h1>Login</h1>
