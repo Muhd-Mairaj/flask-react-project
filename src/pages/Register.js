@@ -74,6 +74,13 @@ function Register() {
               error={formErrors.password} fieldRef={passwordField} />
             </Col>
           </Row>
+          <Row className="justify-content-center">
+            <Col xs={12} sm={6} md={5} lg={4} xl={3}>
+              <InputField
+              name="password" label="Password" type="password" placeholder="Password"
+              error={formErrors.password} fieldRef={passwordField} />
+            </Col>
+          </Row>
           <Row className="justify-content-center py-3">
             <Col xs={10} sm={3} xl={1}>
               <Button variant="dark" className="w-100" type="submit">Login</Button>
