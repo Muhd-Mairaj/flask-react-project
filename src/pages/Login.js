@@ -61,14 +61,14 @@ function Login() {
       <Form onSubmit={handleSubmit}>
         <Col>
           <Row className="justify-content-center">
-            <Col xs={12} sm={6} md={5} lg={4} xl={3} >
+            <Col xs={12} sm={6} md={5} lg={4} xl={3} xxl={2}>
               <InputField
                 name="username" label="Username" placeholder="Username"
                 error={formErrors.username} fieldRef={usernameField} />
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs={12} sm={6} md={5} lg={4} xl={3} >
+            <Col xs={12} sm={6} md={5} lg={4} xl={3} xxl={2}>
               <InputField
               name="password" label="Password" type="password" placeholder="Password"
               error={formErrors.password} fieldRef={passwordField} />
