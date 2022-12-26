@@ -96,5 +96,4 @@ function Register() {
     </Body>
   );
 }
-
-export default Login
+export default Register
