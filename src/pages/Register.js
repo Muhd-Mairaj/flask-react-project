@@ -77,7 +77,7 @@ function Register() {
           <Row className="justify-content-center">
             <Col xs={12} sm={6} md={5} lg={4} xl={3}>
               <InputField
-              name="confirm" label="Confirm Password" type="password" placeholder="Conform"
+              name="confirm" label="Confirm Password" type="password" placeholder="Confirm Password"
               error={formErrors.confirm} fieldRef={passwordField} />
             </Col>
           </Row>
