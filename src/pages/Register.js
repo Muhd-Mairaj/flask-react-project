@@ -78,7 +78,7 @@ function Register() {
             <Col xs={12} sm={6} md={5} lg={4} xl={3}>
               <InputField
               name="confirm" label="Confirm Password" type="password" placeholder="Confirm Password"
-              error={formErrors.confirm} fieldRef={passwordField} />
+              error={formErrors.confirm} fieldRef={confirmField} />
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
