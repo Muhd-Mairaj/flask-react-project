@@ -45,19 +45,19 @@ function Login() {
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
         <Col className="justify-content-center">
-        <Row>
-          <InputField
-            name="username" label="Username" placeholder="Username"
-            error={formErrors.username} fieldRef={usernameField} />
-        </Row>
-        <Row sm={12}>
-          <InputField
-          name="password" label="Password" type="password" placeholder="Password"
-          error={formErrors.password} fieldRef={passwordField} />
-        </Row>
-        <Row sm={10}>
-          <Button variant="primary" type="submit">Login</Button>
-        </Row>
+          <Row>
+            <InputField
+              name="username" label="Username" placeholder="Username"
+              error={formErrors.username} fieldRef={usernameField} />
+          </Row>
+          <Row sm={12}>
+            <InputField
+            name="password" label="Password" type="password" placeholder="Password"
+            error={formErrors.password} fieldRef={passwordField} />
+          </Row>
+          <Row sm={10}>
+            <Button variant="primary" type="submit">Login</Button>
+          </Row>
         </Col>
       </Form>
     </Body>
