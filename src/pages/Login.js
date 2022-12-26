@@ -58,7 +58,7 @@ function Login() {
     //       <Button variant="primary" type="submit" className="mx-auto">Login</Button>
     //   </Form>
       <Form onSubmit={handleSubmit}>
-            <Row xs={12} sm={6} className=just>
+            <Row xs={12} sm={6} className="justify-content-center">
               <Col className="">
               <InputField
                 name="username" label="Username" placeholder="Username"
