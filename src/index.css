@@ -1,7 +1,7 @@
 body {
   /* settings required for sticky header */
-  padding-top: calc(5.5rem + 1vw);
-  /* end */
+  padding-top: calc(5.1rem + 1.5vw);
+    /* end */
   margin: 0;
   color: white;
   background-color: #282c34;
