@@ -15,7 +15,7 @@ function App() {
     <Container fluid className="App">
 
       <BrowserRouter>
-        <Header/>
+        <Header loggedIn/>
 
         <Routes>
           <Route path="/" element={<Home/>}></Route>
