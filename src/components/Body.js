@@ -4,9 +4,9 @@ import Stack from 'react-bootstrap/Stack'
 function Body({ loggedIn, children }) {
   return (
     <>
-        {loggedIn && <>
+        {loggedIn && <Container fluid className="Content">
             {children}
-          </>
+          </Container>
         }
     </>
   )
