@@ -53,6 +53,7 @@ function Login() {
           <InputField
             name="password" label="Password" type="password" placeholder="Password"
             error={formErrors.password} fieldRef={passwordField} 
+            class_name="mx-auto w-auto"
           />
           <Button variant="primary" type="submit">Login</Button>
       </Form>
