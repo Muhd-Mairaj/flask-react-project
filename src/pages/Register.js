@@ -43,7 +43,7 @@ function Register() {
     }
 
     // Login
-    alert("Logging in")
+    alert("Registering")
   }
   
   return (
