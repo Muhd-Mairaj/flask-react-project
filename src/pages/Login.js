@@ -47,7 +47,8 @@ function Login() {
       <Form onSubmit={handleSubmit}>
         <InputField
           name="username" label="Username" placeholder="Username"
-          error={formErrors.username} fieldRef={usernameField} />
+          error={formErrors.username} fieldRef={usernameField}
+        />
         <InputField
         name="password" label="Password" type="password" placeholder="Password"
         error={formErrors.password} fieldRef={passwordField} />
