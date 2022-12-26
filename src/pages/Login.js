@@ -59,23 +59,23 @@ function Login() {
     //   </Form>
       <Form onSubmit={handleSubmit}>
           {/* <Row className=""> */}
-            <Col xs={12} sm={6}>
+            <Row xs={12} sm={6}>
               <InputField
                 name="username" label="Username" placeholder="Username"
                 error={formErrors.username} fieldRef={usernameField} />
-            </Col>
+            </Row>
           {/* </Row> */}
           {/* <Row className=""> */}
-            <Col xs={12} sm={6}>
+            <Row xs={12} sm={6}>
               <InputField
               name="password" label="Password" type="password" placeholder="Password"
               error={formErrors.password} fieldRef={passwordField} />
-            </Col>
+            </Row>
           {/* </Row> */}
           {/* <Row className=""> */}
-            <Col xs={10} sm={2}>
+            <Row xs={10} sm={2}>
               <Button variant="primary" type="submit">Login</Button>
-            </Col>
+            </Row>
           {/* </Row> */}
       </Form>
     // </Body>
