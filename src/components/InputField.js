@@ -4,7 +4,7 @@ function InputField(
   { name, label, type, placeholder, error, fieldRef, class_name }
 ) {
   return (
-    <Form.Group controlId={name} className={"InputField" }>
+    <Form.Group controlId={name} className={"InputField" + className={class_name}}>
       {label && <Form.Label>{label}</Form.Label>}
       <Form.Control
         type={type || 'text'}
