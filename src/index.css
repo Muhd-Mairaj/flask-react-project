@@ -54,8 +54,8 @@ hr {
 }
 
 Col {
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 @media screen and (max-width: 576px) {
   Col {
