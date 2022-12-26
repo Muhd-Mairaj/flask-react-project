@@ -30,7 +30,7 @@ function Register() {
     errors.username = (!username) ? "This field must be filled" : ""
     errors.password = (!password) ? "This field must be filled" : ""
     errors.confirm = (!confirm) ? "This field must be filled" : ""
-    errors.confirm = (password !== confirm) ? "This field must be filled" : ""
+    errors.confirm = (password !== confirm) ? "Passwords must match" : ""
     // if (!username) {
     //   errors.username = "This field must be filled"
     // }
