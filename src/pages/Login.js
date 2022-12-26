@@ -78,7 +78,7 @@ function Login() {
             class_name="mx-auto w-auto"
           />
           <Button variant="primary" type="submit" className="mx-auto">Login</Button>
-      </Form>
+          </Form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
