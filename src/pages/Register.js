@@ -12,6 +12,7 @@ function Register() {
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
   const passwordField = useRef()
+  const passwordField = useRef()
 
   useEffect(() => {
     usernameField.current.focus();
