@@ -75,6 +75,7 @@ function Login() {
             Save Changes
           </Button>
         </Modal.Footer>
+      </Modal>
       <Form onSubmit={handleSubmit}>
           <InputField
             name="username" label="Username" placeholder="Username"
@@ -88,7 +89,6 @@ function Login() {
           />
           <Button variant="primary" type="submit" className="mx-auto">Login</Button>
       </Form>
-      </Modal>
     </Body>
     //   <Form onSubmit={handleSubmit}>
     //     <Col>
