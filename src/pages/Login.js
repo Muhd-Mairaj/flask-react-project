@@ -50,7 +50,7 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      {/* <Modal 
+      <Modal 
         show={show} 
         onHide={handleClose}
         size="md"
@@ -78,7 +78,7 @@ function Login() {
             Login
           </Button>
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
       
     </Body>
     //   <Form onSubmit={handleSubmit}>
