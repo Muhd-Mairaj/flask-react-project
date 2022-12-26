@@ -58,10 +58,6 @@ function Login() {
               <InputField
               name="password" label="Password" type="password" placeholder="Password"
               error={formErrors.password} fieldRef={passwordField} />
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            <Col xs={10} sm={2}>
               <Button variant="primary" type="submit">Login</Button>
       </Form>
     </Body>
