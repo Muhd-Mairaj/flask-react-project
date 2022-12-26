@@ -50,7 +50,8 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      <Modal show={show} onHide={handleClose}>
+      <Modal 
+        show={show} onHide={handleClose}>
         <Modal.Header>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
