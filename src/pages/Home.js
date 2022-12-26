@@ -75,28 +75,28 @@ function Home() {
         </Row>
       </Form>
 
-        {items ? <Table striped bordered variant="dark" responsive="lg">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Item</th>
-              <th>Expiry</th>
+      {items ? <Table striped bordered variant="dark" responsive="lg">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Item</th>
+            <th>Expiry</th>
+          </tr>
+        </thead>
+        <tbody>
+          {items.map((item, _) => (
+            <tr key={item.key}>
+              <td>{item.key}</td>
+              <td>{item.item}</td>
+              <td>{item.expiry}</td>
             </tr>
-          </thead>
-          <tbody>
-            {items.map((item, _) => (
-              <tr key={item.key}>
-                <td>{item.key}</td>
-                <td>{item.item}</td>
-                <td>{item.expiry}</td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
-        :
-        <Spinner animation="border" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </Spinner>
+          ))}
+        </tbody>
+      </Table>
+      :
+      <Spinner animation="border" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </Spinner>
       }
     </Body>
   )
