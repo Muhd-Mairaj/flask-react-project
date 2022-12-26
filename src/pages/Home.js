@@ -51,7 +51,7 @@ function Home() {
   return (
     <Body loggedIn>
       <Form onSubmit={handleSubmit}>
-        <Row className="HorizontalForm">
+        <RowclassName="HorizontalForm">
           <Col xs={12} sm={7} className="">
             <InputField
               name="item"
@@ -68,7 +68,7 @@ function Home() {
               error={formErrors.expiry}
             />
           </Col>
-          <Col xs={12} sm={2} className="py-2 ">
+          <Col xs={12} sm={2} className="py-2">
             <Button variant="dark" className="w-100" type="submit">Add</Button>
           </Col>
         </Row>
