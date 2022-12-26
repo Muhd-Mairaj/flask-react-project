@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
