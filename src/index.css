@@ -54,6 +54,8 @@ hr {
 }
 
 .navbar-brand {
+  font-size: calc(1.375rem + 1.5vw);
+  
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
