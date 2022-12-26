@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 
 import Body from '../components/Body';
-import InputField from '../components/InputField'
+import InputField from '../components/InputField';
 import '../index.css';
 
 function Home() {
