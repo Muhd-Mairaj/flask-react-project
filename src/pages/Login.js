@@ -83,9 +83,8 @@ function Login() {
       </Form>
       
       <hr />
-      
+
       <p>Don&apos;t have an account? <Link to="/register">Register here</Link>!</p>
-    </Body>
     </Body>
   );
 }
