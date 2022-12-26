@@ -48,11 +48,7 @@ hr {
   align-items: baseline;
 }
 
-@media screen and (max-width: 576px) {
-  .HorizontalForm {
-    margin-top: 2.5rem;
-  }
-}
+
 
 
 .Home {
