@@ -45,7 +45,7 @@ function Login() {
     <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={handleSubmit}>
-        <Col className="justify-content-center">
+        <Col>
           <Row >
             <Col xs={12} sm={6}>
               <InputField
