@@ -59,8 +59,9 @@ hr {
 }
 
 .row {
-  padding-
+  padding: 0rem;
 }
+
 @media screen and (max-width: 576px) {
   Col {
     padding-left: 0.3rem;
