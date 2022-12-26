@@ -51,7 +51,7 @@ function Login() {
             error={formErrors.username} fieldRef={usernameField}
           />
         </div>
-        <div
+        <div className=
         <InputField
           name="password" label="Password" type="password" placeholder="Password"
           error={formErrors.password} fieldRef={passwordField} 
