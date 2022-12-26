@@ -3,7 +3,7 @@ import Body from '../components/Body';
 
 function Login() {
   return (
-    <Body>
+    <Body loggedIn>
       <h1>Login</h1>
       <Form onSubmit={onSubmit}>
         <InputField
