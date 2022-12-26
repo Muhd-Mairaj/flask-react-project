@@ -63,8 +63,8 @@ function Login() {
               <InputField
                 name="username" label="Username" placeholder="Username"
                 error={formErrors.username} fieldRef={usernameField} />
-            </Row>
           {/* </Row> */}
+            </Row>
           {/* <Row className=""> */}
             <Row xs={12} sm={6}>
               <InputField
