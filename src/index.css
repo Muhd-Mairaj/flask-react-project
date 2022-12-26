@@ -53,7 +53,7 @@ hr {
   align-items: baseline;
 }
 
-Col {
+.col {
   padding-left: 0rem;
   padding-right: 0rem;
 }
