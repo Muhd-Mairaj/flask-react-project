@@ -75,7 +75,7 @@ function Login() {
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
-            <Col xs={10} sm={3} xl={2} class>
+            <Col xs={10} sm={3} xl={2} className="justify-con">
               <Button variant="dark" className="w-100" type="submit">Login</Button>
             </Col>
           </Row>
