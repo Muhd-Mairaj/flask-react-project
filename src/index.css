@@ -21,11 +21,11 @@ hr {
   margin: 0rem
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   hr {
     margin: 1rem;
   }
-}
+} */
 
 .App {
   padding: 0;
