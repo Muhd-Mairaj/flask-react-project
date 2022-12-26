@@ -4,7 +4,9 @@ import Stack from 'react-bootstrap/Stack'
 function Body({ loggedIn, children }) {
   return (
     <>
-        {loggedIn && {children}
+        {loggedIn && <>
+            {children}
+          </>
         }
     </>
   )
