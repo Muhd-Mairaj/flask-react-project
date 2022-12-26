@@ -32,7 +32,7 @@ function Login() {
     }
 
     // Login
-    a
+    alert("Logging in")
   }
   
   return (
