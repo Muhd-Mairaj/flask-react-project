@@ -17,7 +17,7 @@ function Login() {
   return (
     <Body loggedIn>
       <h1>Login</h1>
-      <Form onSubmit={onSubmit}>
+      <Form onSubmit={handleSubmit}>
         <InputField
           name="username" label="Username or email address"
           error={formErrors.username} fieldRef={usernameField} />
