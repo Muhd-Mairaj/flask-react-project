@@ -5,7 +5,7 @@ function InputField(
 ) {
   return (
     <Form.Group controlId={name} className="InputField">
-      {label && <Form.Label>{label}</Form.Label>}
+      {label && <Form.Label className={class_name}>{label}</Form.Label>}
       <Form.Control
         type={type || 'text'}
         placeholder={placeholder}
