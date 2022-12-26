@@ -1,6 +1,6 @@
 body {
   /* settings required for sticky header */
-  padding-top: 5.5rem;
+  padding-top: calc5.5rem;
   /* end */
   margin: 0;
   color: white;
