@@ -20,5 +20,7 @@ export default function FlashProvider({ children }) {
       flashTimer = setTimeout(hideFlash, duration * 1000);
     }
   }
+
+  
   
 }
