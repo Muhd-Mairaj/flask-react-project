@@ -17,7 +17,7 @@ function App() {
   return (
     
     <Container fluid className="App">
-        {/* <FlashProvider> */}
+        <FlashProvider>
 
       <BrowserRouter>
         <Header loggedIn/>
