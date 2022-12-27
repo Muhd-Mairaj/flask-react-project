@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 import Body from '../components/Body';
 import InputField from '../components/InputField';
-import FlashMessagefrom '../components/FlashMessage';
+import Flash Messagefrom '../components/FlashMessage';
 
 
 function Register() {
