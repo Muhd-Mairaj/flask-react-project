@@ -1,4 +1,4 @@
-import React from 'react';
+import {} from 'react';
 
 import Alert from 'react-bootstrap/Alert';
 import Collapse from 'react-bootstrap/Collapse';
