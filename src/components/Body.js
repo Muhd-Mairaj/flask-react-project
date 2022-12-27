@@ -6,13 +6,13 @@ import FlashProvider from '../contexts/FlashProvider'
 function Body({ loggedIn, children }) {
   return (
     <>
-      <FlashProvider>
+      {/* <FlashProvider> */}
         {loggedIn && <Container fluid className="Content">
             <FlashMessage />
             {children}
           </Container>
         }
-      </FlashProvider>
+      {/* </FlashProvider> */}
     </>
   )
 }
