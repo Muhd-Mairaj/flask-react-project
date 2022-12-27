@@ -29,5 +29,7 @@ export default function FlashProvider({ children }) {
     <FlashContext.Provider value={{flash, hideFlash, flashMessage, visible}}>
       {children}
     </FlashContext.Provider>
-  );
+  )
 }
+
+export us
