@@ -25,4 +25,10 @@ export default function FlashProvider({ children }) {
     setVisible(false)
   }
   
+  return (
+    <FlashContext.Provider value={{flash, hideFlash, flashMessage, visible}}>
+      {children}
+    </FlashContext.Provider>
+  );
+  
 }
