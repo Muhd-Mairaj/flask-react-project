@@ -17,7 +17,7 @@ export default function FlashProvider({ children }) {
     setFlashMessage({message, type})
     
     if (duration) {
-      flashTimer = setTimeout(}, duration * 1000);
+      flashTimer = setTimeout(hideFlash, duration * 1000);
     }
   }
   
