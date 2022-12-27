@@ -13,7 +13,8 @@ export default function FlashProvider({ children }) {
       clearTimeout(flashTimer)
       flashTimer = undefined
     }
-    setVisible
+    setVisible(true)
+    se
     
   }
   
