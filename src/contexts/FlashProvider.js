@@ -14,7 +14,7 @@ export default function FlashProvider({ children }) {
       flashTimer = undefined
     }
     setVisible(true)
-    se
+    setFlashMessage({})
     
   }
   
