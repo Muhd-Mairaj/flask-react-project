@@ -21,7 +21,7 @@ export default function FlashProvider({ children }) {
     }
   }
 
-  function hideFlash() {
+  const hideFlash = () => {
     setVisible(false)
   }
   
