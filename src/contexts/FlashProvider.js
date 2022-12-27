@@ -16,6 +16,7 @@ export default function FlashProvider({ children }) {
     setVisible(true)
     setFlashMessage({message, type})
     
+    if
   }
   
 }
