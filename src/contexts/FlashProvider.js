@@ -22,7 +22,7 @@ export default function FlashProvider({ children }) {
   }
 
   function hideFlash() {
-    setvis
+    setVisible()
   }
   
 }
