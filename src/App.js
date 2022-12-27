@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Flash
+import FlashProvider from ''
 // import logo from './logo.svg';
 // import './App.css';
 
