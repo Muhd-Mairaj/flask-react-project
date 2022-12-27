@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { createContext, useContext } from 'react';
 
 
 export const FlashContext = createContext()
