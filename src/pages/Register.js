@@ -48,6 +48,7 @@ function Register() {
     }
 
     // Resiter
+    useFlash 
     
   }
   
