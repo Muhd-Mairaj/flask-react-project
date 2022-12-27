@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Body from '../components/Body';
 import InputField from '../components/InputField';
 
-import { useFlash, FlashContext } from '../contexts/FlashProvider';
+import { FlashContext } from '../contexts/FlashProvider';
 
 
 function Register() {
