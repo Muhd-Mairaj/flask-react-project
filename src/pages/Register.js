@@ -49,7 +49,9 @@ function Register() {
     }
 
     // Resiter
-    flash()
+    flash(flash('You have successfully registered!', 'success');
+    navigate('/login');
+)
     
   }
   
