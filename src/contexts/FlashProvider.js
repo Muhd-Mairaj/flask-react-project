@@ -19,7 +19,7 @@ export default function FlashProvider({ children }) {
     if (duration) {
       flashTimer = setTimeout(() => {
         
-      }, timeout);
+      }, duration );
     }
   }
   
