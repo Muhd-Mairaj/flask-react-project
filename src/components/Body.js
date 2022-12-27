@@ -6,6 +6,7 @@ function Body({ loggedIn, children }) {
   return (
     <>
         {loggedIn && <Container fluid className="Content">
+            fl
             {children}
           </Container>
         }
