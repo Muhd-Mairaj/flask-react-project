@@ -31,8 +31,8 @@ export default function FlashProvider({ children }) {
 }
 
 export function useFlash() {
-  const c = useContext(FlashContext);
-  console.log(c)
-  console.log(c.flash)
-  return c;
+  // const c = useContext(FlashContext);
+  // console.log(c)
+  // console.log(c.flash)
+  // return c;
 }
