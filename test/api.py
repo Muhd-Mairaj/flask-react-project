@@ -5,7 +5,8 @@ app = Flask(__name__, static_folder='app', static_url_path="/app")
 
 @app.route("/heartbeat")
 def heartbeat():
-    return jsonify({"status": "healthy"})
+    # return jsonify({"status": "healthy"})
+    return 
 
 
 @app.route('/', defaults={'path': ''})
