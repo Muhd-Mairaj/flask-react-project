@@ -46,7 +46,7 @@ function Register() {
     }
 
     // Resiter
-    const { useFlash } = 
+    
   }
   
   return (
