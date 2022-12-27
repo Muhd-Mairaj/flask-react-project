@@ -32,4 +32,6 @@ export default function FlashProvider({ children }) {
   )
 }
 
-export function useFlash = 
+export function useFlash() {
+  return 
+} 
