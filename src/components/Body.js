@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container'
-import FlashMessage from '../components/FlashMessage';
+import FlashMessage from './FlashMessage';
 
 
 function Body({ loggedIn, children }) {
