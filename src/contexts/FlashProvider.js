@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 
-export const FlashContext = useContext()
+export const FlashContext = createContext()
 
 let flashTimer
 export default function FlashProvider({ children }) {
