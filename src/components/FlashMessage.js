@@ -1,4 +1,4 @@
-import FlashProvider from '../contexts/FlashProvider';
+import React from '../contexts/FlashProvider';
 
 import Alert from 'react-bootstrap/Alert';
 import Collapse from 'react-bootstrap/Collapse';
