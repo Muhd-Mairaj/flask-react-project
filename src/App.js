@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import FlashProvider from './contexts/'
+
+import FlashProvider from './contexts/FlashProvider'
 // import logo from './logo.svg';
 // import './App.css';
 
