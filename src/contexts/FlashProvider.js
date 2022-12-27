@@ -11,6 +11,8 @@ export default function FlashProvider({ children }) {
     if (flashTimer) {
       clearTimeout(flashTimer)
     }
+
+    set
   }
   
 }
