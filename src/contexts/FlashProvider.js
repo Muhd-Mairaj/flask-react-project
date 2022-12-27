@@ -33,5 +33,5 @@ export default function FlashProvider({ children }) {
 }
 
 export function useFlash() {
-  return useContext(flas)
+  return useContext(FlashContext.flash)
 } 
