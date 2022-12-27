@@ -4,4 +4,4 @@ import { useContext } from 'react';
 export const FlashContext = useContext()
 
 
-export default FlashProvider()
+export default FlashProvider({ })
