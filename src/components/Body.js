@@ -6,7 +6,7 @@ function Body({ loggedIn, children }) {
   return (
     <>
         {loggedIn && <Container fluid className="Content">
-            flash
+            <FlashMessage/
             {children}
           </Container>
         }
