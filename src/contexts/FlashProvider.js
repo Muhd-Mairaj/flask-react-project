@@ -30,5 +30,4 @@ export default function FlashProvider({ children }) {
       {children}
     </FlashContext.Provider>
   );
-  
 }
