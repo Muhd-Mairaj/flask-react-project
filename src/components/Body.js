@@ -6,7 +6,7 @@ import FlashProvider from './contexts/FlashProvider'
 function Body({ loggedIn, children }) {
   return (
     <>
-
+      
         {loggedIn && <Container fluid className="Content">
             <FlashMessage />
             {children}
