@@ -21,6 +21,6 @@ export default function FlashProvider({ children }) {
     }
   }
 
-  
+  function hid
   
 }
