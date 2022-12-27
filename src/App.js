@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
+i
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -18,7 +19,7 @@ function App() {
       <BrowserRouter>
         <Header loggedIn/>
 
-        
+
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
