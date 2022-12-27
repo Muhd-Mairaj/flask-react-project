@@ -22,13 +22,13 @@ function App() {
         <Header loggedIn/>
 
         <FlashProvider>
+          <Routes>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/test" element={<Test/>}></Route>
+            <Route path="/login" element={<Login/>}></Route>
+            <Route path="/register" element={<Register/>}></Route>
+          </Routes>
         </FlashProvider>
-        <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/test" element={<Test/>}></Route>
-          <Route path="/login" element={<Login/>}></Route>
-          <Route path="/register" element={<Register/>}></Route>
-        </Routes>
       </BrowserRouter>
       
     </Container>
