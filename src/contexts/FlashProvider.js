@@ -17,7 +17,9 @@ export default function FlashProvider({ children }) {
     setFlashMessage({message, type})
     
     if (duration) {
-      flashTimer = 
+      flashTimer = setTimeout(() => {
+        
+      }, timeout);
     }
   }
   
