@@ -17,11 +17,11 @@ function App() {
   return (
     
     <Container fluid className="App">
+        <FlashProvider>
 
       <BrowserRouter>
         <Header loggedIn/>
 
-        <FlashProvider>
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/test" element={<Test/>}></Route>
