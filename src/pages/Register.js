@@ -12,7 +12,7 @@ import { useFlash, FlashContext } from '../contexts/FlashProvider';
 
 
 function Register() {
-  const flash = useFlash();
+  const flash = useuseFlash();
   const navigate = useNavigate()
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
