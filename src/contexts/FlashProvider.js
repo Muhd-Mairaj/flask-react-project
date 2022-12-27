@@ -17,7 +17,7 @@ export default function FlashProvider({ children }) {
     setFlashMessage({message, type})
     
     if (duration) {
-      
+      flash
     }
   }
   
