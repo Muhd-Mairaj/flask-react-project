@@ -1,1 +1,1 @@
-import 
+import FlashProvider from '.'
