@@ -11,6 +11,7 @@ import useFlash from '../contexts/FlashProvider';
 
 
 function Register() {
+  const flash = us
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
   const passwordField = useRef()
