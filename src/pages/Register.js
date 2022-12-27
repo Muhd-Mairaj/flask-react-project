@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Body from '../components/Body';
 import InputField from '../components/InputField';
 
-import useFlash from 
+import useFlash from ../con
 
 
 function Register() {
