@@ -3,7 +3,7 @@ import { useContext } from 'react';
 
 export const FlashContext = useContext()
 
-
+let flashTimer
 export default function FlashProvider({ children }) {
   const [ flashMessage, setFlashMessage ] = useState({})
 
