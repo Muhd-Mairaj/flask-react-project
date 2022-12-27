@@ -21,7 +21,8 @@ function App() {
       <BrowserRouter>
         <Header loggedIn/>
 
-        <FlashProvider
+        <FlashProvider>
+        </FlashProvider>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
