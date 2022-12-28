@@ -64,6 +64,7 @@ function Register() {
       })
     })
 
+    
     console.log(response.body)
     // navigate('/login');
 
