@@ -43,7 +43,9 @@ function Login() {
     alert("Logging in")
   }
   
-  return ( loginWithRedirect()
+  return ( loginWithRedirect({
+    screen_hint: "signup",
+  })
     // <Body loggedIn>
     //   {/* <h2>Login</h2> */}
     //   {/* <Form onSubmit={handleSubmit}>
