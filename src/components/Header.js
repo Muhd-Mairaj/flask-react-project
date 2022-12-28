@@ -49,7 +49,7 @@ const LogoutButton = () => {
                   <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
               <Nav>
-                  <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
+                  <Nav.Link as={NavLink} onClick={() => logout({ returnTo: window.location.origin })}>Logout</Nav.Link>
               </Nav>
             </>
           :
