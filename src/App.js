@@ -11,17 +11,18 @@ import Register from './pages/Register';
 import Logout from './pages/Logout';
 
 import FlashProvider from './contexts/FlashProvider'
-// import { Auth0Provider } from "@auth0/auth0-react";
+import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
   return (
     
     <Container fluid className="App">
-      {/* <Auth0Provider */}
+      <Auth0Provider
         domain="dev-pt44rf70pk8szrwn.us.auth0.com"
         clientId="uja7uL1qUdRfNYnyGGrQdFfOQeEAhECv"
         redirectUri={window.location.origin}
       >
+  {/* document.getElementById("root") */}
         <FlashProvider>
 
           <BrowserRouter>
