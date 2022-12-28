@@ -89,6 +89,7 @@ function Login() {
           <p className="py-2">Don&apos;t have an account? <Link to="/register">Register here</Link>!</p>
         </Col>
       </Row>
+      
     </Body>
 }
 
