@@ -8,9 +8,6 @@ import Container from "react-bootstrap/Container";
 import '../index.css'
 
 function Header({ loggedIn }) {
-  const { isAuthenticated, isLoading } = useAuth0();
-  if (isLoading) {
-    return
   }
 
   return (
