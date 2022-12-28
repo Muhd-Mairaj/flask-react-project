@@ -63,6 +63,8 @@ function Register() {
         password: passwordField.current.value
       })
     })
+
+    console.log(response)
     // navigate('/login');
 
   }
