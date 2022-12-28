@@ -33,7 +33,7 @@ function App() {
             </Routes>
         </BrowserRouter>
         
-          </FlashProvider>
+      </FlashProvider>
     </Container>
 
   );
