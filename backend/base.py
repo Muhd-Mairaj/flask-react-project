@@ -15,4 +15,3 @@ def profile():
     return jsonify({"items": items})
 
 
-def
