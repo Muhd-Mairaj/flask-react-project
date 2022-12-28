@@ -15,10 +15,10 @@ def profile():
     return jsonify({"items": items})
 
 
-@app.route("/register", methods=[POST])
+@app.route("/register", methods=["POST"])
 def register():
   username = request.form.get("username")
   password = request.form.get("password")
 
   print(username, password)
-  
+
