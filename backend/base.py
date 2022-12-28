@@ -22,6 +22,7 @@ def register():
 
   username = request.json.get("username")
   password = request.json.get("password")
+
   
   # print(username, password)
   return {"yes": "nice"}
