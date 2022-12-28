@@ -21,7 +21,7 @@ def profile():
 def register():
 
   username = request.data.get(username)
-  username = request.data.get(username)
+  password = request.data.get(password)
   print(f"{username = }")
   print(f"{password = }")
   # print(username, password)
