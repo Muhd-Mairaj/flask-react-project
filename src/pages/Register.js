@@ -64,7 +64,7 @@ function Register() {
       })
     })
 
-    console.log(response)
+    console.log(response.body)
     // navigate('/login');
 
   }
