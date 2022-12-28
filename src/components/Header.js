@@ -10,8 +10,9 @@ import '../index.css'
 function Header({ loggedIn }) {
   const { isAuthenticated, isLoading } = useAuth0();
   if (isLoading) {
-    returnTo
+    return
   }
+  
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
