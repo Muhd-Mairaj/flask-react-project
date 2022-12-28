@@ -64,6 +64,7 @@ function Register() {
       })
     })
 
+    console.log(res)
     const res = await response.json()
     console.log(res)
     // navigate('/login');
