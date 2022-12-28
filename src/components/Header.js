@@ -24,6 +24,9 @@ function Header({ loggedIn }) {
     //     </Navbar.Collapse>
     //   </Container>
     // </Navbar>
+    if (isLoading) {
+      return
+    }
 
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
