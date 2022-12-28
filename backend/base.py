@@ -24,5 +24,5 @@ def register():
 
   print(username, password)
 
-  return {"ye"}
+  return {"yes": "nice"}
 
