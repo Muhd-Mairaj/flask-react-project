@@ -1,4 +1,6 @@
 from flask import Flask, jsonify, requet, session
+from werkzeug.security import check_password_hash, generate_password_hash
+
 from cs50 import SQL
 
 app = Flask(__name__)
