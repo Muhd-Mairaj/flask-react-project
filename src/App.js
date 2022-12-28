@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Register from './pages/Register';
 
 import FlashProvider from './contexts/FlashProvider'
 import { Auth0Provider } from "@auth0/auth0-react";
@@ -32,7 +33,7 @@ function App() {
                 <Route path="/test" element={<Test/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
                 <Route path="/register" element={<Register/>}></Route>
-                <Route path="/register" element={<Logout/>}></Route>
+                <Route path="/logout" element={<Logout/>}></Route>
               </Routes>
           </BrowserRouter>
           
