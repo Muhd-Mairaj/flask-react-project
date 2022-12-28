@@ -53,7 +53,9 @@ function Register() {
     // Resiter
     flash('You have successfully registered!', 'success');
 
-    const response = await fetch("/register", methods)
+    const response = await fetch("/register", {
+      method:
+    })
     // navigate('/login');
 
   }
