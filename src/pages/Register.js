@@ -64,7 +64,7 @@ function Register() {
       })
     })
 
-    console.log(response.body.errors)
+    console.log(response.json())
     if (!response.ok) {
       // setFormErrors()
     }
