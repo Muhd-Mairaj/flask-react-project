@@ -21,9 +21,10 @@ def profile():
 def register():
 
   req = request.get_data()
+  
   # password = request.json.get("password")
-  print(f"{username = }")
-  print(f"{password = }")
+  # print(f"{username = }")
+  # print(f"{password = }")
   # print(username, password)
   return {"yes": "nice"}
 
