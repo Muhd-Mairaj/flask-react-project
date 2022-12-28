@@ -26,6 +26,7 @@ const LogoutButton = () => {
     <button onClick={() => logout({ returnTo: window.location.origin })}>
       Log Out
     </button>
+    <button onClick={() => loginWithRedirect()}>Log In</button>
   );
 };
 
