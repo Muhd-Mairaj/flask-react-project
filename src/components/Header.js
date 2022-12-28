@@ -9,16 +9,7 @@ import '../index.css'
 
 function Header({ loggedIn }) {
 
-const LogoutButton = () => {
-  
-  return (
-    <button >
-      Log Out
-    </button>
-  );
-};
-
-const { logout } = useAuth0();
+  const { logout } = useAuth0();
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
