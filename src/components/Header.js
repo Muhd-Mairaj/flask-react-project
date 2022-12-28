@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import {use}
+import {useAuth0} from '@auth0'
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
