@@ -28,9 +28,9 @@ def register():
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
     # response
+    print(errors, 401)
     return {}, 401
     
 
-  print(errors, 401)
   return {"yes": "nice"}
 
