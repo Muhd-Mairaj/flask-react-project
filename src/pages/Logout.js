@@ -1,6 +1,8 @@
 import React from 'react';
 
 
-fu
+function Logout() {
+  Re
+}
 
 export default Logout;
