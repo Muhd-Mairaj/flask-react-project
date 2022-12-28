@@ -31,6 +31,7 @@ def register():
     return {}, 401
     
 
+print(errors, )
   return errors, 401
   # return {"yes": "nice"}
 
