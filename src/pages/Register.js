@@ -68,9 +68,9 @@ function Register() {
     if (!response.ok) {
       // setFormErrors()
     }
-    // const res = await response.json()
-    // console.log(res)
-    // navigate('/login');
+    const res = await response.json()
+    console.log(res)
+    navigate('/login');
 
   }
   
