@@ -36,7 +36,7 @@ function App() {
           </BrowserRouter>
           
         </FlashProvider>
-      </Auth0Provider>,
+      </Auth0Provider>
     </Container>
 
   );
