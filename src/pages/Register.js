@@ -57,7 +57,7 @@ function Register() {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
-        ...options.headers,
+        ,
       },
     })
     // navigate('/login');
