@@ -55,7 +55,10 @@ function Register() {
 
     const response = await fetch("/register", {
       method: "POST",
-      
+      eaders: {
+        'Content-Type': 'application/json',
+        ...options.headers,
+      },
     })
     // navigate('/login');
 
