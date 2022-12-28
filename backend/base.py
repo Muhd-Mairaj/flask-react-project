@@ -24,3 +24,5 @@ def register():
 
   print(username, password)
 
+  return
+
