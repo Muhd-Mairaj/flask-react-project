@@ -23,6 +23,7 @@ def register():
   username = request.json.get("username")
   password = request.json.get("password")
   errors = {}
+  response
 
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
