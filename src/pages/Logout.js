@@ -1,2 +1,2 @@
 import React from 'react';
-import {useAuth}
+import {useAuth0} from '@'
