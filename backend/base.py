@@ -23,7 +23,7 @@ def register():
   username = request.json
   # password = request.json()
   print(f"{username = }")
-  print(f"{password = }")
+  # print(f"{password = }")
   # print(username, password)
   return {"yes": "nice"}
 
