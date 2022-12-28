@@ -18,3 +18,4 @@ def profile():
 @app.route("/register", methods=[POST])
 def register():
   username = request.form.get("username")
+  username = request.form.get("username")
