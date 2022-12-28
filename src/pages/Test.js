@@ -29,7 +29,6 @@ const Profile = () => {
       <div>
         <img src={user.picture} alt={user.name} />
         <h2>{user.name}</h2>
-        {console.log(user.user_id)}
         <p>{user.user_id}</p>
       </div>
     )
