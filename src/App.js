@@ -22,7 +22,6 @@ function App() {
         clientId="uja7uL1qUdRfNYnyGGrQdFfOQeEAhECv"
         redirectUri={window.location.origin}
       >
-  {/* document.getElementById("root") */}
         <FlashProvider>
 
           <BrowserRouter>
