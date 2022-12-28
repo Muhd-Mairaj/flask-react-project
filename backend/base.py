@@ -19,7 +19,6 @@ def profile():
 
 @app.route("/register", methods=["POST"])
 def register():
-  
   username = request.json.get("username")
   password = request.json.get("password")
   errors = {}
