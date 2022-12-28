@@ -19,7 +19,7 @@ def profile():
 
 @app.route("/register", methods=["POST"])
 def register():
-  username = request.headers.get("username")
+  username = request.body.get("username")
   password = request.headers.get("password")
 
   print(username, password)
