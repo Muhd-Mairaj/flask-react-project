@@ -70,7 +70,7 @@ function Register() {
     }
     const res = await response.json()
     console.log(res)
-    navigate('/login');
+    // navigate('/login');
 
   }
   
