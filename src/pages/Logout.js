@@ -9,3 +9,5 @@ function Logout() {
     logout({ returnTo: "http://127.0.0.1:3000/login" })
   )
 }
+
+export default Logout;
