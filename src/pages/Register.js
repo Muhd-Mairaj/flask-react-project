@@ -58,7 +58,11 @@ function Register() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify()
+      body: JSON.stringify({
+        username: usernameField.current.value,
+        email: emailField.current.value,
+        password: passwordField.current.value
+      })
     })
     // navigate('/login');
 
