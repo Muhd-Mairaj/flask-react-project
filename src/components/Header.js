@@ -1,5 +1,3 @@
-import React from "react";
-import { useAuth0 } from "@auth0/auth0-react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -8,8 +6,6 @@ import { NavLink } from 'react-router-dom';
 import '../index.css'
 
 function Header({ loggedIn }) {
-
-  const { logout } = useAuth0();
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
@@ -40,7 +36,7 @@ function Header({ loggedIn }) {
                   <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
               <Nav>
-                  <Nav.Link as={NavLink} onClick={() => logout({ returnTo: window.location.origin })}>Logout</Nav.Link>
+                  <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
               </Nav>
             </>
           :
