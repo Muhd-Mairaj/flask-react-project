@@ -25,7 +25,6 @@ function App() {
         clientId="uja7uL1qUdRfNYnyGGrQdFfOQeEAhECv"
         redirectUri={window.location.origin}
       >
-      </Auth0Provider>,
   {/* document.getElementById("root") */}
       <FlashProvider>
 
