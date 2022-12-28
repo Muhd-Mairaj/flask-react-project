@@ -25,7 +25,7 @@ function Header({ loggedIn }) {
     //   </Container>
     // </Navbar>
     if (isLoading) {
-      return
+      returnTo
     }
 
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
