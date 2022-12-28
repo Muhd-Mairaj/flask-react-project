@@ -23,7 +23,7 @@ def register():
   username = request.json.get("username")
   password = request.json.get("password")
 
-  db_query = db.execute("SELECT ")
+  db_query = db.execute("SELECT username FROM users")
   # print(username, password)
   return {"yes": "nice"}
 
