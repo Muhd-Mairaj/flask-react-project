@@ -54,7 +54,7 @@ function Register() {
     flash('You have successfully registered!', 'success');
 
     const response = async () {
-
+      await 
     }()
     // navigate('/login');
 
