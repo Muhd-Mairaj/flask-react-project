@@ -1,3 +1,5 @@
+import React from "react";
+import { useAuth0 } from "@auth0/auth0-react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -6,8 +8,6 @@ import { NavLink } from 'react-router-dom';
 import '../index.css'
 
 function Header({ loggedIn }) {
-  import React from "react";
-import { useAuth0 } from "@auth0/auth0-react";
 
 const LogoutButton = () => {
   const { logout } = useAuth0();
