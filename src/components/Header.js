@@ -9,6 +9,9 @@ import '../index.css'
 
 function Header({ loggedIn }) {
   const { isAuthenticated, isLoading } = useAuth0();
+  if (isLoading) {
+    returnTo
+  }
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
@@ -26,9 +29,6 @@ function Header({ loggedIn }) {
     //     </Navbar.Collapse>
     //   </Container>
     // </Navbar>
-    if (isLoading) {
-      returnTo
-    }
 
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
