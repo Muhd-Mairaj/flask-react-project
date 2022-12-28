@@ -1,4 +1,6 @@
 import React from 'react';
 
 
-export de
+fu
+
+export default Logout;
