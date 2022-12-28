@@ -18,8 +18,8 @@ def profile():
 
 
 @app.route("/register", methods=["POST"])
-def register():
-  
+def register(usern):
+
 
   return {"yes": "nice"}
 
