@@ -27,7 +27,7 @@ function App() {
       >
         <App />
       </Auth0Provider>,
-  document.getElementById("root")
+  {/* document.getElementById("root") */}
       <FlashProvider>
 
         <BrowserRouter>
