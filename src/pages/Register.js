@@ -24,7 +24,7 @@ function Register() {
   }, []);
 
 
-  function handleSubmit(event) {
+  asynct function handleSubmit(event) {
     event.preventDefault()
 
     const username = usernameField.current.value
