@@ -5,7 +5,7 @@ import {useAuth0} from '@auth0/auth0-react';
 
 
 function Body({ loggedIn, children }) {
-  const {isAuthenticated} = 
+  const { is} = 
   return (
     <>
         {loggedIn && <Container fluid className="Content">
