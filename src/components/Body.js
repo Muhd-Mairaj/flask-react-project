@@ -8,7 +8,7 @@ function Body({ loggedIn, children }) {
   const { isLoading, isAuthenticated } = useAuth0()
 
   if (isLoading) {
-    retun
+    return
   }
   return (
     <>
