@@ -54,7 +54,8 @@ function Register() {
     flash('You have successfully registered!', 'success');
 
     const response = await fetch("/register", {
-      method:
+      method: "POST",
+      
     })
     // navigate('/login');
 
