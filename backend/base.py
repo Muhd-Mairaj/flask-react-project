@@ -32,5 +32,5 @@ def register():
     
 
   print(errors, 401)
-  # return {"yes": "nice"}
+  return {"yes": "nice"}
 
