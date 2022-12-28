@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
@@ -11,10 +12,6 @@ import Register from './pages/Register';
 import FlashProvider from './contexts/FlashProvider'
 // import logo from './logo.svg';
 // import './App.css';
-
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.render(
