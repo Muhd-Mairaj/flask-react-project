@@ -20,20 +20,20 @@ function App() {
   return (
     
     <Container fluid className="App">
-    <FlashProvider>
+      <FlashProvider>
 
-      <BrowserRouter>
-        <Header loggedIn/>
+        <BrowserRouter>
+          <Header loggedIn/>
 
-          <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/test" element={<Test/>}></Route>
-            <Route path="/login" element={<Login/>}></Route>
-            <Route path="/register" element={<Register/>}></Route>
-          </Routes>
-      </BrowserRouter>
-      
-        </FlashProvider>
+            <Routes>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/test" element={<Test/>}></Route>
+              <Route path="/login" element={<Login/>}></Route>
+              <Route path="/register" element={<Register/>}></Route>
+            </Routes>
+        </BrowserRouter>
+        
+          </FlashProvider>
     </Container>
 
   );
