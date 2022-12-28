@@ -21,7 +21,7 @@ def profile():
 def register():
 
   d = request.form
-  print("{d = }")
+  print(f"{d = }")
   # print(username, password)
   return {"yes": "nice"}
 
