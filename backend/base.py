@@ -15,6 +15,5 @@ def profile():
     return jsonify({"items": items})
 
 
-
+@app.route("")
 def register():
-  
