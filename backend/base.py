@@ -29,7 +29,7 @@ def register():
     errors["username"] = "Username is unavailable"
     # response
     print(errors, 401)
-    return {}, 401
+    return errors, 401
     
 
   return {"yes": "nice"}
