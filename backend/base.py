@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, requet, session
+from flask import Flask, jsonify, request, session
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
