@@ -20,7 +20,7 @@ def profile():
 @app.route("/register", methods=["POST"])
 def register():
 
-  d = request.form
+  d = request.args
   print(f"{d = }")
   # print(username, password)
   return {"yes": "nice"}
