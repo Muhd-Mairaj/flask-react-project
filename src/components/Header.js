@@ -1,10 +1,10 @@
+import { useAuth0 } from "@auth0/auth0-react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 // import NavDropdown from 'react-bootstrap/NavDropdown'
 import { NavLink } from 'react-router-dom';
 import '../index.css'
-import { useAuth0 } from "@auth0/auth0-react";
 
 function Header({ loggedIn }) {
 
