@@ -53,9 +53,7 @@ function Register() {
     // Resiter
     flash('You have successfully registered!', 'success');
 
-    const response = async () {
-      await 
-    }()
+    const response = await
     // navigate('/login');
 
   }
