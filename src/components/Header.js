@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 import '../index.css'
 
 function Header({ loggedIn }) {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { isAuthenticated, isLoading } = useAuth0();
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     // <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
