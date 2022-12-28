@@ -19,3 +19,6 @@ def profile():
 def register():
   username = request.form.get("username")
   password = request.form.get("password")
+
+  print(username, password)
+  
