@@ -23,7 +23,7 @@ const LogoutButton = () => {
 
   return (
     <>
-      <button onClick={() => logout({ returnTo: "/login" })}>
+      <button onClick={() => logout({ returnTo: "http:/login" })}>
         Log Out
       </button>
       <button onClick={() => loginWithRedirect()}>Log In</button>
