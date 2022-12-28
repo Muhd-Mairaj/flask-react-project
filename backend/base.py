@@ -21,7 +21,7 @@ def profile():
 def register():
 
   username = request.json.get(username)
-  password = request.data.get(password)
+  password = request.json.get(password)
   print(f"{username = }")
   print(f"{password = }")
   # print(username, password)
