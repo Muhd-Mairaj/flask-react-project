@@ -19,7 +19,7 @@ def profile():
 
 @app.route("/register", methods=["POST"])
 def register():
-  username = request.body.get("username")
+  username = request.form.body.get("username")
   password = request.body.get("password")
 
   print(username, password)
