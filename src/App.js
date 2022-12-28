@@ -10,9 +10,9 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 
 import FlashProvider from './contexts/FlashProvider'
+import { Auth0Provider } from "@auth0/auth0-react";
 // import logo from './logo.svg';
 // import './App.css';
-import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.render(
   <Auth0Provider
