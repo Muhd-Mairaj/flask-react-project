@@ -69,6 +69,7 @@ function Register() {
     console.log(errors)
     if (!response.ok) {
       setFormErrors(errors)
+      return
     }
     // navigate('/login');
 
