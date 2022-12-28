@@ -11,4 +11,4 @@ function Logout() {
 }
 
 
-export default function Logout;
+export default Logout;
