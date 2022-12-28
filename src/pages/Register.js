@@ -58,7 +58,7 @@ function Register() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: 
+      body: JSON.stringify()
     })
     // navigate('/login');
 
