@@ -29,8 +29,6 @@ const LogoutButton = () => {
   );
 };
 
-export default LogoutButton;
-
 const LoginButton = () => {
   const { loginWithRedirect } = useAuth0();
 
