@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container'
 import FlashMessage from './FlashMessage';
-import {useAuth0} from 'auth0'
+import {useAuth0} from '@auth0'
 
 
 function Body({ loggedIn, children }) {
