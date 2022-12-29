@@ -21,7 +21,7 @@ function Home() {
   const itemField = useRef()
   const expiryField = useRef()
 
-  u
+  useEffect()
 
   // useEffect(() => {
   //   (async () => {
