@@ -56,6 +56,7 @@ function Login() {
     }
     else {
       flash('You have successfully logged in!', 'success');
+      localStorage.setItem('accessToken', response.body.access_token);
       navigate('/');
     }
 
