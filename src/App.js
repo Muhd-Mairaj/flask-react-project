@@ -34,12 +34,12 @@ function App() {
                 <Routes>
                   <Route path="/login" element={
                     <PublicComponent><Login/></PublicComponent>
-                  }></Route>
-                  <Route path="/register" element={<Register/>}></Route>
+                  }>
+                  <Route path="/register" element={<Register/>}>
 
-                  <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
-                  <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>}></Route>
-                  <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
+                  <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}>
+                  <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>}>
+                  <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}>
                 </Routes>
             </ApiProvider>
           </FlashProvider>
