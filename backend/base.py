@@ -39,7 +39,7 @@ def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 403)
 
 
-
+@token_auth.
 
 @app.route("/profile")
 @token_auth.login_required
