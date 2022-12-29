@@ -14,7 +14,7 @@ import FlashProvider from './contexts/FlashProvider';
 import ApiProvider from './contexts/ApiProvider';
 import UserProvider from './contexts/UserProvider';
 import PrivateComponent from './components/PrivateComponent';
-import PrivateComponent from './components/PrivateComponent';
+import access_tokenPublicComponent from './components/access_tokenPublicComponent';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
