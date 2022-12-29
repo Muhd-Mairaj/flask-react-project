@@ -21,7 +21,17 @@ function Home() {
   const itemField = useRef()
   const expiryField = useRef()
 
-  useEffect(())
+  useEffect(() => {
+    fetch("/profile", {
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Bearer " + localStorage.getItem("access_token")
+      }
+    }).then(response => response.json()).then(data => {
+      setItems(data.items)
+    }).catch(error => console.log(error))
+    }
+  })
 
   // useEffect(() => {
   //   (async () => {
