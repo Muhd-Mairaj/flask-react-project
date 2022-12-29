@@ -19,7 +19,7 @@ app.config["SESSION_COOKIE_NAME"] = "session"
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-
+# configure database
 db = SQL("sqlite:///database.db")
 
 
