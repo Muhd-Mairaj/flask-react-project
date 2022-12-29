@@ -25,7 +25,7 @@ function Home() {
       return
     }
 
-    console.
+    console.log()
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
