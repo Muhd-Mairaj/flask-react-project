@@ -10,7 +10,7 @@ export default class APIClient {
 
     let response;
     try {
-      response = await fetch(this.base_url + options.url + query, {
+      response = await fetch(options.url + query, {
         method: options.method,
         headers: {
           'Content-Type': 'application/json',
