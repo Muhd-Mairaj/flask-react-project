@@ -9,7 +9,7 @@ from cs50 import SQL
 app = Flask(__name__)
 
 app.config["SESSION_PERMANENT"] = False
-app.config["SESSION_TYPE"] = "filesystem"
+app.config["SESSION_TYPE"] = ""
 Session(app)
 
 basic_auth = HTTPBasicAuth()
