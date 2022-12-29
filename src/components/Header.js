@@ -15,7 +15,7 @@ function Header({ loggedIn }) {
       setIsAuthenticated(true)
     }
     else {
-      
+      setIsAuthenticated(true)
     }
   }, [localStorage.getItem("access_token")])
   
