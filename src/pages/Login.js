@@ -50,7 +50,7 @@ function Login() {
       navigate('/')
     }
     else {
-      alert
+      flash("")
     }
     const response = await fetch("/tokens", {
       method: "POST",
