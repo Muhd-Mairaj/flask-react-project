@@ -114,6 +114,7 @@ def tokens():
   session["access_token"] = token
   return {"access_token": token}, 200
 
+
 @app.route("/logout", methods=["GET"])
 def logout():
   session.clear()
