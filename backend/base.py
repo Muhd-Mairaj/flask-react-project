@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, session
-from flask_session import 
+from flask_session import Session
 from flask_httpauth import HTTPBasicAuth
 from secrets import token_urlsafe
 # from flask_session import Session
