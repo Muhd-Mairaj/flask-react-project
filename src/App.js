@@ -22,9 +22,9 @@ function App() {
         clientId="uja7uL1qUdRfNYnyGGrQdFfOQeEAhECv"
         redirectUri={window.location.origin}
       > */}
+        <BrowserRouter>
         <FlashProvider>
 
-          <BrowserRouter>
             <Header loggedIn/>
 
               <Routes>
