@@ -81,3 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
 - [React Router Docs](https://reactrouter.com/en/main/start/overview)
 - [Sessions in Flask](https://testdriven.io/blog/flask-sessions/)
+https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session
