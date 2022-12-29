@@ -9,7 +9,6 @@ function Logout() {
   
   useEffect(() => {
     api.logout()
-    // localStorage.removeItem('access_token');
     navigate("/login")
   }, []);
 
