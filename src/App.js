@@ -32,7 +32,7 @@ function App() {
               {/* <UserProvider> */}
                 <Header loggedIn/>
 
-                  <PrivateComponent>
+                  {/* <PrivateComponent> */}
 
                   <Routes>
                     <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
