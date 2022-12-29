@@ -48,6 +48,7 @@ function App() {
                       <Route path="/logout" element={<Logout/>} />
                     </PrivateComponent>
                   }/>
+                  
                 </Routes>
             </ApiProvider>
           </FlashProvider>
