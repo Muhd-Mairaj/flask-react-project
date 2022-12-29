@@ -18,6 +18,7 @@ function Home() {
 
 
   useEffect(() => {
+    
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
       setItems(data.items)
