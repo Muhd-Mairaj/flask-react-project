@@ -8,7 +8,9 @@ import Container from "react-bootstrap/Container";
 import '../index.css'
 
 function Header({ loggedIn }) {
-  const [ isAuthenticated, setIsAuthenticated ] = use
+  const [ isAuthenticated, setIsAuthenticated ] = useState(true)
+
+  
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
