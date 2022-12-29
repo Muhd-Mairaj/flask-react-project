@@ -1,3 +1,5 @@
 import { useUser } from '../contexts/UserProvider';
 
-export default function te
+export default function test() {
+  
+}
