@@ -14,7 +14,7 @@ import { useUser } from '../contexts/UserProvider';
 export default function TestingSomething({ children }) {
   const { user } = useUser();
   // const location = useLocation();
-  console.log(user)
+  console.log("user")
   // if (user === undefined) {
   //   return null;
   // }
