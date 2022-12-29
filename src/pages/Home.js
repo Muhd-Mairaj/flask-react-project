@@ -37,7 +37,7 @@ function Home() {
     })
 
     if (response.ok) {
-      setItems
+      setItems(response.body.items)
     }
   }, []);
 
