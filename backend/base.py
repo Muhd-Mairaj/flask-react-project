@@ -103,5 +103,5 @@ def login():
 @app.route("/logout", methods=["DELETE"])
 @token_auth.login_required
 def logout():
-  session["access_token"] = ""
+  session[""] = ""
   session["access_token"] = ""
