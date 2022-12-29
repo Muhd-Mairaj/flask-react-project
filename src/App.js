@@ -30,7 +30,8 @@ function App() {
             <UserProvider>
               <Header loggedIn/>
 
-                <test_></test_>
+                <test_>
+
                 <Routes>
                   <Route path="/" element={<Home/>}></Route>
                   <Route path="/test" element={<Test/>}></Route>
@@ -38,6 +39,7 @@ function App() {
                   <Route path="/register" element={<Register/>}></Route>
                   <Route path="/logout" element={<Logout/>}></Route>
                 </Routes>
+                </test_>
 
             </UserProvider>
           </FlashProvider>
