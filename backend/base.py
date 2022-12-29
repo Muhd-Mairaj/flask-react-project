@@ -95,7 +95,7 @@ def register():
 
 @app.route("/tokens", methods=["POST"])
 @basic_auth.login_required
-def tokens():
+def login():
   token = token_urlsafe()
   session["access_token"] = token
   return {"access_token": token}, 200
