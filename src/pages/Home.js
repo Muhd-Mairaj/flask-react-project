@@ -32,7 +32,9 @@ function Home() {
 // }
 
   useEffect(() => {
-    async
+    async () => {
+      
+    }
   })
   useEffect( async () => {
     const response = await api.post("/profile", null, {
