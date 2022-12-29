@@ -36,6 +36,13 @@ function Home() {
       const response = await api.post("/profile", null, {
         Authorization: "Bearer " + localStorage.getItem("access_token")
       })
+
+      if (response.ok) {
+        setItems(response.body.items)
+      }
+      else {
+        console.log("error: ", response.body)
+      }
     })()
   })
   useEffect( async () => {
