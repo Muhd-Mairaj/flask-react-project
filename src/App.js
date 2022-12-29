@@ -40,7 +40,7 @@ function App() {
                   } />
                   <Route path="*" element={
                     <PrivateComponent>
-                      
+                      <Route
                     </PrivateComponent>
                   }/>
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>} />
