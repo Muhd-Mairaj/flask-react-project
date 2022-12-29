@@ -37,8 +37,8 @@ function Login() {
       errors.password = "Password field must be filled"
     }
 
-    setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
+      setFormErrors(errors)
       return
     }
 
