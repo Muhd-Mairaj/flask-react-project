@@ -51,7 +51,7 @@ function Login() {
     
     if (!response.ok) {
       const body = await(response.json())
-      
+      console.log(body.error)
       return
     }
     else {
