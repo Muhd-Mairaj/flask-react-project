@@ -7,7 +7,7 @@ export default function PrivateComponent({ children }) {
   const location = useLocation()
   const navigate = useNavigate()
   
-  if (!api.isAuthenticated()) {
+  if (api.isAuthenticated()) {
     return children
   }
   else {
