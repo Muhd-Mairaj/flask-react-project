@@ -11,6 +11,8 @@ import { useApi } from '../contexts/ApiProvider';
 
 export default function PrivateComponent({ children }) {
   const api = useApi()
+  const location = use
+  
   if (api.isAuthenticated()) {
     return children
   }
