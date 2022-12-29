@@ -43,7 +43,6 @@ function Login() {
       headers: {
         "Content-Type": "application/json",
         Authorization:  'Basic ' + btoa(username + ":" + password)
-
       }
     })
   }
