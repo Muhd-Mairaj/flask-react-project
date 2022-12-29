@@ -50,7 +50,7 @@ function Login() {
     })
     
     if (!response.ok) {
-      const body
+      const body = await(res)
       return
     }
     else {
