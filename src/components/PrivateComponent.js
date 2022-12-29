@@ -13,7 +13,7 @@ export default function PrivateComponent({ children }) {
   if (api === undefined) {
     return null
   }
-  else if (api)
+  else if (api.isauthen)
   // const location = useLocation();
   // console.log("user: ", user)
   // if (user === undefined) {
