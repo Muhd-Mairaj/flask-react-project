@@ -72,6 +72,9 @@ function Register() {
       setFormErrors(body)
       return
     }
+    else {
+      setFormErrors({})
+    }
 
     navigate('/login');
 
