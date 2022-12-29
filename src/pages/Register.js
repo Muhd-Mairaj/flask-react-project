@@ -72,7 +72,7 @@ function Register() {
 
     // const body = await response.json()
     const body = response.body
-    // console.log(body)
+    console.log(body)
     if (!response.ok) {
       setFormErrors(body)
       return
