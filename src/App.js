@@ -12,7 +12,7 @@ import Logout from './pages/Logout';
 
 import FlashProvider from './contexts/FlashProvider';
 import UserProvider from './contexts/UserProvider';
-import test_ from '.components/test';
+import test_ from '.components/test_';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
