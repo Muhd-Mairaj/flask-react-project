@@ -36,7 +36,7 @@ function App() {
                     <PublicComponent><Login/></PublicComponent>
                   } />
                   <Route path="/register" element={
-                    
+                    <PublicComponent><Register/></PublicComponent>
                   } />
 
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>} />
