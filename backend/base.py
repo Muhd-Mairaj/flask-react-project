@@ -19,6 +19,9 @@ def verify_password(username, password):
     return username
 
 
+@auth.error_handler
+def unauthorized():
+    return make_response(jsonify({'error': 'Unauthorized access'}), 401)
 
 
 @app.route("/profile")
