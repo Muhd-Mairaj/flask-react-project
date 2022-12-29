@@ -34,9 +34,9 @@ function App() {
                 <Route path="/register" element={<Register/>}></Route>
                 <Route path="/logout" element={<Logout/>}></Route>
               </Routes>
+          </FlashProvider>
           
-        </FlashProvider>
-          </BrowserRouter>
+        </BrowserRouter>
       {/* </Auth0Provider> */}
     </Container>
 
