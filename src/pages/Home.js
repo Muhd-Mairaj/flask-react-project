@@ -40,7 +40,7 @@ function Home() {
       setItems(response.body.items)
     }
     else {
-      console.log("error: ", response.)
+      console.log("error: ", response.body)
     }
   }, []);
 
