@@ -41,7 +41,7 @@ function Login() {
     alert("Logging in")
     cont response = fetch("/login", {
       headers: {
-        
+        "Content-Type": 
       }
     })
   }
