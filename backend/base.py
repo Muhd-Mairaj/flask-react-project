@@ -47,7 +47,8 @@ def register():
     errors["username"] = "Username is unavailable"
     return errors, 401
   
-  # validate pass
+  # validate passwords
+  if not 
   
   # generate password hash
   # add user to db
