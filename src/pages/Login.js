@@ -77,7 +77,7 @@ function Login() {
           </Row>
           <Row className="justify-content-center py-3">
             <Col xs={10} sm={3} lg={2} xl={1}>
-              <Button variant="dark" className="w-100" onClick={() => loginWithRedirect()} type="submit">Login</Button>
+              <Button variant="dark" className="w-100" type="submit">Login</Button>
             </Col>
           </Row>
         </Col>
