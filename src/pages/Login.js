@@ -53,15 +53,15 @@ function Login() {
     console.log(response)
 
     // Login
-    const response = await fetch("/tokens", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization:  'Basic ' + btoa(username + ":" + password)
-      }
-    })
+    // const response = await fetch("/tokens", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //     Authorization:  'Basic ' + btoa(username + ":" + password)
+    //   }
+    // })
 
-    console.log(response)
+    // console.log(response)
   }
   
   return (
