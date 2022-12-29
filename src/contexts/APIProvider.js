@@ -1,10 +1,10 @@
 import { createContext, useContext } from 'react';
-import APIClient from '../APIClient';
+import ApiClient from '../APIClient';
 
 const ApiContext = createContext();
 
 export default function APIProvider({ children }) {
-  const api = new APIClient();
+  const api = new ApiClient();
 
   return (
     <ApiContext.Provider value={api}>
