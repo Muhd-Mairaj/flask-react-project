@@ -68,7 +68,7 @@ function Register() {
       confirm: confirmField.current.value 
     })
     
-    console.log("response: ")
+    console.log("response: " + response)
 
     // const body = await response.json()
     const body = response.body
