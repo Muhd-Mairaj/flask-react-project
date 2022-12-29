@@ -35,15 +35,18 @@ def register():
   if not password:
     errors["password"] = "This field must be filled"
     
+      
   # check confirm exists 
   if not confirm:
     errors["confirm"] = "This field must be filled"
-
+    
+  
   # validate username
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
-  
+    
+    
   # validate passwords
   if not password == confirm:
 
