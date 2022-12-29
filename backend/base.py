@@ -40,6 +40,7 @@ def unauthorized():
 
 
 @app.route("/profile")
+
 def profile():
     user_id = 1
     items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
