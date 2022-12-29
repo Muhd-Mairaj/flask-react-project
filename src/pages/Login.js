@@ -43,7 +43,7 @@ function Login() {
     alert("Logging in")
   }
   
-  return ()
+  return (
     <Body loggedIn>
       {/* <h2>Login</h2> */}
       {/* <Form onSubmit={handleSubmit}>
