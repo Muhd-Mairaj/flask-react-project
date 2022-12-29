@@ -37,7 +37,7 @@ function Login() {
       return
     }
 
-    const response = await fetch("/register", {
+    const response = await fetch("/tokens", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
