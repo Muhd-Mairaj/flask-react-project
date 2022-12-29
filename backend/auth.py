@@ -1,4 +1,5 @@
-
+basic_auth = HTTPBasicAuth()
+token_auth = HTTPTokenAuth()
 
 
 @basic_auth.verify_password
