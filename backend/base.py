@@ -17,8 +17,6 @@ app.config["SESSION_TYPE"] = "filesystem"
 
 Session(app)
 
-
-
 db = SQL("sqlite:///database.db")
 
 
