@@ -14,7 +14,7 @@ db = SQL("sqlite:///database.db")
 @basic_auth.verify_password
 def verify_password(username, password):
 
-  rows = db.execute("SELECT username, hash FROM users WHERE username = ?", request.form.get("username"))
+  rows = db.execute("SELECT username, hash FROM users WHERE username = ?", username)
 
   # Ensure username exists and password is correct
   if len(rows) != 1 or not check_password_hash(rows[0]["hash"], request.form.get("password")):
