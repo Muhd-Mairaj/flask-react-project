@@ -59,5 +59,7 @@ def register():
   # add user to db
   db.execute("INSERT INTO users (username, passoword) VALUES(?, ?)")
 
+  if code == 401:
+    return errors, code
   return {"yes": "nice"}
 
