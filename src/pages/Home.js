@@ -21,6 +21,7 @@ function Home() {
   const itemField = useRef()
   const expiryField = useRef()
 
+  // fetch("/profile", {
 //   headers: {
 //     "Content-Type": "application/json",
 //     Authorization: "Bearer " + localStorage.getItem("access_token")
