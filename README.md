@@ -80,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [Client-side Routing in React](https://www.pluralsight.com/guides/pros-and-cons-of-client-side-routing-with-react#module-clientsideroutinginreact)
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
 - [React Router Docs](https://reactrouter.com/en/main/start/overview)
-- 
+- [Sessions in Flask])(https://testdriven.io/blog/flask-sessions/)
