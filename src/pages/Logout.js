@@ -8,6 +8,7 @@ function Logout() {
   useEffect(() => {
     usernameField.current.focus()
   }, []);
+  
   localStorage.removeItem('access_token');
   navigate("/login")
 }
