@@ -50,8 +50,9 @@ function Login() {
       // })
     })
     
-    if (!response.ok)
-    console.log(response)
+    if (!response.ok) {
+      console.log(response)
+    }
 
     // Login
     // const response = await fetch("/tokens", {
