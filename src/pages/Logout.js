@@ -8,7 +8,7 @@ function Logout() {
   const navigate = useNavigate()
   
   api.logout()
-    navigate("/login")
+  navigate("/login")
 
 }
 
