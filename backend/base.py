@@ -10,7 +10,8 @@ import os
 
 app = Flask(__name__)
 
-app.config("SECRET_KEY") = os.urandom(16)
+app.config("SECRET_KEY") = b'_5#y2L"F4Q8z\n\xec]/'
+
 app.config["SESSION_PERMANENT"] = False
 Session(app)
 
