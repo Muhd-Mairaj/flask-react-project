@@ -16,5 +16,5 @@ export default function UserProvider({ children }) {
 
 
 export function useUser() {
-  return useContext()
+  return useContext(UserContext)
 }
