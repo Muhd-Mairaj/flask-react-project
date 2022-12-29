@@ -5,7 +5,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
 
-b
+basic_auth = HTTPBasicAuth
 
 app = Flask(__name__)
 db = SQL("sqlite:///database.db")
