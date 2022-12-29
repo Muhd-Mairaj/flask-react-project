@@ -32,7 +32,6 @@ function App() {
             <ApiProvider>
               <Header loggedIn/>
                 <Routes>
-                
                   <Route path="/login" element={
                     <PublicComponent><Login/></PublicComponent>
                   } />
