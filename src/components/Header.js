@@ -11,7 +11,7 @@ function Header({ loggedIn }) {
   const [ isAuthenticated, setIsAuthenticated ] = useState(true)
 
   useEffect(() => {
-    if localStorage.getItem("access_token") 
+    if localStorage.getItem("access_token") !== null
   }, [])
   
   return (
