@@ -51,7 +51,7 @@ function Login() {
     })
     
     if (!response.ok) {
-      console.log(response.error)
+      console.log(response)
     }
 
     // Login
