@@ -42,8 +42,7 @@ def unauthorized():
 
 @token_auth.verify_token
 def verify_token():
-  
-  if not 
+  print()
 
 @app.route("/profile")
 @token_auth.login_required
