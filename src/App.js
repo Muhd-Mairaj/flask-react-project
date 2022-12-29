@@ -14,6 +14,7 @@ import FlashProvider from './contexts/FlashProvider';
 import ApiProvider from './contexts/ApiProvider';
 import UserProvider from './contexts/UserProvider';
 import PrivateComponent from './components/PrivateComponent';
+import PrivateComponent from './components/PrivateComponent';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
                 <Routes>
                   <Route path="/login" element={<Login/>}></Route>
                   <Route path="/register" element={<Register/>}></Route>
-                  
+
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
                   <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>}></Route>
                   <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
