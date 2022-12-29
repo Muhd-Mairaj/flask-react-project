@@ -24,6 +24,10 @@ def register():
   confirm = request.json.get("confirm")
   errors = {}
   code = 200
+
+
+  # check username
+  
   # check password exists 
   if not password:
     errors["password"] = "This field must be filled"
