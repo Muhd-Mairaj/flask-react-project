@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import '../index.css'
 
 function Header({ loggedIn }) {
-  const [ isAuthenticated, setIsAuthenticated ] = useState(true)
+  const [ isAuthenticated, setIsAuthenticated ] = useState(flas)
 
   useEffect(() => {
     if (localStorage.getItem("access_token") !== null) {
