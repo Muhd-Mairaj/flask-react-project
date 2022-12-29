@@ -30,8 +30,7 @@ function Home() {
     }).then(response => response.json()).then(data => {
       setItems(data.items)
     }).catch(error => console.log(error))
-    }
-  })
+  },[])
 
   // useEffect(() => {
   //   (async () => {
