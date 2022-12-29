@@ -25,7 +25,7 @@ function Home() {
       return
     }
 
-    console.log()
+    console.log("localStorage.getItem("access_token")")
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
