@@ -83,5 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [Sessions in Flask](https://testdriven.io/blog/flask-sessions/)
 - [https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session](https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session)
 - [Flask-Session docs](https://flask-session.readthedocs.io/en/latest/)
-- [Sessions in Flask](https://testdriven.io/blog/flask-sessions/)
 - [https://www.sqlitetutorial.net/sqlite-delete/](https://www.sqlitetutorial.net/sqlite-delete/)
