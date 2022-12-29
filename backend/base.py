@@ -18,6 +18,7 @@ def verify_password(username, password):
   rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
 
   if len(db_query) == 1 and check_password_hash(db_query[0].get("hash"), password):
+    session["user_id"] = 
     return username
 
 
