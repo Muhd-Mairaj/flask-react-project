@@ -44,7 +44,7 @@ function Login() {
 
     // Login
     const result = await api.login(username, password)
-    if 
+    if (result )
     const response = await fetch("/tokens", {
       method: "POST",
       headers: {
