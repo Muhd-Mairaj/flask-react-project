@@ -27,7 +27,7 @@ function Home() {
 
     fetch("/profile", {
       headers: {
-        
+        "Content-Type":
       }
     }).then(response => response.json()).then(data => {
       console.log(data.items)
