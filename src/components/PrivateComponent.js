@@ -11,6 +11,7 @@ import { useUser } from '../contexts/UserProvider';
 export default function PrivateComponent({ children }) {
   const { user } = useUser();
   // const location = useLocation();
+  // console.log("user: ", user)
   // if (user === undefined) {
   //   return null;
   // }
