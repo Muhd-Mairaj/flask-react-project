@@ -84,5 +84,5 @@ def register():
   return errors, code
 
 
-@basic_auth.
+@basic_auth.login_required
 def tokens():
