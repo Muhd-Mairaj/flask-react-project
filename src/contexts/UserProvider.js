@@ -7,5 +7,7 @@ export default function UserProvider({ children }) {
   const [user, setUser] = useState
   console.log(user)
 
-  return
+  return (
+    
+  )
 }
