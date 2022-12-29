@@ -4,6 +4,9 @@ from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
+
+b
+
 app = Flask(__name__)
 db = SQL("sqlite:///database.db")
 
