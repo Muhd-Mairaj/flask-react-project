@@ -51,7 +51,8 @@ function Register() {
 
     // Resiter
     
-    const response = await fetch("/register", {
+    const response = await a
+    fetch("/register", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
