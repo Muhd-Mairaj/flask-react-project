@@ -4,6 +4,7 @@ import { useApi } from '../contexts/ApiProvider';
 
 
 function Logout() {
+  const api = useApi()
   const navigate = useNavigate()
   
   useEffect(() => {
