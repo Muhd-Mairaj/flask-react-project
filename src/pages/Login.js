@@ -67,7 +67,7 @@ function Login() {
       flash('You have successfully logged in!', 'success')
       navigate('/')
     }
-    else {
+    else if (result === "") {
       setFormErrors({
         username: "Invalid username or password",
         password: "Invalid username or password"
