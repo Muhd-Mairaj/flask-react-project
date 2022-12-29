@@ -49,8 +49,8 @@ function Login() {
       },
     })
     
+    const body = await(response.json())
     if (!response.ok) {
-      const body = await(response.json())
       console.log(body.error)
       return
     }
