@@ -11,7 +11,7 @@ import Register from './pages/Register';
 import Logout from './pages/Logout';
 
 import FlashProvider from './contexts/FlashProvider';
-import 
+import user
 // import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
