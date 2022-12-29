@@ -11,6 +11,8 @@ basic_auth = HTTPBasicAuth()
 db = SQL("sqlite:///database.db")
 
 
+
+
 @app.route("/profile")
 def profile():
     user_id = 1
