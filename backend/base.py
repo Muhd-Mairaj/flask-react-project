@@ -31,7 +31,7 @@ def register():
     return errors, 401
     
   # add user to db
-  db.execute("INSERT INTO users (username, passoword)")
+  db.execute("INSERT INTO users (username, passoword) VALUES")
 
   return {"yes": "nice"}
 
