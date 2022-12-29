@@ -10,7 +10,7 @@ basic_auth = HTTPBasicAuth()
 db = SQL("sqlite:///database.db")
 
 
-app.config["SESSION_PERMANENT"] = False
+# app.config["SESSION_PERMANENT"] = False
 # SESSION_COOKIE_SECURE
 
 @basic_auth.verify_password
