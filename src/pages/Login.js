@@ -50,7 +50,7 @@ function Login() {
       navigate('/')
     }
     else {
-      flash("")
+      flash("Invalid credential")
     }
     const response = await fetch("/tokens", {
       method: "POST",
