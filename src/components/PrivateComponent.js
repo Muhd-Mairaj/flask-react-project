@@ -1,3 +1,4 @@
+import useLocation, useNavigate
 import { useApi } from '../contexts/ApiProvider';
 
 
@@ -14,7 +15,7 @@ export default function PrivateComponent({ children }) {
     return children
   }
   else {
-    
+
   }
   // const location = useLocation();
   // console.log("user: ", user)
