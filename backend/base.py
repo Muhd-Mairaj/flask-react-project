@@ -27,7 +27,7 @@ def register():
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
-    return errors), 401
+    return errors, 401
     
 
   return {"yes": "nice"}
