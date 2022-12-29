@@ -41,6 +41,7 @@ function Login() {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
+        Authorization:  'Basic ' + btoa(username + ":" + password)
       },
       body: JSON.stringify({
         username: usernameField.current.value,
