@@ -26,7 +26,9 @@ function App() {
         <BrowserRouter>
 
           <FlashProvider>
-            
+            <UserProvider>
+              
+            </UserProvider>
             <Header loggedIn/>
 
               <Routes>
