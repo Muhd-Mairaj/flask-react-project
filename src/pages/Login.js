@@ -50,7 +50,8 @@ function Login() {
     })
     
     if (!response.ok) {
-      const body = await(res)
+      const body = await(response.json())
+      
       return
     }
     else {
