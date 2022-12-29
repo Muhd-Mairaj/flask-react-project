@@ -23,7 +23,7 @@ def verify_password(username, password):
     return rows[0]["id"]
 
 
-@auth.error_handler
+@basic_auth.error_handler
 def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 401)
 
