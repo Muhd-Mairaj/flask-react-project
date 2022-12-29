@@ -104,7 +104,7 @@ def register():
 def tokens():
   token = token_urlsafe()
   session["access_token"] = token
-  print()
+  print(basic_auth.)
 
   return {"access_token": token}, 200
 
