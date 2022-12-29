@@ -55,7 +55,7 @@ def register():
 
   
   # generate password hash
-  hash = 
+  password_hash = 
   # add user to db
   db.execute("INSERT INTO users (username, passoword) VALUES(?, ?)")
 
