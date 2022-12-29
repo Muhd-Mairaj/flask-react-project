@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, make_response, request, session
 from flask_session import Session
-from flask_httpauth import HTTPBasicAuth
+from flask_httpauth import HTTPBasicAuth, HT
 from secrets import token_urlsafe
 # from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
