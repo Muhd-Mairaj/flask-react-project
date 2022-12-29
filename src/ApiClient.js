@@ -53,4 +53,18 @@ export default class APIClient {
   async delete(url, options) {
     return this.request({method: 'DELETE', url, ...options});
   }
+
+  async login(username, password) {
+    const response = await this.post('/tokens', null, {
+      headers: {
+        Authorization:  'Basic ' + btoa(username + ":" + password)
+      }
+    });
+    if (!response.ok) {
+      return response.status === 401 ? 'fail' : 'error';
+    }
+    localStorage.setItem('accessToken', response.body.access_token);
+    return 'ok';
+  }
+
 }
