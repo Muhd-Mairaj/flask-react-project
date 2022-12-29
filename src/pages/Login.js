@@ -17,7 +17,7 @@ function Login() {
     if (usernameField.current) {
       usernameField.current.focus()
     }
-  }, []);
+  }, [usernam]);
 
 
   function handleSubmit(event) {
