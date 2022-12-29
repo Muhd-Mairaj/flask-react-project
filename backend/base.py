@@ -49,7 +49,7 @@ def verify_token(token):
 @token_auth.error_handler
 def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 403)
-    
+
 
 @app.route("/profile")
 @token_auth.login_required
@@ -76,30 +76,30 @@ def register():
   if not username:
     errors["username"] = "This field must be filled"
     return errors, 401
-  
-  # check password exists 
+
+  # check password exists
   if not password:
     errors["password"] = "This field must be filled"
     code = 401
-      
-  # check confirm exists 
+
+  # check confirm exists
   if not confirm:
     errors["confirm"] = "This field must be filled"
     code = 401
-  
+
   # validate username
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
     code = 401
-    
+
   # validate passwords
   if password and confirm and password != confirm:
     errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
     code = 401
 
-  
+
   if code == 200:
     # generate password hash
     password_hash = generate_password_hash(password)
