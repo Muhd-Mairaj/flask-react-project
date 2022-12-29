@@ -111,11 +111,11 @@ function Register() {
           </Row>
         </Col>
       </Form>
-      
+
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={5} lg={4} xl={3}>
           <hr />
-          <p className="py-2">Don&apos;t have an account? <Link to="/register">Register here</Link>!</p>
+          <p className="py-2">Already have an account? <Link to="/register">Register here</Link>!</p>
         </Col>
       </Row>
     </Body>
