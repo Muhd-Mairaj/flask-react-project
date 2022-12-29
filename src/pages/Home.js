@@ -23,7 +23,7 @@ function Home() {
 
 
   useEffect(() => {
-    const response = await api.post("/profile", null, {})
+    const response = await api.post("/profile", null, {Authorization: "Bearer " + localStorage.getItem("access_token")})
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
