@@ -20,7 +20,7 @@ function Home() {
 
 
   useEffect(() => {
-    
+    const response = 
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
