@@ -82,8 +82,6 @@ function Register() {
       flash('You have successfully registered!', 'success');
       navigate('/login');
     }
-
-
   }
   
   return (
