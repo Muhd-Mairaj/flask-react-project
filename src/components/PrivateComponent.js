@@ -9,7 +9,7 @@ import { useApi } from '../contexts/ApiProvider';
 // import { useUser } from '../contexts/UserProvider';
 
 export default function PrivateComponent({ children }) {
-  const { user } = useUser();
+  const api = useUser();
   // const location = useLocation();
   // console.log("user: ", user)
   // if (user === undefined) {
