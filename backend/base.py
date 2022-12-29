@@ -9,7 +9,7 @@ from cs50 import SQL
 
 app = Flask(__name__)
 
-app.config("SECRET_KEY") = 
+app.config("SECRET_KEY") = os.urandom(16)
 app.config["SESSION_PERMANENT"] = False
 Session(app)
 
