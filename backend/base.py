@@ -40,7 +40,7 @@ def unauthorized():
 
 
 @app.route("/profile")
-@token.login_required
+@token_auth.login_required
 def profile():
     user_id = 1
     items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
