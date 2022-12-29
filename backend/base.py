@@ -7,7 +7,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
 
-# initialise app
+# app
 app = Flask(__name__)
 
 app.config["SECRET_KEY"] = "192b9bdd22ab9ed4d12e236c78afcb9a393ec15f71bbf5dc987d54727823bcbf"
