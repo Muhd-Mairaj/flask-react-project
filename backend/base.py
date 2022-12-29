@@ -46,7 +46,8 @@ def register():
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
     return errors, 401
-    
+  
+  §
   
   # generate password hash
   # add user to db
