@@ -20,7 +20,7 @@ def verify_password(username, password):
 
 @basic_auth.error_handler
 def unauthorized():
-    return make_response(jsonify({'error': 'Unauthorized access'}), 403, {'WWW-Authenticate': 'Form'})
+    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
 
 
 @token_auth.verify_token
