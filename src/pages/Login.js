@@ -15,9 +15,8 @@ function Login() {
 
   useEffect(() => {
     if (username.current) {
-      
+      usernameField.current.focus()
     }
-    if usernameField.current.focus();
   }, []);
 
 
