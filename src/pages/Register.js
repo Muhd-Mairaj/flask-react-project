@@ -62,6 +62,7 @@ function Register() {
     //   })
     // })
     
+    
     const response = await api.post("/register", {
       username: usernameField.current.value,
       password: passwordField.current.value,
