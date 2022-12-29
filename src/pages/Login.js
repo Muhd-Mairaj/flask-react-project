@@ -10,7 +10,7 @@ import InputField from '../components/InputField';
 import { useFlash } from '../contexts/FlashProvider';
 
 function Login() {
-  const { navigate } = useNavigate()
+  const navigate = useNavigate()
   const flash = useFlash();
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
