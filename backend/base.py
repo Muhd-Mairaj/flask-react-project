@@ -35,10 +35,10 @@ def register():
   if not password:
     errors["password"] = "This field must be filled"
     return errors, 401
-    
-  # check password exists 
-  if not password:
-    errors["password"] = "This field must be filled"
+
+  # check confirm exists 
+  if not confirm:
+    errors["confirm"] = "This field must be filled"
     return errors, 401
 
   # validate username
