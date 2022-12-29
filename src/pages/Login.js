@@ -40,7 +40,9 @@ function Login() {
     // Login
     alert("Logging in")
     cont response = fetch("/login", {
-      headers:
+      headers: {
+        
+      }
     })
   }
   
