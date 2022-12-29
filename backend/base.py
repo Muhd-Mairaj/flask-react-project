@@ -21,6 +21,7 @@ def profile():
 def register():
   username = request.json.get("username")
   password = request.json.get("password")
+  password = request.json.get("password")
   errors = {}
   response = {}
 
