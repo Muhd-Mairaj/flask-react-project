@@ -39,7 +39,7 @@ function App() {
                   <Route path="/register" element={<Register/>}></Route>
                   <Route path="/logout" element={<Logout/>}></Route>
                 </Routes>
-                </test_>
+                </TestingSomething>
 
             </UserProvider>
           </FlashProvider>
