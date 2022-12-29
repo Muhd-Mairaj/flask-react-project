@@ -35,7 +35,10 @@ function Home() {
   useEffect(() => {
     (async () => {
       const response = await api.get("/profile", null, {
-        Authorization: "Bearer " + localStorage.getItem("access_token")
+        headers: {
+
+          Authorization: "Bearer " + localStorage.getItem("access_token")
+        }
       })
 
       if (response.ok) {
