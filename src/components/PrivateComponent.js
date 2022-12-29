@@ -18,6 +18,7 @@ export default function PrivateComponent({ children }) {
     return children
   }
   else {
+    console.log(lo)
     // const url = location.pathname + location.search + location.hash;
     // return <Navigate to="/login" state={{next: url}} />
     return <Navigate to="/login" />
