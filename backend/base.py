@@ -54,7 +54,6 @@ def profile():
     for i, item in enumerate(items, 1):
       item["key"] = i
 
-    print("Hello, {}!".format(token_auth.current_user()))
     return jsonify({"items": items})
 
 
