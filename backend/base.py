@@ -24,6 +24,7 @@ def register():
   confirm = request.json.get("confirm")
   errors = {}
   code = 200
+  print(username, password, confirm, sep="\")
 
 
   # check username exists
