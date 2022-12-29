@@ -9,7 +9,7 @@ import { useUser } from '../contexts/UserProvider';
 // }
 
 // import { useLocation, Navigate } from 'react-router-dom';
-import { useUser } from '../contexts/UserProvider';
+// import { useUser } from '../contexts/UserProvider';
 
 export default function PrivateRoute({ children }) {
   const { user } = useUser();
