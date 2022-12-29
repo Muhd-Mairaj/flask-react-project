@@ -17,8 +17,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 
 Session(app)
 
-basic_auth = HTTPBasicAuth()
-token_auth = HTTPTokenAuth()
+
 
 db = SQL("sqlite:///database.db")
 
