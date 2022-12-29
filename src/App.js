@@ -41,7 +41,7 @@ function App() {
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
                   </Routes>
-                  </PrivateComponent>
+                  {/* </PrivateComponent> */}
 
               {/* </UserProvider> */}
             </ApiProvider>
