@@ -3,7 +3,7 @@ import APIClient from '../APIClient';
 
 const APIContext = createContext();
 
-export default function ApiProvider({ children }) {
+export default function APIProvider({ children }) {
   const api = new MicroblogApiClient();
 
   return (
