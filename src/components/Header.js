@@ -11,8 +11,8 @@ function Header({ loggedIn }) {
   const [ isAuthenticated, setIsAuthenticated ] = useState(true)
 
   useEffect(() => {
-
-  })()
+    
+  }())
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
