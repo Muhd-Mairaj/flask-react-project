@@ -92,4 +92,4 @@ def register():
 @basic_auth.login_required
 def tokens():
   token = token_urlsafe()
-  return {"auth-token": "xxxxxxx"},
+  return {"auth-token": tokne},
