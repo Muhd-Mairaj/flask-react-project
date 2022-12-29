@@ -73,7 +73,7 @@ function Login() {
         username: "Invalid username or password",
         password: "Invalid username or password"
       })
-      console.log()
+      console.log(result === "fail")
     }
     
 
