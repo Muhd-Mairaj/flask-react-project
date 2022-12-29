@@ -31,20 +31,20 @@ function Home() {
 // }).catch(error => console.log(error))
 // }
 
-  useEffect(() => {
-    (async () => {
-      const response = await api.get("/profile", null, {
-        Authorization: "Bearer " + localStorage.getItem("access_token")
-      })
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await api.get("/profile", null, {
+  //       Authorization: "Bearer " + localStorage.getItem("access_token")
+  //     })
 
-      if (response.ok) {
-        setItems(response.body.items)
-      }
-      else {
-        console.log("error: ", response.body)
-      }
-    })()
-  }, [api])
+  //     if (response.ok) {
+  //       setItems(response.body.items)
+  //     }
+  //     else {
+  //       console.log("error: ", response.body)
+  //     }
+  //   })()
+  // }, [api])
 
 
   function handleSubmit(event) {
