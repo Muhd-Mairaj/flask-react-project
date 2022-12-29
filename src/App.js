@@ -29,7 +29,6 @@ function App() {
 
           <FlashProvider>
             <ApiProvider>
-              {/* <UserProvider> */}
                 <Header loggedIn/>
                   <Routes>
                     <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
@@ -38,9 +37,6 @@ function App() {
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
                   </Routes>
-                  {/* </PrivateComponent> */}
-
-              {/* </UserProvider> */}
             </ApiProvider>
           </FlashProvider>
 
