@@ -64,7 +64,6 @@ function Login() {
     // Login
     const result = await api.login(username, password)
     if (result == "ok") {
-      api.login(username, password)
       flash('You have successfully logged in!', 'success')
       navigate('/')
     }
