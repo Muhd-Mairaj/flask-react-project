@@ -1,1 +1,2 @@
-import { useUser } from '../contexts/UserProvider'
+import { useUser } from '../contexts/UserProvider';
+
