@@ -44,7 +44,7 @@ function Home() {
         console.log("error: ", response.body)
       }
     })()
-  }, [])
+  }, [api])
 
 
   function handleSubmit(event) {
