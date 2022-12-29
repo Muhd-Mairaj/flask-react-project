@@ -45,6 +45,9 @@ def verify_token(token):
   if token == session["access_token"]:
     return session["user_id"]
 
+@basic_auth.error_handler
+def unauthorized():
+    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
 
 @app.route("/profile")
 @token_auth.login_required
