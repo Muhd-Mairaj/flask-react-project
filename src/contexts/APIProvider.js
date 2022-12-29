@@ -7,7 +7,7 @@ export default function APIProvider({ children }) {
   const api = new APIClient();
 
   return (
-    <ApiContext.Provider value={api}>
+    <APIContext.Provider value={api}>
       {children}
     </ApiContext.Provider>
   );
