@@ -1,4 +1,4 @@
-"""Keeps the authorisation related methods in"""
+"""Store the authorisation related methods in"""
 
 from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
 
