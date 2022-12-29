@@ -33,7 +33,7 @@ function Home() {
 
   useEffect(() => {
     const response = await api.post("/profile", null, {Authorization: "Bearer " + localStorage.getItem("access_token")})
-   , []);
+  }, []);
 
 
   function handleSubmit(event) {
