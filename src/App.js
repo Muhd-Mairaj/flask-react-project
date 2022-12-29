@@ -29,22 +29,22 @@ function App() {
 
           <FlashProvider>
             <ApiProvider>
+              <UserProvider>
+                <Header loggedIn/>
+
+                  <PrivateComponent>
+
+                  <Routes>
+                    <Route path="/" element={<Home/>}></Route>
+                    <Route path="/test" element={<Test/>}></Route>
+                    <Route path="/login" element={<Login/>}></Route>
+                    <Route path="/register" element={<Register/>}></Route>
+                    <Route path="/logout" element={<Logout/>}></Route>
+                  </Routes>
+                  </PrivateComponent>
+
+              </UserProvider>
             </ApiProvider>
-            <UserProvider>
-              <Header loggedIn/>
-
-                <PrivateComponent>
-
-                <Routes>
-                  <Route path="/" element={<Home/>}></Route>
-                  <Route path="/test" element={<Test/>}></Route>
-                  <Route path="/login" element={<Login/>}></Route>
-                  <Route path="/register" element={<Register/>}></Route>
-                  <Route path="/logout" element={<Logout/>}></Route>
-                </Routes>
-                </PrivateComponent>
-
-            </UserProvider>
           </FlashProvider>
 
         </BrowserRouter>
