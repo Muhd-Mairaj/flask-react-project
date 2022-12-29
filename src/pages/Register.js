@@ -48,8 +48,7 @@ function Register() {
     }
 
     // Resiter
-    flash('You have successfully registered!', 'success');
-
+    
     const response = await fetch("/register", {
       method: "POST",
       headers: {
@@ -61,7 +60,7 @@ function Register() {
         confirm: confirmField.current.value
       })
     })
-
+    
     // console.log(response.json())
     const body = await response.json()
     console.log(body)
@@ -71,6 +70,7 @@ function Register() {
     }
     else {
       setFormErrors({})
+      flash('You have successfully registered!', 'success');
       navigate('/login');
     }
 
