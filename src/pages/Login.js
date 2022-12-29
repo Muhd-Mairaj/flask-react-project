@@ -32,29 +32,29 @@ function Login() {
     const errors = {};
     if (!username) {
       errors.username = "Username field must be filled"
+      // const response = await fetch("/tokens", {
+      //   method: "POST",
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //     Authorization:  'Basic ' + btoa(username + ":" + password)
+      //   },
+      // })
+      
+      // const body = await(response.json())
+      // if (!response.ok) {
+      //   console.log(body.error)
+      //   return
+      // }
+      // else {
+      //   flash('You have successfully logged in!', 'success')
+      //   localStorage.setItem('access_token', body.access_token)
+      //   navigate('/')
+      // }
     }
     if (!password) {
       errors.password = "Password field must be filled"
     }
 
-    // const response = await fetch("/tokens", {
-    //   method: "POST",
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //     Authorization:  'Basic ' + btoa(username + ":" + password)
-    //   },
-    // })
-    
-    // const body = await(response.json())
-    // if (!response.ok) {
-    //   console.log(body.error)
-    //   return
-    // }
-    // else {
-    //   flash('You have successfully logged in!', 'success')
-    //   localStorage.setItem('access_token', body.access_token)
-    //   navigate('/')
-    // }
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return
