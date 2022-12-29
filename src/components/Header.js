@@ -11,7 +11,7 @@ function Header({ loggedIn }) {
   const [ isAuthenticated, setIsAuthenticated ] = useState(true)
 
   useEffect(() => {
-    
+    if 
   }, [])
   
   return (
