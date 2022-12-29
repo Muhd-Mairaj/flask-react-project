@@ -42,9 +42,9 @@ function App() {
                     <PrivateComponent>
                     </PrivateComponent>
                   }/>
-                  <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>} />
-                  <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>} />
-                  <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>} />
+                  <Route path="/" element={<Home/></PrivateComponent>} />
+                  <Route path="/test" element={<Test/></PrivateComponent>} />
+                  <Route path="/logout" element={<Logout/></PrivateComponent>} />
                 </Routes>
             </ApiProvider>
           </FlashProvider>
