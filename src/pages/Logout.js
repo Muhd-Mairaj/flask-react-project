@@ -7,8 +7,7 @@ function Logout() {
   const api = useApi()
   const navigate = useNavigate()
   
-  useEffect(() => {
-    api.logout()
+  api.logout()
     navigate("/login")
 
 }
