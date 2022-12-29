@@ -51,7 +51,7 @@ function Register() {
 
     // Resiter
     
-    const response = await a
+    const response = await api.post("register")
     fetch("/register", {
       method: "POST",
       headers: {
