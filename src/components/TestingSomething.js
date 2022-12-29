@@ -15,14 +15,14 @@ export default function TestingSomething({ children }) {
   const { user } = useUser();
   // const location = useLocation();
   console.log()
-  if (user === undefined) {
-    return null;
-  }
-  else if (user) {
-    return children;
-  }
-  else {
-    const url = location.pathname + location.search + location.hash;
-    return <Navigate to="/login" state={{next: url}} />
-  }
+  // if (user === undefined) {
+  //   return null;
+  // }
+  // else if (user) {
+  //   return children;
+  // }
+  // else {
+  //   const url = location.pathname + location.search + location.hash;
+  //   return <Navigate to="/login" state={{next: url}} />
+  // }
 }
