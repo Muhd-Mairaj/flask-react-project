@@ -27,16 +27,16 @@ function App() {
 
           <FlashProvider>
             <UserProvider>
-            </UserProvider>
-            <Header loggedIn/>
+              <Header loggedIn/>
 
-              <Routes>
-                <Route path="/" element={<Home/>}></Route>
-                <Route path="/test" element={<Test/>}></Route>
-                <Route path="/login" element={<Login/>}></Route>
-                <Route path="/register" element={<Register/>}></Route>
-                <Route path="/logout" element={<Logout/>}></Route>
-              </Routes>
+                <Routes>
+                  <Route path="/" element={<Home/>}></Route>
+                  <Route path="/test" element={<Test/>}></Route>
+                  <Route path="/login" element={<Login/>}></Route>
+                  <Route path="/register" element={<Register/>}></Route>
+                  <Route path="/logout" element={<Logout/>}></Route>
+                </Routes>
+            </UserProvider>
           </FlashProvider>
           
         </BrowserRouter>
