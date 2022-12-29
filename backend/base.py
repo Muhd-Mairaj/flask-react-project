@@ -42,7 +42,7 @@ def unauthorized():
 
 @token_auth.verify_token
 def verify_token(token):
-  if token == session.get():
+  if token == session.get("access_token"):
     return session["user_id"]
 
 
