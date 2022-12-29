@@ -45,6 +45,7 @@ def verify_token(token):
   if token == session["access_token"]:
     return session["user_id"]
 
+
 @app.route("/profile")
 @token_auth.login_required
 def profile():
