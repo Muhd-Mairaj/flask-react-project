@@ -9,7 +9,7 @@ import Body from '../components/Body';
 import InputField from '../components/InputField';
 
 function Login() {
-  const navigate
+  const { navigate } = useNavigate
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
   const passwordField = useRef()
