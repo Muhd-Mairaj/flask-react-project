@@ -8,6 +8,8 @@ export default function UserProvider({ children }) {
   console.log(user)
 
   return (
-    <UserContext.Provider value = {{user, setUser}}
+    <UserContext.Provider value = {{user, setUser}}>
+      ch
+    </UserContext.Provider>
   )
 }
