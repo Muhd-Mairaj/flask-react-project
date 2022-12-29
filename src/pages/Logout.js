@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } 
+import { useNavigate } from 'react-router-dom';
 
 
 function Logout() {
