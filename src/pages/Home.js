@@ -21,7 +21,7 @@ function Home() {
 
   useEffect(() => {
     if (localStorage.getItem('accessToken') === null) {
-      navigate()
+      navigate("login")
     }
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
