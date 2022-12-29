@@ -13,6 +13,7 @@ db = SQL("sqlite:///database.db")
 
 @basic_auth.verify_password
 def verify_password(username, password):
+  
   rows = db.execute("SELECT * FROM users WHERE username = ?", request.form.get("username"))
 
   # Ensure username exists and password is correct
