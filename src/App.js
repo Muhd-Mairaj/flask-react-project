@@ -38,7 +38,7 @@ function App() {
                   <Route path="/register" element={
                     <PublicComponent><Register/></PublicComponent>
                   } />
-                  <Route
+                  <Route path="*"
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>} />
                   <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>} />
                   <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>} />
