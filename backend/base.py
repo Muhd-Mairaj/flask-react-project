@@ -3,7 +3,7 @@ from flask_httpauth import HTTPBasicAuth
 # from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
-
+app.config["SESSION_PERMANENT"] = False
 
 
 app = Flask(__name__)
@@ -87,4 +87,3 @@ def register():
 @app.route("/tokens", methods=["POST"])
 @basic_auth.login_required
 def tokens():
-  
