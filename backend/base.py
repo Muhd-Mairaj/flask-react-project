@@ -49,8 +49,7 @@ def register():
     
   # validate passwords
   if password and confirm and password != confirm:
-
-    errors["confirm"] = "Passwords dont match"
+    errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
 
   
