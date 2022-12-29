@@ -32,13 +32,16 @@ function App() {
               {/* <UserProvider> */}
                 <Header loggedIn/>
 
+                  <PrivateComponent>
+
                   <Routes>
                     <Route path="/" element={<Home/>}></Route>
                     <Route path="/test" element={<Test/>}></Route>
-                    <Route path="/login" element={<PrivateComponent><Login/></PrivateComponent>}></Route>
-                    <Route path="/register" element={<PrivateComponent><Register/></PrivateComponent>}></Route>
-                    <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
+                    <Route path="/login" element={<Login/>}></Route>
+                    <Route path="/register" element={<Register/>}></Route>
+                    <Route path="/logout" element={<Logout/>}></Route>
                   </Routes>
+                  </PrivateComponent>
 
               {/* </UserProvider> */}
             </ApiProvider>
