@@ -31,9 +31,6 @@ function App() {
             <ApiProvider>
               {/* <UserProvider> */}
                 <Header loggedIn/>
-
-                  {/* <PrivateComponent> */}
-
                   <Routes>
                     <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
                     <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>}></Route>
