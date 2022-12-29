@@ -21,18 +21,12 @@ function Home() {
   const itemField = useRef()
   const expiryField = useRef()
 
+  
 
   useEffect(() => {
     const response = await api.post("/profile", null, {Authorization: "Bearer " + localStorage.getItem("access_token")})
     fetch("/profile", {
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: "Bearer " + localStorage.getItem("access_token")
-      }
-    }).then(response => response.json()).then(data => {
-      setItems(data.items)
-    }).catch(error => console.log(error))
-  }, []);
+   , []);
 
 
   function handleSubmit(event) {
