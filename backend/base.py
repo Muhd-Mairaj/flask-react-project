@@ -105,8 +105,6 @@ def register():
 def tokens():
   token = token_urlsafe()
   session["access_token"] = token
-  print(basic_auth.current_user())
-
   return {"access_token": token}, 200
 
 @app.route("/logout", methods=["GET"])
