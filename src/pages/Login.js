@@ -45,7 +45,9 @@ function Login() {
     // Login
     const result = await api.login(username, password)
     if (result == "ok") {
-      
+      flash('You have successfully logged in!', 'success')
+      localStorage.setItem('access_token', body.access_token)
+      navigate('/')
     }
     const response = await fetch("/tokens", {
       method: "POST",
