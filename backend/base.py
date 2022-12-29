@@ -23,7 +23,7 @@ def register():
   password = request.json.get("password")
   confirm = request.json.get("confirm")
   errors = {}
-  response = {}
+  code = 
 
   # validate username
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
