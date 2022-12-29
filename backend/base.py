@@ -92,5 +92,5 @@ def register():
 @basic_auth.login_required
 def tokens():
   token = token_urlsafe()
-  session["ac"]
+  session["access-token"]
   return {"auth-token": token},
