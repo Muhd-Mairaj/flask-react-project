@@ -23,7 +23,7 @@ function Home() {
 
 
   useEffect(() => {
-    const response = 
+    const response = await api.
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
