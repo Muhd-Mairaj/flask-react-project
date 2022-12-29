@@ -107,3 +107,4 @@ def tokens():
 
   return {"access_token": token}, 200
 
+def logout()
