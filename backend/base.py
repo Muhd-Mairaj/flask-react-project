@@ -48,7 +48,8 @@ def register():
     return errors, 401
   
   # validate passwords
-  if not pass
+  if not password == confirm:
+    
   
   # generate password hash
   # add user to db
