@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react';
-import MicroblogApiClient from '../APIClient';
+import APIClient from '../APIClient';
 
 const ApiContext = createContext();
 
