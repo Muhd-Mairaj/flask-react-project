@@ -16,7 +16,7 @@ import UserProvider from './contexts/UserProvider';
 
 function App() {
   return (
-    
+
     <Container fluid className="App">
       {/* <Auth0Provider
         domain="dev-pt44rf70pk8szrwn.us.auth0.com"
@@ -36,9 +36,10 @@ function App() {
                   <Route path="/register" element={<Register/>}></Route>
                   <Route path="/logout" element={<Logout/>}></Route>
                 </Routes>
+
             </UserProvider>
           </FlashProvider>
-          
+
         </BrowserRouter>
       {/* </Auth0Provider> */}
     </Container>
