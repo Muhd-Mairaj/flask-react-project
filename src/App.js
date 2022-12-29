@@ -39,7 +39,9 @@ function App() {
                     <PublicComponent><Register/></PublicComponent>
                   } />
                   <Route path="*" element={
-                    
+                    <PrivateComponent>
+                      
+                    </PrivateComponent>
                   }/>
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>} />
                   <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>} />
