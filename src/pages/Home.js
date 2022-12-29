@@ -43,12 +43,7 @@ function Home() {
       Authorization: "Bearer " + localStorage.getItem("access_token")
     })
 
-    if (response.ok) {
-      setItems(response.body.items)
-    }
-    else {
-      console.log("error: ", response.body)
-    }
+    
   }, []);
 
 
