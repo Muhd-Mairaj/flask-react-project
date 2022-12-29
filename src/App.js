@@ -33,7 +33,9 @@ function App() {
               <Header loggedIn/>
                 <Routes>
                   <Route path="/login" element={
-                    <PublicComponent></PublicComponent>
+                    <PublicComponent>
+                      <Login/>
+                    </PublicComponent>
                   }></Route>
                   <Route path="/register" element={<Register/>}></Route>
 
