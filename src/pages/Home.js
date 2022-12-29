@@ -32,7 +32,6 @@ function Home() {
         Authorization: "Bearer " + localStorage.getItem("access_token")
       }
     }).then(response => response.json()).then(data => {
-      console.log(data.items)
       setItems(data.items)
     }).catch(error => console.log(error))
   }, []);
