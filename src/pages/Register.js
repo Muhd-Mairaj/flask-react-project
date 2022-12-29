@@ -70,6 +70,7 @@ function Register() {
     
     console.log(response)
 
+    const body = response.body
     // const body = await response.json()
     // console.log(body)
     if (!response.ok) {
