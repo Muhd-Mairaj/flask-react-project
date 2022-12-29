@@ -93,7 +93,7 @@ def register():
   return errors, code
 
 
-@app.route("/tokens", methods=["POST"])
+@app.route("/login", methods=["POST"])
 @basic_auth.login_required
 def login():
   token = token_urlsafe()
