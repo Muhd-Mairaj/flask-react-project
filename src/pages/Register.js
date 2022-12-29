@@ -12,7 +12,6 @@ import { useFlash } from '../contexts/FlashProvider';
 import { useApi } from '../contexts/ApiProvider';
 
 
-
 function Register() {
   const api = useApi()
   const flash = useFlash();
