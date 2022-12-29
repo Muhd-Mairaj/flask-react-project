@@ -29,7 +29,7 @@ function App() {
 
           <FlashProvider>
             <ApiProvider>
-              <UserProvider>
+              {/* <UserProvider> */}
                 <Header loggedIn/>
 
                   {/* <PrivateComponent> */}
