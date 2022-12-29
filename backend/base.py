@@ -26,7 +26,7 @@ def register():
   code = 200
 
 
-  # check username
+  # check username exists
   
   # check password exists 
   if not password:
