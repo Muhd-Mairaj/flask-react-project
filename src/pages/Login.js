@@ -11,6 +11,7 @@ import { useFlash } from '../contexts/FlashProvider';
 import { useApi } from '../contexts/ApiProvider';
 
 function Login() {
+  const api = useApi()
   const navigate = useNavigate()
   const flash = useFlash();
   const [formErrors, setFormErrors] = useState({})
