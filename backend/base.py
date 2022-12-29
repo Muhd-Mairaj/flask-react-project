@@ -106,3 +106,4 @@ def tokens():
   session["access_token"] = token
 
   return {"access_token": token}, 200
+
