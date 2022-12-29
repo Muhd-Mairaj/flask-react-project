@@ -32,7 +32,7 @@ def register():
     return errors, 401
     
   # check matching passwords
-  if 
+  if password
   
   # generate password hash
   # add user to db
