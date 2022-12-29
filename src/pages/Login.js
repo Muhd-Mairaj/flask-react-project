@@ -57,7 +57,7 @@ function Login() {
     else {
       flash('You have successfully logged in!', 'success')
       console.log("response.body.access_token" + response.body.access_token)
-      localStorage.setItem('access_token', response.body.access_token)
+      localStorage.setItem('access_token',body.access_token)
       navigate('/')
     }
 
