@@ -62,5 +62,5 @@ def register():
   if code == 401:
     return errors, code
 
-  return 200
+  return (200
 
