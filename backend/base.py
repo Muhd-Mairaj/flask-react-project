@@ -32,7 +32,7 @@ def verify_password(username, password):
 
   if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
     session["user_id"] = rows[0]["id"]
-    return rows[0]["id"]
+    return session["user_id"]
 
 
 @basic_auth.error_handler
