@@ -26,7 +26,9 @@ function Home() {
     }
 
     fetch("/profile", {
-      ""
+      headers: {
+        
+      }
     }).then(response => response.json()).then(data => {
       console.log(data.items)
       setItems(data.items)
