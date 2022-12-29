@@ -35,11 +35,11 @@ function App() {
                   <PrivateComponent>
 
                   <Routes>
-                    <Route path="/" element={<PrivateComponent><Home/>}></Route>
-                    <Route path="/test" element={<PrivateComponent><Test/>}></Route>
+                    <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
+                    <Route path="/test" element={<PrivateComponent><Test/></PrivateComponent>}></Route>
                     <Route path="/login" element={<Login/>}></Route>
                     <Route path="/register" element={<Register/>}></Route>
-                    <Route path="/logout" element={<PrivateComponent><Logout/>}></Route>
+                    <Route path="/logout" element={<PrivateComponent><Logout/></PrivateComponent>}></Route>
                   </Routes>
                   </PrivateComponent>
 
