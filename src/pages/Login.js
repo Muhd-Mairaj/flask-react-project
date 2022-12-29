@@ -43,11 +43,6 @@ function Login() {
         'Content-Type': 'application/json',
         Authorization:  'Basic ' + btoa(username + ":" + password)
       },
-      // body: JSON.stringify({
-      //   username: usernameField.current.value,
-      //   password: passwordField.current.value,
-      //   confirm: confirmField.current.value
-      // })
     })
     
     if (!response.ok) {
