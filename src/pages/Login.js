@@ -38,7 +38,6 @@ function Login() {
     }
 
     // Login
-    alert("Logging in")
     const response = fetch("/tokens", {
       method: "POST",
       headers: {
