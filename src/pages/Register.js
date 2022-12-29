@@ -9,9 +9,12 @@ import Body from '../components/Body';
 import InputField from '../components/InputField';
 
 import { useFlash } from '../contexts/FlashProvider';
+import { useApi } from '../contexts/ApiProvider';
+
 
 
 function Register() {
+  const api = useApi()
   const flash = useFlash();
   const navigate = useNavigate()
   const [formErrors, setFormErrors] = useState({})
