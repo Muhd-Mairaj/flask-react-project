@@ -14,3 +14,7 @@ export default function UserProvider({ children }) {
   )
 }
 
+
+export function useUser() {
+  re
+}
