@@ -46,8 +46,6 @@ function Login() {
       },
     })
     
-    const body = await response.json()
-    console.log(body)
     if (!response.ok) {
       return
     }
