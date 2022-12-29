@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {useApi} from '../contexts/'
+import {useApi} from '../contexts/ApiProvider'
 
 
 function Logout() {
