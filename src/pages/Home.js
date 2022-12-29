@@ -20,7 +20,7 @@ function Home() {
 
 
   useEffect(() => {
-    if (localStorage.getItem('accessToken') === null) {
+    if (localStorage.getItem('access_token') === null) {
       navigate("login")
       return
     }
