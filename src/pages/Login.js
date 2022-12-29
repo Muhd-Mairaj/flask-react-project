@@ -46,6 +46,17 @@ function Login() {
       },
     })
     
+    const body = await response.json()
+    console.log(body)
+    if (!response.ok) {
+      setFormErrors(body)
+      return
+    }
+    else {
+      setFormErrors({})
+      flash('You have successfully registered!', 'success');
+      navigate('/login');
+    }
     if (!response.ok) {
       console.log(response)
     }
