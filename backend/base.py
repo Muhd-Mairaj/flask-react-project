@@ -116,6 +116,6 @@ def tokens():
 
 
 @app.route("/logout", methods=["GET"])
-
+@token_auth.login_required
 def logout():
   session.clear()
