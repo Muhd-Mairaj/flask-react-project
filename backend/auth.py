@@ -1,7 +1,7 @@
 """Store the authorisation related methods in seperate file"""
 
 from flask import current_app
-from base import 
+from base import db
 from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
 
 
