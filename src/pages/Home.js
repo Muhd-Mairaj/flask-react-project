@@ -28,7 +28,7 @@ function Home() {
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + localStorage.get("access_token")
+        Authorization: "Bearer " + localStorage.getItem("access_token")
       }
     }).then(response => response.json()).then(data => {
       console.log(data.items)
