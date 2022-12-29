@@ -9,7 +9,7 @@ export default function APIProvider({ children }) {
   return (
     <APIContext.Provider value={api}>
       {children}
-    </ApiContext.Provider>
+    </APIContext.Provider>
   );
 }
 
