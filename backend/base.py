@@ -11,7 +11,8 @@ basic_auth = HTTPBasicAuth()
 db = SQL("sqlite:///database.db")
 
 
-
+@basic_auth.verify_password
+def verify_password()
 
 @app.route("/profile")
 def profile():
