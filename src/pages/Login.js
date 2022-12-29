@@ -51,28 +51,28 @@ function Login() {
     }
     else {
       setFormErrors({
-        username: "Invalid username or password"
+        username: "Invalid username or password",
         password: "Invalid username or password"
       })
     }
-    const response = await fetch("/tokens", {
-      method: "POST",
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization:  'Basic ' + btoa(username + ":" + password)
-      },
-    })
+    // const response = await fetch("/tokens", {
+    //   method: "POST",
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     Authorization:  'Basic ' + btoa(username + ":" + password)
+    //   },
+    // })
     
-    const body = await(response.json())
-    if (!response.ok) {
-      console.log(body.error)
-      return
-    }
-    else {
-      flash('You have successfully logged in!', 'success')
-      localStorage.setItem('access_token', body.access_token)
-      navigate('/')
-    }
+    // const body = await(response.json())
+    // if (!response.ok) {
+    //   console.log(body.error)
+    //   return
+    // }
+    // else {
+    //   flash('You have successfully logged in!', 'success')
+    //   localStorage.setItem('access_token', body.access_token)
+    //   navigate('/')
+    // }
 
 
     // console.log(response)
