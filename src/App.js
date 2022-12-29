@@ -23,8 +23,8 @@ function App() {
         redirectUri={window.location.origin}
       > */}
         <BrowserRouter>
-        <FlashProvider>
 
+          <FlashProvider>
             <Header loggedIn/>
 
               <Routes>
@@ -34,9 +34,9 @@ function App() {
                 <Route path="/register" element={<Register/>}></Route>
                 <Route path="/logout" element={<Logout/>}></Route>
               </Routes>
-          </BrowserRouter>
           
         </FlashProvider>
+          </BrowserRouter>
       {/* </Auth0Provider> */}
     </Container>
 
