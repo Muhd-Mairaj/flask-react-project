@@ -50,7 +50,9 @@ function Login() {
       navigate('/')
     }
     else {
-      setFormErrors()
+      setFormErrors({
+        
+      })
     }
     const response = await fetch("/tokens", {
       method: "POST",
