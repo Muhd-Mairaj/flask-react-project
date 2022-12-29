@@ -43,12 +43,13 @@ function App() {
                   
                   <Route path="*" element={
                     <PrivateComponent>
+                    <
                       <Route path="/" element={<Home/>} />
                       <Route path="/test" element={<Test/>} />
                       <Route path="/logout" element={<Logout/>} />
                     </PrivateComponent>
                   }/>
-                  
+
                 </Routes>
             </ApiProvider>
           </FlashProvider>
