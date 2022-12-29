@@ -84,5 +84,5 @@ def register():
   return errors, code
 
 
-@
+@basic_auth.
 def tokens():
