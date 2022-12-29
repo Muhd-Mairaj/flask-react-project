@@ -37,9 +37,9 @@ function App() {
                   <Routes>
                     <Route path="/" element={<Home/>}></Route>
                     <Route path="/test" element={<Test/>}></Route>
-                    <Route path="/login" element={<Login/>}></Route>
-                    <Route path="/register" element={<Register/>}></Route>
-                    <Route path="/logout" element={<Logout/>}></Route>
+                    <Route path="/login" element={<P<Login/>}></Route>
+                    <Route path="/register" element={<P<Register/>}></Route>
+                    <Route path="/logout" element={<P<Logout/>}></Route>
                   </Routes>
                   </PrivateComponent>
 
