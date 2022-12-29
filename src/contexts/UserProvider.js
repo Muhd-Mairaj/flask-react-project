@@ -4,13 +4,13 @@ import { useApi } from './ApiProvider';
 const UserContext = createContext()
 
 export default function UserProvider({ children }) {
-  const [user, setUser] = useState()
+  // const [user, setUser] = useState()
   const { api } = useApi()
 
   useEffect(() => {
     (async () => {
         if (!api.isAuthenticated) {
-          
+
         }
     })()
   }, [api])
