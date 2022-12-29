@@ -20,7 +20,6 @@ function Home() {
 
 
   useEffect(() => {
-    console.log("localStorage.getItem('access_token'): " + localStorage.getItem("access_token"))
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
