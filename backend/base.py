@@ -93,5 +93,5 @@ def register():
 def tokens():
   token = token_urlsafe()
   session["access_token"] = token
-  
-  return {"access_token": token},
+
+  return {"access_token": token}, 200
