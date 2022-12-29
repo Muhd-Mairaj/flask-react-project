@@ -72,4 +72,7 @@ export default class APIClient {
     localStorage.removeItem('accessToken');
   }
 
+  isAuthenticated() {
+    return localStorage.getItem('accessToken') !== null;
+  }
 }
