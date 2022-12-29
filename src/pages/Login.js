@@ -14,7 +14,7 @@ function Login() {
   const passwordField = useRef()
 
   useEffect(() => {
-    i
+    if (username.current)
     if usernameField.current.focus();
   }, []);
 
