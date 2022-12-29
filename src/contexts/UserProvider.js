@@ -1,7 +1,7 @@
 import React, { useEFfect, useState, useContext, createContext } from 'react';
 
 
-const UserContext = 
+const UserContext = createContext()
 
 function UserProvider() {
   
