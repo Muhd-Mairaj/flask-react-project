@@ -84,6 +84,6 @@ def register():
   return errors, code
 
 
-@app.route("/tokens")
+@app.route("/tokens", methods=["POST"])
 @basic_auth.login_required
 def tokens():
