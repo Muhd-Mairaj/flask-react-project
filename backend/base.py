@@ -57,7 +57,7 @@ def register():
   # generate password hash
   password_hash = generate_password_hash(password)
   # add user to db
-  db.execute("INSERT INTO users (username, passoword) VALUES(?, ?)")
+  db.execute("INSERT INTO users (username, hash) VALUES(?, ?)")
 
   if code == 401:
     return errors, code
