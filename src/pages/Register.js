@@ -52,7 +52,9 @@ function Register() {
     // Resiter
     
     const response = await api.post("/register", {
-      username: 
+      username: usernameField.current.value,
+      password: passwordField.current.value,
+      confirm: confirmField.current.value 
     })
     fetch("/register", {
       method: "POST",
