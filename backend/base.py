@@ -49,6 +49,7 @@ def register():
     
   # validate passwords
   if not password == confirm:
+    errors["confirm"] = "This field must be filled"
 
   
   # generate password hash
