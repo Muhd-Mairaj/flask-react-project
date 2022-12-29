@@ -60,7 +60,7 @@ function Register() {
       },
       body: JSON.stringify({
         username: usernameField.current.value,
-        password: passwordField.current.value
+        password: passwordField.current.value,
         confirm: confirmField.current.value
       })
     })
