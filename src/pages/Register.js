@@ -53,6 +53,7 @@ function Register() {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
+        Authorisation
       },
       body: JSON.stringify({
         username: usernameField.current.value,
