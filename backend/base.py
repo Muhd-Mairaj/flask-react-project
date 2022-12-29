@@ -18,7 +18,7 @@ db = SQL("sqlite:///database.db")
 def verify_password(username, password):
   rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
 
-  if len(db_query) == 1 and check_password_hash(rows[0]["hash"], password):
+  if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
     session["user_id"] = rows[0]["id"]
     return rows[0]["id"]
 
