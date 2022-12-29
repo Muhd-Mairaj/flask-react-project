@@ -16,7 +16,7 @@ def verify_password(username, password):
 
   db_query = db.execute("SELECT username, hash FROM users WHERE username = ?", username)
 
-  
+  if len(db_query) 
   # Ensure username exists and password is correct
   if len(rows) != 1 or not check_password_hash(rows[0]["hash"], request.form.get("password")):
       return apology("invalid username and/or password", 403)
