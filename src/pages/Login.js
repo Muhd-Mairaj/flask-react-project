@@ -37,6 +37,7 @@ function Login() {
       return
     }
 
+    // Login
     const response = await fetch("/tokens", {
       method: "POST",
       headers: {
@@ -49,7 +50,6 @@ function Login() {
       console.log(response)
     }
 
-    // Login
 
     // console.log(response)
   }
