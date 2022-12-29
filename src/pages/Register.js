@@ -71,7 +71,7 @@ function Register() {
     console.log(response)
 
     if (!response.ok) {
-      setFormErrors(body)
+      setFormErrors(response.body)
       return
     }
     else {
