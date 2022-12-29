@@ -1,4 +1,16 @@
-import React, { useEF
+import React, { useEffect, useState, useContext, createContext } from 'react';
+
+
+const UserContext = createContext()
+
+export default function UserProvider({ children }) {
+  const [user, setUser] = useState()
+  console.log(user)
+
+  useEffect(() => {
+    (async () => {
+
+    })()
   })
   
   return (
