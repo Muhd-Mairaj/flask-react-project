@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Logout() {
-  const navigate = 
+  const navigate = useNavigate()
   return (
     
   )
