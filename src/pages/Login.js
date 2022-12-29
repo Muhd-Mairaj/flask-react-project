@@ -43,6 +43,7 @@ function Login() {
     }
 
     // Login
+    result = await api.login(username, password)
     const response = await fetch("/tokens", {
       method: "POST",
       headers: {
