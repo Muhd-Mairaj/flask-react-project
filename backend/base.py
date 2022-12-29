@@ -51,6 +51,7 @@ def register():
   if password and confirm and password != confirm:
     errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
+    
 
   
   # generate password hash
