@@ -30,7 +30,7 @@ function App() {
             <UserProvider>
               <Header loggedIn/>
 
-                <test></test>
+                <test_></test>
                 <Routes>
                   <Route path="/" element={<Home/>}></Route>
                   <Route path="/test" element={<Test/>}></Route>
