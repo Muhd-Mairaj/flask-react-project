@@ -33,7 +33,7 @@ def register():
     
   # check password exists 
   if not password:
-    errors["username"] = "Username is unavailable"
+    errors["passowrd"] = "Username is unavailable"
     return errors, 401
   
   # generate password hash
