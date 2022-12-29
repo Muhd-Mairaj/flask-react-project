@@ -30,7 +30,8 @@ def register():
     errors["username"] = "Username is unavailable"
     return errors, 401
     
-  
+  # add user to db
+  d
 
   return {"yes": "nice"}
 
