@@ -9,7 +9,8 @@ export default function UserProvider({ children }) {
 
   return (
     <UserContext.Provider value = {{user, setUser}}>
-      ch
+      { children }
     </UserContext.Provider>
   )
 }
+
