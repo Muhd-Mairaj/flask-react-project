@@ -8,6 +8,6 @@ export default function UserProvider({ children }) {
   console.log(user)
 
   return (
-    User
+    <UserContext.Provider
   )
 }
