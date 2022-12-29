@@ -1,4 +1,4 @@
-export default class MicroblogApiClient {
+export default class APIClient {
   constructor() {
   }
 
