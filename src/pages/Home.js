@@ -39,7 +39,9 @@ function Home() {
     if (response.ok) {
       setItems(response.body.items)
     }
-    else {}
+    else {
+      
+    }
   }, []);
 
 
