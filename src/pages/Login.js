@@ -10,6 +10,7 @@ import InputField from '../components/InputField';
 
 function Login() {
   const { navigate } = useNavigate()
+  const flash = useFlash();
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
   const passwordField = useRef()
