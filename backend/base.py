@@ -91,5 +91,5 @@ def register():
 @app.route("/tokens", methods=["POST"])
 @basic_auth.login_required
 def tokens():
-  token = 
+  token = token_urlsafe()
   return {"auth-token": "xxxxxxx"},
