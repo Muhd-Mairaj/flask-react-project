@@ -82,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [React Router Docs](https://reactrouter.com/en/main/start/overview)
 - [Sessions in Flask](https://testdriven.io/blog/flask-sessions/)
 - [https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session](https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session)
--
+- Flask-Session docs
