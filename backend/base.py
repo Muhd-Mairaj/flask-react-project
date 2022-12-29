@@ -32,7 +32,7 @@ def after_request(response):
     return response
 
 
-@app.route("/profile", methods=["get"])
+@app.route("/profile", methods=["GET"])
 @token_auth.login_required
 def profile():
     user_id = 1
