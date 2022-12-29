@@ -40,7 +40,7 @@ function Login() {
     // Login
     alert("Logging in")
     cont response = fetch("/login", {
-      method: 
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization:  'Basic ' + btoa(username + ":" + password)
