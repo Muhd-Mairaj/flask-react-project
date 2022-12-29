@@ -8,7 +8,7 @@ export default function PrivateComponent({ children }) {
   const navigate = useNavigate()
   
   if (api.isAuthenticated()) {
-    return children
+    return <Navigate to=
   }
   else {
     // const url = location.pathname + location.search + location.hash;
