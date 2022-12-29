@@ -12,7 +12,7 @@ export default function UserProvider({ children }) {
     (async () => {
 
     })()
-  })
+  }, [api])
   
   return (
     <UserContext.Provider value = {{ user, setUser }}>
