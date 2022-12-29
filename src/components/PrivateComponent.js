@@ -11,7 +11,7 @@ import { useApi } from '../contexts/ApiProvider';
 export default function PrivateComponent({ children }) {
   const api = useApi()
   if (api === undefined) {
-    console.log("THIS IS INDEED POSSIBLE")
+    return null
   }
   // const location = useLocation();
   // console.log("user: ", user)
