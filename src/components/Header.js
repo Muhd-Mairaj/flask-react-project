@@ -10,14 +10,14 @@ import '../index.css'
 function Header({ loggedIn }) {
   const [ isAuthenticated, setIsAuthenticated ] = useState(false)
 
-  useEffect(() => {
-    if (localStorage.getItem("access_token") !== null) {
-      setIsAuthenticated(true)
-    }
-    else {
-      setIsAuthenticated(false)
-    }
-  }, [])
+  // useEffect(() => {
+  //   if (localStorage.getItem("access_token") !== null) {
+  //     setIsAuthenticated(true)
+  //   }
+  //   else {
+  //     setIsAuthenticated(false)
+  //   }
+  // }, [])
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
