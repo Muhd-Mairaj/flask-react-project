@@ -32,7 +32,7 @@ function App() {
               <UserProvider>
                 <Header loggedIn/>
 
-                  <PrivateComponent>
+                  {/* <PrivateComponent> */}
 
                   <Routes>
                     <Route path="/" element={<Home/>}></Route>
@@ -41,7 +41,7 @@ function App() {
                     <Route path="/register" element={<Register/>}></Route>
                     <Route path="/logout" element={<Logout/>}></Route>
                   </Routes>
-                  </PrivateComponent>
+                  {/* </PrivateComponent> */}
 
               </UserProvider>
             </ApiProvider>
