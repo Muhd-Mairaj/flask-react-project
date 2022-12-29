@@ -12,7 +12,7 @@ function Header({ loggedIn }) {
 
   useEffect(() => {
     if (localStorage.getItem("access_token") !== null) {
-      setIsAuthenticated(flase)
+      setIsAuthenticated(true)
     }
   }, [localStorage.getItem("access_token")])
   
