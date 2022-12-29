@@ -37,6 +37,20 @@ function Login() {
       return
     }
 
+    const response = await fetch("/register", {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: usernameField.current.value,
+        password: passwordField.current.value,
+        confirm: confirmField.current.value
+      })
+    })
+    
+    console.log(response)
+
     // Login
     const response = await fetch("/tokens", {
       method: "POST",
