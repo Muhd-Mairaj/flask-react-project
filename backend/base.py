@@ -11,7 +11,7 @@ db = SQL("sqlite:///database.db")
 
 
 app.config["SESSION_PERMANENT"] = False
-SESSION_COOKIE_SECURE
+# SESSION_COOKIE_SECURE
 
 @basic_auth.verify_password
 def verify_password(username, password):
