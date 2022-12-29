@@ -5,6 +5,7 @@ const UserContext = createContext()
 
 export default function UserProvider({ children }) {
   const [user, setUser] = useState()
+  const { a}
   console.log(user)
 
   useEffect(() => {
