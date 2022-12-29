@@ -28,7 +28,8 @@ function App() {
         <BrowserRouter>
 
           <FlashProvider>
-            <ApiProvider
+            <ApiProvider>
+            </ApiProvider>
             <UserProvider>
               <Header loggedIn/>
 
