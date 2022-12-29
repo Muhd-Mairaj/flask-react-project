@@ -63,16 +63,16 @@ export default class APIClient {
     if (!response.ok) {
       return response.status === 401 ? 'fail' : 'error';
     }
-    localStorage.setItem('accessToken', response.body.access_token);
+    localStorage.setItem('access_token', response.body.access_token);
     return 'ok';
   }
 
   async logout() {
     await this.delete('/tokens');
-    localStorage.removeItem('accessToken');
+    localStorage.removeItem('access_token');
   }
 
   isAuthenticated() {
-    return localStorage.getItem('accessToken') !== null;
+    return localStorage.getItem('access_token') !== null;
   }
 }
