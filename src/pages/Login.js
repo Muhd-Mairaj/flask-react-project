@@ -47,7 +47,7 @@ function Login() {
       }
     })
 
-    
+    console.log(response)
   }
   
   return (
