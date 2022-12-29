@@ -1,6 +1,5 @@
 export default class MicroblogApiClient {
   constructor() {
-    this.base_url =  BASE_API_URL + '/api';
   }
 
   async request(options) {
