@@ -14,7 +14,7 @@ function Header({ loggedIn }) {
     if (localStorage.getItem("access_token") !== null) {
       setIsAuthenticated(true)
     }
-  }, [])
+  }, [localStorage.getI])
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
