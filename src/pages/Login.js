@@ -53,7 +53,6 @@ function Login() {
       return
     }
     else {
-      setFormErrors({})
       flash('You have successfully logged in!', 'success');
       navigate('/');
     }
