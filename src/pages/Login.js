@@ -50,13 +50,6 @@ function Login() {
     }
 
     // Login
-    // const response = await fetch("/tokens", {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //     Authorization:  'Basic ' + btoa(username + ":" + password)
-    //   }
-    // })
 
     // console.log(response)
   }
