@@ -9,7 +9,7 @@ from cs50 import SQL
 
 app = Flask(__name__)
 
-app.config()
+app.config("SECRET_KEY") = os.
 app.config["SESSION_PERMANENT"] = False
 Session(app)
 
