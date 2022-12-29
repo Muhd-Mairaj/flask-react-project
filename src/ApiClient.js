@@ -55,7 +55,7 @@ export default class APIClient {
   }
 
   async login(username, password) {
-    const response = await this.post('/tokens', null, {
+    const response = await this.post('/login', null, {
       headers: {
         Authorization:  'Basic ' + btoa(username + ":" + password)
       }
