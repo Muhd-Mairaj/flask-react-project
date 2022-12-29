@@ -67,5 +67,9 @@ export default class APIClient {
     return 'ok';
   }
 
-  
+  async logout() {
+    await this.delete('/tokens');
+    localStorage.removeItem('accessToken');
+  }
+
 }
