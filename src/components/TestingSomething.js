@@ -1,12 +1,12 @@
 import { useUser } from '../contexts/UserProvider';
 
 
-export default function TestingSomething({ children }) {
-  const { user } = useUser();
+// export default function TestingSomething({ children }) {
+//   const { user } = useUser();
 
-  console.log(user)
+//   console.log(user)
   
-}
+// }
 
 // import { useLocation, Navigate } from 'react-router-dom';
 import { useUser } from '../contexts/UserProvider';
