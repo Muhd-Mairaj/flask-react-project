@@ -27,7 +27,6 @@ function App() {
 
           <FlashProvider>
             <UserProvider>
-              
             </UserProvider>
             <Header loggedIn/>
 
