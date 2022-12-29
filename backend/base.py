@@ -18,7 +18,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 basic_auth = HTTPBasicAuth()
-token_auth = HTTPTokenAuth
+token_auth = HTTPTokenAuth()
 
 db = SQL("sqlite:///database.db")
 
@@ -41,7 +41,8 @@ def unauthorized():
 
 
 @token_auth.verify_token
-def verify_token()
+def verify_token():
+  
 
 @app.route("/profile")
 @token_auth.login_required
