@@ -31,7 +31,8 @@ function Home() {
 // }).catch(error => console.log(error))
 // }
 
-  useEffect(() => {async () => {
+  useEffect(())
+  useEffect( async () => {
     const response = await api.post("/profile", null, {
       Authorization: "Bearer " + localStorage.getItem("access_token")
     })
@@ -42,7 +43,7 @@ function Home() {
     else {
       console.log("error: ", response.body)
     }
-  }}, []);
+  }, []);
 
 
   function handleSubmit(event) {
