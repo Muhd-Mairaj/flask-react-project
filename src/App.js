@@ -34,8 +34,6 @@ function App() {
                 <Routes>
                   <Route path="/login" element={
                     <PublicComponent>
-                      <Login/>
-                    </PublicComponent>
                   }></Route>
                   <Route path="/register" element={<Register/>}></Route>
 
