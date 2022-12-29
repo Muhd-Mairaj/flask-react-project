@@ -3,7 +3,7 @@ import ApiClient from '../ApiClient';
 
 const ApiContext = createContext();
 
-export default function APIProvider({ children }) {
+export default function ApiProvider({ children }) {
   const api = new ApiClient();
 
   return (
