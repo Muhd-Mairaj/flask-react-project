@@ -39,7 +39,7 @@ function Login() {
 
     // Login
     alert("Logging in")
-    cont response = fetch("/login", {
+    const response = fetch("/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
