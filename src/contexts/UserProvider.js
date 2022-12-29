@@ -9,7 +9,7 @@ export default function UserProvider({ children }) {
 
   useEffect(() => {
     (async () => {
-        if (!api)
+        if (!api.isAuthenticated)
     })()
   }, [api])
   
