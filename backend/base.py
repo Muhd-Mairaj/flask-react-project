@@ -107,5 +107,5 @@ def tokens():
 
   return {"access_token": token}, 200
 
-@app.route(logout)
+@app.route("/logout",)
 def logout():
