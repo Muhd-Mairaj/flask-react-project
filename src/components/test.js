@@ -1,1 +1,1 @@
-import { useUser } from '../contexts//'
+import { useUser } from '../contexts/'
