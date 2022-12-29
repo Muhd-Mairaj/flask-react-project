@@ -36,7 +36,6 @@ function Home() {
     (async () => {
       const response = await api.get("/profile", null, {
         headers: {
-
           Authorization: "Bearer " + localStorage.getItem("access_token")
         }
       })
