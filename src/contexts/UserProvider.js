@@ -5,7 +5,7 @@ const UserContext = createContext()
 
 export default function UserProvider({ children }) {
   const [user, setUser] = useState()
-  const { a}
+  const { api } = useApi()
   console.log(user)
 
   useEffect(() => {
