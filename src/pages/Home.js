@@ -44,7 +44,7 @@ function Home() {
         console.log("error: ", response.body)
       }
     })()
-  }, [])
+  }, [api])
   useEffect( async () => {
     const response = await api.post("/profile", null, {
       Authorization: "Bearer " + localStorage.getItem("access_token")
