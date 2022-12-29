@@ -8,7 +8,7 @@ export default function UserProvider({ children }) {
   console.log(user)
 
   useEffect(() => {
-    ()
+    (async () => )
   })
   
   return (
