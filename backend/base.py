@@ -120,7 +120,7 @@ def tokens():
   return {"access_token": token}, 200
 
 
-@app.route("/logout", methods=["GET"])
+@app.route("/tokens", methods=["GET"])
 @token_auth.login_required
 def logout():
   session.clear()
