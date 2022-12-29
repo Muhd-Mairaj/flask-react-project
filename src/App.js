@@ -32,7 +32,9 @@ function App() {
             <ApiProvider>
               <Header loggedIn/>
                 <Routes>
-                  <Route path="/login" element={<Login/>}></Route>
+                  <Route path="/login" element={
+                    <P
+                  }></Route>
                   <Route path="/register" element={<Register/>}></Route>
 
                   <Route path="/" element={<PrivateComponent><Home/></PrivateComponent>}></Route>
