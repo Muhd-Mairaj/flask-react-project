@@ -4,7 +4,7 @@ import APIClient from '../APIClient';
 const APIContext = createContext();
 
 export default function APIProvider({ children }) {
-  const api = new MicroblogApiClient();
+  const api = new APIClient();
 
   return (
     <ApiContext.Provider value={api}>
