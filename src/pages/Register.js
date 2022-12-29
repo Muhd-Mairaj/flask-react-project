@@ -61,7 +61,7 @@ function Register() {
       })
     })
     
-    console.log(response.json())
+    console.log(response)
 
     const body = await response.json()
     console.log(body)
