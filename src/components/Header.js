@@ -12,7 +12,7 @@ function Header({ loggedIn }) {
 
   useEffect(() => {
     
-  }(), [])
+  }, [])
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
