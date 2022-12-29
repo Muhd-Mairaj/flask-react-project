@@ -27,6 +27,7 @@ function Login() {
     event.preventDefault()
 
     const username = usernameField.current.value
+    const password = passwordField.current.value
     // const response = await fetch("/tokens", {
     //   method: "POST",
     //   headers: {
@@ -45,7 +46,6 @@ function Login() {
     //   localStorage.setItem('access_token', body.access_token)
     //   navigate('/')
     // }
-    const password = passwordField.current.value
 
     const errors = {};
     if (!username) {
