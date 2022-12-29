@@ -18,7 +18,7 @@ function Home() {
 
 
   useEffect(() => {
-    
+    if 
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
       setItems(data.items)
