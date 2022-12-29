@@ -30,8 +30,10 @@ def register():
     errors["username"] = "Username is unavailable"
     return errors, 401
     
+  
+  
   # add user to db
-  db.execute("INSERT INTO users (username, passoword) VALUES(?, ?)",)
+  db.execute("INSERT INTO users (username, passoword) VALUES(?, ?)")
 
   return {"yes": "nice"}
 
