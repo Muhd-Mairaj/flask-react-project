@@ -12,7 +12,7 @@ import InputField from '../components/InputField';
 import '../index.css';
 
 function Home() {
-  const navigate = us
+  const navigate = useNavigate()
   const [items, setItems] = useState(null)
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
@@ -20,7 +20,7 @@ function Home() {
 
 
   useEffect(() => {
-    if 
+    if (!)
     fetch("/profile").then(response => response.json()).then(data => {
       console.log(data.items)
       setItems(data.items)
