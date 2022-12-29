@@ -11,7 +11,7 @@ import { useUser } from '../contexts/UserProvider';
 // import { useLocation, Navigate } from 'react-router-dom';
 // import { useUser } from '../contexts/UserProvider';
 
-export default function TestingSomething({ children }) {
+export default function PrivateComponent({ children }) {
   const { user } = useUser();
   // const location = useLocation();
   console.log("user: ", user)

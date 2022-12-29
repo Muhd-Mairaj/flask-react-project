@@ -12,7 +12,7 @@ import Logout from './pages/Logout';
 
 import FlashProvider from './contexts/FlashProvider';
 import UserProvider from './contexts/UserProvider';
-import TestingSomething from './components/PrivateComponent';
+import PrivateComponent from './components/PrivateComponent';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
             <UserProvider>
               <Header loggedIn/>
 
-                <TestingSomething>
+                <PrivateComponent>
 
                 <Routes>
                   <Route path="/" element={<Home/>}></Route>
@@ -39,7 +39,7 @@ function App() {
                   <Route path="/register" element={<Register/>}></Route>
                   <Route path="/logout" element={<Logout/>}></Route>
                 </Routes>
-                </TestingSomething>
+                </PrivateComponent>
 
             </UserProvider>
           </FlashProvider>
