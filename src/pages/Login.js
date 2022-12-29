@@ -18,7 +18,7 @@ function Login() {
   }, []);
 
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault()
 
     const username = usernameField.current.value
