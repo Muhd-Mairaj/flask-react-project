@@ -55,8 +55,8 @@ function Login() {
       return
     }
     else {
-      flash('You have successfully logged in!', 'success');
-      localStorage.setItem('access_token', response.body.access_token);
+      flash('You have successfully logged in!', 'success')
+      localStorage.setItem('access_token', response.body.access_token)
       navigate('/');
     }
 
