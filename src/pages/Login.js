@@ -39,7 +39,7 @@ function Login() {
 
     // Login
     alert("Logging in")
-    const response = fetch("/login", {
+    const response = fetch("/tokens", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
