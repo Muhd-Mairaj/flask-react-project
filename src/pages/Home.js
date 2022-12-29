@@ -28,7 +28,7 @@ function Home() {
     fetch("/profile", {
       headers: {
         "Content-Type": "application/json",
-        ""
+        "Authorization"
       }
     }).then(response => response.json()).then(data => {
       console.log(data.items)
