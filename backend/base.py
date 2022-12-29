@@ -109,4 +109,5 @@ def tokens():
 
 @app.route("/logout", methods=["GET"])
 def logout():
-  session.pop()
+  session.pop("access_token")
+  sess
