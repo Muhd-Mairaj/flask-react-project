@@ -40,6 +40,10 @@ function Register() {
     }
     if (!confirm) {
       errors.confirm = "This field must be filled"
+    }
+    if (password !== confirm) {
+      errors.confirm = "Passwords do not match"
+    }
 
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
