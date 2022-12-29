@@ -57,9 +57,6 @@ function Login() {
       flash('You have successfully registered!', 'success');
       navigate('/login');
     }
-    if (!response.ok) {
-      console.log(response)
-    }
 
 
     // console.log(response)
