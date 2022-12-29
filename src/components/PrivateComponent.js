@@ -20,8 +20,4 @@ export default function PrivateComponent({ children }) {
   else {
 
   }
-  // else {
-  //   
-  //   
-  // }
 }
