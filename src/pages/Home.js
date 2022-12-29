@@ -20,11 +20,6 @@ function Home() {
 
 
   useEffect(() => {
-    if (localStorage.getItem('access_token') === null) {
-      navigate("login")
-      return
-    }
-
     console.log("localStorage.getItem('access_token'): " + localStorage.getItem("access_token"))
     fetch("/profile", {
       headers: {
