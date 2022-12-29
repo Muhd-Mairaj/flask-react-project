@@ -74,9 +74,9 @@ function Register() {
     }
     else {
       setFormErrors({})
+      navigate('/login');
     }
 
-    navigate('/login');
 
   }
   
