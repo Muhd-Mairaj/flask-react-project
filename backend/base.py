@@ -33,7 +33,7 @@ def register():
     
   # check password exists 
   if not password:
-    errors["passowrd"] = "This field must be filled"
+    errors["password"] = "This field must be filled"
     return errors, 401
   
   # generate password hash
