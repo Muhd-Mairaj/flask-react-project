@@ -28,6 +28,24 @@ function Login() {
 
     const username = usernameField.current.value
     const password = passwordField.current.value
+    // const response = await fetch("/tokens", {
+    //   method: "POST",
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //     Authorization:  'Basic ' + btoa(username + ":" + password)
+    //   },
+    // })
+    
+    // const body = await(response.json())
+    // if (!response.ok) {
+    //   console.log(body.error)
+    //   return
+    // }
+    // else {
+    //   flash('You have successfully logged in!', 'success')
+    //   localStorage.setItem('access_token', body.access_token)
+    //   navigate('/')
+    // }
 
     const errors = {};
     if (!username) {
@@ -37,7 +55,6 @@ function Login() {
       errors.password = "Password field must be filled"
     }
 
-    
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return
