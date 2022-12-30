@@ -25,7 +25,7 @@ export default function UserProvider({ children }) {
       setIsLoggedIn(true)
     }
 
-    return false
+    return result
   })
 
   const logout = (async () => {
