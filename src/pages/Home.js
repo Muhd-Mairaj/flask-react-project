@@ -61,6 +61,8 @@ function Home() {
     const response = api.post("/add", {
       item: item,
       expiry: expiry
+    }, {
+      
     })
   }
 
