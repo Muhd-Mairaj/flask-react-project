@@ -13,6 +13,7 @@ import { useApi } from '../contexts/ApiProvider';
 function Login() {
   const api = useApi()
   const navigate = useNavigate()
+  const location = useLocation()
   const flash = useFlash()
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
