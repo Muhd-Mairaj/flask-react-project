@@ -1,52 +1,58 @@
-import React, { useState } from 'react'
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Header from './components/Header';
+
+import Home from './pages/Home';
+import Test from './pages/Test';
+import Login from './pages/Login';
+import Register from './pages/Register';
+
+import FlashProvider from './contexts/FlashProvider';
+import ApiProvider from './contexts/ApiProvider';
+import UserProvider from './contexts/UserProvider';
+import PrivateRoute from './components/PrivateRoute';
+import PublicRoute from './components/PublicRoute';
 
 function App() {
-  
-  const [ profileData, setProfileData ] = useState(null)
-  function getData() {
-
-    fetch('/profile').then((response) => {
-      setProfileData({
-        name: response.data.name,
-        about: response.data.about,
-      })
-    }).catch((error) => {
-      if (error.response) {
-        console.log(error.response)
-        console.log(error.response.status)
-        console.log(error.response.headers)
-      }
-    })
-  }
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
 
-        <button onClick={getData}>Get Data</button>
-        {profileData && <div>
-            <p>name: { profileData.name }</p>
-            <p>about: { profileData.about }</p>
-          </div>
-        }
-        
-      </header>
-    </div>
+    <Container fluid className="App">
+        <BrowserRouter>
+
+          <FlashProvider>
+            <ApiProvider>
+              <UserProvider>
+                <Header/>
+                  <Routes>
+                    <Route path="/login" element={
+                      <PublicRoute><Login/></PublicRoute>
+                    } />
+                    
+                    <Route path="/register" element={
+                      <PublicRoute><Register/></PublicRoute>
+                    } />
+                    
+                    <Route path="*" element={
+                      <PrivateRoute>
+                        <Routes>
+                          <Route path="/" element={<Home/>} />
+                          <Route path="/test" element={<Test/>} />
+                          <Route path="*" element={<Home/>} />
+                        </Routes>
+                      </PrivateRoute>
+                    }/>
+
+                  </Routes>
+              </UserProvider>
+            </ApiProvider>
+          </FlashProvider>
+
+        </BrowserRouter>
+    </Container>
+
   );
 }
+
 
 export default App;

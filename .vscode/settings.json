@@ -1,0 +1,35 @@
+{
+    "git.autofetch": false,
+	  "git.decorations.enabled": true,
+	  "git.terminalAuthentication": true,
+    "git.postCommitCommand": "none",
+    "gitdoc.enabled": true,
+    "gitdoc.autoCommitDelay": 0,
+	  "gitdoc.autoPull": "onPush",
+    "gitdoc.autoPush": "off",
+	  "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+	  "gitdoc.commitValidationLevel": "error",
+	  "github.codespaces.devcontainerChangedNotificationStyle": "notification",
+	  "gitdoc.pullOnOpen": false,
+	  "github.gitAuthentication": true,
+
+    "workbench.editorAssociations": {
+       "*.wav": "vscode.audioPreview",
+       "README.md": "",
+    },
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.folding": true,
+    "editor.foldingHighlight": true,
+    "editor.hover.enabled": true,
+    "editor.lightbulb.enabled": true,
+    "editor.tabSize": 2,
+    "editor.guides.indentation": true,
+    "editor.parameterHints.enabled": false,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "other": "on",
+            "strings": "on"
+        },
+    "editor.renderWhitespace": "selection",
+    "files.trimTrailingWhitespace": false,
+}

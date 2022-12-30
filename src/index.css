@@ -1,5 +1,10 @@
 body {
+  /* settings required for sticky header */
+  padding-top: calc(5.1rem + 1.5vw);
+  /* end */
   margin: 0;
+  color: white;
+  background-color: #282c34;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +15,99 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+hr {
+  margin: 0rem
+}
+
+.btn {
+  border-color: darkgrey;
+  height: calc(43px + 0.1vw) ;
+}
+
+.App {
+  padding: 0;
+  min-height: 100vh;
+}
+
+.Header {
+  margin-bottom: 0.3rem;
+  border-bottom: 2px solid #fff;
+  font-size: calc(1rem + 0.5vw);
+}
+
+.InputField {
+  margin: 0.5rem 0.5rem;
+}
+
+/* @media screen and (max-width: 576px) {
+  .InputField {
+    margin: 0rem 0rem;
+  }
+} */
+
+.HorizontalForm {
+  /* margin-top: 1rem; */
+  margin-bottom: 0rem;
+  align-items: inherit;
+}
+
+.col-12 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+/* .col-xl-2 .w-100 {
+  max-width: 80px  
+} */
+
+.row {
+  padding: 0rem;
+}
+
+@media screen and (max-width: 576px) {
+  .col-12 {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
+
+.Home {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .Home {
+    margin-top: 2.5rem;
+  }
+}
+
+.navbar-brand {
+  font-size: calc(1rem + 1.3vw);
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.nav-link {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #eeeeee0f;
+}
+
+/* .navbar-nav .active {
+  font-weight: bold;
+} */
+
+@media screen and (max-width: 576px) {
+  .nav-item {
+    width: calc(20px + 20vw);
+    text-align: start;
+  }
 }
