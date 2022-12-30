@@ -77,7 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [How To Create a React + Flask Project](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project)
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
 - [Designing a RESTful Api with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
-- [How to Call a Flask API in React](https://www.youtube.com/watch?v=06pWsB_hoD4) and its [source code](https://github.com/benawad/react-movie-list)
+- [How to Call a Flask API in React](https://www.youtube.com/watch?v=06pWsB_hoD4)
 - [RESTful Authentication with Flask](https://blog.miguelgrinberg.com/post/restful-authentication-with-flask)
 - [How to connect Flask to ReactJs](https://dev.to/nagatodev/how-to-connect-flask-to-reactjs-1k8i)
 - [Client-side Routing in React](https://www.pluralsight.com/guides/pros-and-cons-of-client-side-routing-with-react#module-clientsideroutinginreact)
