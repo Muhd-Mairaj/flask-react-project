@@ -14,8 +14,8 @@ function Header({ loggedIn }) {
 
   useEffect(() => {
     (() => {
-      
-    })
+
+    })()
   })
   useEffect(() => {
     if (api.isAuthenticated()) {
