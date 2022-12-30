@@ -48,24 +48,24 @@ function Login() {
     // Login
     // const result = await api.login(username, password)
     const result = await login(username, password)
-    // if (result === "ok") {
-    //   flash('You have successfully logged in!', 'success')
-    //   if (location.state && location.state.next) {
-    //     console.log("location.state.next ", location.state.next )
-    //     navigate(location.state.next)
-    //   }
-    //   else {
-    //     navigate("/")
-    //   }
-    // }
-    // else if (result === "fail") {
-    //   flash("Invalid username or password", "danger", 3)
-    //   setFormErrors({
-    //     username: "Invalid username or password",
-    //     password: "Invalid username or password"
-    //   })
-    //   console.log("result: ", result)
-    // }
+    if (result === "ok") {
+      flash('You have successfully logged in!', 'success')
+      if (location.state && location.state.next) {
+        console.log("location.state.next ", location.state.next )
+        navigate(location.state.next)
+      }
+      else {
+        navigate("/")
+      }
+    }
+    else if (result === "fail") {
+      flash("Invalid username or password", "danger", 3)
+      setFormErrors({
+        username: "Invalid username or password",
+        password: "Invalid username or password"
+      })
+      console.log("result: ", result)
+    }
   }
   
   return (
