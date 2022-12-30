@@ -10,7 +10,7 @@ import '../index.css'
 
 function Header({ loggedIn }) {
   const api = useApi()
-  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
+  const [ isLoggedIn, setIsLoggedIn ] = useState()
 
   useEffect(() => {
     (() => {
