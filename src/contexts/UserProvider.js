@@ -31,7 +31,6 @@ export default function UserProvider({ children }) {
   const logout = (async () => {
     const result = api.logout()
     setIsLoggedIn(false)
-
   })
   
   return (
