@@ -50,31 +50,31 @@ function Header({ loggedIn }) {
     // </Navbar>
 
     {isLoggedIn !== undefined && <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
-      <Container fluid>
-        <Navbar.Brand href="/">Tracker</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          {isLoggedIn === true ?
-            <>
-              <Nav className="me-auto">
-                  <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
-                  <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
-              </Nav>
-              <Nav>
-                  <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
-              </Nav>
-            </>
-          :
-            <>
-              <Nav className="ms-auto">
-                  <Nav.Link as={NavLink} to="/login">login</Nav.Link>
-                  <Nav.Link as={NavLink} to="/register">register</Nav.Link>
-              </Nav>
-            </>
-          }
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <Container fluid>
+          <Navbar.Brand href="/">Tracker</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            {isLoggedIn === true ?
+              <>
+                <Nav className="me-auto">
+                    <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
+                    <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
+                </Nav>
+                <Nav>
+                    <Nav.Link as={NavLink} to="/logout">Logout</Nav.Link>
+                </Nav>
+              </>
+            :
+              <>
+                <Nav className="ms-auto">
+                    <Nav.Link as={NavLink} to="/login">login</Nav.Link>
+                    <Nav.Link as={NavLink} to="/register">register</Nav.Link>
+                </Nav>
+              </>
+            }
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     }
   );
 }
