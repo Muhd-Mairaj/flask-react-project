@@ -50,7 +50,7 @@ function Login() {
       console.log(location)
       console.log(location.state)
       console.log(location.state.next)
-      const next =
+      const next = "/"
       navigate('/')
     }
     else if (result === "fail") {
