@@ -17,8 +17,6 @@ export default function UserProvider({ children }) {
           setIsLoggedIn(false)
         }
     })()
-
-    
   }, [api])
   
   return (
