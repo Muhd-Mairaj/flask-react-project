@@ -76,7 +76,7 @@ def profile():
 @app.route("/add", methods=[POST])
 @token_auth.login_required
 def add():
-    
+    item = re
 
 
 @app.route("/register", methods=["POST"])
