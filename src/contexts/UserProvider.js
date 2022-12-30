@@ -26,7 +26,7 @@ export default function UserProvider({ children }) {
       return true
     }
 
-    return result
+    return false
 
   })
   
