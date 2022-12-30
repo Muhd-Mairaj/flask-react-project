@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Body from '../components/Body';
 import InputField from '../components/InputField';
 import { useFlash } from '../contexts/FlashProvider';
-import { useApi } from '../contexts/ApiProvider';
+// import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 
 function Login() {
