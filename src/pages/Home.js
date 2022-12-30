@@ -62,7 +62,9 @@ function Home() {
       item: item,
       expiry: expiry
     }, {
-      
+      headers: {
+        
+      }
     })
   }
 
