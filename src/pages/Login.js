@@ -50,6 +50,7 @@ function Login() {
       let next = "/"
       if (location.state && location.state.next) {
         next = location.state.next
+        console.log
       }
       navigate({ next })
     }
