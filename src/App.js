@@ -49,7 +49,6 @@ function App() {
           </FlashProvider>
 
         </BrowserRouter>
-      {/* </Auth0Provider> */}
     </Container>
 
   );
