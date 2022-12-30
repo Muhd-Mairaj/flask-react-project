@@ -22,7 +22,7 @@ export default function UserProvider({ children }) {
   const login = (async (username, password) => {
     const result = await api.login()
     if (result == "ok") {
-      set
+      setIsLoggedIn(true)
     }
     else if (result === "fail") {
 
