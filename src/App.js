@@ -31,8 +31,7 @@ function App() {
           <FlashProvider>
             <ApiProvider>
             <UserProvider>
-              
-            </UserProvider>
+
               <Header loggedIn/>
                 <Routes>
                   <Route path="/login" element={
@@ -55,6 +54,7 @@ function App() {
                   }/>
 
                 </Routes>
+            </UserProvider>
             </ApiProvider>
           </FlashProvider>
 
