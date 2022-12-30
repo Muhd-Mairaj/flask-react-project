@@ -12,7 +12,7 @@ import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 
 function Login() {
-  const api = useApi()
+  // const api = useApi()
   const { login, setIsLoggedIn } = useUser()
   const navigate = useNavigate()
   const location = useLocation()
