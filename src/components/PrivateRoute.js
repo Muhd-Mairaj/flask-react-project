@@ -5,7 +5,6 @@ import { useUser } from '../contexts/UserProvider';
 export default function PrivateRoute({ children }) {
   const { isLoggedIn } = useUser()
   const location = useLocation()
-  const navigate = useNavigate()
   
   if (isLoggedIn === undefined) {
     return null
