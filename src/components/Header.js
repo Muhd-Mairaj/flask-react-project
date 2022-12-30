@@ -61,7 +61,7 @@ function Header({ loggedIn }) {
                   <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
               <Nav>
-                  <Nav.Link as={Button} onClick={}>Logout</Nav.Link>
+                  <Nav.Link as={Button} onClick={logout}>Logout</Nav.Link>
               </Nav>
             </>
           :
