@@ -64,7 +64,7 @@ function Home() {
   }
 
   return (
-    <Body loggedIn>
+    <Body>
       <Form onSubmit={handleSubmit}>
         <Row className="HorizontalForm justify-content-center">
           <Col xs={12} sm={7} className="">
