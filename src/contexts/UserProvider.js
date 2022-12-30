@@ -24,7 +24,6 @@ export default function UserProvider({ children }) {
     if (result === "ok") {
       setIsLoggedIn(true)
     }
-
     return result
   })
 
