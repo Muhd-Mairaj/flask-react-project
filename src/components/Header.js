@@ -22,14 +22,14 @@ function Header({ loggedIn }) {
       }
     })()
   }, [api])
-  useEffect(() => {
-    if (api.isAuthenticated()) {
-      setIsLoggedIn(true)
-    }
-    else {
-      setIsLoggedIn(false)
-    }
-  }, [api])
+  // useEffect(() => {
+  //   if (api.isAuthenticated()) {
+  //     setIsLoggedIn(true)
+  //   }
+  //   else {
+  //     setIsLoggedIn(false)
+  //   }
+  // }, [api])
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
