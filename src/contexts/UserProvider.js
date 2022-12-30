@@ -27,7 +27,6 @@ export default function UserProvider({ children }) {
     }
 
     return false
-
   })
   
   return (
