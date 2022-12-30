@@ -13,7 +13,7 @@ import Logout from './pages/Logout';
 import FlashProvider from './contexts/FlashProvider';
 import ApiProvider from './contexts/ApiProvider';
 import UserProvider from './contexts/UserProvider';
-import PrivateComponent from './components/PrivateComponent';
+import PrivateRoute from './components/PrivateComponent';
 import PublicComponent from './components/PublicComponent';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
@@ -42,14 +42,14 @@ function App() {
                     } />
                     
                     <Route path="*" element={
-                      <PrivateComponent>
+                      <PrivateRoute>
                         <Routes>
                           <Route path="/" element={<Home/>} />
                           <Route path="/test" element={<Test/>} />
                           <Route path="/logout" element={<Logout/>} />
                           <Route path="*" element={<Home/>} />
                         </Routes>
-                      </PrivateComponent>
+                      </PrivateRoute>
                     }/>
 
                   </Routes>
