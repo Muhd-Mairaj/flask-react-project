@@ -18,11 +18,6 @@ function App() {
   return (
 
     <Container fluid className="App">
-      {/* <Auth0Provider
-        domain="dev-pt44rf70pk8szrwn.us.auth0.com"
-        clientId="uja7uL1qUdRfNYnyGGrQdFfOQeEAhECv"
-        redirectUri={window.location.origin}
-      > */}
         <BrowserRouter>
 
           <FlashProvider>
