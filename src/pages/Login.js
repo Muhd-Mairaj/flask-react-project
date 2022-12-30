@@ -48,7 +48,6 @@ function Login() {
     if (result === "ok") {
       flash('You have successfully logged in!', 'success')
       if (location.state && location.state.next) {
-        next = location.state.next
         console.log("location.state.next ", location.state.next )
         // navigate(location.state.next)
       }
