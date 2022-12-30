@@ -12,7 +12,7 @@ export default function PrivateComponent({ children }) {
   if (isLoggedIn === undefined) {
     return null
   }
-  else if (api.isAuthenticated()) {
+  else if (isLoggedIn) {
     return children
   }
   else {
