@@ -24,8 +24,8 @@ export default function UserProvider({ children }) {
     if (result == "ok") {
 
     }
-    else {
-      
+    else if ({
+
     }
   })
   
