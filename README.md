@@ -86,4 +86,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [https://www.sqlitetutorial.net/sqlite-delete/](https://www.sqlitetutorial.net/sqlite-delete/)
 - [https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension](https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension)
 - [Designing a RESTful Api with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
-- https://blog.miguelgrinberg.com/post/restful-authentication-with-flask
+- [RESTful Authentication with Flask]https://blog.miguelgrinberg.com/post/restful-authentication-with-flask
