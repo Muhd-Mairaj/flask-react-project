@@ -9,6 +9,7 @@ import { useApi } from '../contexts/ApiProvider';
 import '../index.css'
 
 function Header({ loggedIn }) {
+  const api = useApi()
   // const [ isAuthenticated, setIsAuthenticated ] = useState(false)
 
   useEffect(() => {
