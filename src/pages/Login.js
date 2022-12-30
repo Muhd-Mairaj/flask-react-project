@@ -52,12 +52,6 @@ function Login() {
       flash('You have successfully logged in!', 'success')
       (location.state && location.state.next) ? navigate(location.state.next)
       : navigate("/")
-      if (location.state && location.state.next) {
-        navigate(location.state.next)
-      }
-      else {
-        navigate("/")
-      }
     }
     else if (result === "fail") {
       flash("Invalid username or password", "danger", 3)
