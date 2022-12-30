@@ -50,6 +50,7 @@ function Login() {
     // const result = await login(username, password)
     if (result === "ok") {
       flash('You have successfully logged in!', 'success')
+      setIsLoggedIn(true)
       (location.state && location.state.next) ? navigate(location.state.next) : navigate("/")
     }
     else if (result === "fail") {
