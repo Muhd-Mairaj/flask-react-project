@@ -54,7 +54,7 @@ function Login() {
       if (loaction.state && location.state.next) {
         next = location.state.next
       }
-      navigate('/')
+      navigate({ne})
     }
     else if (result === "fail") {
       flash("Invalid username or password", "danger")
