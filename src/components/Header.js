@@ -10,7 +10,7 @@ import '../index.css'
 
 function Header({ loggedIn }) {
   const api = useApi()
-  const [ isLoggedIn, setIsLoggedIn ] = useState()
+  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
   useEffect(() => {
     (() => {
@@ -49,7 +49,7 @@ function Header({ loggedIn }) {
     //   </Container>
     // </Navbar>
 
-    {isLoggedIn<Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
