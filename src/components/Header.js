@@ -16,7 +16,7 @@ function Header({ loggedIn }) {
     (() => {
 
     })()
-  })
+  }, [api])
   useEffect(() => {
     if (api.isAuthenticated()) {
       setIsLoggedIn(true)
