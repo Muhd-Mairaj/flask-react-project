@@ -23,8 +23,9 @@ export default function UserProvider({ children }) {
     const result = await api.login()
     if (result == "ok") {
       setIsLoggedIn(true)
+      return true
     }
-    
+
   })
   
   return (
