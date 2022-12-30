@@ -49,8 +49,9 @@ function Login() {
       flash('You have successfully logged in!', 'success')
       if (location.state && location.state.next) {
         console.log("location.state.next ", location.state.next )
-        // navigate(location.state.next)
+        navigate(location.state.next)
       }
+      else {}
       navigate({ next })
     }
     else if (result === "fail") {
