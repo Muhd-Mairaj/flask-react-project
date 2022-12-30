@@ -36,7 +36,6 @@ function Header({ loggedIn }) {
   // }, [api])
   
   return (
-
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
