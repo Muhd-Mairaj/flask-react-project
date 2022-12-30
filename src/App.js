@@ -13,7 +13,6 @@ import ApiProvider from './contexts/ApiProvider';
 import UserProvider from './contexts/UserProvider';
 import PrivateRoute from './components/PrivateRoute';
 import PublicRoute from './components/PublicRoute';
-// import { Auth0Provider } from "@auth0/auth0-react";
 
 function App() {
   return (
