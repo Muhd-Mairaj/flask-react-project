@@ -49,7 +49,7 @@ def verify_token(token):
 
 @token_auth.error_handler
 def unauthorized():
-    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
+    return make_response(jsonify({'error': 'Unauthorized access'}), 401)
 
 
 @app.after_request
