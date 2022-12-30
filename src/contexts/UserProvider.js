@@ -19,6 +19,8 @@ export default function UserProvider({ children }) {
     })()
   }, [api])
   
+  
+  
   return (
     <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
       { children }
