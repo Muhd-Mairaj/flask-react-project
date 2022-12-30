@@ -73,7 +73,7 @@ def profile():
     return jsonify({"items": items})
 
 
-@app.route("/add", methods=[POST])
+@app.route("/add", methods=["POST"])
 @token_auth.login_required
 def add():
     item = request.json.get("item")
