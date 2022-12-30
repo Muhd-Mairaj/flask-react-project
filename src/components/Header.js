@@ -14,7 +14,7 @@ function Header({ loggedIn }) {
 
   useEffect(() => {
     if (localStorage.getItem("access_token") !== null) {
-      setIsAuthenticated(true)
+      setIsLoggedIn(true)
     }
     else {
       setIsAuthenticated(false)
