@@ -5,7 +5,7 @@ import { useApi } from '../contexts/ApiProvider';
 
 function Logout() {
   const api = useApi()
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   
   api.logout()
   return <Navigate to="/login" />
