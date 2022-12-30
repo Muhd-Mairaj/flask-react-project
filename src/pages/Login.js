@@ -47,6 +47,7 @@ function Login() {
 
     // Login
     const result = await login(username, password)
+    if 
     // const result = await api.login(username, password)
     // if (result === "ok") {
     //   flash('You have successfully logged in!', 'success')
