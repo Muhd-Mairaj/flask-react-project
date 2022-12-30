@@ -13,7 +13,7 @@ function Header({ loggedIn }) {
   const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
   useEffect(() => {
-    if (localStorage.getItem("access_token") !== null) {
+    if (api.isAuthenticated) {
       setIsLoggedIn(true)
     }
     else {
