@@ -30,7 +30,7 @@ export default function UserProvider({ children }) {
   })
 
   const logout = (async () => {
-    const result = a
+    const result = api.logout()
   })
   
   return (
