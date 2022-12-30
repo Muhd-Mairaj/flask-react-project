@@ -32,11 +32,11 @@ export default function UserProvider({ children }) {
   const logout = (async () => {
     const result = api.logout()
     setIsLoggedIn(false)
-    
+
   })
   
   return (
-    <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
+    <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn, login, logout }}>
       { children }
     </UserContext.Provider>
   )
