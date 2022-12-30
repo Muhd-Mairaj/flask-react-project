@@ -1,57 +1,37 @@
 from flask import Flask, jsonify, make_response, request, session
 from flask_session import Session
-from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
+from auth import basic_auth, token_auth
 from secrets import token_urlsafe
-# from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
 
+# configure app
 app = Flask(__name__)
 
+# configure secret_key
 app.config["SECRET_KEY"] = "192b9bdd22ab9ed4d12e236c78afcb9a393ec15f71bbf5dc987d54727823bcbf"
+
+# configure session to use filesystem
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_COOKIE_NAME"] = "session"
 app.config["SESSION_TYPE"] = "filesystem"
-
-
 Session(app)
 
-basic_auth = HTTPBasicAuth()
-token_auth = HTTPTokenAuth()
-
+# configure database
 db = SQL("sqlite:///database.db")
 
 
-# app.config["SESSION_PERMANENT"] = False
-# SESSION_COOKIE_SECURE
-
-@basic_auth.verify_password
-def verify_password(username, password):
-  rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
-
-  if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
-    session["user_id"] = rows[0]["id"]
-    return session["user_id"]
+@app.after_request
+def after_request(response):
+    """Ensure responses aren't cached"""
+    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    response.headers["Expires"] = 0
+    response.headers["Pragma"] = "no-cache"
+    return response
 
 
-@basic_auth.error_handler
-def unauthorized():
-    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
-
-
-@token_auth.verify_token
-def verify_token(token):
-  if token == session["access_token"]:
-    return session["user_id"]
-
-
-@token_auth.error_handler
-def unauthorized():
-    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
-
-
-@app.route("/profile")
+@app.route("/profile", methods=["GET"])
 @token_auth.login_required
 def profile():
     user_id = 1
@@ -112,15 +92,16 @@ def register():
   return errors, code
 
 
-@app.route("/tokens", methods=["POST"])
+@app.route("/login", methods=["POST"])
 @basic_auth.login_required
-def tokens():
+def login():
   token = token_urlsafe()
   session["access_token"] = token
   return {"access_token": token}, 200
 
 
-@app.route("/logout", methods=["GET"])
+@app.route("/logout", methods=["DELETE"])
 @token_auth.login_required
 def logout():
-  session.clear()
+  session["user_id"] = None
+  session["access_token"] = None
