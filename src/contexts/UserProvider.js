@@ -13,6 +13,7 @@ export default function UserProvider({ children }) {
         if (api.isAuthenticated()) {
           setIsLoggedIn(true)
         }
+        else
     })()
   }, [api])
   
