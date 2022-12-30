@@ -1,5 +1,4 @@
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
-import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 
 
