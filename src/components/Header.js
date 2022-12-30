@@ -16,16 +16,16 @@ function Header({ loggedIn }) {
   const {isLoggedIn, logout} = useUser()
   // const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
-  useEffect(() => {
-    (() => {
-      if (api.isAuthenticated()) {
-        setIsLoggedIn(true)
-      }
-      else {
-        setIsLoggedIn(false)
-      }
-    })()
-  }, [api])
+  // useEffect(() => {
+  //   (() => {
+  //     if (api.isAuthenticated()) {
+  //       setIsLoggedIn(true)
+  //     }
+  //     else {
+  //       setIsLoggedIn(false)
+  //     }
+  //   })()
+  // }, [api])
   // useEffect(() => {
   //   if (api.isAuthenticated()) {
   //     setIsLoggedIn(true)
