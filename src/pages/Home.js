@@ -58,7 +58,7 @@ function Home() {
     }
 
     // send request to backend
-    const response = api.post("a")
+    const response = api.post("add/")
   }
 
   return (
