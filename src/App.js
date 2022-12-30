@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Logout from './pages/Logout';
 
 import FlashProvider from './contexts/FlashProvider';
 import ApiProvider from './contexts/ApiProvider';
