@@ -4,7 +4,6 @@ import { useUser } from '../contexts/UserProvider';
 
 export default function PublicRoute({ children }) {
   const { isLoggedIn } = useUser()
-  const location = useLocation()
   
   if (isLoggedIn === undefined) {
     return null;
