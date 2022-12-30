@@ -20,7 +20,7 @@ export default function UserProvider({ children }) {
   }, [api])
   
   const login = (async (username, password) => {
-    const response = await
+    const response = await log
   })
   
   return (
