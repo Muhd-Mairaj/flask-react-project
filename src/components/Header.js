@@ -17,9 +17,9 @@ function Header({ loggedIn }) {
       setIsLoggedIn(true)
     }
     else {
-      setIsAuthenticated(false)
+      setIsLoggedIn(false)
     }
-  }, [])
+  }, [api])
   
   return (
     // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
