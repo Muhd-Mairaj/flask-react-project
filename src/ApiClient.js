@@ -1,7 +1,4 @@
 export default class APIClient {
-  constructor() {
-  }
-
   async request(options) {
     let query = new URLSearchParams(options.query || {}).toString();
     if (query !== '') {
