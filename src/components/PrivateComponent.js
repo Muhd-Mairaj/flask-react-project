@@ -5,7 +5,7 @@ import { useUser } from '../contexts/UserProvider';
 
 export default function PrivateComponent({ children }) {
   const api = useApi()
-  const {} = useUser()
+  const  = useUser()
   const location = useLocation()
   const navigate = useNavigate()
   
