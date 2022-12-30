@@ -47,9 +47,6 @@ function Login() {
     const result = await api.login(username, password)
     if (result === "ok") {
       flash('You have successfully logged in!', 'success')
-      console.log(location)
-      console.log(location.state)
-      console.log(location.state.next)
       let next = "/"
       if (location.state && location.state.next) {
         next = location.state.next
