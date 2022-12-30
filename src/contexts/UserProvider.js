@@ -5,7 +5,7 @@
 
 // export default function UserProvider({ children }) {
 //   // const [user, setUser] = useState()
-//   const { api } = useApi()
+  const { api } = useApi
 
 //   useEffect(() => {
 //     (async () => {
