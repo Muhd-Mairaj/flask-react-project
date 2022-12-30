@@ -75,9 +75,6 @@ function Login() {
       })
       console.log("result: ", result)
     }
-    
-
-    // console.log(response)
   }
   
   return (
