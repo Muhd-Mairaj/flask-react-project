@@ -1,5 +1,6 @@
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
 import { useApi } from '../contexts/ApiProvider';
+import { useApi } from '../contexts/ApiProvider';
 
 
 export default function PrivateComponent({ children }) {
