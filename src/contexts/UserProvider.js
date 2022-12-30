@@ -19,7 +19,7 @@ export default function UserProvider({ children }) {
     })()
   }, [api])
   
-  const login = async ()
+  const login = async 
   
   return (
     <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
