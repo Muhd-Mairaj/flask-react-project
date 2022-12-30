@@ -49,7 +49,7 @@ function Header({ loggedIn }) {
     //   </Container>
     // </Navbar>
 
-    {isLoggedIn === undefined ?
+    {isLoggedIn === undefined ? <div></div>
      :
       <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
         <Container fluid>
