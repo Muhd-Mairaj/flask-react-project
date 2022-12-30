@@ -16,11 +16,11 @@ export default function UserProvider({ children }) {
 //     })()
 //   }, [api])
   
-//   return (
-//     <UserContext.Provider value = {{ user, setUser }}>
-//       { children }
-//     </UserContext.Provider>
-//   )
+  return (
+    <UserContext.Provider value = {{ user, setUser }}>
+      { children }
+    </UserContext.Provider>
+  )
 // }
 
 
