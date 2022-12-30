@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext, createContext } from 'react';
-// import { useApi } from './ApiProvider';
+import { useApi } from './ApiProvider';
 
-// const UserContext = createContext()
+const UserContext = createContext()
 
 // export default function UserProvider({ children }) {
 //   const [user, setUser] = useState()
