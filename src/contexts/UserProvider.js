@@ -6,7 +6,7 @@ const UserContext = createContext()
 export default function UserProvider({ children }) {
 //   const [user, setUser] = useState()
   const [isLoggedIn, setIsLoggedIn] = useState()
-//   const { api } = useApi()
+  const { api } = useApi()
 
 //   useEffect(() => {
 //     (async () => {
