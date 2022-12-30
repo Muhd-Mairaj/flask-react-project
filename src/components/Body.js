@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import FlashMessage from './FlashMessage';
 
 
-function Body({} }) {
+function Body({ children }) {
   return (
     <>
         {<Container fluid className="Content">
