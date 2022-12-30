@@ -7,8 +7,9 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
 import { useApi } from '../contexts/ApiProvider';
-import { useUser } from '../contexts/ApiProvider';
+import { useUser } from '../contexts/UserProvider';
 import '../index.css'
+
 
 function Header({ loggedIn }) {
   const api = useApi()
