@@ -74,6 +74,7 @@ def profile():
 
 
 @app.route("/add", methods=[POST])
+@token_auth
 def add():
 
 
