@@ -46,6 +46,7 @@ function App() {
                         <Route path="/" element={<Home/>} />
                         <Route path="/test" element={<Test/>} />
                         <Route path="/logout" element={<Logout/>} />
+                        <Route path="/logout" element={<Logout/>} />
                       </Routes>
                     </PrivateComponent>
                   }/>
