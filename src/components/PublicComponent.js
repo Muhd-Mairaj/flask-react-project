@@ -3,7 +3,7 @@ import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 
 
-export default function PrivateComponent({ children }) {
+export default function PublicComponent({ children }) {
   const api = useApi()
   const isLoggedIn = useUser()
   const location = useLocation()
