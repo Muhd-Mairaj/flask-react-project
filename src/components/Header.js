@@ -75,6 +75,7 @@ function Header({ loggedIn }) {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    }
   );
 }
 
