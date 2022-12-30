@@ -14,26 +14,6 @@ import '../index.css'
 function Header({ loggedIn }) {
   // const api = useApi()
   const {isLoggedIn, logout} = useUser()
-  // const [ isLoggedIn, setIsLoggedIn ] = useState(false)
-
-  // useEffect(() => {
-  //   (() => {
-  //     if (api.isAuthenticated()) {
-  //       setIsLoggedIn(true)
-  //     }
-  //     else {
-  //       setIsLoggedIn(false)
-  //     }
-  //   })()
-  // }, [api])
-  // useEffect(() => {
-  //   if (api.isAuthenticated()) {
-  //     setIsLoggedIn(true)
-  //   }
-  //   else {
-  //     setIsLoggedIn(false)
-  //   }
-  // }, [api])
   
   return (
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
