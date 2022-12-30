@@ -3,7 +3,7 @@ import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 
 
-export default function PublicComponent({ children }) {
+export default function PublicRoute({ children }) {
   const api = useApi()
   const isLoggedIn = useUser()
   const location = useLocation()
