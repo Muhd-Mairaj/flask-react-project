@@ -10,7 +10,7 @@ import { useUser } from '../contexts/UserProvider';
 import '../index.css'
 
 
-function Header({ loggedIn }) {
+function Header({ }) {
   // const api = useApi()
   const {isLoggedIn, logout} = useUser()
 
