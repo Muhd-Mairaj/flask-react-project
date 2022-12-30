@@ -11,7 +11,7 @@ export default function UserProvider({ children }) {
   useEffect(() => {
     (async () => {
         if (api.isAuthenticated()) {
-          set
+          setIsLoggedIn(true)
         }
     })()
   }, [api])
