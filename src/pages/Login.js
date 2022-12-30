@@ -51,7 +51,7 @@ function Login() {
       console.log(location.state)
       console.log(location.state.next)
       let next = "/"
-      if (loaction.state && location.state.next) {
+      if (location.state && location.state.next) {
         next = location.state.next
       }
       navigate({ next })
