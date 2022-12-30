@@ -13,7 +13,7 @@ import Logout from './pages/Logout';
 import FlashProvider from './contexts/FlashProvider';
 import ApiProvider from './contexts/ApiProvider';
 import UserProvider from './contexts/UserProvider';
-import PrivateRoute from './components/PrivateComponent';
+import PrivateRoute from './components/PrivateRoute';
 import PublicComponent from './components/PublicComponent';
 // import { Auth0Provider } from "@auth0/auth0-react";
 
