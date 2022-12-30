@@ -28,7 +28,6 @@ Session(app)
 db = SQL("sqlite:///database.db")
 
 
-
 @basic_auth.verify_password
 def verify_password(username, password):
   rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
