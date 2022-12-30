@@ -51,6 +51,7 @@ function Login() {
     if (result === "ok") {
       flash('You have successfully logged in!', 'success')
       (location.state && location.state.next) ? navigate(location.state.next)
+      
       if (location.state && location.state.next) {
         navigate(location.state.next)
       }
