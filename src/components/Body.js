@@ -5,7 +5,7 @@ import FlashMessage from './FlashMessage';
 function Body({ children }) {
   return (
     <>
-        {loggedIn && <Container fluid className="Content">
+        {<Container fluid className="Content">
             <FlashMessage />
             {children}
           </Container>
