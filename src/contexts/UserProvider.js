@@ -19,7 +19,9 @@ export default function UserProvider({ children }) {
     })()
   }, [api])
   
-  const login = (async (username, pa))
+  const login = (async (username, password) => {
+    
+  })
   
   return (
     <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
