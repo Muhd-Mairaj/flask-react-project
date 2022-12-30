@@ -30,7 +30,9 @@ function App() {
 
           <FlashProvider>
             <ApiProvider>
-            <UserProvider></UserProvider>
+            <UserProvider>
+              
+            </UserProvider>
               <Header loggedIn/>
                 <Routes>
                   <Route path="/login" element={
