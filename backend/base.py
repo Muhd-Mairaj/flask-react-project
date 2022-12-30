@@ -105,3 +105,7 @@ def login():
 def logout():
   session["user_id"] = None
   session["access_token"] = None
+
+
+if __name__ == "__main__":
+  main()
