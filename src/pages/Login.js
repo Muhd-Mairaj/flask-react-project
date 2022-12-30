@@ -12,7 +12,7 @@ import { useFlash } from '../contexts/FlashProvider';
 import { useUser } from '../contexts/UserProvider';
 
 function Login() {
-  // const api = useApi()
+  const api = useApi()
   const { login } = useUser()
   const navigate = useNavigate()
   const location = useLocation()
