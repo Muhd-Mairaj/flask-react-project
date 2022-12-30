@@ -81,7 +81,7 @@ def add():
     print(f"{item = }")
     print(f"{expiry = }")
 
-    return {},
+    return {}, 204
 
 
 @app.route("/register", methods=["POST"])
