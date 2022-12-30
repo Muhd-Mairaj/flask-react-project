@@ -1,5 +1,6 @@
 import { useLocation, useNavigate, Navigate } from 'react-router-dom';
 import { useApi } from '../contexts/ApiProvider';
+import { useApi } from '../contexts/ApiProvider';
 
 
 export default function PrivateComponent({ children }) {
@@ -7,7 +8,7 @@ export default function PrivateComponent({ children }) {
   const location = useLocation()
   const navigate = useNavigate()
   
-  if 
+  if (is)
   if (api.isAuthenticated()) {
     return <Navigate to="/" />
   }
