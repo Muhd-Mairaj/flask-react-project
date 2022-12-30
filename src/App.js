@@ -23,7 +23,7 @@ function App() {
           <FlashProvider>
             <ApiProvider>
               <UserProvider>
-                <Header loggedIn/>
+                <Header/>
                   <Routes>
                     <Route path="/login" element={
                       <PublicRoute><Login/></PublicRoute>
