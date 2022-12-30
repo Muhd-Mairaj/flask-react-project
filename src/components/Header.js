@@ -1,4 +1,3 @@
-import { useState, useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Navbar from "react-bootstrap/Navbar";
@@ -14,7 +13,7 @@ import '../index.css'
 function Header({ loggedIn }) {
   // const api = useApi()
   const {isLoggedIn, logout} = useUser()
-  
+
   return (
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
