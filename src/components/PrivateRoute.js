@@ -4,7 +4,6 @@ import { useUser } from '../contexts/UserProvider';
 
 
 export default function PrivateRoute({ children }) {
-  const api = useApi()
   const { isLoggedIn } = useUser()
   const location = useLocation()
   const navigate = useNavigate()
