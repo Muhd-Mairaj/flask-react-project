@@ -54,7 +54,7 @@ function Login() {
       if (loaction.state && location.state.next) {
         next = location.state.next
       }
-      return <Navigate to=""
+      return <Navigate to={next} />
       navigate('/')
     }
     else if (result === "fail") {
