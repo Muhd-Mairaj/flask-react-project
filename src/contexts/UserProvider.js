@@ -25,7 +25,7 @@ export default function UserProvider({ children }) {
       setIsLoggedIn(true)
     }
     else if (result === "fail") {
-
+      set
     }
   })
   
