@@ -9,7 +9,7 @@ export default function PrivateRoute({ children }) {
   if (isLoggedIn === undefined) {
     return null
   }
-  else if (isLoggedIn) {
+  if (isLoggedIn) {
     return children
   }
   else {
