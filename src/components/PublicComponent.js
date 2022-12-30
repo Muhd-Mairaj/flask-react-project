@@ -12,7 +12,7 @@ export default function PrivateComponent({ children }) {
   if (isLoggedIn === undefined) {
     return null;
   }
-  else if (isLog) {
+  else if (isLoggedIn) {
     return <Navigate to="/" />
   }
   else {
