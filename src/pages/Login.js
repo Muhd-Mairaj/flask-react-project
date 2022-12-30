@@ -52,10 +52,10 @@ function Login() {
       flash('You have successfully logged in!', 'success');
       // setIsLoggedIn(true)
       if (location.state && location.state.next) {
-        navigate(location.state.next) : navigate("/")
+        navigate(location.state.next) : 
       } 
       else {
-        
+        navigate("/")
       }
     }
     else if (result === "fail") {
