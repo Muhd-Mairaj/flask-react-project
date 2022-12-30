@@ -12,7 +12,7 @@ export default function PrivateComponent({ children }) {
   if (isLoggedIn === undefined) {
     return null;
   }
-  if (api.isAuthenticated()) {
+  else if (api.isAuthenticated()) {
     return <Navigate to="/" />
   }
   else {
