@@ -5,10 +5,10 @@ import { useUser } from '../contexts/UserProvider';
 export default function PublicRoute({ children }) {
   const { isLoggedIn } = useUser()
   
-  // if (isLoggedIn === undefined) {
-  //   return null;
-  // }
-  if (isLoggedIn) {
+  if (isLoggedIn === undefined) {
+    return null;
+  }
+  else if (isLoggedIn) {
     return <Navigate to="/" />
   }
   else {
