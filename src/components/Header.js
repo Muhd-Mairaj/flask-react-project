@@ -13,7 +13,7 @@ function Header({ loggedIn }) {
   const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
   useEffect(() => {
-    O
+    (())
   })
   useEffect(() => {
     if (api.isAuthenticated()) {
