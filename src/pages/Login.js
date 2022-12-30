@@ -52,7 +52,7 @@ function Login() {
         navigate(location.state.next)
       }
       else {
-        navigate({ next })
+        navigate({ "/" })
       }
     }
     else if (result === "fail") {
