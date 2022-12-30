@@ -73,7 +73,8 @@ def profile():
     return jsonify({"items": items})
 
 
-def add()
+@app.route("")
+def add():
 
 
 @app.route("/register", methods=["POST"])
