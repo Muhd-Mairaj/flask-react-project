@@ -58,7 +58,7 @@ function Home() {
     }
 
     // send request to backend
-    alert("Added item")
+    const response = api.post()
   }
 
   return (
