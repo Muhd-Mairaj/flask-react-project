@@ -77,7 +77,7 @@ def profile():
 @token_auth.login_required
 def add():
     item = request.json.get("item")
-    
+    expiry = request.json.get()
 
 
 @app.route("/register", methods=["POST"])
