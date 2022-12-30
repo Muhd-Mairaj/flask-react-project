@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, make_response, request, session
 from flask_session import Session
 from auth import basic_auth, token_auth
+from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
 from secrets import token_urlsafe
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
-from flask_httpauth import HTTPBasicAuth, HTTPTokenAuth
 
 
 basic_auth = HTTPBasicAuth()
