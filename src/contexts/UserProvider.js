@@ -28,6 +28,8 @@ export default function UserProvider({ children }) {
 
     return false
   })
+
+  const logout = (async)
   
   return (
     <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
