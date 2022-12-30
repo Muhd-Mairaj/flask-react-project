@@ -9,7 +9,7 @@ import Body from '../components/Body';
 import InputField from '../components/InputField';
 import { useFlash } from '../contexts/FlashProvider';
 import { useApi } from '../contexts/ApiProvider';
-import { useUser } from '../contexts/UserProvier'
+import { useUser } from '../contexts/UserProvier';
 
 function Login() {
   const api = useApi()
