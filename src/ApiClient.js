@@ -68,7 +68,9 @@ export default class APIClient {
   }
 
   async logout() {
-    await this.delete('/logout', );
+    await this.delete('/logout', {
+      heade
+    });
     localStorage.removeItem('access_token');
   }
 
