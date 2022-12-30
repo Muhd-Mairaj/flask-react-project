@@ -50,19 +50,6 @@ function Register() {
     }
 
     // Resiter
-    // fetch("/register", {
-    //   method: "POST",
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     username: usernameField.current.value,
-    //     password: passwordField.current.value,
-    //     confirm: confirmField.current.value
-    //   })
-    // })
-    
-    
     const response = await api.post("/register", {
       username: usernameField.current.value,
       password: passwordField.current.value,
