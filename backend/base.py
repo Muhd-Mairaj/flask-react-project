@@ -78,7 +78,7 @@ def profile():
 def add():
     item = request.json.get("item")
     expiry = request.json.get("expiry")
-    print()
+    print(f"")
 
 
 @app.route("/register", methods=["POST"])
