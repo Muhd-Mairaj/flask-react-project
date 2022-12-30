@@ -134,3 +134,4 @@ def login():
 @token_auth.login_required
 def logout():
   session.clear()
+  return {}
