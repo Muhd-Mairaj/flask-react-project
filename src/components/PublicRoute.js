@@ -8,7 +8,7 @@ export default function PublicRoute({ children }) {
   if (isLoggedIn === undefined) {
     return null;
   }
-  else if (isLoggedIn) {
+  if (isLoggedIn) {
     return <Navigate to="/" />
   }
   else {
