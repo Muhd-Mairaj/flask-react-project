@@ -13,7 +13,13 @@ import '../index.css'
 
 function Header({ loggedIn }) {
   const api = useApi()
-  const user = useUser()
+  const user = useUser
+  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
+
+  useEffect(() => {
+    (() => {
+      if (api.isAuthenticated()) {
+        setIsLoggedIn(true)
       }
       else {
         setIsLoggedIn(false)
