@@ -21,6 +21,7 @@ export default function UserProvider({ children }) {
   
   const login = (async (username, password) => {
     const result = await api.login()
+    if result
   })
   
   return (
