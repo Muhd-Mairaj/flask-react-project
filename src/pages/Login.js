@@ -51,8 +51,9 @@ function Login() {
         console.log("location.state.next ", location.state.next )
         navigate(location.state.next)
       }
-      else {}
-      navigate({ next })
+      else {
+        navigate({ next })
+      }
     }
     else if (result === "fail") {
       flash("Invalid username or password", "danger", 3)
