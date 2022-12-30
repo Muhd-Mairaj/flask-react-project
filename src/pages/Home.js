@@ -63,7 +63,7 @@ function Home() {
       expiry: expiry
     }, {
       headers: {
-        Authorization:
+        Authorization: 
       }
     })
   }
