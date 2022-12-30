@@ -21,7 +21,7 @@ export default function UserProvider({ children }) {
   
   const login = (async (username, password) => {
     const result = await api.login()
-    if (result == "ok") {
+    if (result === "ok") {
       setIsLoggedIn(true)
       return true
     }
