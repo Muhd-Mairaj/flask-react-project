@@ -8,13 +8,13 @@ export default function UserProvider({ children }) {
   const [isLoggedIn, setIsLoggedIn] = useState()
   const { api } = useApi()
 
-//   useEffect(() => {
-//     (async () => {
-//         if (!api.isAuthenticated) {
+  useEffect(() => {
+    (async () => {
+        if (!api.isAuthenticated) {
           
-//         }
-//     })()
-//   }, [api])
+        }
+    })()
+  }, [api])
   
   return (
     <UserContext.Provider value = {{ isLoggedIn, setIsLoggedIn }}>
