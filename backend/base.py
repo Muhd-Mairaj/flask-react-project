@@ -79,7 +79,7 @@ def add():
     item = request.json.get("item")
     expiry = request.json.get("expiry")
     print(f"{item = }")
-    print(f"{item = }")
+    print(f"{expiry = }")
 
 
 @app.route("/register", methods=["POST"])
