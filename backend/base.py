@@ -76,6 +76,7 @@ def profile():
 @app.route("/add", methods=[POST])
 @token_auth.login_required
 def add():
+  
 
 
 @app.route("/register", methods=["POST"])
