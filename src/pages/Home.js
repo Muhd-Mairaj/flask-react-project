@@ -63,7 +63,7 @@ function Home() {
       expiry: expiry
     }, {
       headers: {
-        Authorization: "Bearer " + localStorage.getItem()
+        Authorization: "Bearer " + localStorage.getItem("access_token")
       }
     })
   }
