@@ -57,7 +57,7 @@ function Login() {
       navigate({ next })
     }
     else if (result === "fail") {
-      flash("Invalid username or password", "danger")
+      flash("Invalid username or password", "danger", 3)
       setFormErrors({
         username: "Invalid username or password",
         password: "Invalid username or password"
