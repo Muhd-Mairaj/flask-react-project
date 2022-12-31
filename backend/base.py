@@ -67,7 +67,7 @@ def after_request(response):
 def profile():
     current_date = datetime.now()
 
-    items = db.execute("SELECT item, expiry FROM items WHERE id=?", session["user_id"])
+    items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user_id"])
 
     for i, item in enumerate(items, 1):
       expiry_date = datetime.strptime(item["expiry"], "%Y-%m-%d")
