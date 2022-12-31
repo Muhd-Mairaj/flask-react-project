@@ -41,7 +41,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    useCallback(updateItems())
+    updateItems()
     console.log("items ", items)
   }, [api, items, updateItems])
 
