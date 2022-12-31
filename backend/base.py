@@ -117,7 +117,7 @@ def register():
 
   # return errors before checking validity
   if errors:
-    return errors, 401
+    return errors, 400
 
   # validate username
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
