@@ -99,6 +99,7 @@ def add():
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user_id"], item, expiry)
     item = {
       "item": item,
+      "expiry"
     }
     return {"item": item, "expiry": expiry}, 200
 
