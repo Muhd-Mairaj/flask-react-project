@@ -73,7 +73,7 @@ function Home() {
       setFormErrors(response.body)
     }
     else {
-      
+      setFormErrors({})
     }
     
   }
