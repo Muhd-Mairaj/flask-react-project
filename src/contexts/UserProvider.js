@@ -5,16 +5,16 @@ const UserContext = createContext()
 
 export default function UserProvider({ children }) {
 //   const [user, setUser] = useState()
-  const [user, setIsLoggedIn] = useState()
+  const [user, setUser] = useState()
   const api = useApi()
 
   useEffect(() => {
     (async () => {
         if (api.isAuthenticated()) {
-          setIsLoggedIn(true)
+          setUser(true)
         }
         else {
-          setIsLoggedIn(false)
+          setUser(false)
         }
     })()
   }, [api])
@@ -22,18 +22,18 @@ export default function UserProvider({ children }) {
   const login = (async (username, password) => {
     const result = await api.login(username, password)
     if (result === "ok") {
-      setIsLoggedIn(true)
+      setUser(true)
     }
     return result
   })
 
   const logout = (async () => {
     api.logout()
-    setIsLoggedIn(false)
+    setUser(false)
   })
   
   return (
-    <UserContext.Provider value = {{ isLoggedIn: user, setIsLoggedIn, login, logout }}>
+    <UserContext.Provider value = {{ isLoggedIn: user, setIsLoggedIn: setUser, login, logout }}>
       { children }
     </UserContext.Provider>
   )
