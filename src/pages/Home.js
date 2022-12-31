@@ -12,7 +12,7 @@ import { useApi } from '../contexts/ApiProvider';
 import '../index.css';
 
 
-function Home() {
+export default function Home() {
   const api = useApi()
   const [items, setItems] = useState(null)
   const [formErrors, setFormErrors] = useState({})
