@@ -11,7 +11,9 @@ export default function UserProvider({ children }) {
   useEffect(() => {
     (async () => {
         if (api.isAuthenticated()) {
-          const response = api.get("/user", null, )
+          const response = api.get("/user", null, {
+            headers
+          })
           setUser(true)
         }
         else {
