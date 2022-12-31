@@ -8,7 +8,7 @@ function InputField(
       {label && <Form.Label className={class_name}>{label}</Form.Label>}
       <Form.Control
         type={type || 'text'}
-        min={min || ""}
+        min={min || 0}
         placeholder={placeholder}
         ref={fieldRef}
         className={class_name}
