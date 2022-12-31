@@ -102,11 +102,11 @@ function Home() {
       <style type="text/css">
         {/* table          {border:ridge 5px red;} */}
         {/* table td       {border:inset 1px #000;} */}
-        
-        table tr[key=]  {background-color:red; color:white;}
-        table tr[key=]  {background-color:white;}
-        table tr[key=]  {background-color:blue; color:white;}
-        table td[key=] {border:inset 4px red; background-color:navy;}
+
+        table tr  {background-color:red; color:white;}
+        table tr  {background-color:white;}
+        table tr  {background-color:blue; color:white;}
+        table td {border:inset 4px red; background-color:navy;}
       </style>
 
       {items ? <Table striped bordered variant="dark" responsive="lg" className="Home">
