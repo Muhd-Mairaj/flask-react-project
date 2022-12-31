@@ -44,7 +44,7 @@ function Home() {
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
 
-    const current = new Date();
+    current = new Date();
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
