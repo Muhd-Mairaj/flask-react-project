@@ -21,7 +21,7 @@ export default function UserProvider({ children }) {
           setUser(null)
         }
     })()
-  }, [api])
+  }, [api, user])
   
   const login = (async (username, password) => {
     const result = await api.login(username, password)
