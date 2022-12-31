@@ -97,7 +97,7 @@ def add():
       return errors, 400
 
     # add item to db
-    db.execute("INSERT INTO ")
+    db.execute("INSERT INTO test")
     return {}, 204
 
 
