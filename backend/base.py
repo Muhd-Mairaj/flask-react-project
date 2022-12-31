@@ -139,7 +139,7 @@ def register():
   # add user to db
   db.execute("INSERT INTO users (username, hash) VALUES(?, ?)", username, password_hash)
 
-  return {}, 200
+  return {}, 204
 
 
 @app.route("/login", methods=["POST"])
