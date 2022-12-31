@@ -30,7 +30,8 @@ export default function UserProvider({ children }) {
         headers: {Authorization: "Bearer " + localStorage.getItem("access_token")}
       })
       setUser(response.ok ? response.body : null)
-      console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)    }
+      console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
+        }
     return result
   })
 
