@@ -32,7 +32,7 @@ function Header() {
                   <Navbar.Text>
                     Signed in as: 
                   </Navbar.Text>
-                  <NavDropdown title="Dropdown" variantid="collasible-nav-dropdown">
+                  <NavDropdown title="Dropdown" variant="dark" id="collasible-nav-dropdown">
                     <NavDropdown.Item disabled>Change Password</NavDropdown.Item>
                     <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
                     <NavDropdown.Divider />
