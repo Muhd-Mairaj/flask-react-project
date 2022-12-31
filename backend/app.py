@@ -65,7 +65,7 @@ def after_request(response):
 @app.route("/user", methods=["GET"])
 @token_auth.login_required
 def get_user():
-  return session["user"]
+  return token_auth.current_user()
 
 
 @app.route("/profile", methods=["GET"])
