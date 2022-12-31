@@ -86,9 +86,9 @@ def add():
     errors = {}
 
     # check item exists
-    # check item exists
     if not item:
       error["item"] = "This field must be filled"
+    # check expiry exists
     if not expiry:
       error["item"] = "This field must be filled"
 
