@@ -38,7 +38,7 @@ export default function Home() {
     else {
       console.log("error: ", response.body)
     }
-  }, [api, items])
+  }
 
   useEffect(() => {
     console.log("items ", items)
