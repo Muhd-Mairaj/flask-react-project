@@ -16,7 +16,7 @@ function Header() {
   const {isLoggedIn, logout} = useUser()
 
   return (
-    <Navbar collapseOnSelect fixed="top" expand="sm" bg="" variant="dark" className="Header">
+    <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="light" className="Header">
       <Container fluid>
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
