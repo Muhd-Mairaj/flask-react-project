@@ -4,6 +4,7 @@
 
 # backend
 backend/venv
+backend/flask_session
 backend/__pycache__
 
 # dependencies
