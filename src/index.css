@@ -121,7 +121,7 @@ hr {
     width: calc(20px + 20vw);
     text-align: start;
   }
-  .nav-item {
+  .logoutButton {
     width: calc(20px + 20vw);
     text-align: start;
   }
