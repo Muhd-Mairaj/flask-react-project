@@ -78,7 +78,6 @@ export default function Home() {
       setFormErrors({})
       updateItems()
     }
-
   }
 
   return (
