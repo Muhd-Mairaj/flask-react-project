@@ -43,6 +43,24 @@ export default function Home() {
     console.log("items ", items)
   }, [api, items])
 
+  async function updateItems() {
+    const response = await api.get("/profile", null, {
+      headers: {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
+      }
+    })
+
+    if (response.ok) {
+      setItems(response.body.items)
+      console.log("updated items to: ", response.body.items)
+      console.log("items now: ", items)
+      // console.log(items)
+    }
+    else {
+      console.log("error: ", response.body)
+    }
+  }
+  
   function handleSubmit(event) {
     event.preventDefault();
     const item = itemField.current.value;
