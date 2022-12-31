@@ -23,7 +23,6 @@ export default function Home() {
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
   async function updateItems() {
-  useCallback(
     const response = await api.get("/profile", null, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token")
@@ -39,11 +38,10 @@ export default function Home() {
     else {
       console.log("error: ", response.body)
     }
-  )
   }
 
   useEffect(() => {
-    updateItems()
+    useCallback(updateItems()
     console.log("items ", items)
   }, [api, items, updateItems])
 
