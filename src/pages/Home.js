@@ -69,7 +69,9 @@ function Home() {
       }
     })
 
-    if (!response.ok)
+    if (!response.ok) {
+      set
+    }
     
   }
 
