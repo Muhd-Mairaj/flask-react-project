@@ -3,7 +3,7 @@ import { useUser } from '../contexts/UserProvider';
 
 
 export default function PublicRoute({ children }) {
-  const { isLoggedIn: user } = useUser()
+  const { user } = useUser()
   
   if (user === undefined) {
     return null;
