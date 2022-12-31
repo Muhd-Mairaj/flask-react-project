@@ -118,10 +118,10 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key}>
+              <tr key={item.key} style={{"background-color": `${item.bg}`}}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
-                <td>{item.expiry} style={{"background-color": `${item.bg}`}}</td>
+                <td>{item.expiry}</td>
               </tr>
             ))}
           </tbody>
