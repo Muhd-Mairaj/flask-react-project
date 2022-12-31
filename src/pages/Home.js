@@ -21,6 +21,7 @@ function Home() {
 
 
   useEffect(() => {
+    
     (async () => {
       const response = await api.get("/profile", null, {
         headers: {
