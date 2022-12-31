@@ -1,4 +1,5 @@
 from datetime import datetime
 
 
-def 
+def current_date():
+  return datetime.strptime("%")
