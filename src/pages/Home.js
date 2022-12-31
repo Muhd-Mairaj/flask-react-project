@@ -45,7 +45,7 @@ export default function Home() {
     console.log("items ", items)
   }, [api, items])
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
