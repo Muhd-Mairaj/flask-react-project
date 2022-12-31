@@ -98,7 +98,7 @@ def add():
       return errors, 400
 
     # add item to db
-    db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"], item, expiry)
+    db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
     session["key_count"] += 1
 
     item = {
