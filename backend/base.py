@@ -79,7 +79,7 @@ def add():
     item = request.json.get("item")
     expiry = request.json.get("expiry")
 
-    print(f"{expiry = }")
+    print(expiry)
 
     return {}, 204
 
