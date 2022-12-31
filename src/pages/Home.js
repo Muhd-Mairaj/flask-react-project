@@ -26,7 +26,20 @@ export default function Home() {
     updateItems()
   }, [api])
 
-  function
+  const updateItems = (async () => {
+    const response = await api.get("/profile", null, {
+      headers: {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
+      }
+    })
+
+    if (response.ok) {
+      setItems(response.body.items)
+    }
+    else {
+      console.log("error: ", response.body)
+    }
+  })
 
   function handleSubmit(event) {
     event.preventDefault();
