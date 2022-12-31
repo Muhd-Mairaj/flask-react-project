@@ -37,7 +37,7 @@ export default function UserProvider({ children }) {
 
   const logout = (async () => {
     api.logout()
-    setUser(false)
+    setUser(null)
   })
   
   return (
