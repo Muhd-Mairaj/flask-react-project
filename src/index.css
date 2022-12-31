@@ -48,11 +48,10 @@ hr {
 
 a.dropdown-item {
   font-size: small;
-  /* display: grid; */
-  /* text-align: start; */
-  /* align-content: start; */
   padding: 0.1rem 0.4rem 0.1rem 0.8rem;
 }
+
+.
 
 .text-danger {
   color: #ff0000!important;
