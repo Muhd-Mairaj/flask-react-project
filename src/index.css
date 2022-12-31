@@ -42,7 +42,9 @@ hr {
   font-size: calc(1rem + 0.2vw);
 }
 
-.Dropdown
+.dropdown {
+  
+}
 
 .text-danger {
   color: #ff0000!important;
