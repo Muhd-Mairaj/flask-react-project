@@ -137,7 +137,6 @@ def register():
   if code == 401:
     return errors, code
   
-
   #
   ### Register user  
   # generate password hash
