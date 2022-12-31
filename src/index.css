@@ -119,12 +119,11 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-  .nav-link {
-    /* width: calc(20px + 20vw); */
-    text-align: end;
+  .nav-item {
+    width: calc(20px + 20vw);
+    text-align: start;
   }
   .logoutButton {
-    width: 100px;
-    text-align: end;
+    width: px;
   }
 }
