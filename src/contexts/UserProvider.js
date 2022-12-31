@@ -31,7 +31,7 @@ export default function UserProvider({ children }) {
       })
       setUser(response.ok ? response.body : null)
       console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
-        }
+    }
     return result
   })
 
