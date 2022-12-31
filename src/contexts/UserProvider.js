@@ -28,7 +28,7 @@ export default function UserProvider({ children }) {
       const response = api.get("/user", null, {
         headers: {Authorization: "Bearer " + localStorage.getItem("access_token")}
       })
-      console.log(respon)
+      console.log(response.body)
       setUser(response.ok ? response.body : null)
       console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
     }
