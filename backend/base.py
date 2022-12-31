@@ -103,7 +103,7 @@ def add():
     item = {
       "item": item,
       "expiry": expiry,
-      "bg": "red" if get_date(expiry) < get_current_date else ""
+      "bg": "red" if get_date(expiry) < get_current_date() else ""
       "key": session["key"],
     }
     return item, 200
