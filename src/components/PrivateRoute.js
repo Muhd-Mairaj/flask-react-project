@@ -3,7 +3,7 @@ import { useUser } from '../contexts/UserProvider';
 
 
 export default function PrivateRoute({ children }) {
-  const { isLoggedIn } = useUser()
+  const { user } = useUser()
   const location = useLocation()
   
   if (isLoggedIn === undefined) {
