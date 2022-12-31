@@ -30,7 +30,7 @@ export default function Home() {
     })
 
     if (response.ok) {
-      setItems(response.body.items)
+      setItems(response.body)
     }
     else {
       console.log("error: ", response.body)
