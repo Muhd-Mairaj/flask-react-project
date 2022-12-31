@@ -99,8 +99,8 @@ function Home() {
 
       <hr></hr>
 
-      {/* <style type="text/css"> */}
-        {/* table          {border:ridge 5px red;} */}
+      <style type="text/css">
+        table          {border:ridge 5px red;}
         {/* table td       {border:inset 1px #000;}
         table tr#ROW1  {background-color:red; color:white;}
         table tr#ROW2  {background-color:white;}
