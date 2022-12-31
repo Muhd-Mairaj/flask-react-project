@@ -17,7 +17,7 @@ export default function UserProvider({ children }) {
             }
           })
           if (response.ok) {
-            setUser(true)
+            setUser(r)
           }
         }
         else {
