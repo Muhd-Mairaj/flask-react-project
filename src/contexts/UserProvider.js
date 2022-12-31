@@ -12,7 +12,9 @@ export default function UserProvider({ children }) {
     (async () => {
         if (api.isAuthenticated()) {
           const response = api.get("/user", null, {
-            headers
+            headers: {
+              Authorization: "Bearer "
+            }
           })
           setUser(true)
         }
