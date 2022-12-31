@@ -141,7 +141,7 @@ hr {
   }
 
   .navbar-nav {
-    align-items: end;
+    align-items: end!important;
   }
 
   .logoutButton {
