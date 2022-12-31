@@ -11,7 +11,6 @@ from datetime import datetime
 basic_auth = HTTPBasicAuth()
 token_auth = HTTPTokenAuth()
 
-datetime.strptime(datetime_str, '%m/%d/%y %H:%M:%S')
 
 # configure app
 app = Flask(__name__)
