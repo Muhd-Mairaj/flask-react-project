@@ -37,9 +37,9 @@ hr {
   font-size: calc(1rem + 0.5vw);
 }
 
-.navbar-text {
+.HeaderEnd {
   align-items: center;
-  font-size: calc(0.9rem + 0.2vw);
+  font-size: calc(0.8rem + 0.2vw);
 }
 
 .dropdown {
