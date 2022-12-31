@@ -27,7 +27,7 @@ function Header() {
                   <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
               <Nav>
-                  <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link>
+                  <Nav.Link as={Button} variant="dark" className="logoutButton w-auto" onClick={logout}>Logout</Nav.Link>
               </Nav>
             </>
           :
