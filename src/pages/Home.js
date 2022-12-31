@@ -41,7 +41,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    useCallBupdateItems()
+    useCallbaclupdateItems()
     console.log("items ", items)
   }, [api, items, updateItems])
 
