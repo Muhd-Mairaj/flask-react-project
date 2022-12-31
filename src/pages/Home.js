@@ -118,7 +118,7 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key}>
+              <tr key={item.key} style-{{}}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
