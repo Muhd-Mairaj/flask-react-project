@@ -46,7 +46,7 @@ function Home() {
 
     current = new Date("2023-01-01");
     // console.log(current);
-    date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
     console.log(date)
 
     event.preventDefault();
