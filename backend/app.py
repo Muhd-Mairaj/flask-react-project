@@ -62,7 +62,7 @@ def after_request(response):
     return response
 
 
-@app.route("/user")
+@app.route("/user", methods=["GET"])
 
 
 @app.route("/profile", methods=["GET"])
