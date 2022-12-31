@@ -86,7 +86,7 @@ def add():
     errors = {}
 
     if not item:
-      error["item"] 
+      error["item"] = 
     
     return {}, 204
 
