@@ -145,8 +145,6 @@ export default function Home() {
   )
 }
 
-export default Home;
-
 
     /* METHOD 2 - WORKS */
 // function getData() {
