@@ -85,7 +85,8 @@ def add():
     expiry = request.json.get("expiry")
     errors = {}
 
-    if 
+    if not item:
+      
     
     return {}, 204
 
