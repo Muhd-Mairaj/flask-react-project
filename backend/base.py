@@ -137,8 +137,8 @@ def register():
   if code == 401:
     return errors, code
   
-  
-    
+
+  ##  
   if code == 200:
     # generate password hash
     password_hash = generate_password_hash(password)
