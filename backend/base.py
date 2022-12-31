@@ -117,7 +117,7 @@ def register():
     errors["confirm"] = "This field must be filled"
     code = 401
 
-  # return errors if a
+  # return errors before checking validity
   if code != 200:
     return errors, code
 
