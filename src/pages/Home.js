@@ -29,12 +29,9 @@ export default function Home() {
           Authorization: "Bearer " + localStorage.getItem("access_token")
         }
       })
-  
+
       if (response.ok) {
         setItems(response.body.items)
-        console.log("updated items to: ", response.body.items)
-        
-
       }
       else {
         console.log("error: ", response.body)
