@@ -68,13 +68,13 @@ def profile():
     current_date = datetime.now()
 
     items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user_id"])
+    session["key_count"] = 
 
     for i, item in enumerate(items, 1):
       expiry_date = get_date(item["expiry"])
       item["bg"] = "red" if expiry_date < current_date else ""
       item["key"] = i
 
-    session["key_count"] = i
     return jsonify({"items": items}), 200
 
 
