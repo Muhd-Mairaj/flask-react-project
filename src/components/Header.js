@@ -29,7 +29,7 @@ function Header() {
               </Nav>
               <Nav>
                   <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link>
-                  <Navbar.Text>
+                  <Navbar.Text className="small">
                     Signed in as: 
                   </Navbar.Text>
                   <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
