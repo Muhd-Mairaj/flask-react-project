@@ -129,5 +129,6 @@ hr {
   } */
   .logoutButton {
     width: 100px;
+    text-align-last: ;
   }
 }
