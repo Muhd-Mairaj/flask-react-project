@@ -120,7 +120,7 @@ hr {
 
 @media screen and (max-width: 576px) {
   .nav-link {
-    width: calc(20px + 20vw);
+    /* width: calc(20px + 20vw); */
     text-align: end;
   }
   .logoutButton {
