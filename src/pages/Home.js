@@ -43,7 +43,7 @@ export default function Home() {
   useEffect(() => {
     updateItems()
     console.log("items ", items)
-  }, [api])
+  }, [api, items, updateItems])
 
   function handleSubmit(event) {
     event.preventDefault();
