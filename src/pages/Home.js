@@ -94,7 +94,7 @@ function Home() {
             <InputField
               name="expiry"
               type="date"
-              min=""
+              min={""}
               fieldRef={expiryField}
               error={formErrors.expiry}
             />
