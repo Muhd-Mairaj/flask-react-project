@@ -63,6 +63,7 @@ def after_request(response):
 
 
 @app.route("/user", methods=["GET"])
+@token_auth.login_required
 def get_user():
   return session["user"]
 
