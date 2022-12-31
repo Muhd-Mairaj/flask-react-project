@@ -120,7 +120,6 @@ def register():
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
     errors["username"] = "Username is unavailable"
-    code = 401
 
   # validate passwords
   if password != confirm:
@@ -130,6 +129,7 @@ def register():
   # return errors before registering user
   if errors:
     return errors, 401  
+    
   #
   ### Register user  
   # generate password hash
