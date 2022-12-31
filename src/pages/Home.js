@@ -33,6 +33,7 @@ export default function Home() {
       const body = response.body
       console.log({body, items})
       setItems(response.body.items)
+      console.log({body, items})
       // console.log(items)
     }
     else {
