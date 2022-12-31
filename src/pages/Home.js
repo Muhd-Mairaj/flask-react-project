@@ -40,7 +40,7 @@ export default function Home() {
         console.log("error: ", response.body)
       }
     })()
-    console.log("items ", items)
+
   }, [api])
 
   async function handleSubmit(event) {
