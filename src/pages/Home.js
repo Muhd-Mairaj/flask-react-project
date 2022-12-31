@@ -22,24 +22,6 @@ export default function Home() {
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
-  async function updateItems() {
-    const response = await api.get("/profile", null, {
-      headers: {
-        Authorization: "Bearer " + localStorage.getItem("access_token")
-      }
-    })
-
-    if (response.ok) {
-      setItems(response.body.items)
-      console.log("updated items to: ", response.body.items)
-      console.log("items now: ", items)
-      // console.log(items)
-    }
-    else {
-      console.log("error: ", response.body)
-    }
-  }
-
   useEffect(() => {
     updateItems()
     console.log("items ", items)
