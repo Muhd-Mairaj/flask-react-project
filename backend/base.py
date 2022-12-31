@@ -100,7 +100,7 @@ def add():
     item = {
       "item": item,
       "expiry": expiry,
-      "bg": "red" if get_date(item["expiry"]) < current_date else "" expiry_date = 
+      "bg": "red" if get_date(expiry) < current_date else "" expiry_date = 
       item["bg"] = 
     }
     return {"item": item, "expiry": expiry}, 200
