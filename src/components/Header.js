@@ -34,6 +34,7 @@ function Header() {
                   </Navbar.Text>
                   <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item onclick={logout}>Logout</NavDropdown.Item>
+                    <NavDropdown.Item onclick={logout}>Logout</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">
                       Another action
                     </NavDropdown.Item>
