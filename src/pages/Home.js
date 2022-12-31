@@ -18,9 +18,9 @@ function Home() {
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
+  
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
-  
   
   useEffect(() => {
     (async () => {
