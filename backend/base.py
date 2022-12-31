@@ -117,6 +117,8 @@ def register():
     errors["confirm"] = "This field must be filled"
     code = 401
 
+  
+
   # validate username
   db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
   if len(db_query) > 0:
