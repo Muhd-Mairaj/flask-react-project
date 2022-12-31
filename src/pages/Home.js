@@ -23,7 +23,7 @@ export default function Home() {
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
   useEffect(() => (async () => {
-    
+    return
   })
     console.log("items ", items)
   }, [api, items])
