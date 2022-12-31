@@ -16,8 +16,8 @@ export default function UserProvider({ children }) {
               Authorization: "Bearer " + localStorage.getItem("access_token")
             }
           })
-            setUser(response.ok ? response.body : null)
-            console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
+          setUser(response.ok ? response.body : null)
+          console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
         }
         else {
           setUser(null)
