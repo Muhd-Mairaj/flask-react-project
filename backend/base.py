@@ -92,7 +92,7 @@ def add():
     if not expiry:
       error["item"] = "This field must be filled"
 
-    #
+    # return errors before proceeding
     if errors:
       return errors, 400
 
