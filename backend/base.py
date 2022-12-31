@@ -78,8 +78,6 @@ def profile():
 @app.route("/add", methods=["POST"])
 @token_auth.login_required
 def add():
-    current_time = datetime.now()
-  
     item = request.json.get("item")
     expiry = request.json.get("expiry")
 
