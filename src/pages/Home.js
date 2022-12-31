@@ -71,9 +71,6 @@ export default function Home() {
 
     if (!response.ok) {
       setFormErrors(response.body)
-
-
-
       return
     }
     else {
