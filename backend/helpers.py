@@ -1,5 +1,5 @@
 from datetime import datetime
 
 
-def current_date(date: str):
+def get_datez(date: str):
   return datetime.strptime(date, "%Y-%m-%d")
