@@ -125,6 +125,7 @@ hr {
     text-align: start;
   } */
   .navbar-nav {
+    margin-right: ;
     align-items: end;
   }
   .logoutButton {
