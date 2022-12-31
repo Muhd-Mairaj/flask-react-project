@@ -97,7 +97,7 @@ def add():
 
     # add item to db
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user_id"], item, expiry)
-    return {}, 200
+    return {"item"}, 200
 
 
 @app.route("/register", methods=["POST"])
