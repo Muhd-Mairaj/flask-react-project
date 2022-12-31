@@ -70,7 +70,7 @@ function Home() {
     })
 
     if (!response.ok) {
-      set
+      setFormErrors(response.body)
     }
     
   }
