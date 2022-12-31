@@ -74,6 +74,8 @@ export default function Home() {
       }
     })
 
+    console.log(response)
+
     if (!response.ok) {
       setFormErrors(response.body)
       console.log("updating formErrors to: ", response.body)
