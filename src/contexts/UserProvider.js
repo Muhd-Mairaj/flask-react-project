@@ -13,7 +13,7 @@ export default function UserProvider({ children }) {
         if (api.isAuthenticated()) {
           const response = api.get("/user", null, {
             headers: {
-              Authorization: "Bearer "
+              Authorization: "Bearer " + localStorage.getItem("access_token")
             }
           })
           setUser(true)
