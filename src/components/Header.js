@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
 // import { useApi } from '../contexts/ApiProvider';
 import { useUser } from '../contexts/UserProvider';
 import '../index.css'
