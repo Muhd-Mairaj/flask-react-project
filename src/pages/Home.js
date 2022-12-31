@@ -32,6 +32,7 @@ export default function Home() {
     if (response.ok) {
       setItems(response.body.items)
       console.log("updated items to: ", response.body.items)
+      console.log("updated items to: ", response.body.items)
       // console.log(items)
     }
     else {
