@@ -39,7 +39,7 @@ export default function Home() {
       else {
         console.log("error: ", response.body)
       }
-    }()
+    }
     console.log("items ", items)
   }, [api, items, updateItems])
 
