@@ -36,7 +36,7 @@ function Header() {
                     <NavDropdown.Item>Change Password</NavDropdown.Item>
                     <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item className="text-danger"href="#action/3.4">
+                    <NavDropdown.Item className="text-danger">
                       Delete Account
                     </NavDropdown.Item>
                   </NavDropdown>
