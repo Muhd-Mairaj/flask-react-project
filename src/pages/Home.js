@@ -135,7 +135,6 @@ export default function Home() {
   )
 }
 
-
     /* METHOD 2 - WORKS */
 // function getData() {
 //   fetch("/profile").then(response => response.json()).then(data => {
