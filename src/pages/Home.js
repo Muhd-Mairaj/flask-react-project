@@ -43,7 +43,7 @@ export default function Home() {
   useEffect(() => {
     updateItems()
     console.log("items ", items)
-  }, [api])
+  }, [api, items, updateItems])
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -75,10 +75,9 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      console.log("errors: ", errors)
       setFormErrors(response.body)
-      console.log("response.body: ", response.body)
-      console.log("response: ", response.body)
+      console.log("updating formErrors to: ", response.body)
+      console.log("formErrors now: ", errors)
 
       return
     }
@@ -127,7 +126,7 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} style={{"backgroundColor": `${item.bg == "red" ? "#ff0000a0": ""}`}}>
+              <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
