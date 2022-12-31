@@ -2,4 +2,4 @@ from datetime import datetime
 
 
 def current_date():
-  return datetime.strptime("%")
+  return datetime.strptime("%Y")
