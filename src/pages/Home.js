@@ -22,29 +22,29 @@ export default function Home() {
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
-  useEffect(() => {
-    async () => {
-      const response = await api.get("/profile", null, {
-        headers: {
-          Authorization: "Bearer " + localStorage.getItem("access_token")
-        }
-      })
-  
-      if (response.ok) {
-        setItems(response.body.items)
-        console.log("updated items to: ", response.body.items)
-        console.log("items now: ", items)
-        // console.log(items)
+  async function updateItems() {
+    const response = await api.get("/profile", null, {
+      headers: {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
       }
-      else {
-        console.log("error: ", response.body)
-      }
-    }
-    console.log("items ", items)
-  }, [api, items])
+    })
 
-  
-  
+    if (response.ok) {
+      setItems(response.body.items)
+      console.log("updated items to: ", response.body.items)
+      console.log("items now: ", items)
+      // console.log(items)
+    }
+    else {
+      console.log("error: ", response.body)
+    }
+  }
+
+  useEffect(() => {
+    updateItems()
+    console.log("items ", items)
+  }, [api])
+
   function handleSubmit(event) {
     event.preventDefault();
     const item = itemField.current.value;
@@ -75,9 +75,10 @@ export default function Home() {
     })
 
     if (!response.ok) {
+      console.log("errors: ", errors)
       setFormErrors(response.body)
-      console.log("updating formErrors to: ", response.body)
-      console.log("formErrors now: ", errors)
+      console.log("response.body: ", response.body)
+      console.log("response: ", response.body)
 
       return
     }
@@ -126,7 +127,7 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
+              <tr key={item.key} style={{"backgroundColor": `${item.bg == "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
