@@ -11,6 +11,8 @@ import InputField from '../components/InputField';
 import { useApi } from '../contexts/ApiProvider';
 import '../index.css';
 
+
+const [items, setItems] = useState([])
 const updateItems = async () => {
   const response = await api.get("/profile", null, {
     headers: {
@@ -31,7 +33,6 @@ const updateItems = async () => {
 
 export default function Home() {
   const api = useApi()
-  const [items, setItems] = useState([])
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
