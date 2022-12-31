@@ -16,7 +16,7 @@ function Login() {
   const { login } = useUser()
   const navigate = useNavigate()
   const location = useLocation()
-  const {flash} = useFlash()
+  const { flash } = useFlash()
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
   const passwordField = useRef()
