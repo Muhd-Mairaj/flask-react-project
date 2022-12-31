@@ -53,7 +53,7 @@ function Home() {
       console.log("next")
     }
     else if (next > current) {
-      console.log("next")
+      console.log("current")
     }
 
     event.preventDefault();
