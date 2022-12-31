@@ -125,6 +125,5 @@ hr {
   }
   .logoutButton {
     width: calc(20px + 20vw);
-    text-align: center;
   }
 }
