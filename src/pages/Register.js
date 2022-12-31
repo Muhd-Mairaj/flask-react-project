@@ -14,7 +14,7 @@ import { useApi } from '../contexts/ApiProvider';
 
 function Register() {
   const api = useApi()
-  const {  } = useFlash();
+  const { flash } = useFlash();
   const navigate = useNavigate()
   const [formErrors, setFormErrors] = useState({})
   const usernameField = useRef()
