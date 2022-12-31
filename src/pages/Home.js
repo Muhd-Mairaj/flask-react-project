@@ -24,6 +24,7 @@ function Home() {
     const current = new Date();
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    console.log(date)
     (async () => {
       const response = await api.get("/profile", null, {
         headers: {
