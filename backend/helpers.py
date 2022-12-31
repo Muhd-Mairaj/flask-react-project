@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-def current_date():
+def get_current_date():
   return datetime.now()
 
 
