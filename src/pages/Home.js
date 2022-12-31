@@ -39,11 +39,11 @@ function Home() {
 
 
   function handleSubmit(event) {
-    const current = new Date();
+    let current = new Date();
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
-    
+
     const current = new Date();
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
