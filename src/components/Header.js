@@ -33,7 +33,7 @@ function Header() {
                     Signed in as: 
                   </Navbar.Text>
                   <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
-                    <NavDropdown.Item disabled>Change Password</NavDropdown.Item>
+                    <NavDropdown.Item>Change Password</NavDropdown.Item>
                     <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item className="text-danger"href="#action/3.4">
