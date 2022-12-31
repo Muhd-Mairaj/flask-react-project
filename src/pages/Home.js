@@ -31,6 +31,8 @@ export default function Home() {
 
     if (response.ok) {
       setItems(response.body)
+      console.log(items)
+
     }
     else {
       console.log("error: ", response.body)
