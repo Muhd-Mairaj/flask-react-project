@@ -103,7 +103,7 @@ function Home() {
         {/* table          {border:ridge 5px red;} */}
         {/* table td       {border:inset 1px #000;} */}
 
-        table tr  {background-color:red; color:white;}
+        table tr  {{background-color:red; color:white;}}
       </style>
 
       {items ? <Table striped bordered variant="dark" responsive="lg" className="Home">
