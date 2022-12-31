@@ -67,7 +67,7 @@ def after_request(response):
 def profile():
     current_date = get_current_date()
 
-    # items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user_id"])
+    # items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user"][])
     items = db.execute("SELECT * FROM items WHERE user_id = ? ORDER BY expiry DESC", session["user"]["id"])
     session["key_count"] = len(items)
 
