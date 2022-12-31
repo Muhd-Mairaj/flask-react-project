@@ -128,7 +128,7 @@ def register():
     code = 401
 
   # validate passwords
-  if password and confirm and password != confirm:
+  if password != confirm:
     errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
     code = 401
