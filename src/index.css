@@ -41,7 +41,8 @@ hr {
   color: #fff;
   margin: 0.3rem;
   /* padding: 0.3rem 0.6rem; */
-  align-c: center;
+  display: grid;
+  align-content: center;
 }
 
 .InputField {
