@@ -105,7 +105,6 @@ def register():
   # check username exists
   if not username:
     errors["username"] = "This field must be filled"
-    code = 401
 
   # check password exists
   if not password:
