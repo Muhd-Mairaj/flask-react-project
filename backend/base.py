@@ -5,7 +5,7 @@ from secrets import token_urlsafe
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
-from helpers import 
+from helpers import current_date
 
 
 basic_auth = HTTPBasicAuth()
