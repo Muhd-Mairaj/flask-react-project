@@ -27,7 +27,7 @@ function Header() {
                   <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
                   <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
-              <Nav className="Head">
+              <Nav className="Header">
                   <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link>
                   <Navbar.Text>
                     Signed in as: 
