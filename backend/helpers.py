@@ -1,4 +1,4 @@
 from datetime import datetime
 
 
-def get
+def get_today
