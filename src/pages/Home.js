@@ -11,28 +11,27 @@ import InputField from '../components/InputField';
 import { useApi } from '../contexts/ApiProvider';
 import '../index.css';
 
-
-const [items, setItems] = useState([])
-const api = useApi()
 const updateItems = async () => {
-  const response = await api.get("/profile", null, {
-    headers: {
-      Authorization: "Bearer " + localStorage.getItem("access_token")
-    }
-  })
+    const response = await api.get("/profile", null, {
+      headers: {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
+      }
+    })
 
-  if (response.ok) {
-    setItems(response.body.items)
-    console.log("updated items to: ", response.body.items)
-    console.log("items now: ", items)
-    // console.log(items)
+    if (response.ok) {
+      setItems(response.body.items)
+      console.log("updated items to: ", response.body.items)
+      console.log("items now: ", items)
+      // console.log(items)
+    }
+    else {
+      console.log("error: ", response.body)
+    }
   }
-  else {
-    console.log("error: ", response.body)
-  }
-}
 
 export default function Home() {
+  const api = useApi()
+  const [items, setItems] = useState([])
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
