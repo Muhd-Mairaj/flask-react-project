@@ -104,7 +104,7 @@ def add():
       "item": item,
       "expiry": expiry,
       "bg": "red" if get_date(expiry) < get_current_date() else "",
-      "key": session["key"],
+      "key": session["key_count"],
     }
     return item, 200
 
