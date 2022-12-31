@@ -41,12 +41,12 @@ function Home() {
   function handleSubmit(event) {
     let current = new Date();
     console.log(current);
-    const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    let date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
 
     current = new Date();
     console.log(current);
-    const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
 
     event.preventDefault();
