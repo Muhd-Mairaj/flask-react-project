@@ -18,9 +18,9 @@ function Home() {
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
+  
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
-  
   
   useEffect(() => {
     (async () => {
@@ -109,7 +109,7 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} variant={(Date(item.expiry) < current) ? "danger" : ""}>
+              <tr key={item.key} variant={(newDate(item.expiry) < current) ? "danger" : ""}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
