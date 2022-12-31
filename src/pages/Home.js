@@ -39,7 +39,6 @@ export default function Home() {
     else {
       console.log("error: ", response.body)
     }
-
   )
   }
 
