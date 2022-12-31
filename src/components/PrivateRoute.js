@@ -6,7 +6,7 @@ export default function PrivateRoute({ children }) {
   const { user } = useUser()
   const location = useLocation()
   
-  if (isLoggedIn === undefined) {
+  if (user === undefined) {
     return null
   }
   else if (isLoggedIn) {
