@@ -22,7 +22,7 @@ function Home() {
   
   useEffect(() => {
     const current = new Date();
-    const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`
+    const date = `${current.getDate()}/${current.getMonth()+1}-}`
     (async () => {
       const response = await api.get("/profile", null, {
         headers: {
