@@ -129,7 +129,7 @@ def register():
     code = 401
 
   # return errors before registering user
-  if code == 401:
+  if errors:
     return errors, code
   
   #
