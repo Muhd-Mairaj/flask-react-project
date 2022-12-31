@@ -75,7 +75,7 @@ export default function Home() {
     }
     else {
       setFormErrors({})
-      setItems([...items, response.body])
+      setItems([response.body, ...items, response.body])
     }
   }
 
