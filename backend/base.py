@@ -65,13 +65,13 @@ def after_request(response):
 @app.route("/profile", methods=["GET"])
 @token_auth.login_required
 def profile():
-    current_time = datetime.now()
+    current_date = datetime.now()
 
     user_id = 1
     items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
 
     for i, item in enumerate(items, 1):
-      
+
       item["key"] = i
       item["bg"] = "red" if 1 else ""
 
