@@ -34,7 +34,7 @@ function Header() {
                   </Navbar.Text>
                   <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item disabled>Change Password</NavDropdown.Item>
-                    <NavDropdown.Item onclick={logout}>Logout</NavDropdown.Item>
+                    <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">
                       Separated link
