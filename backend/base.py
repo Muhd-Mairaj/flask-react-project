@@ -99,12 +99,12 @@ def add():
     # add item to db
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user_id"], item, expiry)
     session["key_id"] += 1
-    
+
     item = {
       "item": item,
       "expiry": expiry,
       "bg": "red" if get_date(expiry) < current_date else ""
-      "key"
+      "key": session["key"]
     }
     return {"item": item, "expiry": expiry}, 200
 
