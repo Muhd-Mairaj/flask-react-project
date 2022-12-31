@@ -11,7 +11,7 @@ export default function UserProvider({ children }) {
   useEffect(() => {
     (async () => {
         if (api.isAuthenticated()) {
-          const response = api.get("/user", null, {
+          const response = await api.get("/user", null, {
             headers: {Authorization: "Bearer " + localStorage.getItem("access_token")}
           })
           setUser(response.ok ? response.body : null)
