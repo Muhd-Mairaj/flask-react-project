@@ -68,7 +68,7 @@ def profile():
     current_date = get_current_date()
 
     # items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user_id"])
-    items = db.execute("SELECT * FROM items WHERE user_id = 10 ORDER BY expiry DESC;")
+    items = db.execute("SELECT * FROM items WHERE user_id = 10 ORDER BY expiry DESC")
     session["key_count"] = len(items)
 
     for i, item in enumerate(items, 1):
