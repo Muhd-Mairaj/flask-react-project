@@ -85,7 +85,8 @@ def add():
     expiry = request.json.get("expiry")
     errors = {}
 
-    # check item field
+    # check item exists
+    # check item exists
     if not item:
       error["item"] = "This field must be filled"
     if not expiry:
