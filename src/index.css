@@ -39,7 +39,7 @@ hr {
 
 .HeaderEnd {
   align-items: center;
-  font-size: calc(0.5rem + 0.2vw);
+  font-size: calc(0.9rem + 0.2vw);
 }
 
 .dropdown {
@@ -149,7 +149,7 @@ hr {
   }
 
   .navbar-text {
-    display: none;
+    display: no;
   }
 
   .logoutButton {
