@@ -74,6 +74,7 @@ function Home() {
     }
     else {
       setFormErrors({})
+      
     }
     
   }
