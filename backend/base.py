@@ -133,6 +133,7 @@ def register():
     errors["confirm"] = "Passwords dont match"
     code = 401
 
+  # return errors before 
   if code == 401:
     return errors, code
     
