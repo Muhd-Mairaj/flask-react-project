@@ -39,23 +39,6 @@ function Home() {
 
 
   function handleSubmit(event) {
-    let current = new Date();
-    // console.log(current);
-    let date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
-    console.log(date)
-
-    let next = new Date("2022-01-01");
-    // console.log(current);
-    date = `${next.getFullYear()}-${next.getMonth()+1}-${next.getDate()}`
-    console.log(date)
-
-    if (next < current) {
-      console.log("next")
-    }
-    else if (next > current) {
-      console.log("current")
-    }
-
     event.preventDefault();
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
