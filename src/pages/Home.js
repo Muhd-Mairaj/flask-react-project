@@ -109,7 +109,7 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} bg={(new Date(item.expiry)) < current ? "red" : ""}>
+              <tr key={item.key}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
