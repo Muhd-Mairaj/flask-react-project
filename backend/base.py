@@ -75,7 +75,7 @@ def profile():
       item["key"] = i
       item["bg"] = "red" if expiry_date < current_date else ""
 
-    return jsonify({"items": items}
+    return {"items": items}, 200
 
 
 @app.route("/add", methods=["POST"])
