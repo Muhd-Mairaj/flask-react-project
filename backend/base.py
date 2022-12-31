@@ -69,6 +69,7 @@ def profile():
 
     for i, item in enumerate(items, 1):
       item["key"] = i
+      item[]
 
     return jsonify({"items": items})
 
