@@ -50,7 +50,7 @@ function Home() {
     console.log(date)
 
     if (next < current) {
-      console.log()
+      console.log("next")
     }
 
     event.preventDefault();
