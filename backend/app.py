@@ -62,6 +62,7 @@ def after_request(response):
     return response
 
 
+@app.route()
 
 
 @app.route("/profile", methods=["GET"])
