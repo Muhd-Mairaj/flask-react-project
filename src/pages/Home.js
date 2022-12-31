@@ -23,6 +23,7 @@ export default function Home() {
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
   useCallback(
+
     async function updateItems() {
       const response = await api.get("/profile", null, {
         headers: {
