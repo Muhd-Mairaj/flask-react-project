@@ -148,8 +148,8 @@ hr {
     align-items: end!important;
   }
 
-  .navbar-text : {
-    
+  .navbar-text {
+    display: none;
   }
 
   .logoutButton {
