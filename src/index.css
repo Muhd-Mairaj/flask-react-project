@@ -124,8 +124,11 @@ hr {
     width: calc(20px + 20vw);
     text-align: start;
   } */
-  .navbar-nav {
+  .nav-link {
+
     margin-right: 0.3rem;
+  }
+  .navbar-nav {
     align-items: end;
   }
   .logoutButton {
