@@ -59,7 +59,7 @@ export default function Home() {
       }
     })()
     console.log("items ", items)
-  }, [api, items, updateItems])
+  }, [api, items])
 
   function handleSubmit(event) {
     event.preventDefault();
