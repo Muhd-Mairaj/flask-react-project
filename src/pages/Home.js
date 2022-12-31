@@ -22,24 +22,12 @@ export default function Home() {
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
   
+  
   useEffect(() => {
     updateItems()
   }, [api])
 
-  const updateItems = (async () => {
-    const response = await api.get("/profile", null, {
-      headers: {
-        Authorization: "Bearer " + localStorage.getItem("access_token")
-      }
-    })
-
-    if (response.ok) {
-      setItems(response.body.items)
-    }
-    else {
-      console.log("error: ", response.body)
-    }
-  })
+  
 
   function handleSubmit(event) {
     event.preventDefault();
