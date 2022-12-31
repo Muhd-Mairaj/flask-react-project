@@ -14,7 +14,7 @@ import '../index.css';
 
 export default function Home() {
   const api = useApi()
-  const [items, setItems] = useState(null)
+  const [items, setItems] = useState([])
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
