@@ -98,7 +98,7 @@ def add():
 
     # add item to db
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user_id"], item, expiry)
-    session["key_id"] += 
+    session["key_id"] += 1
     item = {
       "item": item,
       "expiry": expiry,
