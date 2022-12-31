@@ -144,7 +144,6 @@ def register():
   # add user to db
   db.execute("INSERT INTO users (username, hash) VALUES(?, ?)", username, password_hash)
 
-
   return errors, code
 
 
