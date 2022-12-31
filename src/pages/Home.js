@@ -31,7 +31,6 @@ export default function Home() {
 
     if (response.ok) {
       const body = response.body
-      console.log({body, items})
       setItems(response.body.items)
       console.log({body, items})
       // console.log(items)
