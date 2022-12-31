@@ -33,7 +33,7 @@ def verify_password(username, password):
   rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
 
   if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
-    session["user"] = {"id": rows[0]["id"]}
+    session["user"] = {"id": rows[0]["id"], "username": }
     return session["user_id"]
 
 
