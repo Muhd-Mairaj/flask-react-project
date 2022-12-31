@@ -87,5 +87,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [Flask-Session docs](https://flask-session.readthedocs.io/en/latest/)
 - [https://www.sqlitetutorial.net/sqlite-delete/](https://www.sqlitetutorial.net/sqlite-delete/)
 - [https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension](https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension)
-- [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date]
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
 - [How to get the current date in React](https://reactgo.com/react-get-current-date/)
