@@ -103,9 +103,6 @@ hr {
   padding-right: 0.2rem;
 }
 
-.navbar-nav {
-  text-align: end;
-}
 
 .navbar-nav .nav-link:hover {
   background-color: #eeeeee0f;
@@ -127,6 +124,9 @@ hr {
     width: calc(20px + 20vw);
     text-align: start;
   } */
+  .navbar-nav {
+    text-align: end;
+  }
   .logoutButton {
     width: 100px;
     text-align: center;
