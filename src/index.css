@@ -37,7 +37,10 @@ hr {
   font-size: calc(1rem + 0.5vw);
 }
 
-
+.HeaderEnd {
+  align-items: center;
+  font-size: calc(1rem + 0.2vw);
+}
 
 .text-danger {
   color: #ff0000!important;
