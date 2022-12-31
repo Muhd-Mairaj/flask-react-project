@@ -102,6 +102,7 @@ function Home() {
       <style type="text/css">
         {/* table          {border:ridge 5px red;} */}
         {/* table td       {border:inset 1px #000;} */}
+        
         table tr[key=]  {background-color:red; color:white;}
         table tr[key=]  {background-color:white;}
         table tr[key=]  {background-color:blue; color:white;}
