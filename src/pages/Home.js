@@ -13,6 +13,7 @@ import '../index.css';
 
 
 const [items, setItems] = useState([])
+const api = useApi()
 const updateItems = async () => {
   const response = await api.get("/profile", null, {
     headers: {
@@ -32,7 +33,6 @@ const updateItems = async () => {
 }
 
 export default function Home() {
-  const api = useApi()
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
