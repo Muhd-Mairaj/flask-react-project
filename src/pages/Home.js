@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -22,7 +22,7 @@ export default function Home() {
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
-  const updateItems = useCallback(async () => {
+  const updateItems = (async () => {
     const response = await api.get("/profile", null, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token")
@@ -42,24 +42,24 @@ export default function Home() {
 
   useEffect(() => {
     (async () => {
-      const response = await api.get("/profile", null, {
-        headers: {
-          Authorization: "Bearer " + localStorage.getItem("access_token")
-        }
-      })
-  
-      if (response.ok) {
-        setItems(response.body.items)
-        console.log("updated items to: ", response.body.items)
-        console.log("items now: ", items)
-        // console.log(items)
+    const response = await api.get("/profile", null, {
+      headers: {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
       }
-      else {
-        console.log("error: ", response.body)
-      }
-    })()
+    })
+
+    if (response.ok) {
+      setItems(response.body.items)
+      console.log("updated items to: ", response.body.items)
+      console.log("items now: ", items)
+      // console.log(items)
+    }
+    else {
+      console.log("error: ", response.body)
+    }
+  })()
     console.log("items ", items)
-  }, [api, items])
+  }, [api, items, updateItems])
 
   function handleSubmit(event) {
     event.preventDefault();
