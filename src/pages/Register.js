@@ -61,7 +61,7 @@ function Register() {
     // const body = await response.json()
     console.log("response.body ", response.body)
     if (!response.ok) {
-      setFormErrors(body)
+      setFormErrors(response.body)
       return
     }
     else {
