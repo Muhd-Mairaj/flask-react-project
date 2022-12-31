@@ -86,7 +86,9 @@ def add():
     errors = {}
 
     if not item:
-      error["item"] = 
+      error["item"] = "This field must be filled"
+    if not item:
+      error["item"] = "This field must be filled"
     
     return {}, 204
 
