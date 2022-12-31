@@ -37,6 +37,10 @@ hr {
   font-size: calc(1rem + 0.5vw);
 }
 
+.HeaderSmallText {
+  
+}
+
 .logoutButton {
   color: #fff;
   margin: 0.3rem;
