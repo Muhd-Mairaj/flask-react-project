@@ -71,7 +71,7 @@ def profile():
     items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
 
     for i, item in enumerate(items, 1):
-      expiry_date = datetime.strptime(item["expiry"%Y-%m-%d")
+      expiry_date = datetime.strptime(item["expiry"], "%Y-%m-%d")
       item["key"] = i
       item["bg"] = "red" if 1 else ""
 
