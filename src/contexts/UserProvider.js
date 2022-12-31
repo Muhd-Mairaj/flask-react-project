@@ -18,6 +18,7 @@ export default function UserProvider({ children }) {
           })
           if (response.ok) {
             setUser(response.body)
+            console.log(user)
           }
         }
         else {
