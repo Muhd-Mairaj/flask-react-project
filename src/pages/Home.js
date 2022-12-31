@@ -22,7 +22,7 @@ export default function Home() {
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
-  const updateItems = async () {
+  const updateItems = async () => {
     const response = await api.get("/profile", null, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token")
@@ -41,9 +41,9 @@ export default function Home() {
   }
 
   useEffect(() => {
-    updateItems()
+    // updateItems()
     console.log("items ", items)
-  }, [api, items, updateItems])
+  }, [api, items])
 
   function handleSubmit(event) {
     event.preventDefault();
