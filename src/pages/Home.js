@@ -34,7 +34,7 @@ export default function Home() {
         setItems(response.body.items)
         console.log("updated items to: ", response.body.items)
         
-        // console.log(items)
+
       }
       else {
         console.log("error: ", response.body)
