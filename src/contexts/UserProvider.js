@@ -11,11 +11,11 @@ export default function UserProvider({ children }) {
   useEffect(() => {
     (async () => {
         if (api.isAuthenticated()) {
-          
+
           setUser(true)
         }
         else {
-          setUser(false)
+          setUser(null)
         }
     })()
   }, [api])
