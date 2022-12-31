@@ -134,14 +134,3 @@ export default function Home() {
     </Body>
   )
 }
-
-    /* METHOD 2 - WORKS */
-// function getData() {
-//   fetch("/profile").then(response => response.json()).then(data => {
-//         console.log(data.items)
-//         setProfileData({
-//             items: data.items,
-//         })
-//       }).catch(error => console.log(error))
-//     }
-    /** END METHOD 2 */
