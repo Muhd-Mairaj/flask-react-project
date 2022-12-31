@@ -23,9 +23,10 @@ export default function Home() {
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
   
   useEffect(() => {
-    ()
+    updateItems()
   }, [api])
 
+  
 
   function handleSubmit(event) {
     event.preventDefault();
