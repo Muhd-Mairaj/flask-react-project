@@ -105,6 +105,10 @@ hr {
   font-weight: bold;
 } */
 
+.table {
+  color: #fff; --bs-table-striped-color: #fff; background-color: #212529; border-color: #373b3e;
+}
+
 @media screen and (max-width: 576px) {
   .nav-item {
     width: calc(20px + 20vw);
