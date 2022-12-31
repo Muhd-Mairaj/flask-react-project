@@ -49,6 +49,8 @@ function Home() {
     date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
     console.log(date)
 
+    if 
+
     event.preventDefault();
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
