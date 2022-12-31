@@ -121,7 +121,7 @@ hr {
 @media screen and (max-width: 576px) {
   .nav-item {
     width: calc(20px + 20vw);
-    text-align: start;
+    text-align: end;
   }
   .logoutButton {
     width: 100px;
