@@ -52,6 +52,9 @@ function Home() {
     if (next < current) {
       console.log("next")
     }
+    if (next < current) {
+      console.log("next")
+    }
 
     event.preventDefault();
     const item = itemField.current.value;
