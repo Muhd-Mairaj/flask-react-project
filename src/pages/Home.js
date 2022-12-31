@@ -41,7 +41,7 @@ function Home() {
   function handleSubmit(event) {
     let current = new Date();
     // console.log(current);
-    let date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    let date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
     console.log(date)
 
     current = new Date("2023-01-01");
