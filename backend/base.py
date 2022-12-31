@@ -133,9 +133,11 @@ def register():
     errors["confirm"] = "Passwords dont match"
     code = 401
 
-  # return errors before 
+  # return errors before registering user
   if code == 401:
     return errors, code
+  
+  
     
   if code == 200:
     # generate password hash
