@@ -121,7 +121,7 @@ function Home() {
               <tr key={item.key}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
-                <td>{item.expiry}</td>
+                <td>{item.expiry} style={{"background-color": `${item.bg}`}}</td>
               </tr>
             ))}
           </tbody>
