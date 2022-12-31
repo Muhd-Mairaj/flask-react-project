@@ -49,7 +49,7 @@ function Home() {
     date = `${next.getFullYear()}-${next.getMonth()+1}-${next.getDate()}`
     console.log(date)
 
-    if 
+    if ()
 
     event.preventDefault();
     const item = itemField.current.value;
