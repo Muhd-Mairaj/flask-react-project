@@ -100,7 +100,8 @@ export default function Home() {
     }
     else {
       setFormErrors({})
-      updateItems()
+      setItems
+      // updateItems()
     }
   }
 
