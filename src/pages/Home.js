@@ -52,7 +52,7 @@ function Home() {
     if (next < current) {
       console.log("next")
     }
-    if (next < current) {
+    else if (next < current) {
       console.log("next")
     }
 
