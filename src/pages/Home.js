@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -41,9 +41,9 @@ export default function Home() {
   }
 
   useEffect(() => {
-    useCallback(updateItems()
+    updateItems()
     console.log("items ", items)
-  }, [api, items, updateItems])
+  }, [api, items])
 
   function handleSubmit(event) {
     event.preventDefault();
