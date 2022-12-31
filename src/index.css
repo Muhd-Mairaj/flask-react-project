@@ -65,7 +65,7 @@ hr {
 }
 
 /* .col-xl-2 .w-100 {
-  max-width: 80px  
+  max-width: 80px
 } */
 
 .row {
@@ -113,10 +113,10 @@ hr {
 } */
 
 .table {
-  color: #fff; 
-  background-color: #212529; 
+  color: #fff;
+  background-color: #212529;
   border-color: #373b3e;
-  --bs-table-striped-color: #fff; 
+  --bs-table-striped-color: #fff;
 }
 
 @media screen and (max-width: 576px) {
@@ -125,12 +125,13 @@ hr {
     text-align: start;
   } */
   .nav-link {
-
     margin-right: 0.3rem;
   }
+
   .navbar-nav {
     align-items: end;
   }
+
   .logoutButton {
     width: 100px;
     margin: 0rem;
