@@ -69,7 +69,7 @@ def profile():
 
     for i, item in enumerate(items, 1):
       item["key"] = i
-      item["bg"] = "red" if 1 ekse 
+      item["bg"] = "red" if 1 else ""
 
     return jsonify({"items": items})
 
