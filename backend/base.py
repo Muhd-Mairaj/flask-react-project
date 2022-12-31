@@ -113,7 +113,7 @@ def register():
     errors["confirm"] = "This field must be filled"
 
   # return errors before checking validity
-  if code != 200:
+  if errors:
     return errors, code
 
   # validate username
