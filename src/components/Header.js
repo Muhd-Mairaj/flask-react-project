@@ -28,6 +28,9 @@ function Header() {
               </Nav>
               <Nav>
                   <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link>
+                  <Navbar.Text>
+            Signed in as: <a href="#login">Mark Otto</a>
+          </Navbar.Text>
               </Nav>
             </>
           :
