@@ -108,7 +108,7 @@ function Home() {
         table td#CELL9 {border:inset 4px red; background-color:navy;}
       </style> */}
 
-      {items ? <Table bordered variant="dark" responsive="lg" className="Home">
+      {items ? <Table striped bordered variant="" responsive="lg" className="Home">
           <thead>
             <tr>
               <th>#</th>
