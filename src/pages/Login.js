@@ -13,7 +13,7 @@ import { useUser } from '../contexts/UserProvider';
 
 function Login() {
   // const api = useApi()
-  const { wlogin } = useUser()
+  const { login } = useUser()
   const navigate = useNavigate()
   const location = useLocation()
   const { flash } = useFlash()
