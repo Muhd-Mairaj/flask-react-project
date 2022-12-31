@@ -91,7 +91,7 @@ export default function Home() {
     })
 
     console.log(response)
-    console.log(response.)
+    console.log(response.body)
 
     if (!response.ok) {
       setFormErrors(response.body)
