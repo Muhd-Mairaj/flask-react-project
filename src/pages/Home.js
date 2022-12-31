@@ -102,7 +102,7 @@ export default function Home() {
     }
     else {
       setFormErrors({})
-      setItems([..items, response.body])
+      setItems([...items, response.body])
       // updateItems()
     }
   }
