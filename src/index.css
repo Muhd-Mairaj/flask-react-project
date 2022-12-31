@@ -107,8 +107,9 @@ hr {
 
 .table {
   color: #fff; 
+  background-color: #212529; 
+  border-color: #373b3e;
   --bs-table-striped-color: #fff; 
-  background-color: #212529; border-color: #373b3e;
 }
 
 @media screen and (max-width: 576px) {
