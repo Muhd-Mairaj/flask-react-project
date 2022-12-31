@@ -43,6 +43,10 @@ function Home() {
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
+    const current = new Date();
+    console.log(current);
+    const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
+    console.log(date)
 
     event.preventDefault();
     const item = itemField.current.value;
