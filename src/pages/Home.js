@@ -45,9 +45,9 @@ function Home() {
     console.log(date)
 
     current = new Date("2023-01-01");
-    console.log(current);
+    // console.log(current);
     date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
-    // console.log(date)
+    console.log(date)
 
     event.preventDefault();
     const item = itemField.current.value;
