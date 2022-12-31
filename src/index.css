@@ -37,7 +37,7 @@ hr {
   font-size: calc(1rem + 0.5vw);
 }
 
-.HeaderEnd {
+.navbar-text {
   align-items: center;
   font-size: calc(0.9rem + 0.2vw);
 }
