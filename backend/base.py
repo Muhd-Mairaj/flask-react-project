@@ -91,7 +91,7 @@ def add():
       error["item"] = "This field must be filled"
 
     if errors:
-      return errors
+      return errors, 401
     
     return {}, 204
 
