@@ -140,7 +140,6 @@ def register():
 
   #
   ## Register user  
-  if code == 200:
     # generate password hash
     password_hash = generate_password_hash(password)
     # add user to db
