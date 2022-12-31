@@ -18,10 +18,11 @@ function Home() {
   const [formErrors, setFormErrors] = useState({})
   const itemField = useRef()
   const expiryField = useRef()
-
-
+  
+  
   useEffect(() => {
     (async () => {
+      const response = await api.get("/profile", null, {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("access_token")
         }
@@ -42,7 +43,6 @@ function Home() {
     console.log(current);
     const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}}`
     console.log(date)
-    const response = await api.get("/profile", null, {
 
     event.preventDefault();
     const item = itemField.current.value;
