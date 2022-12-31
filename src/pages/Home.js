@@ -99,7 +99,7 @@ function Home() {
 
       <hr></hr>
 
-      <style type="text/css">
+      <style>
         {/* table          {border:ridge 5px red;} */}
         {/* table td       {border:inset 1px #000;} */}
 
