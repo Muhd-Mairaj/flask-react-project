@@ -89,7 +89,7 @@ def add():
       error["item"] = "This field must be filled"
     if not expiry:
       error["item"] = "This field must be filled"
-    
+
     return {}, 204
 
 
@@ -128,10 +128,10 @@ def register():
 
   # return errors before registering user
   if errors:
-    return errors, 401  
-    
+    return errors, 401
+
   #
-  ### Register user  
+  ### Register user
   # generate password hash
   password_hash = generate_password_hash(password)
   # add user to db
