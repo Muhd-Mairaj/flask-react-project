@@ -96,7 +96,8 @@ def add():
     if errors:
       return errors, 400
 
-    
+    # add item to db
+    d
     return {}, 204
 
 
