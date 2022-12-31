@@ -4,7 +4,8 @@ import Collapse from 'react-bootstrap/Collapse';
 import { useFlash } from '../contexts/FlashProvider';
 
 export default function FlashMessage() {
-  const { flashMessage, visible, hideFlash } = useContext(FlashContext);
+  // const { flashMessage, visible, hideFlash } = useContext(FlashContext);
+  const { flashMessage, visible, hideFlash } = ;
 
   return (
     <Collapse in={visible}>
