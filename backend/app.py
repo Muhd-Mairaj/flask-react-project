@@ -45,7 +45,7 @@ def unauthorized():
 @token_auth.verify_token
 def verify_token(token):
   if "access_token" in session and token == session["access_token"]:
-    return basic_auth.cu
+    return basic_auth.curre
 
 
 @token_auth.error_handler
