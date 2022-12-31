@@ -72,13 +72,13 @@ export default function Home() {
       }
     })
 
-    console.log(response)
-    console.log(response.body)
+
+
 
     if (!response.ok) {
       setFormErrors(response.body)
-      console.log("updating formErrors to: ", response.body)
-      console.log("formErrors now: ", errors)
+
+
 
       return
     }
