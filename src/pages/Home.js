@@ -41,8 +41,6 @@ export default function Home() {
     updateItems()
   }, [api])
 
-
-
   function handleSubmit(event) {
     event.preventDefault();
     const item = itemField.current.value;
