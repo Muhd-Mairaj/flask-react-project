@@ -69,7 +69,7 @@ def profile():
 
     for i, item in enumerate(items, 1):
       item["key"] = i
-      item["bg"]
+      item["bg"] = "red" if 
 
     return jsonify({"items": items})
 
