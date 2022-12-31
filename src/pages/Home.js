@@ -109,7 +109,7 @@ function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} variant={(Date(item.expiry) < current) ? "danger" : ""}>
+              <tr key={item.key} variant={(new Date(item.expiry) < current) ? "danger" : ""}>
                 <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
