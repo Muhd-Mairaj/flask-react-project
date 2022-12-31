@@ -99,6 +99,8 @@ function Home() {
 
       <hr></hr>
 
+      <style
+
       {items ? <Table striped bordered variant="dark" responsive="lg" className="Home">
           <thead>
             <tr>
