@@ -65,7 +65,7 @@ def after_request(response):
 @app.route("/profile", methods=["GET"])
 @token_auth.login_required
 def profile():
-    current_date = datetime.now()
+    current_date = get_current_date()
 
     items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user_id"])
     session["key_count"] = len(items)
