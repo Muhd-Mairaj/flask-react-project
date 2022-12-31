@@ -39,6 +39,8 @@ hr {
 
 .logoutButton {
   color: #fff;
+  margin: 0.0rem;
+  padding: 0.3rem 0.6rem;
 }
 
 .InputField {
