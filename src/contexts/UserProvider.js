@@ -16,6 +16,7 @@ export default function UserProvider({ children }) {
               Authorization: "Bearer " + localStorage.getItem("access_token")
             }
           })
+          
           setUser(true)
         }
         else {
