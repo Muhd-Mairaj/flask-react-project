@@ -39,11 +39,11 @@ hr {
 
 .HeaderEnd {
   align-items: center;
-  font-size: calc(0.9rem + 0.2vw);
+  font-size: calc(0.9rem + 0.1vw);
 }
 
 .dropdown {
-  font-size: calc(0.9rem + 0.2vw);
+  font-size: calc(0.9rem + 0.1vw);
 }
 
 .text-danger {
