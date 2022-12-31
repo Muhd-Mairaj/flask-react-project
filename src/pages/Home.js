@@ -119,7 +119,6 @@ export default function Home() {
           <tbody>
             {items.map((item, _) => (
               <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
-                <td>{item.key}</td>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
               </tr>
