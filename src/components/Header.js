@@ -13,7 +13,7 @@ import '../index.css'
 
 function Header() {
   // const api = useApi()
-  const {isLoggedIn, logout} = useUser()
+  const {user, logout} = useUser()
 
   return (
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
@@ -21,7 +21,7 @@ function Header() {
         <Navbar.Brand href="/">Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          {isLoggedIn === true ?
+          {user === true ?
             <>
               <Nav className="me-auto">
                   <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
