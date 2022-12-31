@@ -23,8 +23,8 @@ function Header() {
           {isLoggedIn === true ?
             <>
               <Nav className="me-auto">
-                  <Nav.Link as={Button} to="/" end variant="dark" className="logoutButton">Home</Nav.Link>
-                  <Nav.Link as={Button} to="/test" variant="dark" className="logoutButton">Test</Nav.Link>
+                  <Nav.Link as={NavLink} to="/" end>Home</Nav.Link>
+                  <Nav.Link as={NavLink} to="/test">Test</Nav.Link>
               </Nav>
               <Nav>
                   <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link>
