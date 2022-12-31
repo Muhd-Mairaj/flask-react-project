@@ -26,8 +26,11 @@ export default function UserProvider({ children }) {
   const login = (async (username, password) => {
     const result = await api.login(username, password)
     if (result === "ok") {
-      setUser(true)
-    }
+      const response = api.get("/user", null, {
+        headers: {Authorization: "Bearer " + localStorage.getItem("access_token")}
+      })
+      setUser(response.ok ? response.body : null)
+      console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)    }
     return result
   })
 
