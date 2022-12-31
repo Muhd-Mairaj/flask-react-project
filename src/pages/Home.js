@@ -44,7 +44,7 @@ function Home() {
     let date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
     console.log(date)
 
-    let next = new Date("2023-01-01");
+    let next = new Date("2022-01-01");
     // console.log(current);
     date = `${next.getFullYear()}-${next.getMonth()+1}-${next.getDate()}`
     console.log(date)
