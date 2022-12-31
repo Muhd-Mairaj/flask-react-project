@@ -41,6 +41,7 @@ export default function Home() {
 
   useEffect(() => {
     updateItems()
+    console.log(items)
   }, [api])
 
   function handleSubmit(event) {
