@@ -5,7 +5,7 @@ import { useFlash } from '../contexts/FlashProvider';
 
 export default function FlashMessage() {
   // const { flashMessage, visible, hideFlash } = useContext(FlashContext);
-  const { flashMessage, visible, hideFlash } = ;
+  const { flashMessage, visible, hideFlash } = useFlash();
 
   return (
     <Collapse in={visible}>
