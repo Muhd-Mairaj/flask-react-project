@@ -23,7 +23,7 @@ export default function Home() {
   const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
 
   useEffect(() => {
-    async function() {
+    async () {
       const response = await api.get("/profile", null, {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("access_token")
