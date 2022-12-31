@@ -78,7 +78,7 @@ export default function Home() {
       console.log("errors: ", errors)
       setFormErrors(response.body)
       console.log("response.body: ", response.body)
-      console.log(": ", response.body)
+      console.log("formErrors now: ", response.body)
 
       return
     }
