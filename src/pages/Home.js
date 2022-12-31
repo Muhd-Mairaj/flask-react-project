@@ -21,7 +21,7 @@ function Home() {
 
 
   useEffect(() => {
-    const current = ne Date
+    const current = new Date()
     (async () => {
       const response = await api.get("/profile", null, {
         headers: {
