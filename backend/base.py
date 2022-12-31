@@ -71,8 +71,8 @@ def profile():
 
     for i, item in enumerate(items, 1):
       expiry_date = get_date(item["expiry"])
-      item["key"] = i
       item["bg"] = "red" if expiry_date < current_date else ""
+      item["key"] = i
 
     return jsonify({"items": items}), 200
 
