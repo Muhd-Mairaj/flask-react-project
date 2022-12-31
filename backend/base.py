@@ -133,14 +133,15 @@ def register():
     errors["confirm"] = "Passwords dont match"
     code = 401
 
+  if code == 401:
+    return errors, code
+    
   if code == 200:
     # generate password hash
     password_hash = generate_password_hash(password)
     # add user to db
     db.execute("INSERT INTO users (username, hash) VALUES(?, ?)", username, password_hash)
 
-  if code == 401:
-    return errors, code
 
   return errors, code
 
