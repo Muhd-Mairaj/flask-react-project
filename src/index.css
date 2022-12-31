@@ -148,6 +148,10 @@ hr {
     align-items: end!important;
   }
 
+  .navbar-text : {
+    
+  }
+
   .logoutButton {
     width: 100px;
     margin: 0rem;
