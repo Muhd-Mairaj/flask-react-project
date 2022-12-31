@@ -104,7 +104,7 @@ hr {
 }
 
 .navbar-nav {
-  
+  text-align: end;
 }
 
 .navbar-nav .nav-link:hover {
