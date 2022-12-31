@@ -17,7 +17,7 @@ export default function UserProvider({ children }) {
             }
           })
           if (response.ok) {
-            setUser(response.ok ? )
+            setUser(response.ok ? response.body : )
             console.log("@#$%^YUHVCXSER%YUHVCDSW#$%^&U ", user)
           }
           }
