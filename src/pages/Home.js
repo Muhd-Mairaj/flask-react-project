@@ -111,7 +111,6 @@ export default function Home() {
       {items ? <Table striped bordered responsive="lg" className="Home">
           <thead>
             <tr>
-              <th>#</th>
               <th>Item</th>
               <th>Expiry</th>
             </tr>
