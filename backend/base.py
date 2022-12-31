@@ -99,8 +99,6 @@ def register():
   password = request.json.get("password")
   confirm = request.json.get("confirm")
   errors = {}
-  code = 200
-
 
   # check username exists
   if not username:
@@ -109,12 +107,10 @@ def register():
   # check password exists
   if not password:
     errors["password"] = "This field must be filled"
-    code = 401
 
   # check confirm exists
   if not confirm:
     errors["confirm"] = "This field must be filled"
-    code = 401
 
   # return errors before checking validity
   if code != 200:
