@@ -26,7 +26,7 @@ export default function Home() {
     updateItems()
   }, [api])
 
-  
+  function
 
   function handleSubmit(event) {
     event.preventDefault();
