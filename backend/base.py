@@ -68,7 +68,7 @@ def profile():
     current_date = datetime.now()
 
     user_id = 1
-    items = db.execute("SELECT item, expiry FROM test WHERE id=?", user_id)
+    items = db.execute("SELECT item, expiry FROM test WHERE id=?", sessionuser_id)
 
     for i, item in enumerate(items, 1):
       expiry_date = datetime.strptime(item["expiry"], "%Y-%m-%d")
