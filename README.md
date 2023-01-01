@@ -10,7 +10,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).<br>
 
 #### Progressive Web App in Mind
 This Web App was made with the concept of Progressive Web Apps in mind. It is thus implemented as a completely mobile resonsive application.
-Additionally, I used React for the front end to implement client-side routing features. As such navigation throughout the application is still possible bar some 
+Additionally, I used React for the front end to implement client-side routing features. As such navigation throughout the application is still possible bar areas where a request to the server is necessary
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 
