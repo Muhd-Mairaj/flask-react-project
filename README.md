@@ -14,7 +14,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).<br>
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 
-
+### Project
 
 <!-- ###  -->
 
@@ -36,9 +36,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
 - [How to get the current date in React](https://reactgo.com/react-get-current-date/)
 - This guide on http status codes: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-
-
-
-
-
-### Project
