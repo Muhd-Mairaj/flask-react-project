@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).<br>
 To learn React, check out the [React documentation](https://reactjs.org/).<br>
 
-####  Making a Progressive Web App
+#### Mobile Responsive Making a Progressive Web App
 This application
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
