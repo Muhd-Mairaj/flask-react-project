@@ -24,9 +24,11 @@ If you tried to test the application, it would appear pretty basic. In its curre
 
 The TODO list for many further additions possible to the application is expressed in detail after the project description (skip [here](#todo-list) if impatient)
 
-### Project Descrition
+## Project Descrition
 
 <!-- ###  -->
+
+
 
 
 ### References
