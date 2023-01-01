@@ -36,7 +36,17 @@ The two main parts to the project are the frontend and the backend parts.
 This is where all the backend components live. "`api.py`" is the app configured to run in the `".flaskenv"` file. (**Note:** `python-dotenv` package is required for this to work). This `.py` file is where all the views are defined as well as wrapper functions for authentication. HTTP Basic auth and HTTP Token auth are the two authentication methods used. Every request to the server is then send with a special token, failing its approval the user is denied access to the resources. `"helpers.py"` contains other helper functions utilised by the backend Api.
 
 #### The frontend. 
-The root folder contains all the files and folders for the frontend. The "`public`" directory contains assets required by the whole application, including the template "`index.html`" file on which the whole application builds on.
+The root folder contains all the files and folders for the frontend. The "`public`" directory contains assets required by the whole application, including the template "`index.html`" file on which the whole application builds on.<br>
+The "`src`" folder however, is where all the custiom application components are. <br>
+"`App.js`" contains all the routes, the components for which are defined in the "`pages`" folder. <br>
+Additional Components and Contexts are defined in the "'components'" and "`contexts`" folders respectively. <br>
+A "test" route is defined to demonstrate offline usage possible due to client-side routing.
+
+An important choice with the homepage, was to add new items to the top of the list, rather than the default sorted by expiry view. On reload the new pages are then arranged in sorting order as well. This is done for performance reasons to prevent unnecessary calls to the Api and provide a more fluent user experience
+
+#### package.json
+A "proxy" header is added to direct the requests to the flask Api. 
+Two scripts are also added to run the backend, one with debugging enabled (useful for checking print messages)
 <!-- ###  -->
 
 ## Todo List
