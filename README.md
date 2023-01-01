@@ -5,7 +5,7 @@
 
 ## Testing
 
-1. Run `npm run backend` from the root folder to start the backend server
+1. Run `npm run backend` from the root folder to start the backend server. The `backend` 
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
