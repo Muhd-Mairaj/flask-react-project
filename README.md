@@ -5,7 +5,7 @@
 
 ## Testing
 
-
+1. Run 
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
