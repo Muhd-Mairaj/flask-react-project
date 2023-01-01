@@ -5,7 +5,7 @@
 
 ## Testing
 
-1. Run `npm run backend` 
+1. Run `npm run backend` from the root d
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
