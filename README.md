@@ -1,4 +1,4 @@
-# Flask-React-Project (An )
+# Flask-React-Project (An item tracker)
 #### Video Demo:  <URL HERE>
 #### Description: [Skip to the  Description](#project-description)
 
