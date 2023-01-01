@@ -5,7 +5,7 @@
 
 ## Testing
 
-1. Run `npm run backend` from the root folder to start the backend server. This script is added to the `package.json` file on the root folder for ease of use
+1. In the root folder, run `npm run backend` from the root folder to start the backend server. This script is added to the `package.json` file on the root folder for ease of use
 2. Run `npm start`
 
 ## Pre-word
