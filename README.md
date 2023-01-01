@@ -23,7 +23,7 @@ If you tried to test the application, it would appear pretty basic. In its curre
 - Authentication and Security features, 
 - Developing a good code structure to promote adding features and to reduce future development time,
   - e.g splitting code into directories "pages" for the different routes and "contexts" for [React Contexts](https://reactjs.org/docs/context.html), etc.
-  - Moving all the code involving interaction with the API to a seperate class, available to use throughout the application
+  - Moving all the code involving interaction with the API to a separate class, available to use throughout the application
   - etc...
 - ~~(And also... my own researching of different concepts involving the web and tools to pick the right choce for my project, along with learning the new languages involved.)~~
 
