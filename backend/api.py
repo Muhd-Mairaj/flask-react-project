@@ -30,9 +30,6 @@ Session(app)
 db = SQL("sqlite:///database.db")
 
 
-# Make sure API key is set
-# if not os.environ.get("API_KEY"):
-#     raise RuntimeError("API_KEY not set")
 
 
 @basic_auth.verify_password
