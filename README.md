@@ -1,6 +1,6 @@
 
 ## Preword
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</br>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br></br>
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).</br>
 To learn React, check out the [React documentation](https://reactjs.org/).</br>
 
