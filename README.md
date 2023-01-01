@@ -22,7 +22,7 @@ If you tried to test the application, it would appear pretty basic. In its curre
   - etc...
 - ~~(And also... my own researching of different concepts involving the web and tools to pick the right choce for my project, along with learning the new languages involved.)~~
 
-The TODO list for furtherpossible  addition of features to the application is expressed in detail
+The TODO list for many further possible addition of features to the application is expressed in detail
 
 ### Project Descrition
 
