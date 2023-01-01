@@ -14,7 +14,7 @@ Additionally, I used React for the front end to implement client-side routing. A
 The only thing required for the PWA path would to register a service worker. More details of making a PWA through `Create-React-App` can be found at this page: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 #### A word About the current state of the app
-If you tried to test the application, it would appear pretty basic. In its current stage, priority was given to the Authentication and Security features, developing a good foundation structure that promotes expandingdevelopment
+If you tried to test the application, it would appear pretty basic. In its current stage, priority was given to the Authentication and Security features, developing a good foundation structure that promotes expanding the development
 
 ### Project Descrition
 
