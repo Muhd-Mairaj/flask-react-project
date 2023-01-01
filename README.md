@@ -31,7 +31,7 @@ The TODO list for many further additions possible to the application is expresse
 
 
 
-### References
+## References
 - [Introducing the React Mega-Tutorial](https://blog.miguelgrinberg.com/post/introducing-the-react-mega-tutorial)
 - [How To Create a React + Flask Project](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project)
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
