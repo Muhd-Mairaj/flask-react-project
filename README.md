@@ -20,7 +20,7 @@ If you tried to test the application, it would appear pretty basic. In its curre
   - e.g splitting code into directories "pages" for the different routes and "contexts" for [React Contexts](https://reactjs.org/docs/context.html), etc.
   - Moving all the code involving interaction with the API to a seperate class, available to use throughout the application
   - etc...
-- ~~And also
+- ~~And also~~
 
 
 ### Project Descrition
