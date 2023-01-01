@@ -20,7 +20,7 @@ If you tried to test the application, it would appear pretty basic. In its curre
   - e.g splitting code into directories "pages" for the different routes and "contexts" for [React Contexts](https://reactjs.org/docs/context.html), etc.
   - Moving all the code involving interaction with the API to a seperate class, available to use throughout the application
   - etc...
-- ~~(And also... my own researching of different tools to pick the right choce for me, along with learning the new languages involved.)~~
+- ~~(And also... my own researching of different tools to pick the right choce for my project, along with learning the new languages involved.)~~
 
 
 ### Project Descrition
