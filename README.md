@@ -6,7 +6,7 @@
 ## Testing
 
 1. In the root folder, run `npm run backend` to start the backend server. This script is added to the `package.json` file on the root folder for ease of use
-2. Run `npm start` to start the frontend server. In a moment the page should open up. If it doesnt, navigate to 
+2. Run `npm start` to start the frontend server. In a moment the page should open up. If it doesnt, navigate to [http://localhost]
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
