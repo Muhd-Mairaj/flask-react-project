@@ -1,4 +1,4 @@
-# Flask-React-Project (A)
+# Flask-React-Project (An )
 #### Video Demo:  <URL HERE>
 #### Description: [Skip to the  Description](#project-description)
 
