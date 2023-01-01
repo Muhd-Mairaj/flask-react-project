@@ -1,6 +1,6 @@
 # Flask-React-Project
 #### Video Demo:  <URL HERE>
-#### Description: [Skip to the  Description](#)
+#### Description: [Skip to the  Description](#project)
 TODO
 
 
@@ -14,7 +14,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).<br>
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 
-### 
+### Project
 
 <!-- ###  -->
 
