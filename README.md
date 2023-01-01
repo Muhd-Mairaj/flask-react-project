@@ -16,7 +16,7 @@ The only thing required for the PWA path would to register a service worker. Mor
 #### A word About the current state of the app
 If you tried to test the application, it would appear pretty basic. In its current stage, priority was given to:
 - Authentication and Security features, 
-- developing a good foundation structure that promotes expanding the app and increase development speed
+- Developing a solid code foundation 
 
 ### Project Descrition
 
