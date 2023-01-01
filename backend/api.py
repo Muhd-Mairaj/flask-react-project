@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 # Make sure SECRET KEY is set
 if not os.environ.get("SECRET_KEY"):
-    raise RuntimeError("SECRET_KEY not set. Run \"export SECRET_KEY=\"you key here\"'")
+    raise RuntimeError("SECRET_KEY not set. Run \"export SECRET_KEY='you key here''")
 
 
 # configure secret_key
