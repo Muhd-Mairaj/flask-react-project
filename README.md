@@ -11,8 +11,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).<br>
 #### Progressive Web App in Mind
 This Web App was made with the concept of Progressive Web Apps (PWAs) in mind. It is thus implemented as a completely mobile resonsive application.
 Additionally, I used React for the front end to implement client-side routing. As such navigation throughout the application is still possible bar areas where a request to the server is necessary.<br>
-The only thing required for the PWA path would to register a service worker. More details of making a PWA through `Create-React-App` can be found at this page
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The only thing required for the PWA path would to register a service worker. More details of making a PWA through `Create-React-App` can be found at this page: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 
 ### Project Descrition
