@@ -54,8 +54,6 @@ Two scripts are also added to run the backend, one with debugging enabled (usefu
 - [ ] Add a remove item feature
 - [ ] Add a change password feature
 - [ ] Add a "Forgot Password?" feature
-- [ ] Add a "Forgot Password?" feature
-
 
 ## Other References
 - [Introducing the React Mega-Tutorial](https://blog.miguelgrinberg.com/post/introducing-the-react-mega-tutorial)
