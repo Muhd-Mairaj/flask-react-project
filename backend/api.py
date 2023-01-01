@@ -7,6 +7,8 @@ from cs50 import SQL
 
 from helpers import get_current_date, get_date
 
+import os
+
 
 basic_auth = HTTPBasicAuth()
 token_auth = HTTPTokenAuth()
