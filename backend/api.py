@@ -17,7 +17,7 @@ token_auth = HTTPTokenAuth()
 # configure app
 app = Flask(__name__)
 
-# Make sure SECRET key is set
+# Make sure SECRET KEY is set
 # if not os.environ.get("API_KEY"):
 #     raise RuntimeError("API_KEY not set")
 
