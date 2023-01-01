@@ -1,7 +1,6 @@
 # Flask-React-Project
 #### Video Demo:  <URL HERE>
 #### Description: [Skip to the  Description](#project)
-TODO
 
 
 ### Pre-word
