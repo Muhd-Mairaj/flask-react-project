@@ -9,7 +9,7 @@ To learn more in the [Create React App documentation](https://facebook.github.io
 To learn React, check out the [React documentation](https://reactjs.org/).<br>
 
 #### Progressive Web App in Mind
-This 
+This Web App was made with the 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 
