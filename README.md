@@ -1,6 +1,6 @@
 # Flask-React-Project
 #### Video Demo:  <URL HERE>
-#### Description: Ski
+#### Description: Skip the 
 TODO
 
 
