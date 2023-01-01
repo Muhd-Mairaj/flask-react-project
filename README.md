@@ -50,9 +50,14 @@ Two scripts are also added to run the backend, one with debugging enabled (usefu
 <!-- ###  -->
 
 ## Todo List
+- [ ] Add further security with refreshing tokens
+- [ ] Add a remove item feature
+- [ ] Add a change password feature
+- [ ] Add a "Forgot Password?" feature
+- [ ] Add a "Forgot Password?" feature
 
 
-## References
+## Other References
 - [Introducing the React Mega-Tutorial](https://blog.miguelgrinberg.com/post/introducing-the-react-mega-tutorial)
 - [How To Create a React + Flask Project](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project)
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
