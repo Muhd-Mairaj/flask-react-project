@@ -16,8 +16,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 <!-- ###  -->
 
 
+<<<<<<< HEAD
 ### References
 - [Introducing the React Mega-Tutorial](https://blog.miguelgrinberg.com/post/introducing-the-react-mega-tutorial)
+=======
+### 
+
+
+#### References
+>>>>>>> refs/remotes/origin/main
 - [How To Create a React + Flask Project](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project)
 - [How to Deploy a React-Router + Flask Application](https://blog.miguelgrinberg.com/post/how-to-deploy-a-react-router-flask-application)
 - [Designing a RESTful Api with Python and Flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
@@ -29,7 +36,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 - [Sessions in Flask](https://testdriven.io/blog/flask-sessions/)
 - [https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session](https://flask.palletsprojects.com/en/2.2.x/api/?highlight=session#flask.session)
 - [Flask-Session docs](https://flask-session.readthedocs.io/en/latest/)
+<<<<<<< HEAD
 - [https://www.sqlitetutorial.net/](https://www.sqlitetutorial.net/)
 - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
 - [How to get the current date in React](https://reactgo.com/react-get-current-date/)
 - This guide on http status codes: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+=======
+- [https://www.sqlitetutorial.net/sqlite-delete/](https://www.sqlitetutorial.net/sqlite-delete/)
+- [https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension](https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension)
+>>>>>>> refs/remotes/origin/main
