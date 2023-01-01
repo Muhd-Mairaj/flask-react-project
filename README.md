@@ -5,7 +5,7 @@
 
 ## Testing
 
-1. In the root folder, run `npm run backend` to start the backend server. This script is added to the "`package.json`" file on the root folder for ease of use
+1. In the root folder, run `npm run backend` to start the backend server. This script is added to the "`package.json`" file on the root folder for ease of use. **Note:** Make sure to set the SECRET_KEY by running `export SECRET_KEY="your_secret_key_here"`. More on SECRET_KEY [here](https://flask.palletsprojects.com/en/2.2.x/config/?highlight=secret_key#SECRET_KEY).
 2. Run `npm start` to start the frontend server. In a moment the page should open up. If it doesnt, navigate to [http://localhost:3000](http://localhost:3000) on any browser
 
 ## Pre-word
@@ -30,7 +30,13 @@ If you tried to test the application, it would appear pretty basic. In its curre
 The TODO list for many further additions possible to the application is expressed in detail after the project description (skip [here](#todo-list) if impatient)
 
 ## Project Description
+The two main parts to the project are the frontend and the backend parts.
 
+#### The "`backend`" folder.
+This is where all the backend components live. "`api.py`" is the app configured to run in the `".flaskenv"` file. (**Note:** `python-dotenv` package is required for this to work). This `.py` file is where all the views are defined as well as wrapper functions for authentication. HTTP Basic auth and HTTP Token auth are the two authentication methods used. Every request to the server is then send with a special token, failing its approval the user is denied access to the resources. `"helpers.py"` contains other helper functions utilised by the backend Api.
+
+#### The frontend. 
+The root folder contains all the files and folders for the frontend. The "`public`" directory contains assets required by the whole application, including the template "`index.html`" file on which the whole application builds on.
 <!-- ###  -->
 
 ## Todo List
