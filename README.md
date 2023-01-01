@@ -17,7 +17,7 @@ The only thing required for the PWA path would to register a service worker. Mor
 If you tried to test the application, it would appear pretty basic. In its current stage, priority was given to:
 - Authentication and Security features, 
 - Developing a good code structure to promote adding features and to reduce future development time,
-  - e.g splitting code into directories such as "Components" for repeating components and "Contexts" for [React Contexts](https://reactjs.org/docs/context.html)
+  - e.g splitting code into directories "Components" for repeating components and "Contexts" for [React Contexts](https://reactjs.org/docs/context.html)
 
 ### Project Descrition
 
