@@ -3,7 +3,7 @@
 #### Description: [Skip to the  Description](#project-description)
 
 
-### Pre-word
+## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
 To learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).<br>
 To learn React, check out the [React documentation](https://reactjs.org/).<br>
