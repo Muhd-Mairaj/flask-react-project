@@ -1,6 +1,6 @@
 # Flask-React-Project
 #### Video Demo:  <URL HERE>
-#### Description: [Skip to the  Description]
+#### Description: [Skip to the  Description](#)
 TODO
 
 
