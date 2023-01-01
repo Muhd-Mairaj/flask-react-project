@@ -5,7 +5,7 @@
 
 ## Testing
 
-1. Run 
+1. Run `npm run 
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
