@@ -1,4 +1,4 @@
-# Flask-React-Projectz
+# Flask-React-Project
 #### Video Demo:  <URL HERE>
 #### Description:
 TODO
