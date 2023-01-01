@@ -5,7 +5,8 @@
 
 ## Testing
 
-1. Run `npm run backend` from the root folder to start the backend server. This script is added to the `package.json` file on the root folder to ease 
+1. Run `npm run backend` from the root folder to start the backend server. This script is added to the `package.json` file on the root folder for ease of use
+
 
 ## Pre-word
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
