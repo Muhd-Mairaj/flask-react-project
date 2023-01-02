@@ -39,14 +39,14 @@ This is where all the backend components live. "`api.py`" is the app configured 
 The root folder contains all the files and folders for the frontend. The "`public`" directory contains assets required by the whole application, including the template "`index.html`" file on which the whole application builds on.<br>
 The "`src`" folder however, is where all the custiom application components are. <br>
 "`App.js`" contains all the routes, the components for which are defined in the "`pages`" folder. <br>
-Additional Components and Contexts are defined in the "'components'" and "`contexts`" folders respectively. <br>
+Additional Components and Contexts are defined in the "`components`" and "`contexts`" folders respectively. <br>
 A "test" route is defined to demonstrate offline usage possible due to client-side routing.
 
-An important choice with the homepage, was to add new items to the top of the list, rather than the default sorted by expiry view. On reload the new pages are then arranged in sorting order as well. This is done for performance reasons to prevent unnecessary calls to the Api and provide a more fluent user experience
+An important choice with the homepage, was to add new items to the top of the list, rather than the default sorted by expiry view. On reload the new items are then arranged in sorting order as well. This is done for performance reasons to prevent unnecessary calls to the Api and provide a more fluent user experience
 
 #### package.json
 A "proxy" header is added to direct the requests to the flask Api. 
-Two scripts are also added to run the backend, one with debugging enabled (useful for checking print messages)
+Two scripts are also added to run the backend, one with debugging enabled (useful for checking print messages for example)
 <!-- ###  -->
 
 ## Todo List
