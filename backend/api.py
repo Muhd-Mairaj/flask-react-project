@@ -158,7 +158,7 @@ def register():
     errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
 
-  
+  # c
 
   # return errors before registering user
   if errors:
