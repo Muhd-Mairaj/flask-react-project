@@ -53,15 +53,16 @@ function Register() {
     const response = await api.post("/register", {
       username: usernameField.current.value,
       password: passwordField.current.value,
-      confirm: confirmField.current.value 
+      confirm: confirmField.current.value
     })
-    
+
     console.log("response: ", response)
 
     // const body = await response.json()
     console.log("response.body ", response.body)
     if (!response.ok) {
       setFormErrors(response.body)
+      
       return
     }
     else {
@@ -70,7 +71,7 @@ function Register() {
       navigate('/login');
     }
   }
-  
+
   return (
     <Body>
       <Form onSubmit={handleSubmit}>
