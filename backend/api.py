@@ -166,6 +166,7 @@ def register():
   if not check_password_strength(password):
     errors["password"] = "Password is not strong enough"
     errors["confirm"] = "Password is not strong enough"
+    return errors
 
   #
   ### Register user
