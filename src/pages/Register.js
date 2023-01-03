@@ -63,8 +63,8 @@ function Register() {
     if (!response.ok) {
       setFormErrors(response.body)
       usernameField.current.value
-passwordField.current.value
-confirmField.current.value
+      passwordField.current.value
+      confirmField.current.value
       return
     }
     else {
