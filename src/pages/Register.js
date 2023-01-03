@@ -62,7 +62,7 @@ function Register() {
     console.log("response.body ", response.body)
     if (!response.ok) {
       setFormErrors(response.body)
-      passwordField.current.value = null
+      passwordField.current = ""
       confirmField.current.value = ""
       return
     }
