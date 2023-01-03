@@ -1,21 +1,21 @@
 {
     "git.autofetch": false,
-	  "git.decorations.enabled": true,
-	  "git.terminalAuthentication": true,
+    "git.decorations.enabled": true,
+    "git.terminalAuthentication": true,
     "git.postCommitCommand": "none",
     "gitdoc.enabled": true,
     "gitdoc.autoCommitDelay": 0,
-	  "gitdoc.autoPull": "onPush",
+    "gitdoc.autoPull": "onPush",
     "gitdoc.autoPush": "off",
-	  "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
-	  "gitdoc.commitValidationLevel": "error",
-	  "github.codespaces.devcontainerChangedNotificationStyle": "notification",
-	  "gitdoc.pullOnOpen": false,
-	  "github.gitAuthentication": true,
+    "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+    "gitdoc.commitValidationLevel": "error",
+    "github.codespaces.devcontainerChangedNotificationStyle": "notification",
+    "gitdoc.pullOnOpen": false,
+    "github.gitAuthentication": true,
 
     "workbench.editorAssociations": {
        "*.wav": "vscode.audioPreview",
-       "README.md": "",
+       "README.md": "default",
     },
     "editor.autoClosingQuotes": "languageDefined",
     "editor.folding": true,
@@ -31,5 +31,5 @@
             "strings": "on"
         },
     "editor.renderWhitespace": "selection",
-    "files.trimTrailingWhitespace": false,
+    // "files.trimTrailingWhitespace": false,
 }
