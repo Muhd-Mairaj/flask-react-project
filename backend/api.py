@@ -158,13 +158,12 @@ def register():
     errors["password"] = "Passwords dont match"
     errors["confirm"] = "Passwords dont match"
 
-
   # return errors before registering user
   if errors:
     return errors, 401
 
   # check password strength
-  
+
 
   #
   ### Register user
