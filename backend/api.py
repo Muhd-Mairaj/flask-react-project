@@ -164,8 +164,8 @@ def register():
 
   # check password strength
   if not check_password_strength(password):
-    errors["password"] = "Passwords dont match"
-    errors["confirm"] = "Passwords dont match"
+    errors["password"] = "Password is not strong enough"
+    errors["confirm"] = "Password is not strong enough"
 
   #
   ### Register user
