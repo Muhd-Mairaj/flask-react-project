@@ -5,7 +5,7 @@ from secrets import token_urlsafe
 from werkzeug.security import check_password_hash, generate_password_hash
 from cs50 import SQL
 
-from helpers import get_current_date, get_date
+from helpers import get_current_date, get_date, check_password_strength
 
 import os
 
@@ -163,7 +163,9 @@ def register():
     return errors, 401
 
   # check password strength
-
+  if not check_password_strength(password):
+    errors["password"] = "Passwords dont match"
+  errors["confirm"] = "Passwords dont match"
 
   #
   ### Register user
