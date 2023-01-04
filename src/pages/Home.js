@@ -36,6 +36,8 @@ export default function Home() {
       else {
         console.log("error: ", response.body)
       }
+      const current = new Date();
+      const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + String(current.getDate()).padStart(2, "0")
     })()
 
   }, [api])
