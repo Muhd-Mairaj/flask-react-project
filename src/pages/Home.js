@@ -21,7 +21,7 @@ export default function Home() {
 
   const current = new Date();
   const date = `${current.getFullYear()}-${current.getMonth()+1:.02}-${current.getDate()}`
-  console.log("da")
+  console.log("date", date)
 
   useEffect(() => {
     (async () => {
