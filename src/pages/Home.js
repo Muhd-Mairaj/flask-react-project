@@ -95,7 +95,7 @@ export default function Home() {
             <InputField
               name="expiry"
               type="date"
-              min="{date}"
+              min="2023-01-01"
               fieldRef={expiryField}
               error={formErrors.expiry}
             />
