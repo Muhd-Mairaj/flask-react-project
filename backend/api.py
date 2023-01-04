@@ -164,8 +164,8 @@ def register():
 
   # check password strength
   if not check_password_strength(password):
-    errors["password"] = "Password must be 8 characters, including upper, lower, "
-    errors["confirm"] = "Password must be 8 characters, including upper, lower, "
+    errors["password"] = "Password must be 8 characters, including upper, lower, digits"
+    errors["confirm"] = "Password must be 8 characters, including upper, lower, digits"
     return errors, 401
 
   #
