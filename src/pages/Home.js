@@ -21,7 +21,7 @@ export default function Home() {
 
   const current = new Date();
   // const date = `${current.getFullYear()}-${current.getMonth()+1}-${current.getDate()}`
-  const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, ) + "-" + current.getDate()
+  const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + current.getDate()
   console.log("date", date)
 
   useEffect(() => {
