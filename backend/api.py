@@ -164,8 +164,8 @@ def register():
 
   # check password strength
   if not check_password_strength(password):
-    errors["password"] = "Password must be "
-    errors["confirm"] = "Password must be "
+    errors["password"] = "Password must be 8 "
+    errors["confirm"] = "Password must be 8 "
     return errors, 401
 
   #
