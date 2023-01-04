@@ -18,7 +18,7 @@ function Header() {
   return (
     <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant="dark" className="Header">
       <Container fluid>
-        <Navbar.Brand href="/">Tracker</Navbar.Brand>
+        <Navbar.Brand href="/">Item Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           {user ?
@@ -30,7 +30,7 @@ function Header() {
               <Nav className="HeaderEnd">
                   {/* <Nav.Link as={Button} variant="dark" className="logoutButton" onClick={logout}>Logout</Nav.Link> */}
                   <Navbar.Text className="small">
-                    Signed in as: 
+                    Signed in as:
                   </Navbar.Text>
                   <NavDropdown title={user.username} menuVariant="dark" size="sm" align="end" id="collapsible-nav-dropdown">
                     <NavDropdown.Item>Change Password</NavDropdown.Item>
