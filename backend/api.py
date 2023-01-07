@@ -21,7 +21,6 @@ app = Flask(__name__)
 if not os.environ.get("SECRET_KEY"):
     raise RuntimeError("SECRET_KEY not set. Run \"export SECRET_KEY='your key here'\"")
 
-
 # configure secret_key
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
 
@@ -34,15 +33,20 @@ Session(app)
 # configure database
 db = SQL("sqlite:///database.db")
 
+#
+## Set up authentication
+#
 
-
-
+# Basic Auth
 @basic_auth.verify_password
 def verify_password(username, password):
   rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
 
   if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
-    session["user"] = {"id": rows[0]["id"], "username": username}
+    session["user"] = {
+        "id": rows[0]["id"],
+        "username": username,
+    }
     return session["user"]
 
 
@@ -51,6 +55,7 @@ def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 401, {'WWW-Authenticate': 'Form'})
 
 
+# Token Auth
 @token_auth.verify_token
 def verify_token(token):
   if "access_token" in session and token == session["access_token"]:
@@ -60,6 +65,9 @@ def verify_token(token):
 @token_auth.error_handler
 def unauthorized():
     return make_response(jsonify({'error': 'Unauthorized access'}), 401)
+#
+## End set-up
+#
 
 
 @app.after_request
