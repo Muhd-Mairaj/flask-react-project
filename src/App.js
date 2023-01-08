@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
 
 import Home from './pages/Home';
-import Test from './pages/Test';
+import Test frm './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
@@ -28,11 +28,11 @@ function App() {
                     <Route path="/login" element={
                       <PublicRoute><Login/></PublicRoute>
                     } />
-                    
+
                     <Route path="/register" element={
                       <PublicRoute><Register/></PublicRoute>
                     } />
-                    
+
                     <Route path="*" element={
                       <PrivateRoute>
                         <Routes>
