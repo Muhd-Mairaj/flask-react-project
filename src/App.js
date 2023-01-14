@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
 
 import Home from './pages/Home';
-import Test frm './pages/Test';
+import Test from './pages/Test';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
