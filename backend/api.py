@@ -7,6 +7,7 @@ from cs50 import SQL
 
 from helpers import get_current_date, get_date, check_password_strength
 
+import secrets
 import os
 
 
@@ -18,11 +19,12 @@ token_auth = HTTPTokenAuth()
 app = Flask(__name__)
 
 # Make sure SECRET KEY is set
-if not os.environ.get("SECRET_KEY"):
-    raise RuntimeError("SECRET_KEY not set. Run \"export SECRET_KEY='your key here'\"")
+# if not os.environ.get("SECRET_KEY"):
+#     raise RuntimeError("SECRET_KEY not set. Run \"export SECRET_KEY='your key here'\"")
 
 # configure secret_key
-app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
+# app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
+app.config["SECRET_KEY"] = secrets.token_hex()
 
 # configure session to use filesystem
 app.config["SESSION_COOKIE_NAME"] = "session"
@@ -82,7 +84,7 @@ def after_request(response):
 @app.route("/user", methods=["GET"])
 @token_auth.login_required
 def get_user():
-  return token_auth.current_user()
+  return token_auth.current_user(), 200
 
 
 @app.route("/profile", methods=["GET"])

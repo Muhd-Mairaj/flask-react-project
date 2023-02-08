@@ -52,7 +52,7 @@ function Login() {
       flash('You have successfully logged in!', 'success')
       if (location.state && location.state.next) {
         navigate(location.state.next)
-      } 
+      }
       else {
         navigate("/")
       }
@@ -66,7 +66,7 @@ function Login() {
       console.log("result: ", result)
     }
   }
-  
+
   return (
     <Body>
       <Form onSubmit={handleSubmit}>
@@ -92,14 +92,14 @@ function Login() {
           </Row>
         </Col>
       </Form>
-      
+
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={5} lg={4} xl={3}>
           <hr />
           <p className="py-2">Don&apos;t have an account? <Link to="/register">Register here</Link>!</p>
         </Col>
       </Row>
-      
+
     </Body>
   )
 }

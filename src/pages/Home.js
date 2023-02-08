@@ -19,8 +19,11 @@ export default function Home() {
   const itemField = useRef()
   const expiryField = useRef()
 
-  const current = new Date();
-  const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + String(current.getDate()).padStart(2, "0")
+  function getDate() {
+    const current = new Date();
+    const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + String(current.getDate()).padStart(2, "0")
+    return date;
+  }
 
   useEffect(() => {
     (async () => {
@@ -36,8 +39,8 @@ export default function Home() {
       else {
         console.log("error: ", response.body)
       }
-      const current = new Date();
-      const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + String(current.getDate()).padStart(2, "0")
+      // const current = new Date();
+      // const date = current.getFullYear() + "-" + String(current.getMonth()+1).padStart(2, "0") + "-" + String(current.getDate()).padStart(2, "0")
     })()
 
   }, [api])
@@ -97,7 +100,7 @@ export default function Home() {
             <InputField
               name="expiry"
               type="date"
-              min={date}
+              min={getDate()}
               fieldRef={expiryField}
               error={formErrors.expiry}
             />
