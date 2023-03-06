@@ -84,7 +84,9 @@ export default function Home() {
     }
   }
 
-  async function removeItem()
+  async function removeItem(key) {
+    
+  }
 
   return (
     <Body>
