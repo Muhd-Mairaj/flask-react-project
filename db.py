@@ -22,4 +22,4 @@ for row in query:
   })
 
 
-db.execute("CREATE TABLE items")
+db.execute("CREATE TABLE items ")
