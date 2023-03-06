@@ -152,7 +152,7 @@ def remove(key):
 
       return 204 # succesful, no response body
 
-  return 200
+  return 400
 
 
 @app.route("/register", methods=["POST"])
