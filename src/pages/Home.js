@@ -85,7 +85,7 @@ export default function Home() {
   }
 
   async function removeItem(key) {
-    const response = 
+    // const response = 
   }
 
   return (
