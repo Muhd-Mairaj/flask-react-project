@@ -146,7 +146,8 @@ def remove(key):
     if key == item["key"]:
       # remove from database
       ...
-      # remove from 
+
+      # remove from items list
       del session["items"][i]
       pass
 
