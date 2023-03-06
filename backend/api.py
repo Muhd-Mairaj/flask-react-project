@@ -125,7 +125,6 @@ def add():
 
     # add item to db
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
-    session["key_count"] += 1
 
     item = {
       "item": item,
@@ -133,7 +132,9 @@ def add():
       "bg": "red" if get_date(expiry) < get_current_date() else "",
       "key": session["key_count"],
     }
-    
+    session["key_count"] += 1
+
+  
     return item, 200
 
 
