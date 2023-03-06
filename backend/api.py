@@ -136,7 +136,7 @@ def add():
 
 
 
-
+@token_auth.login_required
 def remove():
   return
 
