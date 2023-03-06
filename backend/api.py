@@ -144,7 +144,7 @@ def add():
 def remove(key):
   for i, item in session["items"]:
     if key == item["key"]:
-      ses
+      session["items"]
       pass
 
   return 200
