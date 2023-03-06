@@ -25,4 +25,5 @@ for row in query:
 db.execute("CREATE TABLE items (user_id INTEGER, item_id INTEGER, item TEXT NOT NULL, expiry TEXT NOT NULL, FOREIGN KEY(user_id) REFERENCES users(id))")
 
 for row in items:
-  db.execute("INSERT INTO items (user_id, item_id, item, expiry) VALUES(?, ?, ?, ?)", row["user_id"])
+  db.execute("INSERT INTO items (user_id, item_id, item, expiry) VALUES(?, ?, ?, ?)",
+              row["user_id"])
