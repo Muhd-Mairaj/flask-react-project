@@ -136,6 +136,7 @@ def add():
 
 
 
+@app.route("")
 @token_auth.login_required
 def remove():
   return
