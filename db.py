@@ -8,4 +8,4 @@ query = db.execute("SELECT * FROM items")
 items = []
 d = {}
 for item in query:
-  user_id = it
+  user_id = item["user_"]
