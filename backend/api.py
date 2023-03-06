@@ -145,7 +145,8 @@ def remove(key):
   for i, item in session["items"]:
     if key == item["key"]:
       pass
-  return
+
+  return 200
 
 
 @app.route("/register", methods=["POST"])
