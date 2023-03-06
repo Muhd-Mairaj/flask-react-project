@@ -17,5 +17,6 @@ for item in query:
   items.append({
     "user_id": user_id,
     "item_id": item_id,
-    
+    "item": item,
+    "expiry": expiry,
   })
