@@ -85,7 +85,7 @@ export default function Home() {
   }
 
   async function removeItem(key) {
-    
+
   }
 
   return (
@@ -130,7 +130,7 @@ export default function Home() {
               <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
-                <td><Button variant="dark" className="w-5" onClick={() => {removeItem(item.key)}} type="submit">Remove</Button></td>
+                <td><Button variant="dark" className="w-5" onClick={() => {removeItem(item.key)}}>Remove</Button></td>
               </tr>
             ))}
           </tbody>
