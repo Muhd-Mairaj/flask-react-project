@@ -7,21 +7,21 @@ query = db.execute("SELECT * FROM items")
 
 items = []
 d = {}
-for item in query:
-  user_id = item["user_id"]
+for row in query:
+  user_id = row["user_id"]
   d[user_id] = d.get(user_id, 0) + 1
 
   item_id = d[user_id]
-  item = item["item"]
-  expiry = item["expiry"]
+  row = row["item"]
+  expiry = row["expiry"]
   items.append({
     "user_id": user_id,
     "item_id": item_id,
-    "item": item,
+    "item": row,
     "expiry": expiry,
   })
 
 
-for item in  zip(query, items):
-  print(item)
+for row in  zip(query, items):
+  print(row)
   print()
