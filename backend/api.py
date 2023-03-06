@@ -136,7 +136,7 @@ def add():
 
 
 
-@app.route("/profile", M)
+@app.route("/profile", METHODS=["DELETE"])
 @token_auth.login_required
 def remove():
   return
