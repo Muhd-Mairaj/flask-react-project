@@ -20,3 +20,6 @@ for item in query:
     "item": item,
     "expiry": expiry,
   })
+
+
+for item in  zip(query, items):
