@@ -23,3 +23,4 @@ for item in query:
 
 
 for item in  zip(query, items):
+  print(item)
