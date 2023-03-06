@@ -149,7 +149,7 @@ def remove(key):
 
       # remove from items list
       del session["items"][i]
-      return 204 #
+      return 204 # no 
 
   return 200
 
