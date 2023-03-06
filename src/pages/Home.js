@@ -118,6 +118,7 @@ export default function Home() {
             <tr>
               <th>Item</th>
               <th>Expiry</th>
+              <th
             </tr>
           </thead>
           <tbody>
