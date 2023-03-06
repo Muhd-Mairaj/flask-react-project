@@ -22,4 +22,4 @@ for row in query:
   })
 
 
-db.execute("CREATE TABLE items (user_id INTEGER, item TEXT NOT NULL, expiry TEXT NOT NULL, FOREIGN KEY(user_id) REFERENCES users(id));")
+db.execute("CREATE TABLE items (user_id INTEGER, item TEXT NOT NULL, expiry TEXT NOT NULL, FOREIGN KEY(user_id) REFERENCES users(id))")
