@@ -27,5 +27,7 @@ db.execute("CREATE TABLE items (user_id INTEGER, item_id INTEGER, item TEXT NOT 
 for row in items:
   db.execute("INSERT INTO items (user_id, item_id, item, expiry) VALUES(?, ?, ?, ?)",
               row["user_id"],
-              row["item_id"]
+              row["item_id"],
+              row["item"],
+              row
             )
