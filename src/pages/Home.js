@@ -126,7 +126,7 @@ export default function Home() {
               <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
-                <td></td>
+                <td>{}</td>
               </tr>
             ))}
           </tbody>
