@@ -22,3 +22,4 @@ for row in query:
   })
 
 
+db.execute("CREATE ")
