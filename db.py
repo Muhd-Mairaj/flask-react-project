@@ -12,3 +12,5 @@ for item in query:
   d[user_id] = d.get(user_id, 0) + 1
 
   item_id = d[user_id]
+  item = item["item"]
+  expiry = it
