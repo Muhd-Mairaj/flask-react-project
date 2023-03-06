@@ -21,7 +21,3 @@ for row in query:
     "expiry": expiry,
   })
 
-
-for row in  zip(query, items):
-  print(row)
-  print()
