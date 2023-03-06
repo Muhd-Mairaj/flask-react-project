@@ -146,7 +146,7 @@ def remove(key):
     if key == item["key"]:
       pass
 
-  return 204
+  return 200
 
 
 @app.route("/register", methods=["POST"])
