@@ -134,7 +134,7 @@ def add():
     }
     session["key_count"] += 1
 
-  
+    session["items"]
     return item, 200
 
 
