@@ -135,6 +135,12 @@ def add():
     return item, 200
 
 
+
+
+def remove():
+  return
+
+
 @app.route("/register", methods=["POST"])
 def register():
   username = request.json.get("username")
