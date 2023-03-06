@@ -126,7 +126,7 @@ export default function Home() {
               <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
-                <td><Button variant="dark" className="w-5" type="submit">Add</Button></td>
+                <td><Button variant="dark" className="w-5" type="submit"></Button></td>
               </tr>
             ))}
           </tbody>
