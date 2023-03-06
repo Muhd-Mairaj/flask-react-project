@@ -5,6 +5,7 @@ db = SQL("sqlite:///backend/database.db")
 
 query = db.execute("SELECT * FROM users")
 
-items = {}
+items = []
+
 for item in query:
   print(item)
