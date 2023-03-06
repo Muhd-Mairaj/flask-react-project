@@ -144,7 +144,7 @@ def add():
 def remove(key):
   for i, item in session["items"]:
     if key == item["key"]:
-      
+      # remove
       del session["items"][i]
       pass
 
