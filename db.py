@@ -13,4 +13,7 @@ for item in query:
 
   item_id = d[user_id]
   item = item["item"]
-  expiry = it
+  expiry = item["expiry"]
+  items.append({
+    
+  })
