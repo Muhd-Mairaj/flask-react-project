@@ -150,9 +150,9 @@ def remove(key):
       # remove from items list
       del session["items"][i]
 
-      return 204 # succesful, no response body
+      return {}, 204 # succesful, no response body
 
-  return 400
+  return {}, 400
 
 
 @app.route("/register", methods=["POST"])
