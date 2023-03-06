@@ -9,4 +9,4 @@ items = []
 d = {}
 for item in query:
   user_id = item["user_id"]
-  
+  item_id = d.get()
