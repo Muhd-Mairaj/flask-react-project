@@ -29,5 +29,5 @@ for row in items:
               row["user_id"],
               row["item_id"],
               row["item"],
-              row
+              row["expiry"],=
             )
