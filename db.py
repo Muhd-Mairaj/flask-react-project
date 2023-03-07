@@ -24,7 +24,8 @@ for row in query:
   })
 
 
-print()
+print(query)
+print(items)
 
 # db.execute("CREATE TABLE items (user_id INTEGER, item_id INTEGER, item TEXT NOT NULL, expiry TEXT NOT NULL, FOREIGN KEY(user_id) REFERENCES users(id))")
 
