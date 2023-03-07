@@ -6,7 +6,7 @@ db = SQL("sqlite:///backend/database.db")
 query = db.execute("SELECT * FROM items")
 
 items = []
-d = {}
+# d = {}
 for row in query:
   user_id = row["user_id"]
   d[user_id] = d.get(user_id, 0) + 1
