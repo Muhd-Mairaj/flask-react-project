@@ -1,7 +1,7 @@
 from cs50 import SQL
 
 # configure database
-db = SQL("sqlite:///backend/database.db")
+db = SQL("sqlite:///backend/test.db")
 
 query = db.execute("SELECT * FROM items")
 
