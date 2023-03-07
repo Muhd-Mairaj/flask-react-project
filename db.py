@@ -5,6 +5,7 @@ db = SQL("sqlite:///backend/database.db")
 
 query = db.execute("SELECT * FROM items")
 
+item_id = 0
 items = []
 # d = {}
 for row in query:
