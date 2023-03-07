@@ -72,4 +72,4 @@ Two scripts are also added to run the backend, one with debugging enabled (usefu
 - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
 - [How to get the current date in React](https://reactgo.com/react-get-current-date/)
 - This guide on http status codes: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- HTTP Delete Request: []
+- HTTP Delete Request: [https://reqbin.com/Article/HttpDelete](https://reqbin.com/Article/HttpDelete)
