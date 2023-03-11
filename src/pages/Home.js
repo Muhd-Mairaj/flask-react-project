@@ -88,7 +88,7 @@ export default function Home() {
     const response = api.delete("/profile", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token"),
-        "key": key
+        id: key
       }
     })
     return;
