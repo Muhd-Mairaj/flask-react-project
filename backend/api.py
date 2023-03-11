@@ -133,7 +133,6 @@ def add():
         "bg": "red" if get_date(expiry) < get_current_date() else "",
     }
 
-    session["items"].append(item)
     return item, 200
 
 
