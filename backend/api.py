@@ -157,7 +157,7 @@ def remove():
             db.execute("DELETE FROM items WHERE item_id = ?", key)
 
             # remove from items list
-            del session["items"][i]
+            del session["items"][key]
 
             return {}, 204 # succesful, no response body
 
