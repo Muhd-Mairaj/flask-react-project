@@ -91,8 +91,6 @@ export default function Home() {
         id: key
       }
     })
-    console.log("WQHAT");
-    console.log("response", response);
 
     if (!response.ok) {
       // do something
