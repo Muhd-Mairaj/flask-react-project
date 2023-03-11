@@ -218,7 +218,6 @@ def register():
 def login():
     print(f"{request.headers = }")
 
-
     token = token_urlsafe()
     session["access_token"] = token
     return {"access_token": token}, 200
