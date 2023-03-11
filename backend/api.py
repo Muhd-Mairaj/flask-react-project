@@ -160,8 +160,6 @@ def remove():
 
 @app.route("/register", methods=["POST"])
 def register():
-    print(f"{request.headers = }")
-    # print(f"{request.headers = }")
     username = request.json.get("username")
     password = request.json.get("password")
     confirm = request.json.get("confirm")
