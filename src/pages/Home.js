@@ -98,6 +98,7 @@ export default function Home() {
       return
     }
 
+    console.log("SUCCESS");
 
     // const response =
   }
