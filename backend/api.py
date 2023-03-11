@@ -157,7 +157,7 @@ def remove():
     print(f"{query = }")
 
     items = session["items"]
-    
+    print(f"{items = }")
 
     for i, item in enumerate(items):
         if key == item["item_id"]:
