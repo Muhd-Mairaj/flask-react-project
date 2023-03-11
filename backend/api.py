@@ -158,6 +158,9 @@ def remove():
     print()
 
     items = session["items"]
+    print(f"query")
+    print(*query)
+    print()
     print(f"{items = }")
 
     for i, item in enumerate(items):
