@@ -158,7 +158,8 @@ def remove():
     if len(query) != 1:
         return jsonify("Something went wrong", 500)
 
-    
+    db.execute("DELETE FROM items WHERE item_id = ?", key)
+
 
     for row in query:
         if key == row["item_id"]:
