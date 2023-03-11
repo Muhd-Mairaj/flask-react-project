@@ -92,6 +92,9 @@ export default function Home() {
       }
     })
 
+    console.log("What is happening")
+    console.log("What is happening")
+
     if (!response.ok) {
       // do something
       console.log("FAILED");
