@@ -84,7 +84,7 @@ export default function Home() {
     }
   }
 
-  async function removeItem(key) {
+  async function removeItem() {
     const response = api.delete("/profile", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token"),
@@ -97,7 +97,7 @@ export default function Home() {
       return
     }
 
-    
+
     // const response =
   }
 
