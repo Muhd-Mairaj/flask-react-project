@@ -13,7 +13,7 @@ for row in query:
   # d[user_id] = d.get(user_id, 0) + 1
 
   # item_id = d[user_id]
-  item_id += 1
+  # item_id += 1
   item = row["item"]
   expiry = row["expiry"]
   items.append( {
