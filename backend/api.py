@@ -125,7 +125,7 @@ def add():
         return errors, 400
 
     # add item to db
-    
+    print()
 
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
 
