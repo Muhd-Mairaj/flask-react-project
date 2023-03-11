@@ -147,6 +147,7 @@ def remove():
 
     if not key:
         return jsonify("no id included"), 400
+
     try:
         key = int(key)
     except ValueError:
