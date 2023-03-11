@@ -99,6 +99,8 @@ export default function Home() {
       return
     }
 
+    // remove item from items list
+    
     console.log("SUCCESS");
     console.log(response);
 
