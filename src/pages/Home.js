@@ -92,11 +92,11 @@ export default function Home() {
       }
     })
 
-    console.log(response);
 
     if (!response.ok) {
       // do something
       console.log("FAILED");
+      console.log(response);
       return
     }
 
