@@ -100,7 +100,6 @@ export default function Home() {
     }
 
     // remove item from items list
-    console.log("SUCCESS");
     console.log(response);
     console.log("items", items);
     let array = items.filter(function(item) {return item.item_id !== key})
