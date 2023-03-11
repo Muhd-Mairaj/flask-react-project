@@ -150,9 +150,6 @@ def remove():
         return jsonify("not valid id"), 400
 
     query = db.execute("SELECT * FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
-    print(f"query")
-    print(*query, sep="\n")
-    print()
 
     # check if an item is selected
     if len(query) < 1:
