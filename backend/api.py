@@ -158,7 +158,7 @@ def remove():
     for row in query:
         if key == row["item_id"]:
             # remove from database
-            # db.execute("DELETE FROM items WHERE item_id = ?", key)
+            db.execute("DELETE FROM items WHERE item_id = ?", key)
             print(f"Removing item with {row['item_id'] = } ")
 
             return {}, 204 # succesful, no response body
