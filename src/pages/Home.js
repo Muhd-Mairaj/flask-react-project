@@ -100,7 +100,6 @@ export default function Home() {
     }
 
     console.log("SUCCESS");
-    console.log(response);
 
     // const response =
   }
