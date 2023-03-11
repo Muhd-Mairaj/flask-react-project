@@ -149,7 +149,9 @@ def remove():
     if not key:
         return "no id included", 400
     if not key.isdigit():
-        return ""
+        return "not valid id", 400
+
+    key = int(key)
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
 
