@@ -216,7 +216,7 @@ def register():
 @app.route("/login", methods=["POST"])
 @basic_auth.login_required
 def login():
-    print(f"{request.headers.get(0) = }")
+    print(f"{request.headers.get('Basic) = }")
 
     token = token_urlsafe()
     session["access_token"] = token
