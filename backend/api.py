@@ -132,7 +132,10 @@ def add():
 
     session["key_count"] += 1
     item_query = db.execute("SELECT * FROM item WHERE user_id = ?", session["user"]["id"])
-    item = item_query
+
+    if len(item_query) != 1:
+        return 
+    item = item_query[0]
     # item = {
     #     "item": item,
     #     "expiry": expiry,
