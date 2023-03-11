@@ -163,15 +163,6 @@ def remove():
     db.execute("DELETE FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
 
 
-    for row in query:
-        if key == row["item_id"]:
-            # remove from database
-            print(f"Removing item with {row['item_id'] = } ")
-            db.execute("DELETE FROM items WHERE item_id = ?", key)
-
-            return {}, 204 # succesful, no response body
-
-
 
 @app.route("/register", methods=["POST"])
 def register():
