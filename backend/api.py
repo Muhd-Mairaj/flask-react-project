@@ -156,7 +156,7 @@ def remove():
     print()
 
     # check if an item is selected
-    if len(query) != 1:
+    if len(query) < 1:
         return jsonify("Something went wrong", 500)
 
     db.execute("DELETE FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
