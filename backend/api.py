@@ -155,6 +155,8 @@ def remove():
     print(*query, sep="\n")
     print()
 
+    if len(query)
+
     for row in query:
         if key == row["item_id"]:
             # remove from database
