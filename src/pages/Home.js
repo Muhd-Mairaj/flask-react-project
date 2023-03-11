@@ -100,7 +100,7 @@ export default function Home() {
     }
 
     // remove item from items list
-    setItems(items.filter(function(item) => {return key !== }))
+    setItems(items.filter(function(item) => {return item. !== }))
     console.log("SUCCESS");
     console.log(response);
 
