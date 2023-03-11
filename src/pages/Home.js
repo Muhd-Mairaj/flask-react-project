@@ -85,7 +85,9 @@ export default function Home() {
   }
 
   async function removeItem(key) {
-    const response = api.delete("/profile", )
+    const response = api.delete("/profile", {
+      headers
+    })
     return;
     // const response =
   }
