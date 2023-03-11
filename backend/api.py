@@ -97,7 +97,7 @@ def profile():
     items = db.execute("SELECT * FROM items WHERE user_id = ? ORDER BY expiry DESC", session["user"]["id"])
     session["key_count"] = len(items)
 
-    for item in enumerate(items, 1):
+    for item in items:
       expiry_date = get_date(item["expiry"])
       item["bg"] = "red" if expiry_date < current_date else ""
 
