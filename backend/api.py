@@ -153,8 +153,6 @@ def remove():
     except ValueError:
         return "not valid id", 400
 
-    key = int(key)
-
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
 
     for i, item in enumerate(session["items"]):
