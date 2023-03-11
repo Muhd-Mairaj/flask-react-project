@@ -146,11 +146,11 @@ def remove():
     print(f"{key = }")
 
     if not key:
-        return "no id included", 400
+        return jsonify("no id included"), 400
     try:
         key = int(key)
     except ValueError:
-        return "not valid id", 400
+        return jsonify("not valid id"), 400
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
     print(f"{query = }")
