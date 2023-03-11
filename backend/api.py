@@ -145,7 +145,7 @@ def remove(key):
   for i, item in session["items"]:
     if key == item["key"]:
       # remove from database
-      
+      db.exe
 
       # remove from items list
       del session["items"][i]
