@@ -104,7 +104,7 @@ export default function Home() {
     console.log(response);
     console.log(items);
     let array = items.filter(function(item) {return item.item_id !== key})
-    console.log(items);
+    console.log(array);
 
     setItems(items.filter(function(item) {return item.item_id !== key}))
 
