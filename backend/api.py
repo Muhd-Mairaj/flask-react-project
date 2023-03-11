@@ -135,7 +135,7 @@ def add():
         "item": item,
         "expiry": expiry,
         "bg": "red" if get_date(expiry) < get_current_date() else "",
-        "key": session["key_count"],
+        "key": session["key_count"]
     }
 
     session["items"].append(item)
