@@ -156,7 +156,7 @@ def remove():
     print()
 
     for item in items:
-        if key == item["key"]:
+        if key == item["item_id"]:
             # remove from database
             # db.execute("DELETE FROM items WHERE item_id = ?", key)
 
