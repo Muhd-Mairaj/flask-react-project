@@ -217,7 +217,7 @@ def register():
 @basic_auth.login_required
 def login():
     print(f"{request.headers = }")
-    print(f"{request.headers.get('Basic') = }")
+    print(f"{request.headers.get('Authorization') = }")
 
     token = token_urlsafe()
     session["access_token"] = token
