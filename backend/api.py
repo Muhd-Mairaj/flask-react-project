@@ -151,13 +151,13 @@ def remove():
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
 
-    for item in query:
+    for i, item in items:
         if key == item["item_id"]:
             # remove from database
             db.execute("DELETE FROM items WHERE item_id = ?", key)
 
             # remove from items list
-            del session["items"][key]
+            del session["items"][i]
 
             return {}, 204 # succesful, no response body
 
