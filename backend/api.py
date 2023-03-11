@@ -142,9 +142,6 @@ def add():
 @app.route("/profile", methods=["DELETE"])
 @token_auth.login_required
 def remove():
-    key = request.headers.get('id')
-    print(f"{key = }")
-
     if not key:
         return jsonify("no id included"), 400
 
