@@ -125,6 +125,7 @@ def add():
     query = db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
     print(f"{query = }")
 
+    
     item = {
         "user_id": session["user"]["id"],
         "item_id": query,
