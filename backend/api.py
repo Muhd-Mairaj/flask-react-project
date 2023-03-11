@@ -145,7 +145,7 @@ def remove(key):
   for i, item in session["items"]:
     if key == item["key"]:
       # remove from database
-      db.execute("DELETE FROM items WHERE item_id = ?")
+      db.execute("DELETE FROM items WHERE item_id = ?", key)
 
       # remove from items list
       del session["items"][i]
