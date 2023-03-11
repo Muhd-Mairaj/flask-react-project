@@ -103,6 +103,7 @@ export default function Home() {
     console.log("SUCCESS");
     console.log(response);
     let array = items.filter(function(item) {return item.item_id !== key})
+
     setItems(items.filter(function(item) {return item.item_id !== key}))
 
     // const response =
