@@ -130,13 +130,13 @@ def add():
     query = db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
     print(f"{query = }")
 
+    session["key_count"] += 1
     item = {
         "item": item,
         "expiry": expiry,
         "bg": "red" if get_date(expiry) < get_current_date() else "",
         "key": session["key_count"],
     }
-    session["key_count"] += 1
 
     session["items"].append(item)
     return item, 200
