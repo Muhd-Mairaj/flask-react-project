@@ -142,11 +142,11 @@ def add():
 
 @app.route("/profile", methods=["DELETE"])
 @token_auth.login_required
-def remove(key):
+def remove():
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
 
-      for i, item in query:
-          if key == item["item_id"]:
+    for i, item in query:
+        if key == item["item_id"]:
             # remove from database
             db.execute("DELETE FROM items WHERE item_id = ?", key)
 
@@ -160,6 +160,8 @@ def remove(key):
 
 @app.route("/register", methods=["POST"])
 def register():
+    print(f"{request.headers = }")
+    # print(f"{request.headers = }")
     username = request.json.get("username")
     password = request.json.get("password")
     confirm = request.json.get("confirm")
@@ -196,10 +198,10 @@ def register():
         return errors, 401
 
     # check password strength
-    if not check_password_strength(password):
-        errors["password"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
-        errors["confirm"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
-        return errors, 401
+    # if not check_password_strength(password):
+    #     errors["password"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
+    #     errors["confirm"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
+    #     return errors, 401
 
     #
     ### Register user
