@@ -139,7 +139,7 @@ def add():
 
 
 
-@app.route("/profile", METHODS=["DELETE"])
+@app.route("/profile", methods=["DELETE"])
 @token_auth.login_required
 def remove(key):
   query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
