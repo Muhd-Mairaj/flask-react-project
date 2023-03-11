@@ -157,7 +157,6 @@ def remove():
 
     # remove item from database
     db.execute("DELETE FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
-    print("removing thing from database")
 
     return {}, 204
 
