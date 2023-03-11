@@ -161,7 +161,6 @@ def remove():
     print(f"items")
     print(*items)
     print()
-    print(f"{items = }")
 
     for i, item in enumerate(items):
         if key == item["key"]:
