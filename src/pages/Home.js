@@ -144,7 +144,7 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.key} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
+              <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
                 <td>{item.item}</td>
                 <td>{item.expiry}</td>
                 <td><Button variant="dark" className="w-5" onClick={() => {removeItem(item.key)}}>Remove</Button></td>
