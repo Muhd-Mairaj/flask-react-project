@@ -158,8 +158,8 @@ def remove():
     print()
 
     items = session["items"]
-    print(f"query")
-    print(*query)
+    print(f"items")
+    print(*items)
     print()
     print(f"{items = }")
 
