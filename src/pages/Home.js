@@ -94,7 +94,7 @@ export default function Home() {
 
     if (!response.ok) {
       // do something
-      console.log("FAILE")
+      console.log("FAILED");
       return
     }
 
