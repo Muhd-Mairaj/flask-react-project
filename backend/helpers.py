@@ -49,3 +49,4 @@ def check_password_strength(password):
         return False
 
     return True
+
