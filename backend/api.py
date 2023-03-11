@@ -158,16 +158,16 @@ def remove():
     items = session["items"]
     print(f"{items = }")
 
-    # for i, item in enumerate(items):
-    #     if key == item["key"]:
-    #         # remove from database
-    #         # db.execute("DELETE FROM items WHERE item_id = ?", key)
+    for i, item in enumerate(items):
+        if key == item["key"]:
+            # remove from database
+            # db.execute("DELETE FROM items WHERE item_id = ?", key)
 
-    #         # remove from items list
-    #         # del session["items"][i]
-    #         print(f"Removing item with {item['item_id'] = } ")
+            # remove from items list
+            # del session["items"][i]
+            print(f"Removing item with {item['item_id'] = } ")
 
-    #         return {}, 204 # succesful, no response body
+            return {}, 204 # succesful, no response body
 
     return jsonify("item not found"), 400
 
