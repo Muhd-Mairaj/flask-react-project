@@ -125,7 +125,7 @@ def add():
     query = db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
     print(f"{query = }")
 
-    
+
     item = {
         "user_id": session["user"]["id"],
         "item_id": query,
@@ -133,7 +133,6 @@ def add():
         "expiry": expiry,
         "bg": "red" if get_date(expiry) < get_current_date() else "",
     }
-
     return item, 200
 
 
