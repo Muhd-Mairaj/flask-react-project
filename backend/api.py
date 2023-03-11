@@ -154,6 +154,7 @@ def remove():
         return "not valid id", 400
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
+    print(f"{query = }")
 
     for i, item in enumerate(session["items"]):
         if key == item["item_id"]:
