@@ -92,7 +92,7 @@ export default function Home() {
       }
     })
 
-    if 
+    if (!response.ok)
     return;
     // const response =
   }
