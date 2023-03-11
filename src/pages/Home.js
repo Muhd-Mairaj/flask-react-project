@@ -95,11 +95,12 @@ export default function Home() {
     if (!response.ok) {
       // do something
       console.log("FAILED");
-      console.log(response)
+      console.log(response);
       return
     }
 
     console.log("SUCCESS");
+    console.log(response);
 
     // const response =
   }
