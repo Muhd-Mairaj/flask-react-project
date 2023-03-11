@@ -100,7 +100,7 @@ export default function Home() {
     }
 
     // remove item from items list
-    setItems()
+    setItems(items.filter)
     console.log("SUCCESS");
     console.log(response);
 
