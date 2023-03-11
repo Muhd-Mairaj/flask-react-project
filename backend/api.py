@@ -148,7 +148,9 @@ def remove():
 
     if not key:
         return "no id included", 400
-    if not key.isdigit():
+    try:
+        key = int(key)
+    except ValueError:
         return "not valid id", 400
 
     key = int(key)
