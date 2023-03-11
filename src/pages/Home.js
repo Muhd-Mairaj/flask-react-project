@@ -102,9 +102,9 @@ export default function Home() {
     // remove item from items list
     console.log("SUCCESS");
     console.log(response);
-    console.log();
+    console.log("items");
     let array = items.filter(function(item) {return item.item_id !== key})
-    console.log();
+    console.log("array");
 
     setItems(items.filter(function(item) {return item.item_id !== key}))
 
