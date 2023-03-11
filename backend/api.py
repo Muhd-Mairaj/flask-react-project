@@ -127,7 +127,7 @@ def add():
     print(f"{query = }")
 
     item = {
-        "user_id": session["user"]["id"]
+        "user_id": session["user"]["id"],
         "item_id": query,
         "item": item,
         "expiry": expiry,
