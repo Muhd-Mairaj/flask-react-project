@@ -146,7 +146,7 @@ def add():
 @token_auth.login_required
 def remove():
     key = request.headers.get('id')
-    print(ke)
+    print(key)
 
     if not key:
         return jsonify("no id included"), 400
