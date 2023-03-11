@@ -18,7 +18,7 @@ for row in query:
   expiry = row["expiry"]
   items.append( {
     "user_id": user_id,
-    "item_id": item_id,
+    # "item_id": item_id,
     "item": item,
     "expiry": expiry,
   })
