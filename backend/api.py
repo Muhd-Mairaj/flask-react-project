@@ -160,7 +160,7 @@ def remove():
         return jsonify("Item not found", 400)
 
     # remove item from database
-    db.execute("DELETE FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
+    # db.execute("DELETE FROM items WHERE user_id = ? AND item_id = ?", session["user"]["id"], key)
 
 
 
