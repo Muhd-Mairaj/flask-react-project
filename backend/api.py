@@ -131,7 +131,7 @@ def add():
     print(f"{query = }")
 
     session["key_count"] += 1
-    item_query = db.execute("SELECT * FROM item ")
+    item_query = db.execute("SELECT * FROM item WHERE ")
     # item = {
     #     "item": item,
     #     "expiry": expiry,
