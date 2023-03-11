@@ -91,11 +91,11 @@ export default function Home() {
         id: key
       }
     })
+    console.log(response);
 
     if (!response.ok) {
       // do something
       console.log("FAILED");
-      console.log(response);
       return
     }
 
