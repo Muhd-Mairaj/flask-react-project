@@ -147,7 +147,7 @@ def remove():
     key = request.headers.get('id')
 
     if not key:
-        return "", 400
+        return "no id", 400
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
 
