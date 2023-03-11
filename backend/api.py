@@ -169,7 +169,7 @@ def remove():
 
             return {}, 204 # succesful, no response body
 
-    return "item not found", 400
+    return make_response("item not found", 400)
 
 
 @app.route("/register", methods=["POST"])
