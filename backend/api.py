@@ -149,7 +149,7 @@ def remove():
     if not key:
         return "no id included", 400
 
-    query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
+    query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["_id"])
 
     for i, item in query:
         if key == item["item_id"]:
