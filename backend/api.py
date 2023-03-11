@@ -166,7 +166,7 @@ def remove():
 
             # remove from items list
             # del session["items"][i]
-            print(f"R{item}")
+            print(f"Removing {item = }")
 
             return {}, 204 # succesful, no response body
 
