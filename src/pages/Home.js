@@ -93,7 +93,8 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      
+      // do something
+      return
     }
     return;
     // const response =
