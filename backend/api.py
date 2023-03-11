@@ -161,10 +161,10 @@ def remove():
     print(*query, sep="\n")
     print()
 
-    # items = session["items"]
-    # print(f"items")
-    # print(*items, sep="\n")
-    # print()
+    items = session["items"]
+    print(f"items")
+    print(*items, sep="\n")
+    print()
 
     # for i, item in enumerate(items):
     #     if key == item["key"]:
