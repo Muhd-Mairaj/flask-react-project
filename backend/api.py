@@ -155,7 +155,9 @@ def remove():
 
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
     print(f"{query = }")
-    items = 
+
+    items = session["items"]
+    
 
     for i, item in enumerate(items):
         if key == item["item_id"]:
