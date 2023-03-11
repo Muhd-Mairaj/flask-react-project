@@ -32,7 +32,7 @@ db = SQL("sqlite:///backend/database.db")
 db.execute("CREATE TABLE items (user_id INTEGER, item_id INTEGER PRIMARY KEY NOT NULL, item TEXT NOT NULL, expiry TEXT NOT NULL, FOREIGN KEY(user_id) REFERENCES users(id))")
 
 for row in items:
-  db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?, ?)",
+  db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)",
               row["user_id"],
               # row["item_id"],
               row["item"],
