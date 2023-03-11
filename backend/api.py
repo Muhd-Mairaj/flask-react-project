@@ -131,10 +131,6 @@ def add():
     print(f"{query = }")
 
     session["key_count"] += 1
-    item_query = db.execute("SELECT * FROM item WHERE user_id = ?", session["user"]["id"])
-
-    if len(item_query) != 1:
-        return jsonify("Something went wrong"), 500
     item = item_query[0]
     # item = {
     #     "item": item,
