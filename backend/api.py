@@ -131,6 +131,7 @@ def add():
     print(f"{query = }")
 
     session["key_count"] += 1
+    item
     # item = {
     #     "item": item,
     #     "expiry": expiry,
