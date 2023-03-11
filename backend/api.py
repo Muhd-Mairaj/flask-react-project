@@ -170,7 +170,6 @@ def remove():
 
             return {}, 204 # succesful, no response body
 
-    return jsonify("item not found"), 400
 
 
 @app.route("/register", methods=["POST"])
