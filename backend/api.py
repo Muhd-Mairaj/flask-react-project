@@ -100,7 +100,6 @@ def profile():
       expiry_date = get_date(item["expiry"])
       item["bg"] = "red" if expiry_date < current_date else ""
 
-    session["items"] = items
     return jsonify({"items": items}), 200
 
 
