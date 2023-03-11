@@ -142,7 +142,7 @@ def add():
 @app.route("/profile", METHODS=["DELETE"])
 @token_auth.login_required
 def remove(key):
-  q
+  query = db.execute("SELECT ")
 
   for i, item in session["items"]:
     if key == item["key"]:
