@@ -144,6 +144,7 @@ def add():
 def remove(key):
   query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
 
+
   for i, item in session["items"]:
     if key == item["key"]:
       # remove from database
