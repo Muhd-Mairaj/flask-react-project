@@ -156,8 +156,7 @@ def remove():
     except ValueError:
         return jsonify("not valid id"), 400
 
-    # query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
-    query = db.execute("DELETE FROM items WHERE item_id = ?", key)
+    query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user"]["id"])
     print(f"query")
     # print(*query, sep="\n")
     # print()
