@@ -42,14 +42,15 @@ db = SQL("sqlite:///database.db")
 # Basic Auth
 @basic_auth.verify_password
 def verify_password(username, password):
-  rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
+    rows = db.execute("SELECT id, username, hash FROM users WHERE username = ?", username)
 
-  if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
-    session["user"] = {
-        "id": rows[0]["id"],
-        "username": username,
-    }
-    return session["user"]
+    if len(rows) == 1 and check_password_hash(rows[0]["hash"], password):
+        session["user"] = {
+            "id": rows[0]["id"],
+            "username": username,
+        }
+
+        return session["user"]
 
 
 @basic_auth.error_handler
@@ -60,8 +61,8 @@ def unauthorized():
 # Token Auth
 @token_auth.verify_token
 def verify_token(token):
-  if "access_token" in session and token == session["access_token"]:
-    return session["user"]
+    if "access_token" in session and token == session["access_token"]:
+        return session["user"]
 
 
 @token_auth.error_handler
@@ -84,7 +85,7 @@ def after_request(response):
 @app.route("/user", methods=["GET"])
 @token_auth.login_required
 def get_user():
-  return token_auth.current_user(), 200
+    return token_auth.current_user(), 200
 
 
 @app.route("/profile", methods=["GET"])
@@ -114,23 +115,23 @@ def add():
 
     # check item exists
     if not item:
-      errors["item"] = "This field must be filled"
+        errors["item"] = "This field must be filled"
     # check expiry exists
     if not expiry:
-      errors["expiry"] = "This field must be filled"
+        errors["expiry"] = "This field must be filled"
 
     # return errors before proceeding
     if errors:
-      return errors, 400
+        return errors, 400
 
     # add item to db
     db.execute("INSERT INTO items (user_id, item, expiry) VALUES(?, ?, ?)", session["user"]["id"], item, expiry)
 
     item = {
-      "item": item,
-      "expiry": expiry,
-      "bg": "red" if get_date(expiry) < get_current_date() else "",
-      "key": session["key_count"],
+        "item": item,
+        "expiry": expiry,
+        "bg": "red" if get_date(expiry) < get_current_date() else "",
+        "key": session["key_count"],
     }
     session["key_count"] += 1
 
@@ -143,85 +144,85 @@ def add():
 @token_auth.login_required
 def remove(key):
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
-  
-    for i, item in query:
-      if key == item["item_id"]:
-        # remove from database
-        db.execute("DELETE FROM items WHERE item_id = ?", key)
-  
-        # remove from items list
-        del session["items"][i]
-  
-        return {}, 204 # succesful, no response body
-  
+
+      for i, item in query:
+          if key == item["item_id"]:
+            # remove from database
+            db.execute("DELETE FROM items WHERE item_id = ?", key)
+
+            # remove from items list
+            del session["items"][i]
+
+            return {}, 204 # succesful, no response body
+
     return "item not found", 400
 
 
 @app.route("/register", methods=["POST"])
 def register():
-  username = request.json.get("username")
-  password = request.json.get("password")
-  confirm = request.json.get("confirm")
-  errors = {}
+    username = request.json.get("username")
+    password = request.json.get("password")
+    confirm = request.json.get("confirm")
+    errors = {}
 
-  # check username exists
-  if not username:
-    errors["username"] = "This field must be filled"
+    # check username exists
+    if not username:
+        errors["username"] = "This field must be filled"
 
-  # check password exists
-  if not password:
-    errors["password"] = "This field must be filled"
+    # check password exists
+    if not password:
+        errors["password"] = "This field must be filled"
 
-  # check confirm exists
-  if not confirm:
-    errors["confirm"] = "This field must be filled"
+    # check confirm exists
+    if not confirm:
+        errors["confirm"] = "This field must be filled"
 
-  # return errors before checking validity
-  if errors:
-    return errors, 400
+    # return errors before checking validity
+    if errors:
+        return errors, 400
 
-  # validate username
-  db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
-  if len(db_query) > 0:
-    errors["username"] = "Username is unavailable"
+    # validate username
+    db_query = db.execute("SELECT username FROM users WHERE username = ?", username)
+    if len(db_query) > 0:
+        errors["username"] = "Username is unavailable"
 
-  # validate passwords
-  if password != confirm:
-    errors["password"] = "Passwords dont match"
-    errors["confirm"] = "Passwords dont match"
+    # validate passwords
+    if password != confirm:
+        errors["password"] = "Passwords dont match"
+        errors["confirm"] = "Passwords dont match"
 
-  # return errors before registering user
-  if errors:
-    return errors, 401
+    # return errors before registering user
+    if errors:
+        return errors, 401
 
-  # check password strength
-  if not check_password_strength(password):
-    errors["password"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
-    errors["confirm"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
-    return errors, 401
+    # check password strength
+    if not check_password_strength(password):
+        errors["password"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
+        errors["confirm"] = "Password must be 8 characters, including upper, lower, digits and symbols (!&()*,-./;=?@[\\]_{|})"
+        return errors, 401
 
-  #
-  ### Register user
+    #
+    ### Register user
 
-  # generate password hash
-  password_hash = generate_password_hash(password)
+    # generate password hash
+    password_hash = generate_password_hash(password)
 
-  # add user to db
-  db.execute("INSERT INTO users (username, hash) VALUES(?, ?)", username, password_hash)
+    # add user to db
+    db.execute("INSERT INTO users (username, hash) VALUES(?, ?)", username, password_hash)
 
-  return {}, 204
+    return {}, 204
 
 
 @app.route("/login", methods=["POST"])
 @basic_auth.login_required
 def login():
-  token = token_urlsafe()
-  session["access_token"] = token
-  return {"access_token": token}, 200
+    token = token_urlsafe()
+    session["access_token"] = token
+    return {"access_token": token}, 200
 
 
 @app.route("/logout", methods=["DELETE"])
 @token_auth.login_required
 def logout():
-  session.clear()
-  return {}, 204
+    session.clear()
+    return {}, 204
