@@ -159,7 +159,7 @@ def remove():
 
     items = session["items"]
     print(f"items")
-    print(*items)
+    print(*items, sep="\n")
     print()
 
     for i, item in enumerate(items):
