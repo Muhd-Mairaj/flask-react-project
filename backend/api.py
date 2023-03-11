@@ -155,7 +155,7 @@ def remove():
     print(*query, sep="\n")
     print()
 
-    # check if
+    # check if 
     if len(query) != 1:
         return jsonify("Something went wrong", 500)
 
