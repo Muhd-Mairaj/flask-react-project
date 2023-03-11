@@ -143,6 +143,9 @@ def add():
 @app.route("/profile", methods=["DELETE"])
 @token_auth.login_required
 def remove():
+    print(f"{request.headers.get('id') = }")
+    key = request.headers.get('id')
+
     query = db.execute("SELECT * FROM items WHERE user_id = ?", session["user_id"])
 
     for i, item in query:
