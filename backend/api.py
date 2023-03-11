@@ -127,7 +127,7 @@ def add():
     print(f"{query = }")
 
     item = {
-        
+        "item_id": query,
         "item": item,
         "expiry": expiry,
         "bg": "red" if get_date(expiry) < get_current_date() else "",
