@@ -111,7 +111,7 @@ def add():
     errors = {}
 
     # check item exists
-    if not item or not item.:
+    if not item or not item.strip():
         errors["item"] = "This field must be filled"
     # check expiry exists
     if not expiry:
