@@ -109,7 +109,7 @@ export default function Home() {
     return;
 
     const response = await api.put("/profile", {
-      
+
     })
   }
 
@@ -157,7 +157,7 @@ export default function Home() {
                 <td>{item.expiry}</td>
                 <td>
                   <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
-                  <Button variant="dark" className="w-5" onClick={() => {editItem(item.item_id)}}>Edit</Button>
+                  <Button variant="dark" className="w-5 px-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
                 </td>
               </tr>
             ))}
