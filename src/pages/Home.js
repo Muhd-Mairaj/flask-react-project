@@ -49,8 +49,8 @@ export default function Home() {
     event.preventDefault();
     const item = itemField.current.value;
     const expiry = expiryField.current.value;
-    console.log("item", item)
-    console.log("expiry", expiry)
+    console.log("item", item.trim())
+    console.log("expiry", expiry.trim())
 
     const errors = {}
 
