@@ -56,7 +56,7 @@ export default function Home() {
     if (!item || !item.trim()) {
       errors.item = "Item field must not be empty"
     }
-    if (!expiry) {
+    if (!expiry ) {
       errors.expiry = "Expiry field must not be empty"
     }
 
