@@ -73,4 +73,4 @@ Two scripts are also added to run the backend, one with debugging enabled (usefu
 - [How to get the current date in React](https://reactgo.com/react-get-current-date/)
 - This guide on http status codes: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - HTTP Delete Request: [https://reqbin.com/Article/HttpDelete](https://reqbin.com/Article/HttpDelete)
-- https://stackoverflow.com/questions/36326612/how-to-delete-an-item-from-state-array
+- [https://stackoverflow.com/questions/36326612/how-to-delete-an-item-from-state-array]
