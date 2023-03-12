@@ -81,8 +81,8 @@ export default function Home() {
     }
     else {
       setFormErrors({})
-      
-      
+      itemField.current.value = ""
+      expiryField.current.value = ""
       setItems([response.body, ...items])
     }
   }
