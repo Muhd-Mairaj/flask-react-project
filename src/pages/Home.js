@@ -108,7 +108,7 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    const response = await api.put
+    const response = await api.put("/")
   }
 
   return (
