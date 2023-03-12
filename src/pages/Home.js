@@ -108,7 +108,9 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    const response = await api.put("/profile")
+    const response = await api.put("/profile", {
+      
+    })
   }
 
   return (
