@@ -52,7 +52,7 @@ export default function Home() {
 
     const errors = {}
 
-    if (!item) {
+    if (!item or) {
       errors.item = "Item field must not be empty"
     }
     if (!expiry) {
