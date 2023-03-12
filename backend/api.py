@@ -170,15 +170,15 @@ def register():
     errors = {}
 
     # check username exists
-    if not username:
+    if not username or not username.strip():
         errors["username"] = "This field must be filled"
 
     # check password exists
-    if not password:
+    if not password or not password.strip():
         errors["password"] = "This field must be filled"
 
     # check confirm exists
-    if not confirm:
+    if not confirm or not confirm.strip():
         errors["confirm"] = "This field must be filled"
 
     # return errors before checking validity
