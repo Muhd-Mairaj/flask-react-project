@@ -97,8 +97,6 @@ export default function Home() {
 
     if (!response.ok) {
       // do something
-      console.log("FAILED");
-      console.log(response);
       return
     }
 
@@ -109,7 +107,7 @@ export default function Home() {
 
   async function editItem(key) {
     return;
-    
+
     const response = await api.put("/profile", {
 
     })
