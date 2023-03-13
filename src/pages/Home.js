@@ -163,7 +163,9 @@ export default function Home() {
     console.log("response", response)
     let array = []
     for (let i of items) {
-      if (i.key === response.body.item_id)
+      if (i.key === response.body.item_id) {
+        
+      }
     }
     return
   }
