@@ -167,7 +167,7 @@ export default function Home() {
         array.push(response.body)
       }
       else {
-        array.push
+        array.push(i)
       }
     }
     return
