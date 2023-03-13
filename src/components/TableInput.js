@@ -43,6 +43,7 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
             value={expiryField}
             onChange={(event) => {setExpiryField(event.target.value)}}
             fieldRef={expiryFieldRef}
+            error={expiryError}
           />
         </td>
         <td>
