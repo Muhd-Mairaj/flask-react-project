@@ -168,7 +168,7 @@ export default function Home() {
           <tbody>
             {items.map((item, _) => (
               <>
-              {(isEditing === {item.item_id} ? <TableInput
+              {isEditing === {item.item_id} ? <TableInput
                     key={item.item_id}
                     item={item.item}
                     expiry={item.expiry}
