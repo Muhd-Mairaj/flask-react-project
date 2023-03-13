@@ -111,7 +111,7 @@ export default function Home() {
 
   async function editItem(key) {
     for (let item in isEditing) {
-      console.log
+      console.log()
       if (key === item) {
         return;
       }
