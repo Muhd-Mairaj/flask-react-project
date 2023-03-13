@@ -112,7 +112,7 @@ export default function Home() {
   async function editItem(key) {
     // make sure item is not already being edited
     if (key === isEditing) {
-      
+      flash
     }
 
     // add item to editing list
