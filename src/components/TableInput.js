@@ -40,7 +40,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
             placeholder="expiry"
             type="date"
             value={expiryField}
-            onChange={(event) => {handleChange(event, expiryFieldRef)}}
+            onChange={(event) => {setItemField(event.target.value)}}
             fieldRef={expiryFieldRef}
           />
         </td>
