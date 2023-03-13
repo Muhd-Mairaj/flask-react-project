@@ -12,7 +12,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
     console.log("ref.current.value", ref.current.value)
 
     const updatedText = event.target.value;
-    console.log("ref.current.value", ref.current.value)
+    console.log("updatedText", ref.current.value)
 
     ref.current.value = updatedText;
     return
