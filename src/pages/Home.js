@@ -154,6 +154,8 @@ export default function Home() {
         Authorization: "Bearer " + localStorage.getItem("access_token")
       }
     })
+
+    
   }
 
   return (
