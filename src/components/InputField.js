@@ -5,12 +5,12 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
   return (
     <Form.Group controlId={name} className="InputField">
       {label && <Form.Label className={class_name}>{label}</Form.Label>}
+      {}
       <Form.Control
         type={type || 'text'}
         min={min || ""}
         placeholder={placeholder}
         ref={fieldRef}
-        value={value || ""}
         className={class_name}
       />
       <div className="mx-1">
