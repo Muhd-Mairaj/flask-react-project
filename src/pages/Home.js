@@ -157,7 +157,9 @@ export default function Home() {
               <Row
                 key={item.item_id}
                 style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
-                item=
+                item={item.item}
+                expiry={item.expiry}
+                onRemove={}
               />
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
