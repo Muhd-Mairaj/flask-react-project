@@ -4,7 +4,7 @@ import InputField from './InputField';
 
 
 function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
-  const [item]
+  const [itemField, setItemField] 
 
   useEffect(() => {
     console.log("editing", editing)
