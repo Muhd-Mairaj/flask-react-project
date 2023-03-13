@@ -129,7 +129,8 @@ export default function Home() {
   }
 
   function cancelEdit() {
-    set
+    setIsEditing(null);
+    return;
   }
 
   return (
