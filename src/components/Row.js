@@ -1,4 +1,4 @@
-import { InputField } from './'
+import { InputField } from './InputField';
 
 function Row({ editing }) {
 
