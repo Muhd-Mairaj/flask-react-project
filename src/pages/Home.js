@@ -235,7 +235,7 @@ export default function Home() {
                     itemFieldRef={editItemField}
                     expiry={item.expiry}
                     expiryFieldRef={editExpiryField}
-                    error={}
+                    error={editFormErrors.}
                     onCancel={cancelEdit}
                     onEdit={() => {makeEdit(item.item_id)}}
                   />
