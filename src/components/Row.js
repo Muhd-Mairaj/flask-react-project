@@ -1,4 +1,4 @@
-function Row({  }) {
+function Row({ editing }) {
 
 }
 
