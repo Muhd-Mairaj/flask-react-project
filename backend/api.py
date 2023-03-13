@@ -94,7 +94,7 @@ def profile():
     current_date = get_current_date()
 
     # items = db.execute("SELECT item, expiry FROM items WHERE user_id=?", session["user"]["id"])
-    items = db.execute("SELECT item_id,  FROM items WHERE user_id = ? ORDER BY expiry DESC", session["user"]["id"])
+    items = db.execute("SELECT item_id, item, expiry FROM items WHERE user_id = ? ORDER BY expiry DESC", session["user"]["id"])
 
     for item in items:
       expiry_date = get_date(item["expiry"])
