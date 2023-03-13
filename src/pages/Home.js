@@ -24,8 +24,8 @@ export default function Home() {
   const [isEditing, setIsEditing] = useState(null)
   const itemField = useRef()
   const expiryField = useRef()
-  const itemField = useRef()
-  const expiryField = useRef()
+  const edittemField = useRef()
+  const editxpiryField = useRef()
 
   function getDate() {
     const current = new Date();
