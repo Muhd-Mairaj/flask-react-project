@@ -18,7 +18,7 @@ export default function Home() {
   const api = useApi()
   const [items, setItems] = useState([])
   const [formErrors, setFormErrors] = useState({})
-  const [editing, setIsEditing] = useState(false)
+  const [isEditing, setIsEditing] = useState(false)
   const itemField = useRef()
   const expiryField = useRef()
 
@@ -164,7 +164,7 @@ export default function Home() {
                 expiry={item.expiry}
                 onRemove={() => {removeItem(item.item_id)}}
                 onEdit={() => {editItem(item.item_id)}}
-                editing={editing}
+                editing={isEditing}
               />
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
