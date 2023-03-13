@@ -164,7 +164,7 @@ export default function Home() {
     let array = []
     for (let i of items) {
       if (i.key === response.body.item_id) {
-        array.push()
+        array.push(response.body)
       }
     }
     return
