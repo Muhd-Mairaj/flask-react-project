@@ -153,6 +153,7 @@ export default function Home() {
     const errors = {}
 
     if (!item || !item.trim()) {
+      errors.item = "Item field must not be empty"
       return;
     }
     if (!expiry || !expiry.trim()) {
