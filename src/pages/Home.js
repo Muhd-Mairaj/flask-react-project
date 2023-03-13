@@ -9,7 +9,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import Body from '../components/Body';
 import InputField from '../components/InputField';
 import TableRow from '../components/TableRow';
-import TableRow from '../components/TableRo';
+import TableInput from '../components/TableInput';
 import { useApi } from '../contexts/ApiProvider';
 import { useFlash } from '../contexts/FlashProvider';
 
