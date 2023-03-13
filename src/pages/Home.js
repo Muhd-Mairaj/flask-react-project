@@ -163,7 +163,7 @@ export default function Home() {
                 expiry={item.expiry}
                 onRemove={() => {removeItem(item.item_id)}}
                 onEdit={() => {editItem(item.item_id)}}
-                editing=
+                editing={editing}
               />
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
