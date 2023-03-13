@@ -166,7 +166,7 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              {isEditing === {item.item_id} ? <TableRow
+              {isEditing === {item.item_id} ? <TableInput
                     key={item.item_id}
                     style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
                     item={item.item}
