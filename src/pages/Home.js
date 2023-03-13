@@ -185,6 +185,7 @@ export default function Home() {
               {isEditing === item.item_id ? <TableInput
                     key={item.item_id}
                     item={item.item}
+                    itemField
                     expiry={item.expiry}
                     onCancel={cancelEdit}
                     onEdit={() => {editItem(item.item_id)}}
