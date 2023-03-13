@@ -25,7 +25,6 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
           </td>
         </tr>
   }
-
   )
 }
 
