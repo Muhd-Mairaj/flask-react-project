@@ -11,7 +11,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
 
   return (
     <>
-      {editing && key}
+      {key && key}
       {(editing === key) ?
           <tr key={key}>
             <td>
