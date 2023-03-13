@@ -152,6 +152,7 @@ export default function Home() {
       return;
     }
     if (!expiry || !expiry.trim()) {
+      errors.expiry = "Expiry field must not be empty"
       return;
     }
 
