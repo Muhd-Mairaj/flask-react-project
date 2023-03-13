@@ -14,7 +14,8 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
           placeholder="Item name"
           fieldRef={itemField}
           error={formErrors.item}
-        /> }
+        />
+      }
 
     <tr key={key} style={style}>
       <td>{item}</td>
