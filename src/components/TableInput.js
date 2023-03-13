@@ -15,6 +15,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
     console.log("updatedText", updatedText)
 
     ref.current.value = updatedText;
+    console.log("ref.current.value", ref.current.value)
     return
   }
 
