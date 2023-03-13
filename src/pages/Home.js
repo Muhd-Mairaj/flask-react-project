@@ -110,14 +110,14 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    // make sure item is not already being edite
+    // make sure item is not already being edited
     for (let item of isEditing) {
       if (key === item) {
         return;
       }
     }
-    console.log("for loop ends");
 
+    
     setIsEditing([...isEditing, key]);
     return;
 
