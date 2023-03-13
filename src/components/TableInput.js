@@ -19,7 +19,7 @@ function TableRow({ key, item, expiry, onRemove, onEdit }) {
         <td>
           <InputField
             name="expiry"
-            placeholder="expiry"
+            value="expiry"
           />
         </td>
         <td>
