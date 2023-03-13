@@ -9,7 +9,8 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   }, [editing])
 
   return (
-    <
+    <>
+    </>
     {editing && <Button></Button>}
     // <tr key={key} style={style}>
     //     <td>{item}</td>
