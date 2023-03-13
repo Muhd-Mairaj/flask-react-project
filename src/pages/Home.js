@@ -137,7 +137,7 @@ export default function Home() {
   function makeEdit(key) {
     const response = await api.put("/profile", {
       item: item,
-      expiry:
+      expiry: expiry,
       key: key
     })
   }
