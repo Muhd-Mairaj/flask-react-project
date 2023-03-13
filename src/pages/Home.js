@@ -161,7 +161,7 @@ export default function Home() {
     }
 
     console.log("response", response)
-    
+    let array
     return
   }
 
