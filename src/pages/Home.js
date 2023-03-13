@@ -150,7 +150,7 @@ export default function Home() {
       expiry: expiry,
       key: key
     }, {
-      headers
+      headers:
     })
   }
 
