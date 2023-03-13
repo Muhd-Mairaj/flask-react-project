@@ -160,7 +160,7 @@ export default function Home() {
               //   style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
               //   item={item.item}
               //   expiry={item.expiry}
-              //   onRemove={removeItem}
+              //   onRemove={() => {removeItem(item.item_id)}}
               //   onEdit={editItem}
               // />
               <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
