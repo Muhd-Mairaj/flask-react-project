@@ -116,7 +116,7 @@ export default function Home() {
     return;
   }
 
-  async function editItem(key) {
+  async function beginEdit(key) {
     // make sure item is not already being edited
     if (isEditing !== null) {
       flash('You are already editing something!', 'danger', 3);
@@ -245,7 +245,7 @@ export default function Home() {
                     item={item.item}
                     expiry={item.expiry}
                     onRemove={() => {removeItem(item.item_id)}}
-                    onEdit={() => {editItem(item.item_id)}}
+                    onEdit={() => {beginEdit(item.item_id)}}
                   />
                 }
               </>
