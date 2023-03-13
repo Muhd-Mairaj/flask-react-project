@@ -134,7 +134,7 @@ export default function Home() {
     return;
   }
 
-  function makeEdit(key) {
+  async function makeEdit(key) {
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
 
