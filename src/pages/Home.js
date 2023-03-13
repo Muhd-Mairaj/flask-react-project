@@ -161,7 +161,9 @@ export default function Home() {
     }
 
     console.log("response", response)
-    for (let item of items)
+    for (let item of items) {
+      if item.item_id
+    }
     return
   }
 
