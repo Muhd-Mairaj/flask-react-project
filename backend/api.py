@@ -189,7 +189,7 @@ def edit():
     if errors:
         return errors, 400
 
-    
+    #
 
     # make queries
     query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
