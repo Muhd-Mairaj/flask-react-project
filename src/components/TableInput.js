@@ -13,13 +13,14 @@ function TableRow({ key, item, expiry, onRemove, onEdit }) {
         <td>
           <InputField
             name="item"
-            value={item}
+            placeholder="Item name"
+            placeholder="Item name"
           />
         </td>
         <td>
           <InputField
             name="expiry"
-            value={expiry}
+            placeholder="expiry"
           />
         </td>
         <td>
