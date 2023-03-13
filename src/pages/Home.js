@@ -202,37 +202,38 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {items.map((item, _) => {
-              return (
-                <>
-                  {isEditing === item.item_id ? <TableInput
+            {items.map((item, _) => (
+              <>
+              {isEditing === item.item_id ? <TableInput
                     key={item.item_id}
                     item={item.item}
                     itemFieldRef={editItemField}
                     expiry={item.expiry}
                     expiryFieldRef={editExpiryField}
                     onCancel={cancelEdit}
-                    onEdit={() => { makeEdit(item.item_id); } } />
-                    :
-                    <TableRow
-                      key={item.item_id}
-                      style={{ "backgroundColor": `${item.bg === "red" ? "#ff0000a0" : ""}` }}
-                      item={item.item}
-                      expiry={item.expiry}
-                      onRemove={() => { removeItem(item.item_id); } }
-                      onEdit={() => { editItem(item.item_id); } } />}
-                </>
+                    onEdit={() => {makeEdit(item.item_id)}}
+                  />
+                :
+                  <TableRow
+                    key={item.item_id}
+                    style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
+                    item={item.item}
+                    expiry={item.expiry}
+                    onRemove={() => {removeItem(item.item_id)}}
+                    onEdit={() => {editItem(item.item_id)}}
+                  />
+                }
+              </>
 
-                // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
-                //   <td>{item.item}</td>
-                //   <td>{item.expiry}</td>
-                //   <td>
-                //     <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
-                //     <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
-                //   </td>
-                // </tr>
-              );
-            })}
+              // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
+              //   <td>{item.item}</td>
+              //   <td>{item.expiry}</td>
+              //   <td>
+              //     <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
+              //     <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
+              //   </td>
+              // </tr>
+            ))}
           </tbody>
         </Table>
       :
