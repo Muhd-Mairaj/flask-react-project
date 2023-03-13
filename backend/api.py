@@ -197,7 +197,7 @@ def edit():
 
 
     # update item
-    db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", )
+    db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", item, expiry, )
     #UPDATE "items" SET "user_id"='6', "item_id"='13', "item"='item 3', "expiry"='2023-03-22' WHERE "rowid" = 13
 
     # make queries
