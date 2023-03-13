@@ -139,9 +139,6 @@ export default function Home() {
 
   async function makeEdit(key) {
 
-    if (Object.keys(errors).length > 0) {
-      return;
-    }
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
 
@@ -157,6 +154,9 @@ export default function Home() {
     }
 
     setFormErrors(errors)
+    if (Object.keys(errors).length > 0) {
+      return;
+    }
     const response = await api.put("/profile", {
       item: item,
       expiry: expiry,
