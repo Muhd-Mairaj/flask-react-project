@@ -9,7 +9,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   }, [editing])
 
   return (
-    {editing ,&& <tr key={key} style={style}>
+    {editing , && <tr key={key} style={style}>
         <td>{item}</td>
         <td>{expiry}</td>
         <td>
