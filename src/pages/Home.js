@@ -160,7 +160,8 @@ export default function Home() {
       return
     }
 
-    console.log()
+    console.log("response", response)
+    console.log(response)
   }
 
   return (
