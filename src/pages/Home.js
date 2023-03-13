@@ -172,7 +172,7 @@ export default function Home() {
                     key={item.item_id}
                     item={item.item}
                     expiry={item.expiry}
-                    onRemove={() => {removeItem(item.item_id)}}
+                    onRemove={cancelEdit}
                     onEdit={() => {editItem(item.item_id)}}
                   />
                 :
