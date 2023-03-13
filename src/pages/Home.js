@@ -20,10 +20,11 @@ export default function Home() {
   const api = useApi()
   const { flash } = useFlash();
   const [items, setItems] = useState([])
-  const [formErrors, setFormErrors] = useState({})
   const [isEditing, setIsEditing] = useState(null)
+  
   const itemField = useRef()
   const expiryField = useRef()
+  const [formErrors, setFormErrors] = useState({})
   const editItemField = useRef()
   const editExpiryField = useRef()
 
