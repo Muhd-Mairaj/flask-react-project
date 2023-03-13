@@ -114,8 +114,8 @@ export default function Home() {
       if (item === key) {
         return;
       }
-    
     )
+    
     setIsEditing([...isEditing, key]);
     return;
 
