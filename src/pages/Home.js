@@ -161,7 +161,8 @@ export default function Home() {
     }
 
     console.log("response", response)
-    let array
+    let array = []
+    for ()
     return
   }
 
