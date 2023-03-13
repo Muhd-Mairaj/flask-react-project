@@ -166,7 +166,7 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {items.map((item, _) => {return (
+            {items.map((item, _) => {(
               {isEditing === {item.item_id} ? <TableInput
                     key={item.item_id}
                     item={item.item}
