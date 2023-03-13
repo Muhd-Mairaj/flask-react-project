@@ -173,7 +173,8 @@ export default function Home() {
         array.push(i)
       }
     }
-    console.log(array)
+    console.log("array", array)
+    console.log("array", items)
     setItems(array);
     setIsEditing(null);
     return
