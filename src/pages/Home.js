@@ -182,7 +182,7 @@ export default function Home() {
         array.push(i)
       }
     }
-    
+
     setItems(array);
     setIsEditing(null);
     setFormErrors({})
@@ -235,6 +235,7 @@ export default function Home() {
                     itemFieldRef={editItemField}
                     expiry={item.expiry}
                     expiryFieldRef={editExpiryField}
+                    
                     onCancel={cancelEdit}
                     onEdit={() => {makeEdit(item.item_id)}}
                   />
