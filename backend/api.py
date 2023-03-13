@@ -190,7 +190,7 @@ def edit():
         return errors, 400
 
     # validate item
-    query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
+    query = db.execute("SELECT * FROM items WHERE item_id = ?", item_id)
     if len(query) != 1:
         errors["key"] = "No item found"
         return errors, 400
