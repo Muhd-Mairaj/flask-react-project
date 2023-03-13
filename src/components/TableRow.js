@@ -16,7 +16,8 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
             placeholder="Item name"
           />
           <tr key={key}>
-            <td><InputField
+            <td>
+              <InputField
               name="item"
               placeholder="Item name"
             /></td>
