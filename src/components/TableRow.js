@@ -9,7 +9,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   }, [editing])
 
   return (
-    {items ? <Table striped bordered responsive="lg" className="Home">
+    {editing ? <Table striped bordered responsive="lg" className="Home">
           <thead>
             <tr>
               <th>Item</th>
