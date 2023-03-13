@@ -185,7 +185,7 @@ export default function Home() {
 
     setItems(array);
     setIsEditing(null);
-    setFormErrors({})
+    setEditFormErrors({})
     return
   }
 
