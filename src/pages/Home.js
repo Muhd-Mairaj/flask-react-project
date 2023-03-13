@@ -117,7 +117,7 @@ export default function Home() {
       }
     }
 
-    
+    // add item to editing list
     setIsEditing([...isEditing, key]);
     return;
 
