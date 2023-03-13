@@ -171,7 +171,6 @@ export default function Home() {
               {(isEditing === {item.item_id}) ? <TableInput
                     key={item.item_id}
                     item={item.item}
-                    </>
                     expiry={item.expiry}
                     onRemove={() => {removeItem(item.item_id)}}
                     onEdit={() => {editItem(item.item_id)}}
@@ -185,10 +184,11 @@ export default function Home() {
                     onRemove={() => {removeItem(item.item_id)}}
                     onEdit={() => {editItem(item.item_id)}}
                   />
-              }
+                }
 
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
+                </>
               //   <td>{item.expiry}</td>
               //   <td>
               //     <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
