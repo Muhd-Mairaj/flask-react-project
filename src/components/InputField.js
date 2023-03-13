@@ -12,6 +12,7 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
         ref={fieldRef}
         className={class_name}
       />
+    :
     }
       <Form.Control
         type={type || 'text'}
