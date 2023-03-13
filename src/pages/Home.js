@@ -139,8 +139,6 @@ export default function Home() {
 
   async function makeEdit(key) {
 
-    const errors = {}
-
     if (!item || !item.trim()) {
       errors.item = "Item field must not be empty"
     }
