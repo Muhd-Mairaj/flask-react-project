@@ -139,9 +139,11 @@ export default function Home() {
     const expiry = editExpiryField.current.value;
 
     if (!item || !item.trim()) {
+      return;
       errors.item = "Item field must not be empty"
     }
     if (!expiry || !expiry.trim()) {
+      return;
       errors.expiry = "Expiry field must not be empty"
     }
 
