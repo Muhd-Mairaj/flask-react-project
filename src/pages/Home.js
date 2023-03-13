@@ -117,7 +117,7 @@ export default function Home() {
         return;
       }
     }
-    console.log("for loop ");
+    console.log("for loop ends");
 
     setIsEditing([...isEditing, key]);
     return;
