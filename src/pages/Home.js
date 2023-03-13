@@ -155,14 +155,14 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <TableRow
-                key={item.item_id}
-                style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
-                item={item.item}
-                expiry={item.expiry}
-                onRemove={removeItem}
-                onEdit={editItem}
-              />
+              // <TableRow
+              //   key={item.item_id}
+              //   style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
+              //   item={item.item}
+              //   expiry={item.expiry}
+              //   onRemove={removeItem}
+              //   onEdit={editItem}
+              // />
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
               //   <td>{item.expiry}</td>
