@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import InputField from './InputField';
 
 
-function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, expiryError, onCancel, onEdit }) {
+function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, expiryError, onCancel, onEdit: onConfirm }) {
   const [itemField, setItemField] = useState(item);
   const [expiryField, setExpiryField] = useState(expiry);
 
@@ -48,7 +48,7 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
         </td>
         <td>
           <Button variant="dark" className="w-5" onClick={onCancel}>Cancel</Button>
-          <Button variant="dark" className="w-5 ms-2" onClick={onEdit}>Confirm</Button>
+          <Button variant="dark" className="w-5 ms-2" onClick={onConfirm}>Confirm</Button>
         </td>
       </tr>
     </>
