@@ -153,6 +153,8 @@ export default function Home() {
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
 
+    const errors = {}
+
     if (!item || !item.trim()) {
       return;
     }
