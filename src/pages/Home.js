@@ -166,7 +166,7 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              
+              {}
               <TableRow
                 key={item.item_id}
                 style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
