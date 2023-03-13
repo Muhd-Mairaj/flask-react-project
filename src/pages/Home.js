@@ -168,9 +168,7 @@ export default function Home() {
             {items.map((item, _) => (
               {isEditing === {item.item_id} ?
                 :
-
-              }
-              <TableRow
+                <TableRow
                 key={item.item_id}
                 style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
                 item={item.item}
@@ -179,6 +177,8 @@ export default function Home() {
                 onEdit={() => {editItem(item.item_id)}}
                 editing={isEditing}
               />
+              }
+
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
               //   <td>{item.expiry}</td>
