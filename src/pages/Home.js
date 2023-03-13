@@ -28,7 +28,7 @@ export default function Home() {
 
   const editItemField = useRef()
   const editExpiryField = useRef()
-  const [editFormErrors, setFormErrors] = useState({})
+  const [editFormErrors, setEditFormErrors] = useState({})
 
   function getDate() {
     const current = new Date();
