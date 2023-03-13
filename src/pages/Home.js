@@ -236,7 +236,7 @@ export default function Home() {
                     expiryFieldRef={editExpiryField}
                     expiryError={editFormErrors.expiry}
                     onCancel={cancelEdit}
-                    onEdit={() => {makeEdit(item.item_id)}}
+                    onConfirm={() => {makeEdit(item.item_id)}}
                   />
                 :
                   <TableRow
