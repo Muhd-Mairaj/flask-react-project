@@ -110,7 +110,7 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    /
+    // make sure item is not already being edite
     for (let item of isEditing) {
       if (key === item) {
         return;
