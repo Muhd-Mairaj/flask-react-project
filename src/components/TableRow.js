@@ -14,7 +14,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   return (
     <>
       <tr key={key} style={style}>
-        <td>{item}</td>
+        <td>{itemField}</td>
         <td>{expiry}</td>
         <td>
           <Button variant="dark" className="w-5" onClick={onRemove}>Remove</Button>
