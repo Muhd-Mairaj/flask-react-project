@@ -157,6 +157,7 @@ export default function Home() {
     if (Object.keys(errors).length > 0) {
       return;
     }
+    
     const response = await api.put("/profile", {
       item: item,
       expiry: expiry,
