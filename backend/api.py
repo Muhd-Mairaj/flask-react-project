@@ -198,7 +198,7 @@ def edit():
 
     # update item
 
-    UPDATE "items" SET "user_id"='6', "item_id"='13', "item"='item 3', "expiry"='2023-03-22' WHERE "rowid" = 13
+    #UPDATE "items" SET "user_id"='6', "item_id"='13', "item"='item 3', "expiry"='2023-03-22' WHERE "rowid" = 13
 
     # make queries
     print("EDITING STUFF IN DATABASE")
