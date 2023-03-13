@@ -156,11 +156,10 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      console.log("response", response)
+      
       return
     }
 
-    console.log("response", response)
 
     let array = []
     for (let i of items) {
