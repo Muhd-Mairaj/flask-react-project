@@ -173,7 +173,6 @@ export default function Home() {
       return
     }
 
-
     let array = []
     for (let i of items) {
       if (i.item_id === response.body.item_id) {
@@ -183,6 +182,7 @@ export default function Home() {
         array.push(i)
       }
     }
+    
     setItems(array);
     setIsEditing(null);
     setFormErrors({})
