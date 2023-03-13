@@ -166,7 +166,7 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {items.map((item, _) => (
+            {items.map((item, _) => {(
               {isEditing === {item.item_id} ? <TableInput
                     key={item.item_id}
                     item={item.item}
@@ -193,7 +193,7 @@ export default function Home() {
               //     <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
               //   </td>
               // </tr>
-            ))}
+            )})}
           </tbody>
         </Table>
       :
