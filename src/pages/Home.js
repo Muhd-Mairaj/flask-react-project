@@ -173,7 +173,7 @@ export default function Home() {
     }
 
     setItems(array);
-    
+    set
     return
   }
 
