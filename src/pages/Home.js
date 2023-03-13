@@ -172,7 +172,7 @@ export default function Home() {
       setFormErrors(response.body)
       return
     }
-
+    else
     setFormErrors({})
 
     let array = []
