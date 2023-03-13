@@ -2,7 +2,7 @@ import { InputField } from './InputField';
 
 function Row({ editing }) {
   return (
-    {ed}
+    {editing && }
   )
 }
 
