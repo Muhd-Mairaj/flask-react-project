@@ -135,6 +135,7 @@ export default function Home() {
 
   function makeEdit(key) {
     const response = await api.put("/profile", {
+      
       key: key
     })
   }
