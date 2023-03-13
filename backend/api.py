@@ -179,7 +179,7 @@ def edit():
         errors["expiry"] = "This field must be filled"
 
     # check item_id exists
-    if not item or not expiry.strip():
+    if not item or not item_id.strip():
         errors["expiry"] = "This field must be filled"
 
     return
