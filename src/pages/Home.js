@@ -174,7 +174,7 @@ export default function Home() {
       }
     }
     console.log("array", array)
-    console.log("array", items)
+    console.log("items", items)
     setItems(array);
     setIsEditing(null);
     return
