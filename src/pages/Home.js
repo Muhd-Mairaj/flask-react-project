@@ -169,6 +169,7 @@ export default function Home() {
 
     if (!response.ok) {
       flash("Unable to edit", "danger", 3)
+      set
       return
     }
 
