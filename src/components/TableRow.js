@@ -18,9 +18,10 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
           <tr key={key}>
             <td>
               <InputField
-              name="item"
-              placeholder="Item name"
-            /></td>
+                name="item"
+                placeholder="Item name"
+              />
+            </td>
             <td>{expiry}</td>
             <td>
               <Button variant="dark" className="w-5" onClick={onRemove}>Remove</Button>
