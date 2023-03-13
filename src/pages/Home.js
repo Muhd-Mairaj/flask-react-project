@@ -152,7 +152,7 @@ export default function Home() {
       return;
     }
 
-    seteditFormErrors(errors)
+    setEditFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return;
     }
