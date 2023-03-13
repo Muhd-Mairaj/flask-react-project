@@ -9,7 +9,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   }, [editing])
 
   return (
-    {editing} ? <InputField
+    {editing ? <InputField
           name="item"
           placeholder="Item name"
           fieldRef={itemField}
