@@ -166,7 +166,9 @@ export default function Home() {
       if (i.key === response.body.item_id) {
         array.push(response.body)
       }
-      else
+      else {
+        
+      }
     }
     return
   }
