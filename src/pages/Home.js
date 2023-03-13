@@ -136,18 +136,18 @@ export default function Home() {
 
   async function makeEdit(key) {
     const itemField = editItemField.current.value;
-    const expiry = editExpiryField.current.value;
+    const expiryField = editExpiryField.current.value;
 
     if (!itemField || !itemField.trim()) {
       return;
     }
-    if (!expiry || !expiry.trim()) {
+    if (!expiryField || !expiryField.trim()) {
       return;
     }
 
     const response = await api.put("/profile", {
       item: itemField,
-      expiry: expiry,
+      expiry: expiryField,
       key: key
     }, {
       headers: {
