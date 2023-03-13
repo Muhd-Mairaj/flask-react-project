@@ -1,7 +1,9 @@
 import { InputField } from './InputField';
 
 function Row({ editing }) {
-  return ()
+  return (
+    {ed}
+  )
 }
 
 export default Row;
