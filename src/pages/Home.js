@@ -168,7 +168,7 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      flash("Unable to edit", "danger", 3)
+      // flash("Unable to edit", "danger", 3)
       setFormErrors(response.body)
       return
     }
