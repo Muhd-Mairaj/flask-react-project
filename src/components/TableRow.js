@@ -15,7 +15,8 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
           fieldRef={itemField}
           error={formErrors.item}
         />
-      }
+    :
+  }
 
     <tr key={key} style={style}>
       <td>{item}</td>
