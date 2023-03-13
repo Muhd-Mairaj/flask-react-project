@@ -172,22 +172,21 @@ export default function Home() {
       setFormErrors(response.body)
       return
     }
-    else {
-      setFormErrors({})
 
-      let array = []
-      for (let i of items) {
-        if (i.item_id === response.body.item_id) {
-          array.push(response.body)
-        }
-        else {
-          array.push(i)
-        }
+    setFormErrors({})
+
+    let array = []
+    for (let i of items) {
+      if (i.item_id === response.body.item_id) {
+        array.push(response.body)
       }
-      setItems(array);
-      setIsEditing(null);
-      return
+      else {
+        array.push(i)
+      }
     }
+    setItems(array);
+    setIsEditing(null);
+    return
   }
 
   return (
