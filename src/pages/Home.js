@@ -169,7 +169,7 @@ export default function Home() {
 
     if (!response.ok) {
       flash("Unable to edit", "danger", 3)
-      setFormErrors()
+      setFormErrors(response.body)
       return
     }
 
