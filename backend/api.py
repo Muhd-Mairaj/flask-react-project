@@ -189,7 +189,7 @@ def edit():
     if errors:
         return errors, 400
 
-    return
+    return {}, 204
 
 
 @app.route("/register", methods=["POST"])
