@@ -138,8 +138,6 @@ export default function Home() {
   }
 
   async function makeEdit(key) {
-    const item = itemField.current.value;
-    const expiry = expiryField.current.value;
 
     const errors = {}
 
