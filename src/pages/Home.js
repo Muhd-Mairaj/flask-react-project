@@ -172,8 +172,8 @@ export default function Home() {
       return
     }
 
+    setFormErrors({})
 
-    setFormErrors
     let array = []
     for (let i of items) {
       if (i.item_id === response.body.item_id) {
