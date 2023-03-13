@@ -7,7 +7,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   useEffect(() => {
     console.log("editing", editing)
     console.log("key", key)
-  }, [editing])
+  }, [editing], key)
 
   return (
     <>
