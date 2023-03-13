@@ -199,7 +199,7 @@ export default function Home() {
                     expiry={item.expiry}
                     expiryFieldRef={editExpiryField}
                     onCancel={cancelEdit}
-                    onEdit={() => {editItem(item.item_id)}}
+                    onEdit={makeEdit(item.item_id)}
                   />
                 :
                   <TableRow
