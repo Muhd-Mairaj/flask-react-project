@@ -29,7 +29,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
         </td>
         <td>
           <Button variant="dark" className="w-5" onClick={onCancel}>Cancel</Button>
-          <Button variant="dark" className="w-5 px-4 ms-2" onClick={onEdit}>Confirm</Button>
+          <Button variant="dark" className="w-5 ms-2" onClick={onEdit}>Confirm</Button>
         </td>
       </tr>
     </>
