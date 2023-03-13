@@ -7,11 +7,11 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   useEffect(() => {
     console.log("editing", editing)
     console.log("key", key)
-  }, [editing, key])
+  }, [editing], key)
 
   return (
     <>
-      {((key !== undefined) && (editing === key)) ?
+      {(editing === key) ?
           <tr key={key}>
             <td>
               <InputField
