@@ -24,7 +24,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
             placeholder="expiry"
             type="date"
             value={expiry}
-            ref={exp}
+            ref={expiryFieldRef}
           />
         </td>
         <td>
