@@ -167,6 +167,7 @@ export default function Home() {
           <tbody>
             {items.map((item, _) => (
               {isEditing === {item.item_id} ?
+                :
               }
               <TableRow
                 key={item.item_id}
