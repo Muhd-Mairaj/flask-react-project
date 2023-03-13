@@ -183,7 +183,7 @@ def edit():
         errors["expiry"] = "This field must be filled"
 
     # check item_id exists
-    if not item or not item_id.is_integer():
+    if not item:
         errors["key"] = "This field must be filled"
 
     if errors:
