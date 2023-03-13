@@ -139,9 +139,6 @@ export default function Home() {
 
   async function makeEdit(key) {
 
-    if (!item || !item.trim()) {
-      errors.item = "Item field must not be empty"
-    }
     if (!expiry || !expiry.trim()) {
       errors.expiry = "Expiry field must not be empty"
     }
