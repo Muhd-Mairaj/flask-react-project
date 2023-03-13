@@ -8,7 +8,9 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
   }, [key])
 
 
-  function handleChange(event, ref)
+  function handleChange(event, ref) {
+    
+  }
 
   return (
     <>
