@@ -201,7 +201,7 @@ def edit():
     db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", item, expiry, item_id)
 
     # return updated item
-    query = d
+    query = db.execute("SELECT ")
 
     return {}, 204
 
