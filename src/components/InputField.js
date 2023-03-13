@@ -13,7 +13,6 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
         className={class_name}
       />
     :
-    }
       <Form.Control
         type={type || 'text'}
         min={min || ""}
@@ -21,6 +20,7 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
         ref={fieldRef}
         className={class_name}
       />
+    }
       <div className="mx-1">
         <Form.Text className="text-danger text-center">{error}</Form.Text>
       </div>
