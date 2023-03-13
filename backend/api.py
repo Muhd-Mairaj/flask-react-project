@@ -190,9 +190,11 @@ def edit():
         return errors, 400
 
     # validate item
+    query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
+    if len(query) != 1:
+        return 
 
     # make queries
-    query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
     print("EDITING STUFF IN DATABASE")
 
     return {}, 204
