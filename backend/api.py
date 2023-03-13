@@ -127,7 +127,6 @@ def add():
 
     # return item as response
     item = {
-        "user_id": session["user"]["id"],
         "item_id": query,
         "item": item,
         "expiry": expiry,
