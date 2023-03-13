@@ -99,6 +99,7 @@ export default function Home() {
 
     if (!response.ok) {
       // do something
+      console.log()
       return
     }
 
