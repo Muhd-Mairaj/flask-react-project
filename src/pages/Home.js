@@ -156,7 +156,7 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      
+      console.log("response", response)
     }
   }
 
