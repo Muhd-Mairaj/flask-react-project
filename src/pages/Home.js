@@ -110,7 +110,7 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    for (item in isEditing) {
+    for (let item in isEditing) {
       if (key === item) {
         return
       }
