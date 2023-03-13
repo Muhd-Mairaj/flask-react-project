@@ -29,7 +29,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
             name="item"
             placeholder="Item name"
             value={itemField}
-            onChange={(event) => {event.current.value}}
+            onChange={(event) => {setItemFieldevent.current.value}}
             fieldRef={itemFieldRef}
             />
         </td>
