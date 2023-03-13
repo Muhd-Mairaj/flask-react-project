@@ -201,7 +201,6 @@ def edit():
 
     # return updated item as response
     item = {
-        "user_id": session["user"]["id"],
         "item_id": item_id,
         "item": item,
         "expiry": expiry,
