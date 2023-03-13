@@ -5,7 +5,7 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
   return (
     <Form.Group controlId={name} className="InputField">
       {label && <Form.Label className={class_name}>{label}</Form.Label>}
-      {value }
+      {(value )}
       <Form.Control
         type={type || 'text'}
         min={min || ""}
