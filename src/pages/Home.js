@@ -110,7 +110,7 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    setIsEditing(!isEditing)
+    setIsEditing(!isEditing);
     return;
 
     const response = await api.put("/profile", {
