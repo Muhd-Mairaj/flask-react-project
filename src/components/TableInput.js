@@ -10,7 +10,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
 
   function handleChange(event, ref) {
     const updatedText = event.target.value;
-    ref
+    ref.current.value = 
   }
 
   return (
