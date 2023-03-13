@@ -138,7 +138,13 @@ export default function Home() {
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
 
-    
+    if (!item || !item.trim()) {
+      errors.item = "Item field must not be empty"
+    }
+    if (!expiry || !expiry.trim()) {
+      errors.expiry = "Expiry field must not be empty"
+    }
+
     const response = await api.put("/profile", {
       item: item,
       expiry: expiry,
