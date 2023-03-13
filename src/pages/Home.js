@@ -155,7 +155,9 @@ export default function Home() {
       }
     })
 
-    
+    if (!response.ok) {
+      
+    }
   }
 
   return (
