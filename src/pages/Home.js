@@ -173,7 +173,6 @@ export default function Home() {
       return
     }
 
-    setFormErrors({})
 
     let array = []
     for (let i of items) {
@@ -186,6 +185,7 @@ export default function Home() {
     }
     setItems(array);
     setIsEditing(null);
+    setFormErrors({})
     return
   }
 
