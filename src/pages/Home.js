@@ -111,11 +111,7 @@ export default function Home() {
 
   async function editItem(key) {
     // make sure item is not already being edited
-    for (let item of isEditing) {
-      if (key === item) {
-        return;
-      }
-    }
+    if ()
 
     // add item to editing list
     setIsEditing([...isEditing, key]);
