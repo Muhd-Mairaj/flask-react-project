@@ -151,6 +151,9 @@ export default function Home() {
       key: key
     }, {
       headers:
+      {
+        Authorization: "Bearer " + localStorage.getItem("access_token")
+      }
     })
   }
 
