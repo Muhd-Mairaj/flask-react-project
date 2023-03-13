@@ -14,7 +14,6 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
           <InputField
             name="item"
             placeholder="Item name"
-            
             value={item}
           />
         </td>
@@ -22,6 +21,7 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
           <InputField
             name="expiry"
             placeholder="expiry"
+            type="date"
             value={expiry}
           />
         </td>
