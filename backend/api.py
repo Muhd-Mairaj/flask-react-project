@@ -200,8 +200,7 @@ def edit():
     print("EDITING STUFF IN DATABASE")
     db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", item, expiry, item_id)
 
-    # return updated item
-    # return item as response
+    # return updated item as response
     item = {
         "user_id": session["user"]["id"],
         "item_id": query,
