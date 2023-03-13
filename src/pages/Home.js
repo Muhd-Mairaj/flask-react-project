@@ -233,7 +233,7 @@ export default function Home() {
                     key={item.item_id}
                     item={item.item}
                     itemFieldRef={editItemField}
-                    itemError={itemFormErrors.expiry}
+                    itemError={editFormErrors.item}
                     expiry={item.expiry}
                     expiryFieldRef={editExpiryField}
                     expiryError={editFormErrors.expiry}
