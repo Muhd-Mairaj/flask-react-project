@@ -169,8 +169,13 @@ def edit():
     expiry = request.json.get("expiry")
     item_id = request.json.get("key")
 
+    # check item exists
+    if not item or not item.strip():
+        errors["item"] = "This field must be filled"
+    # check expiry exists
+    if not expiry or not expiry.strip():
+        errors["expiry"] = "This field must be filled"
 
-    
     return
 
 
