@@ -2,4 +2,4 @@ function Row({  }) {
 
 }
 
-export default 
+export default Row;
