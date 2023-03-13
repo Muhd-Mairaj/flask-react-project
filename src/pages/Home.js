@@ -139,7 +139,6 @@ export default function Home() {
 
   async function makeEdit(key) {
 
-    setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return;
     }
@@ -156,6 +155,7 @@ export default function Home() {
       return;
     }
 
+    setFormErrors(errors)
     const response = await api.put("/profile", {
       item: item,
       expiry: expiry,
