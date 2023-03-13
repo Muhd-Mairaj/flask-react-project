@@ -165,6 +165,11 @@ def remove():
 @app.route("/profile", methods=["PUT"])
 @token_auth.login_required
 def edit():
+    item = request.json.get("item")
+    expiry = request.json.get("expiry")
+    item_id = request.json.get("key")
+
+
     
     return
 
