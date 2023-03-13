@@ -27,7 +27,9 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
 
   return (
     <>
-    <Form onSubmit={onConfirm}
+    <Form onSubmit={onConfirm}>
+      
+    </Form>
       <tr key={key}>
         <td>
           <InputField
