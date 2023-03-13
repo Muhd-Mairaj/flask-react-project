@@ -187,7 +187,7 @@ def edit():
         errors["expiry"] = "This field must be filled"
 
     if errors:
-        return
+        return errors, 400
 
     return
 
