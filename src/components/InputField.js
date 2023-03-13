@@ -11,7 +11,7 @@ function InputField({ name, label, type, value, onChange, min, placeholder, erro
           placeholder={placeholder}
           ref={fieldRef}
           value={value || ""}
-          
+          onChange={onChange}
           className={class_name}
         />
       :
