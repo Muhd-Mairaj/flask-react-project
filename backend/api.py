@@ -169,8 +169,8 @@ def edit():
     expiry = request.json.get("expiry")
     item_id = request.json.get("key")
     print(f"{item = }")
-    print(f"{item = }")
-    print(f"{item = }")
+    print(f"{expiry = }")
+    print(f"{item_id = }")
     errors = {}
 
     # check item exists
