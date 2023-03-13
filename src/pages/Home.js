@@ -152,14 +152,15 @@ export default function Home() {
           </thead>
           <tbody>
             {items.map((item, _) => (
-              <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
-                <td>{item.item}</td>
-                <td>{item.expiry}</td>
-                <td>
-                  <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
-                  <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
-                </td>
-              </tr>
+              
+              // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
+              //   <td>{item.item}</td>
+              //   <td>{item.expiry}</td>
+              //   <td>
+              //     <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
+              //     <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
+              //   </td>
+              // </tr>
             ))}
           </tbody>
         </Table>
