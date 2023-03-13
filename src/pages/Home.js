@@ -161,7 +161,7 @@ export default function Home() {
     }
 
     console.log("response", response)
-    for (let item of )
+    for (let item of items)
     return
   }
 
