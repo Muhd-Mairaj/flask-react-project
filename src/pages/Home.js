@@ -110,11 +110,7 @@ export default function Home() {
   }
 
   async function editItem(key) {
-    {isEditing.map((item, _)) => (
-      if (item === key) {
-        return;
-      }
-    )};
+    for (item in isEditing)
 
     setIsEditing([...isEditing, key]);
     return;
