@@ -162,6 +162,11 @@ def remove():
     return {}, 204
 
 
+@app.route("/profile", methods=["PUT"])
+@token_auth.login_required
+def edit():
+    return
+
 
 @app.route("/register", methods=["POST"])
 def register():
