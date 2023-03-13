@@ -9,7 +9,7 @@ function Row({ editing, key, style, item, expiry, onRemove, onEdit }) {
     //       error={formErrors.item}
     //     /> }
 
-    <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
+    <tr key={ key } style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
       <td>{item.item}</td>
       <td>{item.expiry}</td>
       <td>
