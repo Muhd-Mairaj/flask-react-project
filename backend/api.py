@@ -178,8 +178,8 @@ def edit():
     if not expiry or not expiry.strip():
         errors["expiry"] = "This field must be filled"
 
-    # check key exists
-    if not expiry or not expiry.strip():
+    # check item_id exists
+    if not item or not expiry.strip():
         errors["expiry"] = "This field must be filled"
 
     return
