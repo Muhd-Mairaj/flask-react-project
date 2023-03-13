@@ -18,7 +18,7 @@ export default function Home() {
   const api = useApi()
   const [items, setItems] = useState([])
   const [formErrors, setFormErrors] = useState({})
-  const [editing, isEditing] = us
+  const [editing, isEditing] = useState(f)
   const itemField = useRef()
   const expiryField = useRef()
 
