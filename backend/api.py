@@ -190,7 +190,7 @@ def edit():
         return errors, 400
 
     # make queries
-    print("CHANGIND STUFF IN DATABASE")
+    print("EDITING STUFF IN DATABASE")
 
     return {}, 204
 
