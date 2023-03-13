@@ -155,7 +155,7 @@ export default function Home() {
           <tbody>
             {items.map((item, _) => (
               <Row
-                
+                key=
               />
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
               //   <td>{item.item}</td>
