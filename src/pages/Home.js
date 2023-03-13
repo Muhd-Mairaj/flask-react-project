@@ -138,7 +138,7 @@ export default function Home() {
   }
 
   async function makeEdit(event, key) {
-    event.preventDefault()
+    event.preventDefault();
 
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
