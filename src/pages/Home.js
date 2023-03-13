@@ -138,6 +138,22 @@ export default function Home() {
   }
 
   async function makeEdit(key) {
+    const item = itemField.current.value;
+    const expiry = expiryField.current.value;
+
+    const errors = {}
+
+    if (!item || !item.trim()) {
+      errors.item = "Item field must not be empty"
+    }
+    if (!expiry || !expiry.trim()) {
+      errors.expiry = "Expiry field must not be empty"
+    }
+
+    setFormErrors(errors)
+    if (Object.keys(errors).length > 0) {
+      return;
+    }
     const item = editItemField.current.value;
     const expiry = editExpiryField.current.value;
 
