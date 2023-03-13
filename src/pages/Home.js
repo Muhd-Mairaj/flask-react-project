@@ -24,6 +24,8 @@ export default function Home() {
   const [isEditing, setIsEditing] = useState(null)
   const itemField = useRef()
   const expiryField = useRef()
+  const itemField = useRef()
+  const expiryField = useRef()
 
   function getDate() {
     const current = new Date();
@@ -135,7 +137,7 @@ export default function Home() {
 
   function makeEdit(key) {
     const response = await api.put("/profile", {
-      
+
       key: key
     })
   }
