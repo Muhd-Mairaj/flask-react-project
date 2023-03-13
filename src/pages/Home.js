@@ -111,7 +111,7 @@ export default function Home() {
 
   async function editItem(key) {
     for (item in isEditing) {
-      if (item === )
+      if (key === item)
     }
 
     setIsEditing([...isEditing, key]);
