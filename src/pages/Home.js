@@ -173,7 +173,7 @@ export default function Home() {
     }
 
     setItems(array);
-    setIsEditing()
+    setIsEditing(null);
     return
   }
 
