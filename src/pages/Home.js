@@ -169,14 +169,14 @@ export default function Home() {
               {isEditing === {item.item_id} ?
                 :
                   <TableRow
-                  key={item.item_id}
-                  style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
-                  item={item.item}
-                  expiry={item.expiry}
-                  onRemove={() => {removeItem(item.item_id)}}
-                  onEdit={() => {editItem(item.item_id)}}
-                  editing={isEditing}
-                />
+                    key={item.item_id}
+                    style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}
+                    item={item.item}
+                    expiry={item.expiry}
+                    onRemove={() => {removeItem(item.item_id)}}
+                    onEdit={() => {editItem(item.item_id)}}
+                    editing={isEditing}
+                  />
               }
 
               // <tr key={item.item_id} style={{"backgroundColor": `${item.bg === "red" ? "#ff0000a0": ""}`}}>
