@@ -135,7 +135,7 @@ export default function Home() {
   }
 
   function makeEdit(key) {
-    const item = edit
+    const item = editItemField
     const response = await api.put("/profile", {
       item: item,
       expiry: expiry,
