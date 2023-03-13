@@ -168,11 +168,11 @@ def edit():
     item = request.json.get("item")
     expiry = request.json.get("expiry")
     item_id = request.json.get("key")
+    errors = {}
 
     # check item exists
     if not item or not item.strip():
         # errors["item"] = "This field must be filled"
-        return jsonify
 
     # check expiry exists
     if not expiry or not expiry.strip():
