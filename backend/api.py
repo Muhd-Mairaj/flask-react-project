@@ -194,6 +194,7 @@ def edit():
     if len(query) != 1:
         errors["key"] = "No item found"
         return errors, 400
+
     
 
     # make queries
