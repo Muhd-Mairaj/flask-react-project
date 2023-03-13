@@ -8,9 +8,9 @@ function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, o
   }, [key])
 
 
-  function handleChange(event) {
-    const updatedKeyword = event.target.value;
-
+  function handleChange(event, ref) {
+    const updatedText = event.target.value;
+    ref.current.value = updatedText;
     return
   }
 
