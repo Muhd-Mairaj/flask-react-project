@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import InputField from './InputField';
 
 
-function TableRow({ key, item, itemFieldRef, expiry, expiryField onCancel, onEdit }) {
+function TableRow({ key, item, itemFieldRef, expiry, expiryFieldRef, onCancel, onEdit }) {
   useEffect(() => {
   }, [key])
 
