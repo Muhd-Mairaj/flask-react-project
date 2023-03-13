@@ -150,8 +150,7 @@ export default function Home() {
       expiry: expiry,
       key: key
     }, {
-      headers:
-      {
+      headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token")
       }
     })
