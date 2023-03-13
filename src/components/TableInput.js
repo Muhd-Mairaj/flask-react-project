@@ -32,7 +32,7 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
             value={itemField}
             onChange={(event) => {setItemField(event.target.value)}}
             fieldRef={itemFieldRef}
-            error={}
+            error={itemError}
             />
         </td>
         <td>
