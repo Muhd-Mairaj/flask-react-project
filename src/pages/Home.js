@@ -112,7 +112,7 @@ export default function Home() {
   async function editItem(key) {
     console.log("for loop starts");
     for (let item in isEditing) {
-      console.log()
+      console.log("item", item);
       if (key === item) {
         return;
       }
