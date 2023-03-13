@@ -114,7 +114,7 @@ export default function Home() {
     for (let item in isEditing) {
       console.log("item", item);
       if (key === item) {
-        console.log("item", item, "matches")
+        console.log("item", item, "matches key", key)
         return;
       }
     }
