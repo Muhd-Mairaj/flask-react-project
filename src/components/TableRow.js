@@ -11,7 +11,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
 
   return (
     <>
-      {(key !== undefined) && (editing === key) ?
+      {((key !== undefined) && (editing === key)) ?
           <tr key={key}>
             <td>
               <InputField
