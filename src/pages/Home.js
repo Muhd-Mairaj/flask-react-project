@@ -162,7 +162,9 @@ export default function Home() {
 
     console.log("response", response)
     let array = []
-    for (let i of items)
+    for (let i of items) {
+      
+    }
     return
   }
 
