@@ -16,9 +16,14 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
       error={formErrors.item}
     />
       :
-        <Spinner animation="border" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </Spinner>
+      <tr key={key} style={style}>
+      <td>{item}</td>
+      <td>{expiry}</td>
+      <td>
+        <Button variant="dark" className="w-5" onClick={onRemove}>Remove</Button>
+        <Button variant="dark" className="w-5 px-4 ms-2" onClick={onEdit}>Edit</Button>
+      </td>
+    </tr>
       }
 
     {editing ? <InputField
