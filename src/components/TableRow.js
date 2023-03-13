@@ -20,4 +20,4 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
   )
 }
 
-export default Row;
+export default TableRow;
