@@ -192,7 +192,8 @@ def edit():
     # validate item
     query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
     if len(query) != 1:
-        return 
+        errors
+        return
 
     # make queries
     print("EDITING STUFF IN DATABASE")
