@@ -128,7 +128,9 @@ export default function Home() {
     })
   }
 
-  function cancelEdit()
+  function cancelEdit() {
+    
+  }
 
   return (
     <Body>
