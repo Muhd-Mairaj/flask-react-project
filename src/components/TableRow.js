@@ -18,7 +18,6 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
             name="item"
             placeholder="Item name"
           />
-          <Button
         :
           <tr key={key} style={style}>
           <td>{item}</td>
