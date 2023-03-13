@@ -11,7 +11,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
 
   return (
     <>
-<tr key={key}>
+          <tr key={key}>
             <td>
               <InputField
                 name="item"
