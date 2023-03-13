@@ -11,7 +11,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
 
   return (
     <>
-      {key && 
+      {key && {
           <tr key={key}>
             <td>
               <InputField
@@ -39,7 +39,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
               <Button variant="dark" className="w-5 px-4 ms-2" onClick={onEdit}>Edit</Button>
             </td>
           </tr>
-      }
+      }}
       {/* <tr key={key} style={style}>
         <td>{item}</td>
         <td>{expiry}</td>
