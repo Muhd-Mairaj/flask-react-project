@@ -1,4 +1,4 @@
-import { useEffect }
+import { useEffect } from 'react';
 import Button from 'react-bootstrap/Button';
 import { InputField } from './InputField';
 
