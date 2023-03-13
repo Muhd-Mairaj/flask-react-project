@@ -182,9 +182,9 @@ export default function Home() {
         array.push(i)
       }
     }
+    setFormErrors
     setItems(array);
     setIsEditing(null);
-    setFormErrors
     return
   }
 
