@@ -172,7 +172,7 @@ export default function Home() {
       }
     }
 
-    setItems(array)
+    setItems(array);
     return
   }
 
