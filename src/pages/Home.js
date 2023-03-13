@@ -137,7 +137,7 @@ export default function Home() {
     return;
   }
 
-  async function makeEdit(event, key) {
+  async function handleEdit(event, key) {
     event.preventDefault();
 
     const item = editItemField.current.value;
@@ -238,7 +238,7 @@ export default function Home() {
                     expiryFieldRef={editExpiryField}
                     expiryError={editFormErrors.expiry}
                     onCancel={cancelEdit}
-                    onConfirm={(event) => {makeEdit(event, item.item_id)}}
+                    onConfirm={(event) => {handleEdit(event, item.item_id)}}
                   />
                 :
                   <TableRow
