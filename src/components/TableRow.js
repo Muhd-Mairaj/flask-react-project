@@ -18,7 +18,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
             name="item"
             placeholder="Item name"
           />
-          <tr key={key} style={style}>
+          <tr key={key}>
             <td>{item}</td>
             <td>{expiry}</td>
             <td>
