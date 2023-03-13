@@ -168,6 +168,7 @@ export default function Home() {
             {items.map((item, _) => (
               {isEditing === {item.item_id} ?
                 :
+
               }
               <TableRow
                 key={item.item_id}
