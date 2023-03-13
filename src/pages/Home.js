@@ -128,6 +128,8 @@ export default function Home() {
     })
   }
 
+  function cancelEdit()
+
   return (
     <Body>
       <Form onSubmit={handleSubmit}>
