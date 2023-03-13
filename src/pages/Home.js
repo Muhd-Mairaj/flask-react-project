@@ -112,7 +112,7 @@ export default function Home() {
   async function editItem(key) {
     // make sure item is not already being edited
     if (key === isEditing) {
-      flash('You have successfully logged in!', 'success')
+      flash('You are already editing something!', 'success')
     }
 
     // add item to editing list
