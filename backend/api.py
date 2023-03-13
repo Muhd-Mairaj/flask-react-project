@@ -203,6 +203,15 @@ def edit():
     # return updated item
     query = db.execute("SELECT ")
 
+# return item as response
+    item = {
+        "user_id": session["user"]["id"],
+        "item_id": query,
+        "item": item,
+        "expiry": expiry,
+        "bg": "red" if get_date(expiry) < get_current_date() else "",
+    }
+    return item, 200
     return {}, 204
 
 
