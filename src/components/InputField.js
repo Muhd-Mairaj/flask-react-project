@@ -10,7 +10,7 @@ function InputField({ name, label, type, value, min, placeholder, error, fieldRe
         min={min || ""}
         placeholder={placeholder}
         ref={fieldRef}
-        value=={value || }
+        value={value || ""}
         className={class_name}
       />
       <div className="mx-1">
