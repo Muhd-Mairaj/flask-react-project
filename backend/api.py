@@ -199,7 +199,7 @@ def edit():
     # update item
     print("EDITING STUFF IN DATABASE")
     db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", item, expiry, item_id)
-
+    
 
 
     return {}, 204
