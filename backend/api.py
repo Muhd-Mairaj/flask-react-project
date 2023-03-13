@@ -201,8 +201,6 @@ def edit():
     db.execute("UPDATE items SET item = ?, expiry = ? where item_id = ?", item, expiry, item_id)
 
     # return updated item
-    query = db.execute("SELECT ")
-
     # return item as response
     item = {
         "user_id": session["user"]["id"],
