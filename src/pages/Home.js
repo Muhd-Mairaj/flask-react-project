@@ -139,10 +139,6 @@ export default function Home() {
 
   async function makeEdit(key) {
 
-    if (!expiry || !expiry.trim()) {
-
-    }
-
     setFormErrors(errors)
     if (Object.keys(errors).length > 0) {
       return;
