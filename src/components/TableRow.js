@@ -10,10 +10,7 @@ function TableRow({ editing, key, style, item, expiry, onRemove, onEdit }) {
 
   return (
     <>
-      {editing === key ? <InputField
-            name="item"
-            placeholder="Item name"
-          />
+      {editing === key ?
           <InputField
             name="item"
             placeholder="Item name"
