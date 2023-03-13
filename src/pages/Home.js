@@ -162,7 +162,7 @@ export default function Home() {
 
     console.log("response", response)
     console.log("response.body", response.body)
-    console.log("response.body", response.body)
+    console.log("response.body", response.body.item_id)
 
     let array = []
     for (let i of items) {
