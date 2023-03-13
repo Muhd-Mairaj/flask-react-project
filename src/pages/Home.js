@@ -140,11 +140,9 @@ export default function Home() {
 
     if (!item || !item.trim()) {
       return;
-      errors.item = "Item field must not be empty"
     }
     if (!expiry || !expiry.trim()) {
       return;
-      errors.expiry = "Expiry field must not be empty"
     }
 
     const response = await api.put("/profile", {
