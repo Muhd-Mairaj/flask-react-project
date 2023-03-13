@@ -209,7 +209,6 @@ def edit():
         "bg": "red" if get_date(expiry) < get_current_date() else "",
     }
     return item, 200
-    return {}, 204
 
 
 @app.route("/register", methods=["POST"])
