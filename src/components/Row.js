@@ -10,8 +10,8 @@ function Row({ editing, key, style, item, expiry, onRemove, onEdit }) {
     //     /> }
 
     <tr key={key} style={style}>
-      <td>{Item}</td>
-      <td>{item.expiry}</td>
+      <td>{item}</td>
+      <td>{expiry}</td>
       <td>
         <Button variant="dark" className="w-5" onClick={() => {removeItem(item.item_id)}}>Remove</Button>
         <Button variant="dark" className="w-5 px-4 ms-2" onClick={() => {editItem(item.item_id)}}>Edit</Button>
