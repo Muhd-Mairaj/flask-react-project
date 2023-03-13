@@ -192,7 +192,7 @@ def edit():
     # validate item
     query = db.exeucte("SELECT * FROM items WHERE item_id = ?", item_id)
     if len(query) != 1:
-        errors["key"]
+        errors["key"] = "Invalid key"
         return
 
     # make queries
