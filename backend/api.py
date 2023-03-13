@@ -203,7 +203,7 @@ def edit():
     # return updated item
     query = db.execute("SELECT ")
 
-# return item as response
+    # return item as response
     item = {
         "user_id": session["user"]["id"],
         "item_id": query,
