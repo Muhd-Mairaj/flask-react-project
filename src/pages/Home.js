@@ -21,12 +21,14 @@ export default function Home() {
   const { flash } = useFlash();
   const [items, setItems] = useState([])
   const [isEditing, setIsEditing] = useState(null)
-  
+
   const itemField = useRef()
   const expiryField = useRef()
   const [formErrors, setFormErrors] = useState({})
+
   const editItemField = useRef()
   const editExpiryField = useRef()
+  const [formErrors, setFormErrors] = useState({})
 
   function getDate() {
     const current = new Date();
