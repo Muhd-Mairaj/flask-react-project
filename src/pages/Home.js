@@ -156,7 +156,7 @@ export default function Home() {
     })
 
     if (!response.ok) {
-      
+      flash("Unable to edit")
       return
     }
 
