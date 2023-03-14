@@ -10,24 +10,10 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
   const [itemField, setItemField] = useState(item);
   const [expiryField, setExpiryField] = useState(expiry);
 
-  useEffect(() => {
-  }, [key])
-
-
-  function handleChange(event, ref) {
-    console.log("ref.current.value", ref.current.value)
-
-    const updatedText = event.target.value;
-    console.log("updatedText", updatedText)
-
-    // ref.current.value = updatedText;
-    // console.log("ref.current.value", ref.current.value)
-    return
-  }
 
   return (
     <>
-      <Form onSubmit={onConfirm}>
+      {/* <Form onSubmit={onConfirm}> */}
         <tr key={key}>
           <td>
             <InputField
@@ -52,10 +38,10 @@ function TableRow({ key, item, itemFieldRef, itemError, expiry, expiryFieldRef, 
           </td>
           <td>
             <Button variant="dark" className="w-5" onClick={onCancel}>Cancel</Button>
-            <Button variant="dark" className="w-5 ms-2" type="submit">Confirm</Button>
+            <Button variant="dark" className="w-5 ms-2" onClick={onConfirm}>Confirm</Button>
           </td>
         </tr>
-      </Form>
+      {/* </Form> */}
     </>
   )
 }
